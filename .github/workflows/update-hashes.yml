@@ -5,6 +5,11 @@ on:
     - cron: "23 6 * * *"
   workflow_dispatch:
     inputs:
+      product:
+        description: JetBrains IDE product code (e.g. IIU, PCP, RD); leave blank for all
+        type: string
+        required: false
+        default: ""
       max_installers:
         description: Maximum installer downloads per IDE (failed attempts also count)
         type: number
@@ -56,9 +61,11 @@ jobs:
               for name, value in values.items():
                   output.write(f"{name}={value}\n")
           PY
-      - name: Discover every IDE and channel
+      - name: Discover selected IDEs and every channel
         id: discover
-        run: python -m jetbrains_hashes discover --github-output "$GITHUB_OUTPUT"
+        env:
+          PRODUCT: ${{ inputs.product }}
+        run: python -m jetbrains_hashes discover --product "$PRODUCT" --github-output "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: catalog-snapshot

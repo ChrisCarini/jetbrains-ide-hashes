@@ -24,8 +24,10 @@ from pathlib import Path, PurePosixPath
 from typing import BinaryIO, Callable, TypeVar
 from xml.parsers.expat import ExpatError
 
+MIB = 1024**2
 GIB = 1024**3
-CHUNK = 1024**2
+CHUNK = MIB
+DOWNLOAD_PROGRESS_INTERVAL = 10
 SHA256 = re.compile(r"[0-9a-f]{64}")
 T = TypeVar("T")
 
@@ -153,6 +155,9 @@ def download_image(
         total = 0
         with image.open("wb") as target:
             require_space(image.parent, size + GIB)
+            started = time.monotonic()
+            last_progress = started
+            log(f"  Downloading {url} ({size / MIB:.1f} MiB)")
             while True:
                 check_deadline(deadline)
                 chunk = response.read(CHUNK)
@@ -165,6 +170,13 @@ def download_image(
                 target.write(chunk)
                 digest.update(chunk)
                 total += len(chunk)
+                now = time.monotonic()
+                if now - last_progress >= DOWNLOAD_PROGRESS_INTERVAL:
+                    log(
+                        f"  Download progress: {total / MIB:.1f}/{size / MIB:.1f} MiB "
+                        f"({total / size:.1%}), {total / MIB / (now - started):.1f} MiB/s"
+                    )
+                    last_progress = now
         if total != size:
             raise http.client.IncompleteRead(b"", size - total)
         return digest.hexdigest()
@@ -175,6 +187,7 @@ def download_image(
             f"Installer SHA-256 mismatch: expected {expected_sha256}, got {actual}. "
             "The historical URL may have been replaced."
         )
+    log(f"  Download complete: {size / MIB:.1f} MiB (100%), SHA-256 verified")
 
 
 def hdiutil(*args: str) -> bytes:
