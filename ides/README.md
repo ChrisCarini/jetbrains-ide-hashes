@@ -4,25 +4,25 @@ Each product page starts with released versions, followed by every other API cha
 
 | IDE / product | Product code | Installer hashes | Application hashes | Not advertised |
 | --- | --- | --- | --- | --- |
-| [Air](AIR.md) | `AIR` | 76/76 | 1/76 | 0 |
-| [AppCode](AC.md) | `AC` | 0/185 | 0/185 | 207 |
-| [CLion](CL.md) | `CL` | 0/368 | 0/368 | 116 |
-| [CLion Nova](CLN.md) | `CLN` | 0/14 | 0/14 | 0 |
-| [DataGrip](DG.md) | `DG` | 0/388 | 0/388 | 86 |
+| [Air](AIR.md) | `AIR` | 76/76 | 11/76 | 0 |
+| [AppCode](AC.md) | `AC` | 185/185 | 10/185 | 207 |
+| [CLion](CL.md) | `CL` | 368/368 | 10/368 | 116 |
+| [CLion Nova](CLN.md) | `CLN` | 14/14 | 10/14 | 0 |
+| [DataGrip](DG.md) | `DG` | 388/388 | 10/388 | 86 |
 | [Datalore](DL.md) | `DL` | 0/0 | 0/0 | 2 |
 | [Datalore Enterprise](DLE.md) | `DLE` | 0/0 | 0/0 | 90 |
-| [DataSpell](DS.md) | `DS` | 0/242 | 0/242 | 0 |
-| [Gateway](GW.md) | `GW` | 0/296 | 0/296 | 0 |
-| [GoLand](GO.md) | `GO` | 0/534 | 0/534 | 72 |
-| [IntelliJ IDEA](IIU.md) | `IIU` | 307/657 | 2/657 | 267 |
-| [IntelliJ IDEA Community Edition](IIC.md) | `IIC` | 0/521 | 0/521 | 267 |
+| [DataSpell](DS.md) | `DS` | 242/242 | 8/242 | 0 |
+| [Gateway](GW.md) | `GW` | 296/296 | 10/296 | 0 |
+| [GoLand](GO.md) | `GO` | 534/534 | 10/534 | 72 |
+| [IntelliJ IDEA](IIU.md) | `IIU` | 657/657 | 12/657 | 267 |
+| [IntelliJ IDEA Community Edition](IIC.md) | `IIC` | 521/521 | 10/521 | 267 |
 | [JetBrains AI Assistant for Visual Studio Code](VSCAI.md) | `VSCAI` | 0/0 | 0/0 | 38 |
-| [MPS](MPS.md) | `MPS` | 0/274 | 0/274 | 232 |
+| [MPS](MPS.md) | `MPS` | 274/274 | 0/274 | 232 |
 | [MPS IntelliJ IDEA plugin](MPSIIP.md) | `MPSIIP` | 0/0 | 0/0 | 198 |
-| [PhpStorm](PS.md) | `PS` | 0/673 | 0/673 | 165 |
+| [PhpStorm](PS.md) | `PS` | 673/673 | 10/673 | 165 |
 | [PhpStorm Light](PSL.md) | `PSL` | 0/10 | 0/10 | 0 |
 | [PyCharm](PCP.md) | `PCP` | 0/603 | 0/603 | 239 |
-| [PyCharm Community Edition](PCC.md) | `PCC` | 0/462 | 0/462 | 232 |
+| [PyCharm Community Edition](PCC.md) | `PCC` | 462/462 | 10/462 | 232 |
 | [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 56 |
 | [Rider](RD.md) | `RD` | 0/451 | 0/451 | 71 |
 | [RubyMine](RM.md) | `RM` | 0/676 | 0/676 | 176 |

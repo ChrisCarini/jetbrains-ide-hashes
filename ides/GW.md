@@ -1,312 +1,312 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
-| 2026.2.4 | 262.11879.99 | `macM1` | Pending | Pending | 2026-10-30 |
-| 2026.2.4 | 262.11879.99 | `mac` | Pending | Pending | 2026-10-30 |
-| 2026.1.4 | 261.27258.134 | `macM1` | Pending | Pending | 2026-10-30 |
-| 2026.1.4 | 261.27258.134 | `mac` | Pending | Pending | 2026-10-30 |
-| 2025.3.3 | 253.33813.97 | `macM1` | Pending | Pending | 2026-10-30 |
-| 2025.3.3 | 253.33813.97 | `mac` | Pending | Pending | 2026-10-30 |
-| 2025.2.6 | 252.28539.148 | `macM1` | Pending | Pending | 2026-10-30 |
-| 2025.2.6 | 252.28539.148 | `mac` | Pending | Pending | 2026-10-30 |
-| 2026.2.2 | 262.10315.114 | `macM1` | Pending | Pending | 2026-09-03 |
-| 2026.2.2 | 262.10315.114 | `mac` | Pending | Pending | 2026-09-03 |
-| 2026.2.1 | 262.9437.193 | `macM1` | Pending | Pending | 2026-08-10 |
-| 2026.2.1 | 262.9437.193 | `mac` | Pending | Pending | 2026-08-10 |
-| 2026.2 | 262.8665.250 | `macM1` | Pending | Pending | 2026-07-16 |
-| 2026.2 | 262.8665.250 | `mac` | Pending | Pending | 2026-07-16 |
-| 2026.1.3 | 261.25134.98 | `macM1` | Pending | Pending | 2026-06-04 |
-| 2026.1.3 | 261.25134.98 | `mac` | Pending | Pending | 2026-06-04 |
-| 2026.1.2 | 261.24374.120 | `macM1` | Pending | Pending | 2026-05-15 |
-| 2026.1.2 | 261.24374.120 | `mac` | Pending | Pending | 2026-05-15 |
-| 2026.1.1 | 261.23567.152 | `macM1` | Pending | Pending | 2026-04-24 |
-| 2026.1.1 | 261.23567.152 | `mac` | Pending | Pending | 2026-04-24 |
-| 2026.1 | 261.22158.290 | `macM1` | Pending | Pending | 2026-03-27 |
-| 2026.1 | 261.22158.290 | `mac` | Pending | Pending | 2026-03-27 |
-| 2025.3.2 | 253.30387.104 | `macM1` | Pending | Pending | 2026-01-23 |
-| 2025.3.2 | 253.30387.104 | `mac` | Pending | Pending | 2026-01-23 |
-| 2025.3.1 | 253.29346.239 | `macM1` | Pending | Pending | 2026-01-08 |
-| 2025.3.1 | 253.29346.239 | `mac` | Pending | Pending | 2026-01-08 |
-| 2025.3 | 253.28294.342 | `macM1` | Pending | Pending | 2025-12-08 |
-| 2025.3 | 253.28294.342 | `mac` | Pending | Pending | 2025-12-08 |
-| 2025.2.5 | 252.28238.6 | `macM1` | Pending | Pending | 2025-11-26 |
-| 2025.2.5 | 252.28238.6 | `mac` | Pending | Pending | 2025-11-26 |
-| 2025.2.4 | 252.27397.101 | `macM1` | Pending | Pending | 2025-10-23 |
-| 2025.2.4 | 252.27397.101 | `mac` | Pending | Pending | 2025-10-23 |
-| 2025.2.3 | 252.26830.122 | `macM1` | Pending | Pending | 2025-10-07 |
-| 2025.2.3 | 252.26830.122 | `mac` | Pending | Pending | 2025-10-07 |
-| 2025.1.6 | 251.28774.5 | `macM1` | Pending | Pending | 2025-09-24 |
-| 2025.1.6 | 251.28774.5 | `mac` | Pending | Pending | 2025-09-24 |
-| 2025.2.2 | 252.26199.160 | `macM1` | Pending | Pending | 2025-09-19 |
-| 2025.2.2 | 252.26199.160 | `mac` | Pending | Pending | 2025-09-19 |
-| 2025.2.1 | 252.25557.133 | `macM1` | Pending | Pending | 2025-08-29 |
-| 2025.2.1 | 252.25557.133 | `mac` | Pending | Pending | 2025-08-29 |
-| 2025.2 | 252.23892.437 | `macM1` | Pending | Pending | 2025-08-04 |
-| 2025.2 | 252.23892.437 | `mac` | Pending | Pending | 2025-08-04 |
-| 2025.1.2 | 251.26094.128 | `macM1` | Pending | Pending | 2025-06-04 |
-| 2025.1.2 | 251.26094.128 | `mac` | Pending | Pending | 2025-06-04 |
-| 2024.3.6 | 243.26574.87 | `macM1` | Pending | Pending | 2025-05-28 |
-| 2024.3.6 | 243.26574.87 | `mac` | Pending | Pending | 2025-05-28 |
-| 2025.1.1.1 | 251.25410.160 | `macM1` | Pending | Pending | 2025-05-15 |
-| 2025.1.1.1 | 251.25410.160 | `mac` | Pending | Pending | 2025-05-15 |
-| 2025.1.1 | 251.25410.139 | `macM1` | Pending | Pending | 2025-05-13 |
-| 2025.1.1 | 251.25410.139 | `mac` | Pending | Pending | 2025-05-13 |
-| 2025.1 | 251.23774.441 | `macM1` | Pending | Pending | 2025-04-16 |
-| 2025.1 | 251.23774.441 | `mac` | Pending | Pending | 2025-04-16 |
-| 2024.3.3 | 243.24978.56 | `macM1` | Pending | Pending | 2025-02-13 |
-| 2024.3.3 | 243.24978.56 | `mac` | Pending | Pending | 2025-02-13 |
-| 2024.3.2 | 243.23654.132 | `macM1` | Pending | Pending | 2025-01-21 |
-| 2024.3.2 | 243.23654.132 | `mac` | Pending | Pending | 2025-01-21 |
-| 2024.3.1.1 | 243.22562.252 | `macM1` | Pending | Pending | 2024-12-24 |
-| 2024.3.1.1 | 243.22562.252 | `mac` | Pending | Pending | 2024-12-24 |
-| 2024.3.1 | 243.22562.160 | `macM1` | Pending | Pending | 2024-12-10 |
-| 2024.3.1 | 243.22562.160 | `mac` | Pending | Pending | 2024-12-10 |
-| 2024.3 | 243.21565.196 | `macM1` | Pending | Pending | 2024-11-12 |
-| 2024.3 | 243.21565.196 | `mac` | Pending | Pending | 2024-11-12 |
-| 2024.2.3 | 242.23339.42 | `macM1` | Pending | Pending | 2024-10-01 |
-| 2024.2.3 | 242.23339.42 | `mac` | Pending | Pending | 2024-10-01 |
-| 2024.2.1 | 242.21829.203 | `macM1` | Pending | Pending | 2024-09-06 |
-| 2024.2.1 | 242.21829.203 | `mac` | Pending | Pending | 2024-09-06 |
-| 2024.2 | 242.20224.368 | `macM1` | Pending | Pending | 2024-08-15 |
-| 2024.2 | 242.20224.368 | `mac` | Pending | Pending | 2024-08-15 |
-| 2024.1.2 | 241.17011.87 | `macM1` | Pending | Pending | 2024-05-23 |
-| 2024.1.2 | 241.17011.87 | `mac` | Pending | Pending | 2024-05-23 |
-| 2024.1.1 | 241.15989.158 | `macM1` | Pending | Pending | 2024-05-01 |
-| 2024.1.1 | 241.15989.158 | `mac` | Pending | Pending | 2024-05-01 |
-| 2024.1 | 241.14494.255 | `macM1` | Pending | Pending | 2024-04-04 |
-| 2024.1 | 241.14494.255 | `mac` | Pending | Pending | 2024-04-04 |
-| 2023.3.4 | 233.14475.30 | `macM1` | Pending | Pending | 2024-02-15 |
-| 2023.3.4 | 233.14475.30 | `mac` | Pending | Pending | 2024-02-15 |
-| 2023.3.3 | 233.14015.129 | `macM1` | Pending | Pending | 2024-01-31 |
-| 2023.3.3 | 233.14015.129 | `mac` | Pending | Pending | 2024-01-31 |
-| 2023.3.2 | 233.13135.102 | `macM1` | Pending | Pending | 2023-12-21 |
-| 2023.3.2 | 233.13135.102 | `mac` | Pending | Pending | 2023-12-21 |
-| 2023.3.1 | 233.11799.302 | `macM1` | Pending | Pending | 2023-12-14 |
-| 2023.3.1 | 233.11799.302 | `mac` | Pending | Pending | 2023-12-14 |
-| 2023.3 | 233.11799.240 | `macM1` | Pending | Pending | 2023-12-06 |
-| 2023.3 | 233.11799.240 | `mac` | Pending | Pending | 2023-12-06 |
-| 2023.2.4 | 232.10203.10 | `macM1` | Pending | Pending | 2023-10-26 |
-| 2023.2.4 | 232.10203.10 | `mac` | Pending | Pending | 2023-10-26 |
-| 2023.2.3 | 232.10072.27 | `macM1` | Pending | Pending | 2023-10-12 |
-| 2023.2.3 | 232.10072.27 | `mac` | Pending | Pending | 2023-10-12 |
-| 2023.2.2 | 232.9921.47 | `macM1` | Pending | Pending | 2023-09-14 |
-| 2023.2.2 | 232.9921.47 | `mac` | Pending | Pending | 2023-09-14 |
-| 2023.2.1 | 232.9559.62 | `macM1` | Pending | Pending | 2023-08-23 |
-| 2023.2.1 | 232.9559.62 | `mac` | Pending | Pending | 2023-08-23 |
-| 2023.2 | 232.8660.185 | `macM1` | Pending | Pending | 2023-07-26 |
-| 2023.2 | 232.8660.185 | `mac` | Pending | Pending | 2023-07-26 |
-| 2023.1.3 | 231.9161.32 | `macM1` | Pending | Pending | 2023-06-21 |
-| 2023.1.3 | 231.9161.32 | `mac` | Pending | Pending | 2023-06-21 |
-| 2023.1.2 | 231.9011.34 | `macM1` | Pending | Pending | 2023-05-16 |
-| 2023.1.2 | 231.9011.34 | `mac` | Pending | Pending | 2023-05-16 |
-| 2023.1.1 | 231.8770.69 | `macM1` | Pending | Pending | 2023-05-03 |
-| 2023.1.1 | 231.8770.69 | `mac` | Pending | Pending | 2023-05-03 |
-| 2023.1 | 231.8109.187 | `macM1` | Pending | Pending | 2023-03-30 |
-| 2023.1 | 231.8109.187 | `mac` | Pending | Pending | 2023-03-30 |
-| 2022.3.2 | 223.8617.56 | `macM1` | Pending | Pending | 2023-01-27 |
-| 2022.3.2 | 223.8617.56 | `mac` | Pending | Pending | 2023-01-27 |
-| 2022.3.1 | 223.8214.51 | `macM1` | Pending | Pending | 2022-12-20 |
-| 2022.3.1 | 223.8214.51 | `mac` | Pending | Pending | 2022-12-20 |
-| 2022.3 | 223.7571.203 | `macM1` | Pending | Pending | 2022-11-30 |
-| 2022.3 | 223.7571.203 | `mac` | Pending | Pending | 2022-11-30 |
-| 2022.2.4 | 222.4459.11 | `macM1` | Pending | Pending | 2022-11-07 |
-| 2022.2.4 | 222.4459.11 | `mac` | Pending | Pending | 2022-11-07 |
-| 2022.2.3 | 222.4345.14 | `macM1` | Pending | Pending | 2022-10-06 |
-| 2022.2.3 | 222.4345.14 | `mac` | Pending | Pending | 2022-10-06 |
-| 2022.2.2 | 222.4167.26 | `macM1` | Pending | Pending | 2022-09-12 |
-| 2022.2.2 | 222.4167.26 | `mac` | Pending | Pending | 2022-09-12 |
-| 2022.2.1 | 222.3739.54 | `macM1` | Pending | Pending | 2022-08-18 |
-| 2022.2.1 | 222.3739.54 | `mac` | Pending | Pending | 2022-08-18 |
-| 2022.2 | 222.3345.108 | `macM1` | Pending | Pending | 2022-07-25 |
-| 2022.2 | 222.3345.108 | `mac` | Pending | Pending | 2022-07-25 |
+| 2026.2.4 | 262.11879.99 | `macM1` | `b58f43ab01be93d08353c41984ab4e49f7bc6d189fc4556249eb6b3eda90d3d0` | `1951e4bf9c9cacc7e7966a6b718824f438c879f51fde08926b97688c506d3c36` | 2026-10-30 |
+| 2026.2.4 | 262.11879.99 | `mac` | `f96a9a1f8e34b0bed0759886ebee28c20bfacc2f3bf35c2f34856b16effd93c7` | `1dda15feb5aae07004f1f9c6c766110890a802b82d03525c40b675cb9ed694f6` | 2026-10-30 |
+| 2026.1.4 | 261.27258.134 | `macM1` | `ab062ae9a1ca0d38f9c7f5f06c4ddd4081af472355232e63e3096508ed485e11` | `bb220d1dab34685c6ecfce5e085058c09c0dc18e9e19ece72470dd494bbf0830` | 2026-10-30 |
+| 2026.1.4 | 261.27258.134 | `mac` | `1639dc8411bb9a79725d23d12996da9b49e45b13790a867757989b731bde85d2` | `b8eebc40c8838dbc6f73187188c9499993a00020b2e30eb40236b1517134b7cd` | 2026-10-30 |
+| 2025.3.3 | 253.33813.97 | `macM1` | `4ea3f5c84c7a856e6a9610982ee9ebda0ccc0444e2ca3675f71ac7a1ca5db4b1` | `6e50e6d876d7f830689d55d91fb3be4a241743b41f31325a38cf6769d693364b` | 2026-10-30 |
+| 2025.3.3 | 253.33813.97 | `mac` | `00230dce6d62b73f3784a33b728ab588e0fac61c3163e71748231e5353ddb5c1` | `e002e9e29940088b5a80fa40c8a219af7c3871b4658c8021bd8623f1f27aa552` | 2026-10-30 |
+| 2025.2.6 | 252.28539.148 | `macM1` | `27c101f6e2fefe693d662742f809afc6a61cab6a4924ec0168ef411fe7c03a88` | `2a44db55873e49784a599dd989961b84b7426053f34d45cf388072ac1a497ea1` | 2026-10-30 |
+| 2025.2.6 | 252.28539.148 | `mac` | `ed8ff7e7f36890c0dec2a2af4c368a38acd2539a94d988586dc28d888607bf64` | `cbd978887937aa39bc34cebcceda00e8cf621318f5c8f66b1996d60f3daef30e` | 2026-10-30 |
+| 2026.2.2 | 262.10315.114 | `macM1` | `f4c129c2888e1f215cea5b1f28394bb3524267ea1b976353dba0b44902d7108b` | Pending | 2026-09-03 |
+| 2026.2.2 | 262.10315.114 | `mac` | `2562c9d1ec548fd89c5210286954276658a7fd0a304d8639dd8c06006f7a5b91` | Pending | 2026-09-03 |
+| 2026.2.1 | 262.9437.193 | `macM1` | `90f587a01204e4e7daaba36a9b49ae3790b1d0a64efba73aabdad7fbc159ab18` | Pending | 2026-08-10 |
+| 2026.2.1 | 262.9437.193 | `mac` | `297ccbe3d513cea880dd884f1d358c3dda2f7e4213d4bb2bfbd93e2e23434464` | Pending | 2026-08-10 |
+| 2026.2 | 262.8665.250 | `macM1` | `154bacee68e2616022c888a11238691082d8ba92c015d8eb03cc42968bc9536a` | Pending | 2026-07-16 |
+| 2026.2 | 262.8665.250 | `mac` | `e11b174685d4bc1388201115f669919b994d598e1783b31a9e5c545bec4af002` | Pending | 2026-07-16 |
+| 2026.1.3 | 261.25134.98 | `macM1` | `00763f958d004645b45684a0cb4b7b2cb35703deb93cba28581496c412815793` | Pending | 2026-06-04 |
+| 2026.1.3 | 261.25134.98 | `mac` | `58ac083f5f72e4428ef7c260126e3af287da469fc93b9cfc96a361b69b07e2d6` | Pending | 2026-06-04 |
+| 2026.1.2 | 261.24374.120 | `macM1` | `0035853cc0b8a6d8f699993844982d2108ce4f6c703a42faed46a1a0ab5eea64` | Pending | 2026-05-15 |
+| 2026.1.2 | 261.24374.120 | `mac` | `5aeba3ebf2bfe71a0cf7e779f481b3068d7d88e26eb1b20c8a0a1f94f2d0fadb` | Pending | 2026-05-15 |
+| 2026.1.1 | 261.23567.152 | `macM1` | `a2b14039747d03fd12ee5870903f5b017ca9db81da0d29577bfacbe224fafbcd` | Pending | 2026-04-24 |
+| 2026.1.1 | 261.23567.152 | `mac` | `d69aad011f2bd99c14fd1845303b32141861458bec3eb4f917f9f79123f6be20` | Pending | 2026-04-24 |
+| 2026.1 | 261.22158.290 | `macM1` | `e1974169dc8176ea01f93fc1f27d4216fbde77d84ee2498d56bc0afcc3ec2073` | Pending | 2026-03-27 |
+| 2026.1 | 261.22158.290 | `mac` | `ecdf460fe1e8d8d20763bacec0a96d2b45b08beecd551366d28279682cf7d938` | Pending | 2026-03-27 |
+| 2025.3.2 | 253.30387.104 | `macM1` | `e4b3ca2ad08eade8982045856d034f21392d8ce44603cbfedb6b5b66151cf949` | Pending | 2026-01-23 |
+| 2025.3.2 | 253.30387.104 | `mac` | `b8f90af9490050c0be2588869d066676dd432ad4ea1eb8e913f821a67b866ffc` | Pending | 2026-01-23 |
+| 2025.3.1 | 253.29346.239 | `macM1` | `db8643d86a4ce291ab272ab1c8425242c11120d47afdd3612ed7775adce635a5` | Pending | 2026-01-08 |
+| 2025.3.1 | 253.29346.239 | `mac` | `e439dbf71c2d02277ade3ea7b54e5821937ea152f366c5cd25ec46a4bf26f6c3` | Pending | 2026-01-08 |
+| 2025.3 | 253.28294.342 | `macM1` | `b10cabda93c88d27bcc135a44a1fd98fe60fe8305606d6e75a0d5b736f0df274` | Pending | 2025-12-08 |
+| 2025.3 | 253.28294.342 | `mac` | `282fd7f302d95adeed022f8d6c679d3292778f96205394af52dd090f6201f338` | Pending | 2025-12-08 |
+| 2025.2.5 | 252.28238.6 | `macM1` | `af0a82a46ecad837ee6c86d97623e58d377eed7d5ee56c7af5765071e0b0c12e` | Pending | 2025-11-26 |
+| 2025.2.5 | 252.28238.6 | `mac` | `a0a4314c5f08331a82420580bf3e26df19b52573cda3ecac354d8ac49caf191d` | Pending | 2025-11-26 |
+| 2025.2.4 | 252.27397.101 | `macM1` | `22925a4f01d7c0e8a6b1820fb635584aa1ffd1f89652443243e625a379d31854` | Pending | 2025-10-23 |
+| 2025.2.4 | 252.27397.101 | `mac` | `1d308fc4f4a1649cd51834babe17028ff763347fd461f43d2f9fffeb0ac6d47d` | Pending | 2025-10-23 |
+| 2025.2.3 | 252.26830.122 | `macM1` | `b5577a050a14880c0e9fd8f7e7d7ef51a56d9f3f66770815601aac992d377609` | Pending | 2025-10-07 |
+| 2025.2.3 | 252.26830.122 | `mac` | `71b066de7abd66e3c8934f16a4a0a59c5608e739918c985161874434bcb7decd` | Pending | 2025-10-07 |
+| 2025.1.6 | 251.28774.5 | `macM1` | `448280171f85e2647f8c35c89d1588d494f0199d932c96a4c84aa9d43450f8d9` | Pending | 2025-09-24 |
+| 2025.1.6 | 251.28774.5 | `mac` | `0c44d3e960fc020fb19a6f33a7cb117bfc5d63e2ad55654af91ace2f3ee2e14f` | Pending | 2025-09-24 |
+| 2025.2.2 | 252.26199.160 | `macM1` | `1d9be57de8075eeefcc81ef249b15a60762f82909ca4002846dce13acedba56d` | Pending | 2025-09-19 |
+| 2025.2.2 | 252.26199.160 | `mac` | `1be3476dc9065e9b95f399cb24ff2e5793e09a390bf541695bc932a9f46a2321` | Pending | 2025-09-19 |
+| 2025.2.1 | 252.25557.133 | `macM1` | `94bb0fb41eaaea744173fe321b7e17cac898088eb7738c68b8d271ca437dee80` | Pending | 2025-08-29 |
+| 2025.2.1 | 252.25557.133 | `mac` | `4f48557a9a1ded6a88bc6bf17d65879f54b2314142c65e65d844df92d770de03` | Pending | 2025-08-29 |
+| 2025.2 | 252.23892.437 | `macM1` | `d8be067bdd845c3c61e8e9c214b1591c2658e0a59ba5e0a45f3b1129f9c6fa63` | Pending | 2025-08-04 |
+| 2025.2 | 252.23892.437 | `mac` | `637f096b34e8fb4425c570c3140de464ee96884b222cec5df1f630ea7aed833f` | Pending | 2025-08-04 |
+| 2025.1.2 | 251.26094.128 | `macM1` | `1cf7dcdbb5408c9c7711a436e4c763df147ce332ce2e1f260fa246af87b0a58e` | Pending | 2025-06-04 |
+| 2025.1.2 | 251.26094.128 | `mac` | `b4e45266159352598d0cbd7b03283cb53260d20866ca77d57a43150e81cf3d09` | Pending | 2025-06-04 |
+| 2024.3.6 | 243.26574.87 | `macM1` | `3c4301f484971d2949cfef67544fe9220b888624b6ed084eecb5eefa3540e2bf` | Pending | 2025-05-28 |
+| 2024.3.6 | 243.26574.87 | `mac` | `cb681168b9932033d1c131f3ffe222eba67138bfa29e2a06c23f9589cba2b7a0` | Pending | 2025-05-28 |
+| 2025.1.1.1 | 251.25410.160 | `macM1` | `399097f897cf503cc76d0b75e1568ae87864e0f0464858d71fcbd82e693de1e4` | Pending | 2025-05-15 |
+| 2025.1.1.1 | 251.25410.160 | `mac` | `1df2a9ea68e3c2fb2f69b37067abb5e0f329fcc14daae45a061506ef1c95cdca` | Pending | 2025-05-15 |
+| 2025.1.1 | 251.25410.139 | `macM1` | `abad0e061896590bea9bd1d4bead2183be3c1e71d6dfcba89ce2408f34af3536` | Pending | 2025-05-13 |
+| 2025.1.1 | 251.25410.139 | `mac` | `c849cd16b77b5268ee2e8279bddf02c21a925a25885549d0b1922a785f18120f` | Pending | 2025-05-13 |
+| 2025.1 | 251.23774.441 | `macM1` | `51b25a295182bd916d0b3b2881cf3ebd1ed30577dd7c63253231c80a080df947` | Pending | 2025-04-16 |
+| 2025.1 | 251.23774.441 | `mac` | `3201f442143a52f2ad10d6b4cdbd0bb9d67dd7270b3e396919d8c0140196494c` | Pending | 2025-04-16 |
+| 2024.3.3 | 243.24978.56 | `macM1` | `846eb50e707231e34bc9ad467a5237a43a865061b10a1be6b4abe4a0cc08161b` | Pending | 2025-02-13 |
+| 2024.3.3 | 243.24978.56 | `mac` | `75cc932a4d7bd2f28f641e21cfc0667ce645dd38109b37cbe3621321f1eb3a2d` | Pending | 2025-02-13 |
+| 2024.3.2 | 243.23654.132 | `macM1` | `a8a36e25cf011941156344bc6b6f7f6b6de8e6905a2ad0c3d8106dda6b40342f` | Pending | 2025-01-21 |
+| 2024.3.2 | 243.23654.132 | `mac` | `6c3e4d0bb7b93e522be59c00243589e571d7575ae71678fa807645ea00a9dcae` | Pending | 2025-01-21 |
+| 2024.3.1.1 | 243.22562.252 | `macM1` | `f4ff084d4054f75d3b10110b2abaddecbac30204d80c39dcb7a5925f2278c41a` | Pending | 2024-12-24 |
+| 2024.3.1.1 | 243.22562.252 | `mac` | `f31962a284ec68e175d6f5678c0e4fe33c0948514f92673bb7989b38c3622951` | Pending | 2024-12-24 |
+| 2024.3.1 | 243.22562.160 | `macM1` | `0463fe8a955c61df0120c4b2b78f82c092f4b8da011d7d439b3862ee53441c91` | Pending | 2024-12-10 |
+| 2024.3.1 | 243.22562.160 | `mac` | `709bd2cc759eb29d88726a0c24db2f11eb2fc87ee1975d8e101a03226b919ebf` | Pending | 2024-12-10 |
+| 2024.3 | 243.21565.196 | `macM1` | `e2ad82e41258e108fd6844a182148db036f8211dc5f69e13de899f529c0345df` | Pending | 2024-11-12 |
+| 2024.3 | 243.21565.196 | `mac` | `ea9c1e37afc2a67357755df9c4c12bfaca0106e1d4a6630a5abab9a40a7e8bab` | Pending | 2024-11-12 |
+| 2024.2.3 | 242.23339.42 | `macM1` | `5874e4969ac9f894f71e1ec6ac9caf3bbb9cd957b7be11a06850bd330ec69f5f` | Pending | 2024-10-01 |
+| 2024.2.3 | 242.23339.42 | `mac` | `b3b4439a5ac6ef464fb7c765a0438f09ff578a8922493969793c69d86b1d2de9` | Pending | 2024-10-01 |
+| 2024.2.1 | 242.21829.203 | `macM1` | `8a8242c53ddc85304922552fdf424fbe31b729f549feda30b8e6a982c5447f4d` | Pending | 2024-09-06 |
+| 2024.2.1 | 242.21829.203 | `mac` | `4fabb5e9ea13fc1380779502915f0d6741ee75742a535ced679f68d72d40a41c` | Pending | 2024-09-06 |
+| 2024.2 | 242.20224.368 | `macM1` | `a66f93350e9251ba34a1d3cf6061fc9ad5c5351b328a15be906a8706b8be2ded` | Pending | 2024-08-15 |
+| 2024.2 | 242.20224.368 | `mac` | `630ee3bfb6537c5da26aa7907027788f287d4e42fe24ba1f6eca037eb6afea42` | Pending | 2024-08-15 |
+| 2024.1.2 | 241.17011.87 | `macM1` | `70aab722715cb1abbab01e25109b6ca967588bcf3c1cec666986e42b825b0d9d` | Pending | 2024-05-23 |
+| 2024.1.2 | 241.17011.87 | `mac` | `be7e34b5a4a4e28b90c3d90f5761767d3d6e996cdc5846d3f8bd0e05d3ee0f1a` | Pending | 2024-05-23 |
+| 2024.1.1 | 241.15989.158 | `macM1` | `c82e70fd6688c218da7a541ac0a0d06652389112f73a667964ee7a8e0a5bfc44` | Pending | 2024-05-01 |
+| 2024.1.1 | 241.15989.158 | `mac` | `0e230192d3532e4740a354bf7f58ae2efd4036607cb9ef4eaf4cca1ca0354df0` | Pending | 2024-05-01 |
+| 2024.1 | 241.14494.255 | `macM1` | `c82392faec283b2a6ab25dd0cbd8c3733ea046799d9d95ba4b5d6086767f7715` | Pending | 2024-04-04 |
+| 2024.1 | 241.14494.255 | `mac` | `fb37fe7ba94f151f9613134b232b79f44524c126152f70eeb31421cee89b514d` | Pending | 2024-04-04 |
+| 2023.3.4 | 233.14475.30 | `macM1` | `2e769fd9c28b33d34845d1b92cb12a13578f2d4c2f255c88a42fcb79a7cf848f` | Pending | 2024-02-15 |
+| 2023.3.4 | 233.14475.30 | `mac` | `5cf8720e0259c2bfd2474a5fd1db329cb48c10a8823ba0c29b0f3bde3ddbdf8a` | Pending | 2024-02-15 |
+| 2023.3.3 | 233.14015.129 | `macM1` | `ec6150b6336d831a03ad7336bedc70d7c6f319f958bbf012c59671db42764173` | Pending | 2024-01-31 |
+| 2023.3.3 | 233.14015.129 | `mac` | `9a96c387bcd0ba9d84fd53ba2ae37d0370809d27a0fdb63e18664fdf5ee7f53f` | Pending | 2024-01-31 |
+| 2023.3.2 | 233.13135.102 | `macM1` | `60fe65202152ec445957c4d1eb21c174bec372718b9fca84b0c4b34cf88ea3c4` | Pending | 2023-12-21 |
+| 2023.3.2 | 233.13135.102 | `mac` | `88ddef2fa3e96680e68222bc08f337ef223ca9f927a6549deb68e34b408bbbdc` | Pending | 2023-12-21 |
+| 2023.3.1 | 233.11799.302 | `macM1` | `bda6863efd778cab2db7af5d3129db21ee4a7aa295338d08d0efb3ea68d439d5` | Pending | 2023-12-14 |
+| 2023.3.1 | 233.11799.302 | `mac` | `9eabdf9d6dce8cd9b9259cd0c81f0554c5524af12cff54c9385c12ff79380c43` | Pending | 2023-12-14 |
+| 2023.3 | 233.11799.240 | `macM1` | `917a01af3f455fc8c6e72f838b9fe449f100ff0b7c93631cb7e778c5edee09ba` | Pending | 2023-12-06 |
+| 2023.3 | 233.11799.240 | `mac` | `17fb60d9a13fc561e24054a651b2576426df43e4ec6ea6a07a7ce65648d9df5d` | Pending | 2023-12-06 |
+| 2023.2.4 | 232.10203.10 | `macM1` | `bb42bfca0c3d053ed8e60ddc7654404decb80e44163593d7f5b0ba71326c915e` | Pending | 2023-10-26 |
+| 2023.2.4 | 232.10203.10 | `mac` | `746d5f3ac9db1f453ea76265c5ff56eec65e0b798e3c323ee04341e012543547` | Pending | 2023-10-26 |
+| 2023.2.3 | 232.10072.27 | `macM1` | `b4c1167303ed8985c5439d6a07f9d2970074e3748c21e9155b2c76a508fe0a15` | Pending | 2023-10-12 |
+| 2023.2.3 | 232.10072.27 | `mac` | `25780bcbb57ebc1a7a05bec24abf21b2a96b22f80a91de89c94926799da3183f` | Pending | 2023-10-12 |
+| 2023.2.2 | 232.9921.47 | `macM1` | `b6ae26eaa6f7f4b77d1bf3d75658eb8ae70bccce4b7e8e62d18dada0810b382c` | Pending | 2023-09-14 |
+| 2023.2.2 | 232.9921.47 | `mac` | `cfa68c2b1290f1d51aa37a918a79342e42b6a50b2563524757ec8bd700008fba` | Pending | 2023-09-14 |
+| 2023.2.1 | 232.9559.62 | `macM1` | `4e227b78bcb33f2bdbc3f3749a373413e785180b34fce03de863479c1f892bd2` | Pending | 2023-08-23 |
+| 2023.2.1 | 232.9559.62 | `mac` | `a0d4a889bc0688bfb03add22f45d878b99e5d85faf24f628345121b8689704e0` | Pending | 2023-08-23 |
+| 2023.2 | 232.8660.185 | `macM1` | `09b7e8a217ac69accf286dbbc46397b3a18e51775d1682c2eb2db255ed69d2dc` | Pending | 2023-07-26 |
+| 2023.2 | 232.8660.185 | `mac` | `b5b3cbc4f339ff9ae255196fb32b1db86964ea8ce48dfe61c3d5976a5d831359` | Pending | 2023-07-26 |
+| 2023.1.3 | 231.9161.32 | `macM1` | `3564f680ff11ac66722e970491d37d3f1faeb09354095f2086bf0bf4a0897e5b` | Pending | 2023-06-21 |
+| 2023.1.3 | 231.9161.32 | `mac` | `18d9bcce099d9f78ff4990f93c9ffc6819d7e789f4372659a3ea3bf0f1a2f85a` | Pending | 2023-06-21 |
+| 2023.1.2 | 231.9011.34 | `macM1` | `338edd281715b14193834ed01947c6161865e58d1416557316c2b298401a0272` | Pending | 2023-05-16 |
+| 2023.1.2 | 231.9011.34 | `mac` | `320beadb9eb50f48eb431bcd2c88ec1c2e7e0ef2f1f2414aa3842de5930d79ff` | Pending | 2023-05-16 |
+| 2023.1.1 | 231.8770.69 | `macM1` | `ab0c773315a6d8abcaae75440f7fc122a7e80237eddaa3487c3222a52a95497f` | Pending | 2023-05-03 |
+| 2023.1.1 | 231.8770.69 | `mac` | `e580bf5bd657b721677fec0250ce582adb1cf92daa1ac065b56fc2d8148fac97` | Pending | 2023-05-03 |
+| 2023.1 | 231.8109.187 | `macM1` | `8b9c656cc4b5c6bd8822e888d0b7d93ef9184ace4afc80da55767be3cf3a01ac` | Pending | 2023-03-30 |
+| 2023.1 | 231.8109.187 | `mac` | `323066b6171ca2cb117b667d5b4e626a680bc6ac3f121ad3d6faf0a1b78692c3` | Pending | 2023-03-30 |
+| 2022.3.2 | 223.8617.56 | `macM1` | `776ff0a5f0293cd4b4c29380199757b359e6e195a57b69d2cef73f9cc44ee456` | Pending | 2023-01-27 |
+| 2022.3.2 | 223.8617.56 | `mac` | `26ff68ea27952c1adc651ad5f2fae7ad4ca7b744f70f582bdf1bd4c1d17132f4` | Pending | 2023-01-27 |
+| 2022.3.1 | 223.8214.51 | `macM1` | `555ca346ec41de06223d3a4b5e9247809e07c8339bff0d139b624634c812c8e5` | Pending | 2022-12-20 |
+| 2022.3.1 | 223.8214.51 | `mac` | `4b86b523b02f2df5150bc965bcef7e1a0bf7a7e6d2233a3a2603529a8577dd43` | Pending | 2022-12-20 |
+| 2022.3 | 223.7571.203 | `macM1` | `e54364fa07fa03d1160243f9e1c05a89f4dc0545944371a77b94cd065719fda1` | Pending | 2022-11-30 |
+| 2022.3 | 223.7571.203 | `mac` | `3f49df87bf30d3a0a92b0d6cabbd920d43b1cfb8aa4f292edfd87f01ec683e38` | Pending | 2022-11-30 |
+| 2022.2.4 | 222.4459.11 | `macM1` | `3d285c11a592313718afa76019567f0fc930475b5a82b55c1883708dd9aa2a9f` | Pending | 2022-11-07 |
+| 2022.2.4 | 222.4459.11 | `mac` | `29969a48e2cc293f47c77fdbbbc61c71ddf59badb02e7286b2c4e85c5e9e863f` | Pending | 2022-11-07 |
+| 2022.2.3 | 222.4345.14 | `macM1` | `c479ad6de061cfa73e207f54912e6b58393f5341a7cdd983b94d4c6009cc451b` | Pending | 2022-10-06 |
+| 2022.2.3 | 222.4345.14 | `mac` | `f41d9122eb541c48e7f6b48f5fb41b43744bf05d04f913845cd2b0dffdef088a` | Pending | 2022-10-06 |
+| 2022.2.2 | 222.4167.26 | `macM1` | `d988c4ef734a0ad82be4deafbb41ec6859bdc64ac5faef4ed17078ad36f98f49` | Pending | 2022-09-12 |
+| 2022.2.2 | 222.4167.26 | `mac` | `7bc924842fdd93390af80c574742ff604ca4f29f2b56488d6d9480554c29e318` | Pending | 2022-09-12 |
+| 2022.2.1 | 222.3739.54 | `macM1` | `327a8f097c6ae140e8a712b1570a15944b18049684da2cf0e0cdda9f712a2fdd` | Pending | 2022-08-18 |
+| 2022.2.1 | 222.3739.54 | `mac` | `9908b84e1a69c59e63824e2ef337aba59dd17020f536f3b7d754abe5221115ee` | Pending | 2022-08-18 |
+| 2022.2 | 222.3345.108 | `macM1` | `fc789fe114eddac6137f470bf58ccb27bf70979c4b7552c62f1d5790e4c33200` | Pending | 2022-07-25 |
+| 2022.2 | 222.3345.108 | `mac` | `88ec942ef586ca9a658844ab673aabd72b115668fbfcf720f8c4fc6d680c37fb` | Pending | 2022-07-25 |
 
 ## EAP, RC, preview, and other non-release builds
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
-| 2026.3 <sub>rc</sub> | 263.7307.111 | `macM1` | Pending | Pending | 2026-10-30 |
-| 2026.3 <sub>rc</sub> | 263.7307.111 | `mac` | Pending | Pending | 2026-10-30 |
-| **2026.3** <sub>eap</sub> | **263.7307.46** | `macM1` | Pending | Pending | 2026-10-23 |
-| **2026.3** <sub>eap</sub> | **263.7307.46** | `mac` | Pending | Pending | 2026-10-23 |
-| **2026.3** <sub>eap</sub> | **263.7031.24** | `macM1` | Pending | Pending | 2026-10-15 |
-| **2026.3** <sub>eap</sub> | **263.7031.24** | `mac` | Pending | Pending | 2026-10-15 |
-| **2026.3** <sub>eap</sub> | **263.5701.43** | `macM1` | Pending | Pending | 2026-09-25 |
-| **2026.3** <sub>eap</sub> | **263.5701.43** | `mac` | Pending | Pending | 2026-09-25 |
-| **2026.3** <sub>eap</sub> | **263.3889.63** | `macM1` | Pending | Pending | 2026-09-02 |
-| **2026.3** <sub>eap</sub> | **263.3889.63** | `mac` | Pending | Pending | 2026-09-02 |
-| 2026.2.2 <sub>rc</sub> | 262.10315.53 | `macM1` | Pending | Pending | 2026-08-26 |
-| 2026.2.2 <sub>rc</sub> | 262.10315.53 | `mac` | Pending | Pending | 2026-08-26 |
-| 2026.2.1 <sub>rc</sub> | 262.9437.72 | `macM1` | Pending | Pending | 2026-07-31 |
-| 2026.2.1 <sub>rc</sub> | 262.9437.72 | `mac` | Pending | Pending | 2026-07-31 |
-| 2026.2 <sub>rc</sub> | 262.8665.175 | `macM1` | Pending | Pending | 2026-07-09 |
-| 2026.2 <sub>rc</sub> | 262.8665.175 | `mac` | Pending | Pending | 2026-07-09 |
-| **2026.2** <sub>eap</sub> | **262.8665.53** | `macM1` | Pending | Pending | 2026-07-03 |
-| **2026.2** <sub>eap</sub> | **262.8665.53** | `mac` | Pending | Pending | 2026-07-03 |
-| **2026.2** <sub>eap</sub> | **262.8377.44** | `macM1` | Pending | Pending | 2026-06-26 |
-| **2026.2** <sub>eap</sub> | **262.8377.44** | `mac` | Pending | Pending | 2026-06-26 |
-| 2026.1.3 <sub>rc</sub> | 261.25134.43 | `macM1` | Pending | Pending | 2026-05-29 |
-| 2026.1.3 <sub>rc</sub> | 261.25134.43 | `mac` | Pending | Pending | 2026-05-29 |
-| **2026.2** <sub>eap</sub> | **262.6653.20** | `macM1` | Pending | Pending | 2026-05-28 |
-| **2026.2** <sub>eap</sub> | **262.6653.20** | `mac` | Pending | Pending | 2026-05-28 |
-| **2026.2** <sub>eap</sub> | **262.4852.55** | `macM1` | Pending | Pending | 2026-05-08 |
-| **2026.2** <sub>eap</sub> | **262.4852.55** | `mac` | Pending | Pending | 2026-05-08 |
-| 2026.1.2 <sub>rc</sub> | 261.24374.64 | `macM1` | Pending | Pending | 2026-05-06 |
-| 2026.1.2 <sub>rc</sub> | 261.24374.64 | `mac` | Pending | Pending | 2026-05-06 |
-| 2026.1.1 <sub>rc</sub> | 261.23567.55 | `macM1` | Pending | Pending | 2026-04-17 |
-| 2026.1.1 <sub>rc</sub> | 261.23567.55 | `mac` | Pending | Pending | 2026-04-17 |
-| 2026.1 <sub>rc</sub> | 261.22158.240 | `macM1` | Pending | Pending | 2026-03-24 |
-| 2026.1 <sub>rc</sub> | 261.22158.240 | `mac` | Pending | Pending | 2026-03-24 |
-| **2026.1** <sub>eap</sub> | **261.22158.152** | `macM1` | Pending | Pending | 2026-03-16 |
-| **2026.1** <sub>eap</sub> | **261.22158.152** | `mac` | Pending | Pending | 2026-03-16 |
-| **2026.1** <sub>eap</sub> | **261.21525.50** | `macM1` | Pending | Pending | 2026-02-24 |
-| **2026.1** <sub>eap</sub> | **261.21525.50** | `mac` | Pending | Pending | 2026-02-24 |
-| **2026.1** <sub>eap</sub> | **261.19799.30** | `macM1` | Pending | Pending | 2026-01-30 |
-| **2026.1** <sub>eap</sub> | **261.19799.30** | `mac` | Pending | Pending | 2026-01-30 |
-| **2026.1** <sub>eap</sub> | **261.17801.64** | `macM1` | Pending | Pending | 2026-01-21 |
-| **2026.1** <sub>eap</sub> | **261.17801.64** | `mac` | Pending | Pending | 2026-01-21 |
-| 2025.3 <sub>rc</sub> | 253.28294.248 | `macM1` | Pending | Pending | 2025-11-28 |
-| 2025.3 <sub>rc</sub> | 253.28294.248 | `mac` | Pending | Pending | 2025-11-28 |
-| **2025.3** <sub>eap</sub> | **253.28294.174** | `macM1` | Pending | Pending | 2025-11-19 |
-| **2025.3** <sub>eap</sub> | **253.28294.174** | `mac` | Pending | Pending | 2025-11-19 |
-| **2025.3** <sub>eap</sub> | **253.28086.53** | `macM1` | Pending | Pending | 2025-11-07 |
-| **2025.3** <sub>eap</sub> | **253.28086.53** | `mac` | Pending | Pending | 2025-11-07 |
-| **2025.3** <sub>eap</sub> | **253.25908.25** | `macM1` | Pending | Pending | 2025-10-08 |
-| **2025.3** <sub>eap</sub> | **253.25908.25** | `mac` | Pending | Pending | 2025-10-08 |
-| 2025.2.3 <sub>rc</sub> | 252.26830.23 | `macM1` | Pending | Pending | 2025-09-25 |
-| 2025.2.3 <sub>rc</sub> | 252.26830.23 | `mac` | Pending | Pending | 2025-09-25 |
-| **2025.3** <sub>eap</sub> | **253.20558.48** | `macM1` | Pending | Pending | 2025-09-19 |
-| **2025.3** <sub>eap</sub> | **253.20558.48** | `mac` | Pending | Pending | 2025-09-19 |
-| 2025.2.2 <sub>rc</sub> | 252.26199.88 | `macM1` | Pending | Pending | 2025-09-11 |
-| 2025.2.2 <sub>rc</sub> | 252.26199.88 | `mac` | Pending | Pending | 2025-09-11 |
-| 2025.2.1 <sub>rc</sub> | 252.25557.66 | `macM1` | Pending | Pending | 2025-08-21 |
-| 2025.2.1 <sub>rc</sub> | 252.25557.66 | `mac` | Pending | Pending | 2025-08-21 |
-| 2025.2.1 <sub>eap</sub> | 252.25557.21 | `macM1` | Pending | Pending | 2025-08-14 |
-| 2025.2.1 <sub>eap</sub> | 252.25557.21 | `mac` | Pending | Pending | 2025-08-14 |
-| **2025.2** <sub>eap</sub> | **252.23892.230** | `macM1` | Pending | Pending | 2025-07-17 |
-| **2025.2** <sub>eap</sub> | **252.23892.230** | `mac` | Pending | Pending | 2025-07-17 |
-| **2025.2** <sub>eap</sub> | **252.23591.5** | `macM1` | Pending | Pending | 2025-06-26 |
-| **2025.2** <sub>eap</sub> | **252.23591.5** | `mac` | Pending | Pending | 2025-06-26 |
-| **2025.2** <sub>eap</sub> | **252.19874.23** | `macM1` | Pending | Pending | 2025-06-06 |
-| **2025.2** <sub>eap</sub> | **252.19874.23** | `mac` | Pending | Pending | 2025-06-06 |
-| **2025.2** <sub>eap</sub> | **252.13776.57** | `macM1` | Pending | Pending | 2025-05-15 |
-| **2025.2** <sub>eap</sub> | **252.13776.57** | `mac` | Pending | Pending | 2025-05-15 |
-| **2025.1** <sub>eap</sub> | **251.23774.317** | `macM1` | Pending | Pending | 2025-04-08 |
-| **2025.1** <sub>eap</sub> | **251.23774.317** | `mac` | Pending | Pending | 2025-04-08 |
-| **2025.1** <sub>eap</sub> | **251.23774.120** | `macM1` | Pending | Pending | 2025-03-14 |
-| **2025.1** <sub>eap</sub> | **251.23774.120** | `mac` | Pending | Pending | 2025-03-14 |
-| **2025.1** <sub>eap</sub> | **251.21418.71** | `macM1` | Pending | Pending | 2025-02-18 |
-| **2025.1** <sub>eap</sub> | **251.21418.71** | `mac` | Pending | Pending | 2025-02-18 |
-| **2025.1** <sub>eap</sub> | **251.17181.25** | `macM1` | Pending | Pending | 2025-01-23 |
-| **2025.1** <sub>eap</sub> | **251.17181.25** | `mac` | Pending | Pending | 2025-01-23 |
-| **2024.3** <sub>eap</sub> | **243.21155.27** | `macM1` | Pending | Pending | 2024-10-24 |
-| **2024.3** <sub>eap</sub> | **243.21155.27** | `mac` | Pending | Pending | 2024-10-24 |
-| **2024.3** <sub>eap</sub> | **243.18137.22** | `macM1` | Pending | Pending | 2024-10-03 |
-| **2024.3** <sub>eap</sub> | **243.18137.22** | `mac` | Pending | Pending | 2024-10-03 |
-| **2024.3** <sub>eap</sub> | **243.15521.26** | `macM1` | Pending | Pending | 2024-09-19 |
-| **2024.3** <sub>eap</sub> | **243.15521.26** | `mac` | Pending | Pending | 2024-09-19 |
-| **2024.2** <sub>eap</sub> | **242.20224.92** | `macM1` | Pending | Pending | 2024-07-18 |
-| **2024.2** <sub>eap</sub> | **242.20224.92** | `mac` | Pending | Pending | 2024-07-18 |
-| **2024.2** <sub>eap</sub> | **242.19533.57** | `macM1` | Pending | Pending | 2024-07-01 |
-| **2024.2** <sub>eap</sub> | **242.19533.57** | `mac` | Pending | Pending | 2024-07-01 |
-| 2024.1.1 <sub>rc</sub> | 241.15989.74 | `macM1` | Pending | Pending | 2024-05-01 |
-| 2024.1.1 <sub>rc</sub> | 241.15989.74 | `mac` | Pending | Pending | 2024-05-01 |
-| 2024.1 <sub>rc</sub> | 241.14494.184 | `macM1` | Pending | Pending | 2024-03-25 |
-| 2024.1 <sub>rc</sub> | 241.14494.184 | `mac` | Pending | Pending | 2024-03-25 |
-| **2024.1** <sub>eap</sub> | **241.14494.32** | `macM1` | Pending | Pending | 2024-03-08 |
-| **2024.1** <sub>eap</sub> | **241.14494.32** | `mac` | Pending | Pending | 2024-03-08 |
-| **2024.1** <sub>eap</sub> | **241.14024.15** | `macM1` | Pending | Pending | 2024-03-01 |
-| **2024.1** <sub>eap</sub> | **241.14024.15** | `mac` | Pending | Pending | 2024-03-01 |
-| **2024.1** <sub>eap</sub> | **241.12662.61** | `macM1` | Pending | Pending | 2024-02-16 |
-| **2024.1** <sub>eap</sub> | **241.12662.61** | `mac` | Pending | Pending | 2024-02-16 |
-| **2024.1** <sub>eap</sub> | **241.11761.25** | `macM1` | Pending | Pending | 2024-02-12 |
-| **2024.1** <sub>eap</sub> | **241.11761.25** | `mac` | Pending | Pending | 2024-02-12 |
-| **2024.1** <sub>eap</sub> | **241.10840.29** | `macM1` | Pending | Pending | 2024-02-02 |
-| **2024.1** <sub>eap</sub> | **241.10840.29** | `mac` | Pending | Pending | 2024-02-02 |
-| **2024.1** <sub>eap</sub> | **241.9959.37** | `macM1` | Pending | Pending | 2024-01-31 |
-| **2024.1** <sub>eap</sub> | **241.9959.37** | `mac` | Pending | Pending | 2024-01-31 |
-| **2024.1** <sub>eap</sub> | **241.8102.129** | `macM1` | Pending | Pending | 2024-01-19 |
-| **2024.1** <sub>eap</sub> | **241.8102.129** | `mac` | Pending | Pending | 2024-01-19 |
-| 2023.3.3 <sub>eap</sub> | 233.14015.42 | `macM1` | Pending | Pending | 2024-01-19 |
-| 2023.3.3 <sub>eap</sub> | 233.14015.42 | `mac` | Pending | Pending | 2024-01-19 |
-| **2023.3** <sub>eap</sub> | **233.11799.206** | `macM1` | Pending | Pending | 2023-11-30 |
-| **2023.3** <sub>eap</sub> | **233.11799.206** | `mac` | Pending | Pending | 2023-11-30 |
-| **2023.3** <sub>eap</sub> | **233.11799.72** | `macM1` | Pending | Pending | 2023-11-23 |
-| **2023.3** <sub>eap</sub> | **233.11799.72** | `mac` | Pending | Pending | 2023-11-23 |
-| **2023.3** <sub>eap</sub> | **233.11799.30** | `macM1` | Pending | Pending | 2023-11-15 |
-| **2023.3** <sub>eap</sub> | **233.11799.30** | `mac` | Pending | Pending | 2023-11-15 |
-| **2023.3** <sub>eap</sub> | **233.11799.6** | `macM1` | Pending | Pending | 2023-11-10 |
-| **2023.3** <sub>eap</sub> | **233.11799.6** | `mac` | Pending | Pending | 2023-11-10 |
-| **2023.3** <sub>eap</sub> | **233.11555.11** | `macM1` | Pending | Pending | 2023-11-03 |
-| **2023.3** <sub>eap</sub> | **233.11555.11** | `mac` | Pending | Pending | 2023-11-03 |
-| **2023.3** <sub>eap</sub> | **233.11361.10** | `macM1` | Pending | Pending | 2023-10-27 |
-| **2023.3** <sub>eap</sub> | **233.11361.10** | `mac` | Pending | Pending | 2023-10-27 |
-| **2023.3** <sub>eap</sub> | **233.10527.20** | `macM1` | Pending | Pending | 2023-10-23 |
-| **2023.3** <sub>eap</sub> | **233.10527.20** | `mac` | Pending | Pending | 2023-10-23 |
-| **2023.3** <sub>eap</sub> | **233.9802.16** | `macM1` | Pending | Pending | 2023-10-16 |
-| **2023.3** <sub>eap</sub> | **233.9802.16** | `mac` | Pending | Pending | 2023-10-16 |
-| **2023.3** <sub>eap</sub> | **233.9102.97** | `macM1` | Pending | Pending | 2023-10-05 |
-| **2023.3** <sub>eap</sub> | **233.9102.97** | `mac` | Pending | Pending | 2023-10-05 |
-| **2023.3** <sub>eap</sub> | **233.8264.8** | `macM1` | Pending | Pending | 2023-09-29 |
-| **2023.3** <sub>eap</sub> | **233.8264.8** | `mac` | Pending | Pending | 2023-09-29 |
-| **2023.3** <sub>eap</sub> | **233.6745.303** | `macM1` | Pending | Pending | 2023-09-22 |
-| **2023.3** <sub>eap</sub> | **233.6745.303** | `mac` | Pending | Pending | 2023-09-22 |
-| 2023.2.2 <sub>eap</sub> | 232.9921.28 | `macM1` | Pending | Pending | 2023-09-07 |
-| 2023.2.2 <sub>eap</sub> | 232.9921.28 | `mac` | Pending | Pending | 2023-09-07 |
-| **2023.2.1** <sub>eap</sub> | **232.9559.34** | `macM1` | Pending | Pending | 2023-08-17 |
-| **2023.2.1** <sub>eap</sub> | **232.9559.34** | `mac` | Pending | Pending | 2023-08-17 |
-| **2023.2.1** <sub>eap</sub> | **232.9559.10** | `macM1` | Pending | Pending | 2023-08-10 |
-| **2023.2.1** <sub>eap</sub> | **232.9559.10** | `mac` | Pending | Pending | 2023-08-10 |
-| 2023.2 <sub>rc</sub> | 232.8660.152 | `macM1` | Pending | Pending | 2023-07-24 |
-| 2023.2 <sub>rc</sub> | 232.8660.152 | `mac` | Pending | Pending | 2023-07-24 |
-| **2023.2** <sub>eap</sub> | **232.8660.48** | `macM1` | Pending | Pending | 2023-07-12 |
-| **2023.2** <sub>eap</sub> | **232.8660.48** | `mac` | Pending | Pending | 2023-07-12 |
-| **2023.2** <sub>eap</sub> | **232.8453.131** | `macM1` | Pending | Pending | 2023-07-03 |
-| **2023.2** <sub>eap</sub> | **232.8453.131** | `mac` | Pending | Pending | 2023-07-03 |
-| **2023.2** <sub>eap</sub> | **232.8296.17** | `macM1` | Pending | Pending | 2023-06-27 |
-| **2023.2** <sub>eap</sub> | **232.8296.17** | `mac` | Pending | Pending | 2023-06-27 |
-| **2023.2** <sub>eap</sub> | **232.7754.77** | `macM1` | Pending | Pending | 2023-06-21 |
-| **2023.2** <sub>eap</sub> | **232.7754.77** | `mac` | Pending | Pending | 2023-06-21 |
-| **2023.2** <sub>eap</sub> | **232.7295.16** | `macM1` | Pending | Pending | 2023-06-09 |
-| **2023.2** <sub>eap</sub> | **232.7295.16** | `mac` | Pending | Pending | 2023-06-09 |
-| 2023.1.3 <sub>eap</sub> | 231.9161.17 | `macM1` | Pending | Pending | 2023-06-09 |
-| 2023.1.3 <sub>eap</sub> | 231.9161.17 | `mac` | Pending | Pending | 2023-06-09 |
-| **2023.2** <sub>eap</sub> | **232.6734.6** | `macM1` | Pending | Pending | 2023-06-01 |
-| **2023.2** <sub>eap</sub> | **232.6734.6** | `mac` | Pending | Pending | 2023-06-01 |
-| **2023.2** <sub>eap</sub> | **232.6095.8** | `macM1` | Pending | Pending | 2023-05-18 |
-| **2023.2** <sub>eap</sub> | **232.6095.8** | `mac` | Pending | Pending | 2023-05-18 |
-| **2023.2** <sub>eap</sub> | **232.5150.116** | `macM1` | Pending | Pending | 2023-05-12 |
-| **2023.2** <sub>eap</sub> | **232.5150.116** | `mac` | Pending | Pending | 2023-05-12 |
-| 2023.1.2 <sub>rc</sub> | 231.9011.14 | `macM1` | Pending | Pending | 2023-05-11 |
-| 2023.1.2 <sub>rc</sub> | 231.9011.14 | `mac` | Pending | Pending | 2023-05-11 |
-| 2023.1.2 <sub>eap</sub> | 231.9011.8 | `macM1` | Pending | Pending | 2023-05-05 |
-| 2023.1.2 <sub>eap</sub> | 231.9011.8 | `mac` | Pending | Pending | 2023-05-05 |
-| 2023.1.1 <sub>eap</sub> | 231.8770.13 | `macM1` | Pending | Pending | 2023-04-14 |
-| 2023.1.1 <sub>eap</sub> | 231.8770.13 | `mac` | Pending | Pending | 2023-04-14 |
-| **2023.1** <sub>rc</sub> | **231.8109.142** | `macM1` | Pending | Pending | 2023-03-24 |
-| **2023.1** <sub>rc</sub> | **231.8109.142** | `mac` | Pending | Pending | 2023-03-24 |
-| **2023.1** <sub>rc</sub> | **231.8109.90** | `macM1` | Pending | Pending | 2023-03-17 |
-| **2023.1** <sub>rc</sub> | **231.8109.90** | `mac` | Pending | Pending | 2023-03-17 |
-| **2023.1** <sub>eap</sub> | **231.8109.2** | `macM1` | Pending | Pending | 2023-03-10 |
-| **2023.1** <sub>eap</sub> | **231.8109.2** | `mac` | Pending | Pending | 2023-03-10 |
-| **2023.1** <sub>eap</sub> | **231.7864.81** | `macM1` | Pending | Pending | 2023-03-03 |
-| **2023.1** <sub>eap</sub> | **231.7864.81** | `mac` | Pending | Pending | 2023-03-03 |
-| **2023.1** <sub>eap</sub> | **231.7665.28** | `macM1` | Pending | Pending | 2023-02-24 |
-| **2023.1** <sub>eap</sub> | **231.7665.28** | `mac` | Pending | Pending | 2023-02-24 |
-| **2023.1** <sub>eap</sub> | **231.6890.12** | `macM1` | Pending | Pending | 2023-02-12 |
-| **2023.1** <sub>eap</sub> | **231.6890.12** | `mac` | Pending | Pending | 2023-02-12 |
-| **2023.1** <sub>eap</sub> | **231.6471.6** | `macM1` | Pending | Pending | 2023-02-06 |
-| **2023.1** <sub>eap</sub> | **231.6471.6** | `mac` | Pending | Pending | 2023-02-06 |
-| **2023.1** <sub>eap</sub> | **231.5920.14** | `macM1` | Pending | Pending | 2023-01-27 |
-| **2023.1** <sub>eap</sub> | **231.5920.14** | `mac` | Pending | Pending | 2023-01-27 |
-| **2023.1** <sub>eap</sub> | **231.4840.387** | `macM1` | Pending | Pending | 2023-01-20 |
-| **2023.1** <sub>eap</sub> | **231.4840.387** | `mac` | Pending | Pending | 2023-01-20 |
-| 2022.3.2 <sub>rc</sub> | 223.8617.24 | `macM1` | Pending | Pending | 2023-01-17 |
-| 2022.3.2 <sub>rc</sub> | 223.8617.24 | `mac` | Pending | Pending | 2023-01-17 |
+| 2026.3 <sub>rc</sub> | 263.7307.111 | `macM1` | `6a0a4ee7e65c88d402745f7b710c8c9f1d68a993eb7beddb719ab17ff22bb158` | `613828f851f6e26c25a34c1847b2d62084e26cd1d78a27f5c52ee62de2e17bfd` | 2026-10-30 |
+| 2026.3 <sub>rc</sub> | 263.7307.111 | `mac` | `bb0b58c387c255c33cc52ae4380e1a138e06ae2f248d81b142d8df526657e088` | `9da9635f851911547e64643c0c09d80941c12a1fac053580a4ac7435cd07a730` | 2026-10-30 |
+| **2026.3** <sub>eap</sub> | **263.7307.46** | `macM1` | `155fc12dca9374616add6a2127401437462ac998d9bda9c2d9e0873a1fcb26f7` | Pending | 2026-10-23 |
+| **2026.3** <sub>eap</sub> | **263.7307.46** | `mac` | `e9d59912e7b488b1754cb70805992f476da57e89fc0bd04f2014bc5d03df43ac` | Pending | 2026-10-23 |
+| **2026.3** <sub>eap</sub> | **263.7031.24** | `macM1` | `31044ab191b5bb477db90c3c7c4e7ca09658d5f4f42b66d45f12fe7ec4b98cc3` | Pending | 2026-10-15 |
+| **2026.3** <sub>eap</sub> | **263.7031.24** | `mac` | `f082de01126b24963c113c4f468b82cea6193f6028637b4b104d793095a4cd8d` | Pending | 2026-10-15 |
+| **2026.3** <sub>eap</sub> | **263.5701.43** | `macM1` | `b24fbd09f6090e205fea366c8dad27afd50c9de2fadbe647aec06b042250db25` | Pending | 2026-09-25 |
+| **2026.3** <sub>eap</sub> | **263.5701.43** | `mac` | `68c2355f97e9868e8cdcb418ea573635b3a564661f1afd87c5c1d2940d0e1338` | Pending | 2026-09-25 |
+| **2026.3** <sub>eap</sub> | **263.3889.63** | `macM1` | `553bba779833b4edd838e7bcb4b2b3af29ec3180e696fbade0f5168199826ac9` | Pending | 2026-09-02 |
+| **2026.3** <sub>eap</sub> | **263.3889.63** | `mac` | `3747e3ad040af8ee4894022f46428a02402dbd6db4955a48c83c753140ec4796` | Pending | 2026-09-02 |
+| 2026.2.2 <sub>rc</sub> | 262.10315.53 | `macM1` | `4ce2667fa8da9e95c9652939f9e17e5e972137304946aa234acaafe8db88947a` | Pending | 2026-08-26 |
+| 2026.2.2 <sub>rc</sub> | 262.10315.53 | `mac` | `16e9424f98b1d6080f1fd0c7e7055c656d3d08ed7b4fdf9f7fe0162777238b5a` | Pending | 2026-08-26 |
+| 2026.2.1 <sub>rc</sub> | 262.9437.72 | `macM1` | `53069ec2168826104175b178b6a7ddde7df85e01cac60ec827e5a7840d8d891a` | Pending | 2026-07-31 |
+| 2026.2.1 <sub>rc</sub> | 262.9437.72 | `mac` | `cad5eca824ccd2ab4969f4e4ce59d0d9272a438ccc84fb5accc8fe4872137efb` | Pending | 2026-07-31 |
+| 2026.2 <sub>rc</sub> | 262.8665.175 | `macM1` | `a3dbe9ae34ab24a06e99c81aa45c14207c7b43262b8c9c28f8bbe958745c9c48` | Pending | 2026-07-09 |
+| 2026.2 <sub>rc</sub> | 262.8665.175 | `mac` | `5091b29f9d681166c0ec9a5df2f1b31fb0b6752d11250f749e47273811f339c7` | Pending | 2026-07-09 |
+| **2026.2** <sub>eap</sub> | **262.8665.53** | `macM1` | `22e77ead994763199733c37258457273f15c845b03a3c17e4bd8ad420655cf00` | Pending | 2026-07-03 |
+| **2026.2** <sub>eap</sub> | **262.8665.53** | `mac` | `f0878b00832a29b1827af08be23743cc52509ff44904360b125101b4ae0b1787` | Pending | 2026-07-03 |
+| **2026.2** <sub>eap</sub> | **262.8377.44** | `macM1` | `89adb9c1bf3391b0a3ff03212ae64b4f37a0e0092213556a5d12304f9db839d5` | Pending | 2026-06-26 |
+| **2026.2** <sub>eap</sub> | **262.8377.44** | `mac` | `5bf963d9cd64672bf01fe80616cb7064d6ff2e8dadc7648d80783f310950909e` | Pending | 2026-06-26 |
+| 2026.1.3 <sub>rc</sub> | 261.25134.43 | `macM1` | `ba0cb5ab99cd9b458e772dbbf5ea35d3f70cf07f159927d733723c85bff37a4a` | Pending | 2026-05-29 |
+| 2026.1.3 <sub>rc</sub> | 261.25134.43 | `mac` | `9588ad488cb71fe80e2a5a06b157c4de1f326ca4456474f7f58542df123265ff` | Pending | 2026-05-29 |
+| **2026.2** <sub>eap</sub> | **262.6653.20** | `macM1` | `203e35c0bad14ce481fddb741af749b6a994c09748f2b6b5497197a39c37f063` | Pending | 2026-05-28 |
+| **2026.2** <sub>eap</sub> | **262.6653.20** | `mac` | `98fcc83ec404d50e7cd75e6067b0febfda937981e805132a01405437217b291a` | Pending | 2026-05-28 |
+| **2026.2** <sub>eap</sub> | **262.4852.55** | `macM1` | `51999434d4f43e4c97b4aed0ed02ca81019f23848ff516ec66540e5a9cf93896` | Pending | 2026-05-08 |
+| **2026.2** <sub>eap</sub> | **262.4852.55** | `mac` | `a8a15da6a3e63cf765e33a2994955d8372efcbdab141dba7762c6972b7feedb2` | Pending | 2026-05-08 |
+| 2026.1.2 <sub>rc</sub> | 261.24374.64 | `macM1` | `53b5cc21441f5a350cc649fbbaf09eae8d3538639005a5f069443869732bd874` | Pending | 2026-05-06 |
+| 2026.1.2 <sub>rc</sub> | 261.24374.64 | `mac` | `1cfdbb2fe4aacb82f8d18e5f6c8a5b219d48c187bba0cf38f31c389266c712da` | Pending | 2026-05-06 |
+| 2026.1.1 <sub>rc</sub> | 261.23567.55 | `macM1` | `68c4b433ad2878ddee5ac5c8a131e1d703dd85f0298cf40d2da13c10454b85c2` | Pending | 2026-04-17 |
+| 2026.1.1 <sub>rc</sub> | 261.23567.55 | `mac` | `70ed8f9f117a5052ab968e9ac7e7e5171541adadb372d8a33372aabf8553ab9d` | Pending | 2026-04-17 |
+| 2026.1 <sub>rc</sub> | 261.22158.240 | `macM1` | `d29f2c75b92af45f3e3c1c213305d35c5c414e144c2cdf5f9a632100a28f7d20` | Pending | 2026-03-24 |
+| 2026.1 <sub>rc</sub> | 261.22158.240 | `mac` | `a8f6a3be2cac6ef20ef9ecc15d2b90bee2617a74ecf2dfaacc4e0d81304612ab` | Pending | 2026-03-24 |
+| **2026.1** <sub>eap</sub> | **261.22158.152** | `macM1` | `0ab0eddd9ced2af162efc6236fedb80f49b9f0d62f7386abf967289b8192e45f` | Pending | 2026-03-16 |
+| **2026.1** <sub>eap</sub> | **261.22158.152** | `mac` | `c9d6bad5c1743fa82469a2cf06eb79d36959dca167379dd796b525f4f24cb4d5` | Pending | 2026-03-16 |
+| **2026.1** <sub>eap</sub> | **261.21525.50** | `macM1` | `2bd9fa63354272bbcbf5ac043f963d9cf14caeec9cb2e12b491b6d074c962f27` | Pending | 2026-02-24 |
+| **2026.1** <sub>eap</sub> | **261.21525.50** | `mac` | `d22d4b9c967a1989b600e391ae5d329eeec1ee636aa6b36e6489f2e3d3368534` | Pending | 2026-02-24 |
+| **2026.1** <sub>eap</sub> | **261.19799.30** | `macM1` | `894aa49efa5c03fe536b0a13617d30826a3ee356af3f86ade9619e985992296a` | Pending | 2026-01-30 |
+| **2026.1** <sub>eap</sub> | **261.19799.30** | `mac` | `4e2dfaf75b37ff07d5a6f497632d15d87feb709c255bc7b28e8ed8eb760948a5` | Pending | 2026-01-30 |
+| **2026.1** <sub>eap</sub> | **261.17801.64** | `macM1` | `1c956252b67d0529ba89506594b265b67cd4e041ada6fced8d1d16d9cbcc578a` | Pending | 2026-01-21 |
+| **2026.1** <sub>eap</sub> | **261.17801.64** | `mac` | `e30bb4e45f2bfe91a1c99698d1ac49f5f24558ac60343c95d09c2f2abee9ed76` | Pending | 2026-01-21 |
+| 2025.3 <sub>rc</sub> | 253.28294.248 | `macM1` | `59ea2211e5dfbb0469b3a0ef9500df47989497a9f5007974353eb55e9a5f604f` | Pending | 2025-11-28 |
+| 2025.3 <sub>rc</sub> | 253.28294.248 | `mac` | `c4776bac3f45a507180d52c657bffc961b4a1845f84e78f6f7038344add48a8c` | Pending | 2025-11-28 |
+| **2025.3** <sub>eap</sub> | **253.28294.174** | `macM1` | `690c2984074132b1a9bb590f8ac9840eed6eb91c40ad3e336ece4ec5fbf0e369` | Pending | 2025-11-19 |
+| **2025.3** <sub>eap</sub> | **253.28294.174** | `mac` | `b9162e7067300e6418dd5a601eddac853b77a5fb514e55a65fa04a3b7da86261` | Pending | 2025-11-19 |
+| **2025.3** <sub>eap</sub> | **253.28086.53** | `macM1` | `8ad49471aa8f3b1705086568e6bb646d4fd8c300a486922803fc35aa27990ffe` | Pending | 2025-11-07 |
+| **2025.3** <sub>eap</sub> | **253.28086.53** | `mac` | `ad3d58c2b32207627d1b3df14cbd1af3e145c25294148638469e4765de412580` | Pending | 2025-11-07 |
+| **2025.3** <sub>eap</sub> | **253.25908.25** | `macM1` | `d17d7d7e0a851d0c11ed57a2ab431610a1d11122f3607720672de15bd6218ec9` | Pending | 2025-10-08 |
+| **2025.3** <sub>eap</sub> | **253.25908.25** | `mac` | `b481e772fbb1c500a5f04c077b5e0427c09b2e48b4bae10360878febe6ad9a97` | Pending | 2025-10-08 |
+| 2025.2.3 <sub>rc</sub> | 252.26830.23 | `macM1` | `6fddde6a353e1078180a113eb46541f27a1c896072bcec6cee4c3193b4d8713b` | Pending | 2025-09-25 |
+| 2025.2.3 <sub>rc</sub> | 252.26830.23 | `mac` | `89b601cb49116c39065baa6f58a7dfcbd764b20e7a1e1339b4acd4feacb87d6b` | Pending | 2025-09-25 |
+| **2025.3** <sub>eap</sub> | **253.20558.48** | `macM1` | `1cff5357fe5efe4f02dc83457902e9bb47a0949ae4bb6dd189c3b7c56b2026ef` | Pending | 2025-09-19 |
+| **2025.3** <sub>eap</sub> | **253.20558.48** | `mac` | `c88cbda4d8a227f53f8fb9c9cbe7182f475f10c1c3293fe603643f10bc2a6aae` | Pending | 2025-09-19 |
+| 2025.2.2 <sub>rc</sub> | 252.26199.88 | `macM1` | `f77b1ca2d127688257e8416e15328c0b51a84ce09e5b32c10c8d71010f49dfcd` | Pending | 2025-09-11 |
+| 2025.2.2 <sub>rc</sub> | 252.26199.88 | `mac` | `50c9eb1f50a613378669395ad26b10301ea2aa545ec2ea09667e74d06a51a9fa` | Pending | 2025-09-11 |
+| 2025.2.1 <sub>rc</sub> | 252.25557.66 | `macM1` | `9758b0875196ec08f510be0774961438eb02d05a81c599ac2c07d767abb58d7e` | Pending | 2025-08-21 |
+| 2025.2.1 <sub>rc</sub> | 252.25557.66 | `mac` | `63ae77e234b73935cd74283647984b8b127c62eb03ecfed776371fe5c48f0355` | Pending | 2025-08-21 |
+| 2025.2.1 <sub>eap</sub> | 252.25557.21 | `macM1` | `1a5444bd3e57282cd609d15352695a288e554c7af1c60b01e6d5fc120c1da3f5` | Pending | 2025-08-14 |
+| 2025.2.1 <sub>eap</sub> | 252.25557.21 | `mac` | `1360e8609117d602fed9634310f67798dfcc94f8d543822845027c3d4b1f117d` | Pending | 2025-08-14 |
+| **2025.2** <sub>eap</sub> | **252.23892.230** | `macM1` | `eaa71e1e5878c2e10f0d270b2bc7bb7e9575dca9af72be4e66a778cc1465fa6a` | Pending | 2025-07-17 |
+| **2025.2** <sub>eap</sub> | **252.23892.230** | `mac` | `7d4a21ee294daf0cdec26b795c8a3c2b5f6e6941ea3d0cef657b4ad47b5dc531` | Pending | 2025-07-17 |
+| **2025.2** <sub>eap</sub> | **252.23591.5** | `macM1` | `3a2349ed1f3ea66ad84d506c3a1ca0a5cc695bfea4204ce0d8e705370c3c865d` | Pending | 2025-06-26 |
+| **2025.2** <sub>eap</sub> | **252.23591.5** | `mac` | `2746b449bdc5e8a3e62243ee421914b0733582c190678ed1826a8e18dc49adb2` | Pending | 2025-06-26 |
+| **2025.2** <sub>eap</sub> | **252.19874.23** | `macM1` | `511be5bfefb1afcb2b6d1e3ae6b1d3c4c6807fd0ded5676fa727c0987ff62621` | Pending | 2025-06-06 |
+| **2025.2** <sub>eap</sub> | **252.19874.23** | `mac` | `9f1f654a8818cff3a8b6b60f028938150298855401e4f5d3ffd8b5ef5fd94e2a` | Pending | 2025-06-06 |
+| **2025.2** <sub>eap</sub> | **252.13776.57** | `macM1` | `a07d1f36d2a9f1fa1ea1d4973394724d55864600b4d820feb6eb647f0e327c68` | Pending | 2025-05-15 |
+| **2025.2** <sub>eap</sub> | **252.13776.57** | `mac` | `c5a468a714af4859a6638a547fb7449f71227d44a27cd842e581f3243f6697fa` | Pending | 2025-05-15 |
+| **2025.1** <sub>eap</sub> | **251.23774.317** | `macM1` | `84e99225a23feab81292c5d19b8eec71317700ca0369d6d55bd7a377aa4d99b0` | Pending | 2025-04-08 |
+| **2025.1** <sub>eap</sub> | **251.23774.317** | `mac` | `dd3a4665210a86304971c79b5eb2a434354149e9ec138ae12e69262b75e97035` | Pending | 2025-04-08 |
+| **2025.1** <sub>eap</sub> | **251.23774.120** | `macM1` | `f1405afa602d872ac9a4f02f7652f7cac616f5835539d059136bf6515bac25ce` | Pending | 2025-03-14 |
+| **2025.1** <sub>eap</sub> | **251.23774.120** | `mac` | `60938a3287cfc8dca486c53765ab8abc54b61b5f5b6edea4d1ccb7864d63cabc` | Pending | 2025-03-14 |
+| **2025.1** <sub>eap</sub> | **251.21418.71** | `macM1` | `ea12daeb306b96ea7e68d541e22a1b909fd6a5024348e9902fb5e2f880117417` | Pending | 2025-02-18 |
+| **2025.1** <sub>eap</sub> | **251.21418.71** | `mac` | `bb94a80ba4e52f7793d291946599e6e3ed1fed7b56dbc225afe3cd02b53d4ccd` | Pending | 2025-02-18 |
+| **2025.1** <sub>eap</sub> | **251.17181.25** | `macM1` | `aa43e7e5dba38d5328d9f1154517c2a53faf03480cdae722b27cc661d3365ddb` | Pending | 2025-01-23 |
+| **2025.1** <sub>eap</sub> | **251.17181.25** | `mac` | `666a72b34dfcf6709ed45102fa51bdaef12f93c08568f75be2fefc9bcd396924` | Pending | 2025-01-23 |
+| **2024.3** <sub>eap</sub> | **243.21155.27** | `macM1` | `15192cea9145251b4f5b1104515eb38f16c290e1d2f0079f060708dfa5520b56` | Pending | 2024-10-24 |
+| **2024.3** <sub>eap</sub> | **243.21155.27** | `mac` | `ce6cefb34b8af2ba844cf01a473c5b388c43830d5526d5357a71be6e228b208f` | Pending | 2024-10-24 |
+| **2024.3** <sub>eap</sub> | **243.18137.22** | `macM1` | `46cd1843afda0cdf0391c7797308beda0e1b582b99db861fe4c718eda080448c` | Pending | 2024-10-03 |
+| **2024.3** <sub>eap</sub> | **243.18137.22** | `mac` | `41dfda2ab54d4415455dabbadf02226a24ef909224575ef96668e707cf2c7d97` | Pending | 2024-10-03 |
+| **2024.3** <sub>eap</sub> | **243.15521.26** | `macM1` | `dc686b3ccf38fe3c1f6932321599799849c879bd28b6d585ce6037bb823f4018` | Pending | 2024-09-19 |
+| **2024.3** <sub>eap</sub> | **243.15521.26** | `mac` | `6707c693d586c5147893b786d9498494031ba89022ec3bff5629bd02695657ba` | Pending | 2024-09-19 |
+| **2024.2** <sub>eap</sub> | **242.20224.92** | `macM1` | `007bcd773da2da163e0d075aa125fd6319f804faeedc27e2b2d309948cfb914b` | Pending | 2024-07-18 |
+| **2024.2** <sub>eap</sub> | **242.20224.92** | `mac` | `99bd213daba0ed77cfa4c31018ffae0604be6693119c00b3819c6daf2d0155a8` | Pending | 2024-07-18 |
+| **2024.2** <sub>eap</sub> | **242.19533.57** | `macM1` | `b4ded5887ad33bba97cf9f4bc24ca401f6cce3c942ac34b3d6422977a7302814` | Pending | 2024-07-01 |
+| **2024.2** <sub>eap</sub> | **242.19533.57** | `mac` | `ce595adc56b90f76a35db87e2dd6424b5755dc57735b3cab4ecbb475d97f79d2` | Pending | 2024-07-01 |
+| 2024.1.1 <sub>rc</sub> | 241.15989.74 | `macM1` | `840eb4ae9d2de9bbe353007798a6337f307f177e907754382ce7bef8be060e01` | Pending | 2024-05-01 |
+| 2024.1.1 <sub>rc</sub> | 241.15989.74 | `mac` | `4513e26abf40f69a6eecd7f52d20a0f20e82a87722d4e8a4bd71718a4cba51b0` | Pending | 2024-05-01 |
+| 2024.1 <sub>rc</sub> | 241.14494.184 | `macM1` | `e5467369a4bcec40afe5ad3eaeca57b5b325ec8543ba8ecc0c0c91a34f332139` | Pending | 2024-03-25 |
+| 2024.1 <sub>rc</sub> | 241.14494.184 | `mac` | `ebc78e8889bc1739a3ca0fb8626c703fd2920b9957c65f39cf1391728dd97a08` | Pending | 2024-03-25 |
+| **2024.1** <sub>eap</sub> | **241.14494.32** | `macM1` | `ff8eac2502a4f6eeaf5d30b1c5449ed0bd884f835f83bff67091f7bfb64ec393` | Pending | 2024-03-08 |
+| **2024.1** <sub>eap</sub> | **241.14494.32** | `mac` | `af574dc9ca593b44e9fba841de9efff561aea076b175c5d4f73bb11920ab18d4` | Pending | 2024-03-08 |
+| **2024.1** <sub>eap</sub> | **241.14024.15** | `macM1` | `0362a9a59080c4a91c3d12d9a6f7d9759c83fdad39d62b2585d60863b6889473` | Pending | 2024-03-01 |
+| **2024.1** <sub>eap</sub> | **241.14024.15** | `mac` | `8f5b4458e07e022c19cf4b4dcb10c4db00998813e015b69e42720580e4d13756` | Pending | 2024-03-01 |
+| **2024.1** <sub>eap</sub> | **241.12662.61** | `macM1` | `9d1572a8c11df321d776d5dd799443e347ca5985ec067cabfb0373e84d61c977` | Pending | 2024-02-16 |
+| **2024.1** <sub>eap</sub> | **241.12662.61** | `mac` | `952cb261cbd6061d9fad81dad459243e2d2862c04c9b233bfb7e99d131df7d00` | Pending | 2024-02-16 |
+| **2024.1** <sub>eap</sub> | **241.11761.25** | `macM1` | `cd01bcd7bbf572c027634941990139498f71f6a102a64900ea71bfdd9dc6499e` | Pending | 2024-02-12 |
+| **2024.1** <sub>eap</sub> | **241.11761.25** | `mac` | `8fa82becb325e23d436d1f8d01326f0eebab4d744156efcc30af8de27213ee70` | Pending | 2024-02-12 |
+| **2024.1** <sub>eap</sub> | **241.10840.29** | `macM1` | `62bcc2b951aa100f1b543a3a71bc8270d65ec0683a00393ea82e8df01a8e6579` | Pending | 2024-02-02 |
+| **2024.1** <sub>eap</sub> | **241.10840.29** | `mac` | `a9f4019881000302e1f93349ee40a552fe0e7a9adc9fe3fc54c5db2431e64040` | Pending | 2024-02-02 |
+| **2024.1** <sub>eap</sub> | **241.9959.37** | `macM1` | `af17b53d7c25ade1273efd38619a431f36d484d0b90f34345f7860625715487a` | Pending | 2024-01-31 |
+| **2024.1** <sub>eap</sub> | **241.9959.37** | `mac` | `a878f38dc4f0122d86e17c7fb4f83b9ab22f209641c875a680e23620c55055b2` | Pending | 2024-01-31 |
+| **2024.1** <sub>eap</sub> | **241.8102.129** | `macM1` | `7514e0874aabee10d652633e2d0f6bd995cffd374edc6a5ccaee8a0e9982065d` | Pending | 2024-01-19 |
+| **2024.1** <sub>eap</sub> | **241.8102.129** | `mac` | `d546ce3296f3bfe8f1c061c898aa8ce06ca307d1997acdeba8e329d477ac5e73` | Pending | 2024-01-19 |
+| 2023.3.3 <sub>eap</sub> | 233.14015.42 | `macM1` | `0127d04a9a6137c8fd76fa34ec3dc5ba57496f5111dacdaea46fbc2f1856e2de` | Pending | 2024-01-19 |
+| 2023.3.3 <sub>eap</sub> | 233.14015.42 | `mac` | `406b811b79ed053c1a34d34ca95f0b3b3c25ff8f50f77a397c7ee1922f195747` | Pending | 2024-01-19 |
+| **2023.3** <sub>eap</sub> | **233.11799.206** | `macM1` | `9613d813fe91e6184f61379905d43ab95b81a22c29a2d5bd6f67a00d0996e5ef` | Pending | 2023-11-30 |
+| **2023.3** <sub>eap</sub> | **233.11799.206** | `mac` | `6d18e3eaa90ab7570e8bc0455dc61cd3d9764db2f1cec885ea86a46e5e4bf8bb` | Pending | 2023-11-30 |
+| **2023.3** <sub>eap</sub> | **233.11799.72** | `macM1` | `849c6fac22898e1fc431591c15977f4db3bdd66f2b37a9e67aba73165b8a9af7` | Pending | 2023-11-23 |
+| **2023.3** <sub>eap</sub> | **233.11799.72** | `mac` | `b9ba231c1c207f93a0b21725d4f345a01c6e70f08b59882d61b6d85076a1d0d2` | Pending | 2023-11-23 |
+| **2023.3** <sub>eap</sub> | **233.11799.30** | `macM1` | `3b877ee64e3ea3f88e91a3ae147d4c8150a3c916c863d32f6c4f0f88ca14cd0a` | Pending | 2023-11-15 |
+| **2023.3** <sub>eap</sub> | **233.11799.30** | `mac` | `8d6d3b193b5fa73cccfb503022f6e19476383335c6ff130e59978e92d9349912` | Pending | 2023-11-15 |
+| **2023.3** <sub>eap</sub> | **233.11799.6** | `macM1` | `f51653b692920d9621c57d1f89dfca69745253991b9d04bcc3bb583dd99753e1` | Pending | 2023-11-10 |
+| **2023.3** <sub>eap</sub> | **233.11799.6** | `mac` | `7965ba4d3e54e38974ec8b90a67e0a8a9d221edf3230990075039f01a5555678` | Pending | 2023-11-10 |
+| **2023.3** <sub>eap</sub> | **233.11555.11** | `macM1` | `a71824f9b44931cb4404bf22f2ca0156694b8d6ae582d5797b3bb55c09d1788f` | Pending | 2023-11-03 |
+| **2023.3** <sub>eap</sub> | **233.11555.11** | `mac` | `45c3c01f903637c798fe3f35dece65bcdbb952b59f9d682b6710cffde4554bb5` | Pending | 2023-11-03 |
+| **2023.3** <sub>eap</sub> | **233.11361.10** | `macM1` | `9a6559d7b439528257ce7024709e7ed1b144466c821e25efd734ce6770a1c3ef` | Pending | 2023-10-27 |
+| **2023.3** <sub>eap</sub> | **233.11361.10** | `mac` | `6eee755a4a524aaf149c2a00f24c45c793ace64d6af827694abb99b1af7baec3` | Pending | 2023-10-27 |
+| **2023.3** <sub>eap</sub> | **233.10527.20** | `macM1` | `672a1602619715b1e0bd6e63c8249338b05cbc8a81bd93ab755eb5225727aba5` | Pending | 2023-10-23 |
+| **2023.3** <sub>eap</sub> | **233.10527.20** | `mac` | `89e7118f1ed7ce0f169d6ffbc0ecfb1c05141775857e23106e95b1b2b92bd4f8` | Pending | 2023-10-23 |
+| **2023.3** <sub>eap</sub> | **233.9802.16** | `macM1` | `3730d8c96fa953ecdf012810d12a8dd277b2b869b9b0d61d54b36c4d13d3c93f` | Pending | 2023-10-16 |
+| **2023.3** <sub>eap</sub> | **233.9802.16** | `mac` | `b7430755d3d56c8d3350c89c7dc5813a4e1a62c8ac2e408707a98d3848f08b1e` | Pending | 2023-10-16 |
+| **2023.3** <sub>eap</sub> | **233.9102.97** | `macM1` | `96c5c90167ee40a04f8bbfaa30d4680e4ee8f5d82af52d5911727396bd83f81d` | Pending | 2023-10-05 |
+| **2023.3** <sub>eap</sub> | **233.9102.97** | `mac` | `ffcf3b63beb1b47fc63a6ba51852d9006f132499c606f74fb7fa9d79fad4884b` | Pending | 2023-10-05 |
+| **2023.3** <sub>eap</sub> | **233.8264.8** | `macM1` | `3c453862283186def404afc42212d5800646c184be0c4611b444730c3e12eb12` | Pending | 2023-09-29 |
+| **2023.3** <sub>eap</sub> | **233.8264.8** | `mac` | `0e226632dadb6881d700528ed2c5c4d5a9bc68f038e85d24f9157dd80d40146d` | Pending | 2023-09-29 |
+| **2023.3** <sub>eap</sub> | **233.6745.303** | `macM1` | `2f0e297f4fb1d5a1c7f44d877becd2ccbb133a9ad71548011cdc81208987ca11` | Pending | 2023-09-22 |
+| **2023.3** <sub>eap</sub> | **233.6745.303** | `mac` | `6c6965b317493ccb3ac99eca98c44b3ab63eee79f0070c50650e2e566e6456be` | Pending | 2023-09-22 |
+| 2023.2.2 <sub>eap</sub> | 232.9921.28 | `macM1` | `5db8cd24ed28397bf2e614832c5057ec3c384a546b21366cbd59639bea8b3f7c` | Pending | 2023-09-07 |
+| 2023.2.2 <sub>eap</sub> | 232.9921.28 | `mac` | `cc875d7efb17592ff3bead09554aad166e90995e11586a148a80fda87061ecf9` | Pending | 2023-09-07 |
+| **2023.2.1** <sub>eap</sub> | **232.9559.34** | `macM1` | `8521df7dff8cc19c6a22e09176203bb9ce111ba3c59b1f2a54c5d3ec2cd64088` | Pending | 2023-08-17 |
+| **2023.2.1** <sub>eap</sub> | **232.9559.34** | `mac` | `09f40d4517b79141f7db891c5eb546e1e568ea3d807df91e15217aab51f41ff5` | Pending | 2023-08-17 |
+| **2023.2.1** <sub>eap</sub> | **232.9559.10** | `macM1` | `75c0bd7df03306c972beafd2b225ea1c43b21441b42e9f37a23c434b7c8e9387` | Pending | 2023-08-10 |
+| **2023.2.1** <sub>eap</sub> | **232.9559.10** | `mac` | `078d7e8a5fbbf758bde2d4376df0f8fc6d0db00abb883648c14e54cac78385a1` | Pending | 2023-08-10 |
+| 2023.2 <sub>rc</sub> | 232.8660.152 | `macM1` | `10d46f2dd9d66669d2112ef4348ea03e9c47d5ac516d2f8a23263cf9bf576654` | Pending | 2023-07-24 |
+| 2023.2 <sub>rc</sub> | 232.8660.152 | `mac` | `f0d6b6616cdc54b20cc42715cddf642f3b9babb5ed93fd93bac34c710b3af4ed` | Pending | 2023-07-24 |
+| **2023.2** <sub>eap</sub> | **232.8660.48** | `macM1` | `49000b9dc3d3ece2ad238449e31271ea66c19de0920bdf9d239135892794943f` | Pending | 2023-07-12 |
+| **2023.2** <sub>eap</sub> | **232.8660.48** | `mac` | `e7cd6597b73010c77f5868ac24af8dc7238fccc93cb452ec233a9240b50438fc` | Pending | 2023-07-12 |
+| **2023.2** <sub>eap</sub> | **232.8453.131** | `macM1` | `e24fd91dc7305948da05fd7a505531f2578d7277990285f5718ee9f7d67dad8d` | Pending | 2023-07-03 |
+| **2023.2** <sub>eap</sub> | **232.8453.131** | `mac` | `6ae24c3187a409e7d10887e534fac5183dcb3d8f44c11b5bf41b1d921106fb7b` | Pending | 2023-07-03 |
+| **2023.2** <sub>eap</sub> | **232.8296.17** | `macM1` | `c7a48f13f8b1b5098d604ccae9073d97fc1baac523874b9d17daa1b9b6cbba71` | Pending | 2023-06-27 |
+| **2023.2** <sub>eap</sub> | **232.8296.17** | `mac` | `f23fdeed39c8261802c270cea444dc2e145e48f6af0046479b6d543d56756f5f` | Pending | 2023-06-27 |
+| **2023.2** <sub>eap</sub> | **232.7754.77** | `macM1` | `5ecacb82f116a8eaa9b9a78c5f3254c3786498b172f1a8421f0b7d45ad0cca23` | Pending | 2023-06-21 |
+| **2023.2** <sub>eap</sub> | **232.7754.77** | `mac` | `f928b335e7c4200a5083990c85c2b4383c8064afcf23c1525e7dfd5706e7f5d8` | Pending | 2023-06-21 |
+| **2023.2** <sub>eap</sub> | **232.7295.16** | `macM1` | `260ed84c113bb398175a9aaec5cbf9689bd9e3eac778a9425c6d102ee20e196e` | Pending | 2023-06-09 |
+| **2023.2** <sub>eap</sub> | **232.7295.16** | `mac` | `9dc86839a145fd8024735b0942e409d58aa2e196aa2387cbcfc0d7675140b91b` | Pending | 2023-06-09 |
+| 2023.1.3 <sub>eap</sub> | 231.9161.17 | `macM1` | `e3f77446f8f0da85000cc1461b6139effc5053de75b2e5c5d63d4989b6f60fec` | Pending | 2023-06-09 |
+| 2023.1.3 <sub>eap</sub> | 231.9161.17 | `mac` | `7901b5c78d042ebd606966a0b4cf35a541f8c52b40c5a1496baead7a4b631cd6` | Pending | 2023-06-09 |
+| **2023.2** <sub>eap</sub> | **232.6734.6** | `macM1` | `41cf0a859573a2542b0dd68e5240bd13c3123d6be49bb856e0ea2a0f864ff918` | Pending | 2023-06-01 |
+| **2023.2** <sub>eap</sub> | **232.6734.6** | `mac` | `35c028327162b507a687056c5e4e68adaff1501fbdd2bd8df7057af6e10b7452` | Pending | 2023-06-01 |
+| **2023.2** <sub>eap</sub> | **232.6095.8** | `macM1` | `6672724f71ee19f347ffbba1b9b4e958dee33778cdde07c1eafaee15f4b8627c` | Pending | 2023-05-18 |
+| **2023.2** <sub>eap</sub> | **232.6095.8** | `mac` | `1ed53fdcfdd07f672f0627e5ffa336a4b19ccfc73770259124feac6b86e1deaf` | Pending | 2023-05-18 |
+| **2023.2** <sub>eap</sub> | **232.5150.116** | `macM1` | `949ab5bca36557cc56ec7e37dd6b67418526599c555ed1926521278eda2c1fc2` | Pending | 2023-05-12 |
+| **2023.2** <sub>eap</sub> | **232.5150.116** | `mac` | `b5e9ba6f27edd2258c45b4f5d79a81ea89bd8a3ff122d56db2d34db0fb6f0721` | Pending | 2023-05-12 |
+| 2023.1.2 <sub>rc</sub> | 231.9011.14 | `macM1` | `2f74531dd3f36d4160902ea4444b1c34baf723efc8178a58f6ca00b9c7637116` | Pending | 2023-05-11 |
+| 2023.1.2 <sub>rc</sub> | 231.9011.14 | `mac` | `2e8aa4c484eb4b21a5aa3fdb2a7c508f1ac32f870e239bed8b6a13b9744f04fc` | Pending | 2023-05-11 |
+| 2023.1.2 <sub>eap</sub> | 231.9011.8 | `macM1` | `b4ac103a6257d8499080cc63d86ef3d5a15bbf2c96ef1b6cbddb483cb99ba85d` | Pending | 2023-05-05 |
+| 2023.1.2 <sub>eap</sub> | 231.9011.8 | `mac` | `08e799693d5ac4bf317273b7fa82a977f61a660894d90386c2334c1f842fdef0` | Pending | 2023-05-05 |
+| 2023.1.1 <sub>eap</sub> | 231.8770.13 | `macM1` | `9ba14ee9d35a86c34296129be4f4007dfc2d2b43cbe12f4e68288a209fe3be17` | Pending | 2023-04-14 |
+| 2023.1.1 <sub>eap</sub> | 231.8770.13 | `mac` | `daf5eb19e51a2fc1529062b56beed57016cabdd069f97d25ef570a6081670b9f` | Pending | 2023-04-14 |
+| **2023.1** <sub>rc</sub> | **231.8109.142** | `macM1` | `44e55834ddabe29fa4b136d54a985bf921dc9517e731c12d7c337588bd46e821` | Pending | 2023-03-24 |
+| **2023.1** <sub>rc</sub> | **231.8109.142** | `mac` | `8616a6dd887e47a20a50fab4a88023bb3558347019031942edafcae9718009bd` | Pending | 2023-03-24 |
+| **2023.1** <sub>rc</sub> | **231.8109.90** | `macM1` | `3776f6bf65410467db46fea9174c7c9cc6adebf1b3b22516a88c3255a557850f` | Pending | 2023-03-17 |
+| **2023.1** <sub>rc</sub> | **231.8109.90** | `mac` | `c8c6ca4f0b9522f37833df41c461cd61bc81959f9b3b6a5dda7a2917186c8d58` | Pending | 2023-03-17 |
+| **2023.1** <sub>eap</sub> | **231.8109.2** | `macM1` | `e3ecd300be5db032c31cdf05f09ff82dfdcf14834cc9bceb68f38c8548011f86` | Pending | 2023-03-10 |
+| **2023.1** <sub>eap</sub> | **231.8109.2** | `mac` | `ad1d5d62d4acdd5cafe3a8f9402c8d9157f722bbd2fdad9f71edbb27d64318bc` | Pending | 2023-03-10 |
+| **2023.1** <sub>eap</sub> | **231.7864.81** | `macM1` | `3b8c6d72d0576802a2fa37d5d4d4d3745c9d50646aa96d47ee8b7bf0077d93e1` | Pending | 2023-03-03 |
+| **2023.1** <sub>eap</sub> | **231.7864.81** | `mac` | `452d08aa2facbde8ba19b3146260024e2992669b257250d88f9fc9ee0ae3d74c` | Pending | 2023-03-03 |
+| **2023.1** <sub>eap</sub> | **231.7665.28** | `macM1` | `c81d06067572bac9b4782fdc0210a662661ef73fb2e2d88107e7ffd7ccd01dfe` | Pending | 2023-02-24 |
+| **2023.1** <sub>eap</sub> | **231.7665.28** | `mac` | `387af73e29ca47fa659555ab0c3c84b7de76f10ea96686ad0932feb644bebea6` | Pending | 2023-02-24 |
+| **2023.1** <sub>eap</sub> | **231.6890.12** | `macM1` | `099026a74ce75730645d4d722832f2832b201b5348fe6397a148248fc83323b6` | Pending | 2023-02-12 |
+| **2023.1** <sub>eap</sub> | **231.6890.12** | `mac` | `3fdafc3a24b06200fff6b8ad5e49861570d18ee4eda587f3fdbcc9b72da88249` | Pending | 2023-02-12 |
+| **2023.1** <sub>eap</sub> | **231.6471.6** | `macM1` | `11be788d7f023137b62fbb2a15f4ad4d908db3440cdbd6ed262f34fd6f9ca00e` | Pending | 2023-02-06 |
+| **2023.1** <sub>eap</sub> | **231.6471.6** | `mac` | `13ccc359d38387716d244c44328b6f3e77d79f29706539fa881bdc1edcc006f8` | Pending | 2023-02-06 |
+| **2023.1** <sub>eap</sub> | **231.5920.14** | `macM1` | `e0b1a6a1dc712d071a907fbba48f016fea2c7e3313258116e4b692f4d5550d64` | Pending | 2023-01-27 |
+| **2023.1** <sub>eap</sub> | **231.5920.14** | `mac` | `260ff37cfd0641d2e8ff9b3a9599aedc5ecf65766b0d6b308bca47b228c977a6` | Pending | 2023-01-27 |
+| **2023.1** <sub>eap</sub> | **231.4840.387** | `macM1` | `8125bb2f2bb7e91973d55a846de84955e80ff6ef90feffcc19ba1cb95c5746ce` | Pending | 2023-01-20 |
+| **2023.1** <sub>eap</sub> | **231.4840.387** | `mac` | `00ae9ace9b941b9a757c34a1ee23f65c5d3bd521149c1998c5451075447ae701` | Pending | 2023-01-20 |
+| 2022.3.2 <sub>rc</sub> | 223.8617.24 | `macM1` | `25f6528257b823a2c6e22d7475e8aa8ae3971b0d3e414682141e6b7a6c797379` | Pending | 2023-01-17 |
+| 2022.3.2 <sub>rc</sub> | 223.8617.24 | `mac` | `ae4fbe2d5267738c04311ad45857db11e89b014a63733530aa0760941523722c` | Pending | 2023-01-17 |
 
 ## Collection notes
 
 Product: **Gateway** (`GW`). [Machine-readable history](../data/GW.json).
 
-Installer hashes: **0/296**; application hashes: **0/296**; not advertised: **0**.
+Installer hashes: **296/296**; application hashes: **10/296**; not advertised: **0**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
