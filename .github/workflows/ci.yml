@@ -2,6 +2,8 @@ name: CI
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "jetbrains_hashes/**"
       - "jetbrains_sha256.py"

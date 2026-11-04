@@ -159,8 +159,10 @@ python3 -m venv .venv
 
 Tests use local fixtures rather than JetBrains downloads. On macOS, a native test
 also creates, mounts, hashes, and cleans up a small synthetic DMG. CI runs on
-macOS 15 with Python 3.13. Generated history is merged semantically, not guarded by fragile
-Markdown line-count comparisons.
+macOS 15 with Python 3.13 for relevant pull-request changes and pushes to `main`,
+or manually. Feature-branch pushes do not trigger duplicate pull-request runs.
+Generated history is merged semantically, not guarded by fragile Markdown
+line-count comparisons.
 
 ## License
 
