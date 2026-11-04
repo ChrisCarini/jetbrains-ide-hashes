@@ -69,7 +69,7 @@ published checksums are upstream observations, not independent security endorsem
 [Update JetBrains IDE hashes](.github/workflows/update-hashes.yml) runs daily at
 **06:23 UTC**, and can also be started manually:
 
-1. An Ubuntu job discovers products and snapshots every release channel.
+1. An Ubuntu job discovers the selected products and snapshots every release channel.
 2. At most **two macOS jobs run concurrently**, each processing one IDE.
 3. Each IDE gets at most **10 installer download attempts** and **40 minutes** by
    default. Successful work is checkpointed after each artifact. New/never-attempted
@@ -78,14 +78,29 @@ published checksums are upstream observations, not independent security endorsem
    Ubuntu job merges the successful progress into the latest default branch,
    regenerates the Markdown, and commits only `data/` and `ides/`.
 
-All current checksum sidecars are refreshed on each run to detect repacked
+All current checksum sidecars for the selected IDEs are refreshed on each run to detect repacked
 installers. The download limit applies to full installers; reaching a time/download
 budget leaves explicit pending work for the next run. Actual collection failures
 remain visible as failed jobs and in the product's collection notes.
 
-Manual runs can increase `max_installers` and `max_minutes` (up to 240 minutes).
+Manual runs accept an optional `product` input with a JetBrains IDE product code,
+such as `IIU` (IntelliJ IDEA), `PCP` (PyCharm), or `RD` (Rider). Find other codes in
+the [IDE index](ides/README.md). Leave it blank to process all discovered IDEs,
+as scheduled runs do. Selecting one IDE still includes every release channel;
+unknown codes fail discovery rather than falling back to all IDEs.
+
+```bash
+gh workflow run update-hashes.yml -f product=IIU
+```
+
+Manual runs can also increase `max_installers` and `max_minutes` (up to 240 minutes).
 The initial backfill can take many runs and substantial aggregate bandwidth; there
 is no claim that every historical app hash is available immediately.
+
+Installer downloads log their start, progress roughly every 10 seconds while data
+arrives (downloaded/total MiB, percentage, and average speed), and completion after
+SHA-256 verification. Messages are flushed immediately to stderr so progress is
+visible in GitHub Actions logs. Each retry starts its progress from zero.
 
 Only the publication job receives `contents: write`. Actions are pinned to commit
 SHAs, updates cannot overlap, and publication is restricted to the default branch.
@@ -122,6 +137,9 @@ python -m jetbrains_hashes sync --product IIU --max-installers 50 --max-minutes 
 
 # Discover all IDEs and generate metadata-only tables without downloading installers.
 python -m jetbrains_hashes discover --seed
+
+# Prepare workflow snapshots for one IDE, including every release channel.
+python -m jetbrains_hashes discover --product PCP
 
 # Rebuild Markdown deterministically from the saved history; no network access.
 python -m jetbrains_hashes render

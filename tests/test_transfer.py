@@ -148,15 +148,57 @@ def test_transient_http_errors_retry_with_visible_backoff(monkeypatch, capsys, c
     assert f"HTTP {code}" in capsys.readouterr().err
 
 
-def test_short_download_retries_without_appending_partial_bytes(tmp_path, monkeypatch):
-    outcomes = [Response(DMG_BYTES[:4]), Response(DMG_BYTES)]
-    monkeypatch.setattr(transfer.urllib.request, "urlopen", lambda *a, **k: outcomes.pop(0))
-    monkeypatch.setattr(transfer.time, "sleep", lambda delay: None)
+def test_download_reports_periodic_progress_to_stderr(tmp_path, monkeypatch, capsys):
+    body = b"x" * (5 * transfer.MIB)
+    ticks = iter([0, 5, 10, 15, 20, 21])
+    monkeypatch.setattr(transfer.urllib.request, "urlopen", lambda *a, **k: Response(body))
+    monkeypatch.setattr(transfer.time, "monotonic", lambda: next(ticks))
     image = tmp_path / "installer.dmg"
 
-    transfer.download_image(URL, len(DMG_BYTES), DMG_HASH, image)
+    transfer.download_image(URL, len(body), hashlib.sha256(body).hexdigest(), image)
 
-    assert image.read_bytes() == DMG_BYTES
+    captured = capsys.readouterr()
+    assert captured.out == ""
+    assert captured.err.splitlines() == [
+        f"  Downloading {URL} (5.0 MiB)",
+        "  Download progress: 2.0/5.0 MiB (40.0%), 0.2 MiB/s",
+        "  Download progress: 4.0/5.0 MiB (80.0%), 0.2 MiB/s",
+        "  Download complete: 5.0 MiB (100%), SHA-256 verified",
+    ]
+    assert image.read_bytes() == body
+
+
+def test_fast_download_logs_start_and_completion_without_dividing_by_zero(
+    tmp_path, monkeypatch, capsys
+):
+    monkeypatch.setattr(transfer.urllib.request, "urlopen", lambda *a, **k: Response(DMG_BYTES))
+    monkeypatch.setattr(transfer.time, "monotonic", lambda: 0)
+
+    transfer.download_image(URL, len(DMG_BYTES), DMG_HASH, tmp_path / "installer.dmg")
+
+    assert capsys.readouterr().err.splitlines() == [
+        f"  Downloading {URL} (0.0 MiB)",
+        "  Download complete: 0.0 MiB (100%), SHA-256 verified",
+    ]
+
+
+def test_short_download_retries_without_appending_partial_bytes(tmp_path, monkeypatch, capsys):
+    body = b"x" * (2 * transfer.MIB)
+    outcomes = [Response(body[: transfer.MIB]), Response(body)]
+    ticks = iter([0, 10, 20, 30, 31])
+    monkeypatch.setattr(transfer.urllib.request, "urlopen", lambda *a, **k: outcomes.pop(0))
+    monkeypatch.setattr(transfer.time, "sleep", lambda delay: None)
+    monkeypatch.setattr(transfer.time, "monotonic", lambda: next(ticks))
+    image = tmp_path / "installer.dmg"
+
+    transfer.download_image(URL, len(body), hashlib.sha256(body).hexdigest(), image)
+
+    assert image.read_bytes() == body
+    messages = capsys.readouterr().err
+    assert messages.count(f"Downloading {URL}") == 2
+    assert messages.count("Download progress: 1.0/2.0 MiB (50.0%), 0.1 MiB/s") == 2
+    assert "retry 1/5" in messages
+    assert messages.count("Download complete") == 1
 
 
 def test_discovers_non_idea_launcher_verifies_build_and_cleans_up(tmp_path, fake_system):
@@ -169,12 +211,13 @@ def test_discovers_non_idea_launcher_verifies_build_and_cleans_up(tmp_path, fake
     assert list(tmp_path.iterdir()) == []
 
 
-def test_replaced_installer_is_never_mounted(tmp_path, fake_system):
+def test_replaced_installer_is_never_mounted(tmp_path, fake_system, capsys):
     with pytest.raises(transfer.ArtifactError, match="SHA-256 mismatch"):
         transfer.collect_app(URL, len(DMG_BYTES), APP_HASH, BUILD, tmp_path)
 
     assert fake_system.attach_args is None
     assert list(tmp_path.iterdir()) == []
+    assert "Download complete" not in capsys.readouterr().err
 
 
 def test_bundle_build_mismatch_is_not_attributed_to_old_release(tmp_path, fake_system):

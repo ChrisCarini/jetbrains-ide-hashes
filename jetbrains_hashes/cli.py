@@ -35,6 +35,7 @@ def existing(directory: Path) -> list[History]:
 
 
 def discover_command(args: argparse.Namespace) -> int:
+    selected_code = history.validate_code(args.product) if args.product else None
     if args.catalog_file:
         products = json.loads(args.catalog_file.read_text(encoding="utf-8"))
         fetched_at = datetime.fromtimestamp(
@@ -46,6 +47,14 @@ def discover_command(args: argparse.Namespace) -> int:
     with locked(args.data_dir):
         histories = {item.code: item for item in existing(args.data_dir)}
         products = history.discover(products, list(histories.values()))
+        if selected_code:
+            selected = [product for product in products if product["code"] == selected_code]
+            if not selected:
+                available = ", ".join(product["code"] for product in products)
+                raise StopRun(
+                    f"Unknown IDE product code: {selected_code}. Available codes: {available}"
+                )
+            products = selected
         for product in products:
             code = history.validate_code(product["code"])
             snapshot = {"fetched_at": fetched_at, "product": product}
@@ -147,6 +156,9 @@ def parser() -> argparse.ArgumentParser:
         "discover", help="Discover IDEs and prepare per-product API snapshots"
     )
     paths(discover)
+    discover.add_argument(
+        "--product", default="", help="JetBrains IDE product code; omit or leave blank for all"
+    )
     discover.add_argument(
         "--catalog-file", type=Path, help="Read a saved /products response instead of HTTP"
     )
