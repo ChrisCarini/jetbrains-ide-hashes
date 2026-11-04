@@ -1,0 +1,161 @@
+name: Update JetBrains IDE hashes
+
+on:
+  schedule:
+    - cron: "23 6 * * *"
+  workflow_dispatch:
+    inputs:
+      max_installers:
+        description: Maximum installer downloads per IDE (failed attempts also count)
+        type: number
+        default: 10
+      max_minutes:
+        description: Collection minutes per IDE (1-240; cleanup gets extra time)
+        type: number
+        default: 40
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-jetbrains-ide-hashes
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      matrix: ${{ steps.discover.outputs.matrix }}
+      max_installers: ${{ steps.limits.outputs.max_installers }}
+      max_minutes: ${{ steps.limits.outputs.max_minutes }}
+      timeout_minutes: ${{ steps.limits.outputs.timeout_minutes }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+      - name: Validate collection limits
+        id: limits
+        env:
+          MAX_INSTALLERS: ${{ inputs.max_installers }}
+          MAX_MINUTES: ${{ inputs.max_minutes }}
+        run: |
+          python - <<'PY'
+          import os
+          values = {}
+          for name, default, upper in (("MAX_INSTALLERS", 10, 10000), ("MAX_MINUTES", 40, 240)):
+              value = int(os.environ[name]) if os.environ[name] else default
+              if not 1 <= value <= upper:
+                  raise SystemExit(f"{name} must be between 1 and {upper}")
+              values[name.lower()] = value
+          values["timeout_minutes"] = values["max_minutes"] + 15
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              for name, value in values.items():
+                  output.write(f"{name}={value}\n")
+          PY
+      - name: Discover every IDE and channel
+        id: discover
+        run: python -m jetbrains_hashes discover --github-output "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: catalog-snapshot
+          path: catalog-snapshot/*.json
+          if-no-files-found: error
+          retention-days: 7
+
+  collect:
+    needs: discover
+    runs-on: macos-15
+    timeout-minutes: ${{ fromJSON(needs.discover.outputs.timeout_minutes) }}
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix: ${{ fromJSON(needs.discover.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: catalog-snapshot
+          path: catalog-snapshot
+      - name: Collect a resumable batch
+        env:
+          PRODUCT: ${{ matrix.product }}
+          MAX_INSTALLERS: ${{ needs.discover.outputs.max_installers }}
+          MAX_MINUTES: ${{ needs.discover.outputs.max_minutes }}
+        run: |
+          python -m jetbrains_hashes sync \
+            --product "$PRODUCT" \
+            --catalog "catalog-snapshot/$PRODUCT.json" \
+            --max-installers "$MAX_INSTALLERS" \
+            --max-minutes "$MAX_MINUTES" \
+            --work-dir "$RUNNER_TEMP" \
+            --no-render
+      - name: Preserve progress even when some artifacts fail
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: hashes-${{ matrix.product }}
+          path: data/${{ matrix.product }}.json
+          if-no-files-found: error
+          retention-days: 30
+
+  publish:
+    needs: [discover, collect]
+    if: >-
+      ${{
+        always() && !cancelled() && needs.discover.result == 'success' &&
+        github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+      }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          pattern: hashes-*
+          merge-multiple: true
+          path: incoming
+      - name: Merge observations and regenerate tables
+        run: python -m jetbrains_hashes merge --from-dir incoming
+      - name: Commit generated data and tables
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/ ides/
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          if [ -n "$(git diff --cached --diff-filter=D --name-only)" ]; then
+            echo "::error::Refusing to delete generated history files."
+            exit 1
+          fi
+          git commit -m "Update JetBrains IDE hash history"
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then
+              exit 0
+            fi
+            echo "::warning::Push failed; retrying after fetching the latest branch."
+            sleep "$((2 ** attempt))"
+            git pull --rebase origin "$DEFAULT_BRANCH"
+          done
+          echo "::error::Could not publish. Per-product checkpoints remain in workflow artifacts."
+          exit 1

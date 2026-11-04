@@ -1,0 +1,17 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+*.dmg
+*.zip
+*.part
+jetbrains-sha256-*/
+idea-hashes/
+catalog-snapshot/
+incoming/
+data/.lock

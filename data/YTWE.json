@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "code": "YTWE",
+  "name": "Youtrack Workflow Editor",
+  "records": [
+    {
+      "version": "6.0",
+      "build": "3385",
+      "release_type": "release",
+      "release_date": "2017-03-09",
+      "platform": "mac",
+      "installer_url": "https://download.jetbrains.com/charisma/youtrack-workflow-editor-3385-macos.zip",
+      "checksum_url": "https://download.jetbrains.com/charisma/youtrack-workflow-editor-3385-macos.zip.sha256",
+      "size_bytes": 95498003,
+      "installer_sha256": "",
+      "app_sha256": "",
+      "app_path": "",
+      "app_build": "",
+      "first_seen": "2026-11-04T01:26:02.356379+00:00",
+      "current": true,
+      "last_attempt": "",
+      "error_stage": "",
+      "error": ""
+    },
+    {
+      "version": "6.0",
+      "build": "3385",
+      "release_type": "release",
+      "release_date": "2017-03-09",
+      "platform": "macM1",
+      "installer_url": "",
+      "checksum_url": "",
+      "size_bytes": 0,
+      "installer_sha256": "",
+      "app_sha256": "",
+      "app_path": "",
+      "app_build": "",
+      "first_seen": "2026-11-04T01:26:02.356379+00:00",
+      "current": true,
+      "last_attempt": "",
+      "error_stage": "",
+      "error": ""
+    }
+  ],
+  "catalog_fetched_at": "2026-11-04T01:59:37.129779+00:00",
+  "catalog_release_count": 1,
+  "ignored_download_types": [
+    "linux",
+    "ova",
+    "windows",
+    "zip"
+  ]
+}

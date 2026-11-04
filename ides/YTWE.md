@@ -1,0 +1,19 @@
+| Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
+| --- | --- | --- | --- | --- | --- |
+| 6.0 | 3385 | `macM1` | Not advertised | Not advertised | 2017-03-09 |
+| 6.0 | 3385 | `mac` | Pending | Pending | 2017-03-09 |
+
+## EAP, RC, preview, and other non-release builds
+
+| Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
+| --- | --- | --- | --- | --- | --- |
+
+## Collection notes
+
+Product: **Youtrack Workflow Editor** (`YTWE`). [Machine-readable history](../data/YTWE.json).
+
+Installer hashes: **0/1**; application hashes: **0/1**; not advertised: **1**.
+
+Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
+
+`Pending` means collection has not completed; `Not advertised` means the selected installer type was not listed. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.

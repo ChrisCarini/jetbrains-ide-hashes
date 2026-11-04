@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jetbrains-ide-hashes"
+version = "0.1.0"
+description = "Historical macOS installer and application SHA-256 hashes for JetBrains IDEs"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.15,<1"]
+
+[project.scripts]
+jetbrains-ide-hashes = "jetbrains_hashes.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jetbrains_hashes*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["native: requires macOS and mounts a small locally generated disk image"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
