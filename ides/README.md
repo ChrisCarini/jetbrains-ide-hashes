@@ -14,7 +14,7 @@ Each product page starts with released versions, followed by every other API cha
 | [DataSpell](DS.md) | `DS` | 242/242 | 8/242 | 0 |
 | [Gateway](GW.md) | `GW` | 296/296 | 10/296 | 0 |
 | [GoLand](GO.md) | `GO` | 534/534 | 10/534 | 72 |
-| [IntelliJ IDEA](IIU.md) | `IIU` | 657/657 | 162/657 | 267 |
+| [IntelliJ IDEA](IIU.md) | `IIU` | 657/657 | 407/657 | 267 |
 | [IntelliJ IDEA Community Edition](IIC.md) | `IIC` | 521/521 | 10/521 | 267 |
 | [JetBrains AI Assistant for Visual Studio Code](VSCAI.md) | `VSCAI` | 0/0 | 0/0 | 38 |
 | [MPS](MPS.md) | `MPS` | 274/274 | 0/274 | 232 |
