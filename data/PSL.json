@@ -201,5 +201,6 @@
     "linuxARM64",
     "windows",
     "windowsARM64"
-  ]
+  ],
+  "empty_downloads": []
 }

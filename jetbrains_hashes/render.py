@@ -44,11 +44,12 @@ def render_product(history: History) -> str:
     rows = sorted(
         history.records,
         key=lambda row: (
-            row.release_date,
             natural(row.version),
             natural(row.build),
             row.platform,
+            row.release_date,
             row.installer_sha256,
+            row.metadata_key(),
         ),
         reverse=True,
     )
@@ -56,7 +57,7 @@ def render_product(history: History) -> str:
     def table(released: bool) -> str:
         lines = [HEADER]
         for row in rows:
-            if (row.release_type.lower() == "release") != released:
+            if not row.installer_url or (row.release_type.lower() == "release") != released:
                 continue
             version, build = (
                 cell(row.version or "(not provided)"),
@@ -87,10 +88,38 @@ def render_product(history: History) -> str:
         "Bold versions/builds have multiple observed build numbers for the same version and channel. "
         "`(repacked)` means multiple installer hashes were observed for the same version, build, "
         "channel, and installer type. History is retained even after entries disappear from the API.\n\n"
-        "`Pending` means collection has not completed; `Not advertised` means the selected "
-        "installer type was not listed. Missing hashes are not inferred. Application hashes cover "
+        "Rows are sorted by version, build version, and installer type, descending, with numeric "
+        "version/build components compared numerically rather than by release date.\n\n"
+        "`Pending` means collection has not completed. Rows without an advertised macOS installer "
+        "are omitted. Missing hashes are not inferred. Application hashes cover "
         "the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.\n"
     )
+    if history.empty_downloads:
+        result += (
+            "\n### Versions with empty downloads\n\n"
+            "These releases had an entirely empty `downloads` object in the latest available "
+            "catalog. Missing architectures and releases with only non-macOS downloads are not "
+            "listed here. This does not prove that an installer never existed.\n\n"
+            "| Version | Build version | Channel | Release date |\n"
+            "| --- | --- | --- | --- |\n"
+        )
+        for release in sorted(
+            history.empty_downloads,
+            key=lambda release: (
+                natural(release.version),
+                natural(release.build),
+                release.release_type,
+                release.release_date,
+                release.version,
+                release.build,
+            ),
+            reverse=True,
+        ):
+            result += (
+                f"| {cell(release.version or '(not provided)')} | "
+                f"{cell(release.build or '(not provided)')} | "
+                f"{cell(release.release_type)} | {cell(release.release_date)} |\n"
+            )
     errors = [row for row in rows if row.error]
     if errors:
         result += "\n### Collection errors\n\n"
@@ -107,6 +136,9 @@ def render_all(data_dir: Path, docs_dir: Path) -> None:
     index = (
         "# JetBrains IDE hashes\n\n"
         "Each product page starts with released versions, followed by every other API channel. "
+        "Rows are sorted by version, build version, and installer type, descending. "
+        "Only advertised macOS installers appear in the main tables; versions with entirely "
+        "empty downloads are listed in Collection notes. "
         "Product codes keep renamed and legacy editions distinct.\n\n"
         "| IDE / product | Product code | Installer hashes | Application hashes | Not advertised |\n"
         "| --- | --- | --- | --- | --- |\n"

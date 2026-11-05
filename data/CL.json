@@ -9253,5 +9253,109 @@
     "windowsZip",
     "windowsZipJBR8",
     "windowsZipWithOracleJRE"
+  ],
+  "empty_downloads": [
+    {
+      "version": "1.0",
+      "build": "141.353",
+      "release_type": "release",
+      "release_date": "2015-04-14"
+    },
+    {
+      "version": "1.0.1",
+      "build": "141.870",
+      "release_type": "release",
+      "release_date": "2015-04-28"
+    },
+    {
+      "version": "1.0.2",
+      "build": "141.871",
+      "release_type": "release",
+      "release_date": "2015-05-18"
+    },
+    {
+      "version": "1.0.3",
+      "build": "141.873",
+      "release_type": "release",
+      "release_date": "2015-05-22"
+    },
+    {
+      "version": "1.0.4",
+      "build": "141.874",
+      "release_type": "release",
+      "release_date": "2015-06-16"
+    },
+    {
+      "version": "1.0.5",
+      "build": "141.875",
+      "release_type": "release",
+      "release_date": "2015-07-10"
+    },
+    {
+      "version": "1.1",
+      "build": "141.2348",
+      "release_type": "release",
+      "release_date": "2015-08-18"
+    },
+    {
+      "version": "1.1.1",
+      "build": "141.2614",
+      "release_type": "release",
+      "release_date": "2015-09-03"
+    },
+    {
+      "version": "1.2",
+      "build": "143.381",
+      "release_type": "release",
+      "release_date": "2015-11-02"
+    },
+    {
+      "version": "1.2.1",
+      "build": "143.382",
+      "release_type": "release",
+      "release_date": "2015-11-11"
+    },
+    {
+      "version": "1.2.2",
+      "build": "143.1184",
+      "release_type": "release",
+      "release_date": "2015-12-10"
+    },
+    {
+      "version": "1.2.3",
+      "build": "143.1185",
+      "release_type": "release",
+      "release_date": "2015-12-23"
+    },
+    {
+      "version": "1.2.4",
+      "build": "143.1186",
+      "release_type": "release",
+      "release_date": "2015-12-25"
+    },
+    {
+      "version": "2016.1",
+      "build": "145.258",
+      "release_type": "release",
+      "release_date": "2016-03-17"
+    },
+    {
+      "version": "2016.1.1",
+      "build": "145.597",
+      "release_type": "release",
+      "release_date": "2016-03-31"
+    },
+    {
+      "version": "2016.1.2",
+      "build": "145.971",
+      "release_type": "release",
+      "release_date": "2016-05-11"
+    },
+    {
+      "version": "2021.3.1",
+      "build": "213.6461.46",
+      "release_type": "release",
+      "release_date": "2021-12-22"
+    }
   ]
 }
