@@ -46,5 +46,6 @@
   "catalog_release_count": 1,
   "ignored_download_types": [
     "thirdPartyLibrariesJson"
-  ]
+  ],
+  "empty_downloads": []
 }

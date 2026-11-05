@@ -6,6 +6,16 @@ import pytest
 from jetbrains_hashes import cli, history, render
 
 T1 = "2026-11-03T00:00:00+00:00"
+T2 = "2026-11-04T00:00:00+00:00"
+
+
+def main_table_rows(text):
+    tables = text.split("\n## Collection notes\n", 1)[0]
+    return [
+        [value.strip().replace("**", "").strip("`") for value in line.split("|")[1:-1]]
+        for line in tables.splitlines()
+        if line.startswith("| ") and not line.startswith(("| Version |", "| --- |"))
+    ]
 
 
 @pytest.mark.parametrize("channel", ["release", "eap", "rc", "preview", "future-channel"])
@@ -40,7 +50,7 @@ def test_tables_start_with_only_releases_then_all_other_channels(product_factory
     releases, other = text.split("\n## EAP, RC, preview, and other non-release builds\n\n")
 
     assert releases.startswith(render.HEADER)
-    assert releases.count("| **1.2.3**") == 3
+    assert releases.count("| **1.2.3**") == 2
     assert "<sub>" not in releases
     assert all(
         f"<sub>{channel}</sub>" in other for channel in ("eap", "rc", "preview", "future-channel")
@@ -60,9 +70,193 @@ def test_markdown_is_deterministic_and_escapes_cells(product_factory):
     assert "1&#124;&lt;script&gt;" in first
 
 
+@pytest.mark.parametrize("channel", ["release", "eap", "rc", "preview", "future-channel"])
+def test_tables_sort_version_build_and_installer_type_before_date(product_factory, channel):
+    product = product_factory()
+    product["releases"] = []
+    for version, build, date in (
+        ("2026.9", "999.99", "2026-12-03"),
+        ("2026.10", "261.9", "2026-12-02"),
+        ("2026.10", "261.10", "2026-01-01"),
+        ("2026.10.1", "1", "2025-01-01"),
+    ):
+        release = product_factory(
+            version=version,
+            build=build,
+            channel=channel,
+            platforms=("mac", "macM1", "macos_x64", "macos_aarch64"),
+        )["releases"][0]
+        release["date"] = date
+        product["releases"].append(release)
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+    for row in state.records:
+        if row.platform == "mac":
+            row.release_date = "2099-01-01"
+
+    text = render.render_product(state)
+    suffix = "" if channel == "release" else f" <sub>{channel}</sub>"
+    expected = [
+        [version + suffix, build, platform]
+        for version, build in (
+            ("2026.10.1", "1"),
+            ("2026.10", "261.10"),
+            ("2026.10", "261.9"),
+            ("2026.9", "999.99"),
+        )
+        for platform in ("macos_x64", "macos_aarch64", "macM1", "mac")
+    ]
+    assert [row[:3] for row in main_table_rows(text)] == expected
+    state.records.reverse()
+    assert render.render_product(state) == text
+
+
+def test_matching_version_build_type_and_date_have_deterministic_ties(product_factory):
+    product = product_factory(channel="eap")
+    product["releases"].extend(product_factory(channel="rc")["releases"])
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+    state.records.append(
+        replace(state.records[0], installer_url="https://download.jetbrains.com/other.dmg")
+    )
+
+    text = render.render_product(state)
+    state.records.reverse()
+
+    assert render.render_product(state) == text
+
+
+@pytest.mark.parametrize("channel", ["release", "eap"])
+@pytest.mark.parametrize(
+    "platforms,expected",
+    [
+        (("mac",), {"mac"}),
+        (("macM1",), {"macM1"}),
+        (("macos_x64",), {"macos_x64"}),
+        (("macos_aarch64",), {"macos_aarch64"}),
+        (("mac", "macM1"), {"mac", "macM1"}),
+        (("macos_x64", "macos_aarch64"), {"macos_x64", "macos_aarch64"}),
+        (("linux",), set()),
+        (("mac-jbr17",), set()),
+        (("thirdPartyLibrariesJson",), set()),
+        ((), set()),
+    ],
+)
+def test_only_advertised_installers_and_truly_empty_download_notes(
+    product_factory, channel, platforms, expected
+):
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product_factory(channel=channel, platforms=platforms), T1)
+
+    text = render.render_product(state)
+
+    assert {row[2] for row in main_table_rows(text)} == expected
+    assert len(main_table_rows(text)) == len(expected)
+    assert "Not advertised" not in text.split("\n## Collection notes\n", 1)[0]
+    assert ("### Versions with empty downloads" in text) == (not platforms)
+    if not platforms:
+        assert text.count(f"| 1.2.3 | 123.456.789 | {channel} | 2026-11-03 |") == 1
+
+
+def test_empty_download_notes_sort_and_distinguish_builds_and_channels(product_factory):
+    product = product_factory(platforms=(), version="2026.9", build="999")
+    for build, channel in (("261.9", "release"), ("261.10", "eap"), ("261.10", "release")):
+        product["releases"].extend(
+            product_factory(platforms=(), version="2026.10", build=build, channel=channel)[
+                "releases"
+            ]
+        )
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+
+    text = render.render_product(state)
+
+    assert not main_table_rows(text)
+    assert (
+        "| 2026.10 | 261.10 | release | 2026-11-03 |\n"
+        "| 2026.10 | 261.10 | eap | 2026-11-03 |\n"
+        "| 2026.10 | 261.9 | release | 2026-11-03 |\n"
+        "| 2026.9 | 999 | release | 2026-11-03 |\n"
+    ) in text
+    state.empty_downloads.reverse()
+    assert render.render_product(state) == text
+
+
+def test_empty_download_notes_escape_cells_and_handle_missing_values(product_factory):
+    product = product_factory(
+        platforms=(), version="1|<script>", build="2|<build>", channel="preview|<channel>"
+    )
+    product["releases"].extend(product_factory(platforms=(), version=None, build=None)["releases"])
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+
+    text = render.render_product(state)
+
+    assert (
+        "| 1&#124;&lt;script&gt; | 2&#124;&lt;build&gt; | "
+        "preview&#124;&lt;channel&gt; | 2026-11-03 |"
+    ) in text
+    assert "| (not provided) | (not provided) | release | 2026-11-03 |" in text
+
+
+def test_metadata_errors_are_reported_without_claiming_empty_downloads(product_factory):
+    product = product_factory()
+    product["releases"][0]["downloads"] = None
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+
+    text = render.render_product(state)
+
+    assert not main_table_rows(text)
+    assert "### Versions with empty downloads" not in text
+    assert "### Collection errors" in text
+    assert "Missing or non-object downloads metadata" in text
+
+
+def test_advertised_installer_with_missing_hash_stays_visible(product_factory):
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product_factory(), T1)
+    assert main_table_rows(render.render_product(state))[0][3:5] == ["Pending", "Pending"]
+    row = next(row for row in state.records if row.platform == "mac")
+    row.error_stage, row.error = "checksum", "HTTP 404"
+
+    text = render.render_product(state)
+
+    assert len(main_table_rows(text)) == 1
+    assert main_table_rows(text)[0][3:5] == ["Unavailable (see collection notes)"] * 2
+    assert "HTTP 404" in text
+    assert "### Versions with empty downloads" not in text
+
+
+def test_historical_installer_stays_visible_when_downloads_disappear(product_factory):
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product_factory(), T1)
+    row = next(row for row in state.records if row.platform == "mac")
+    row.installer_sha256, row.app_sha256 = "a" * 64, "b" * 64
+
+    history.refresh_metadata(state, product_factory(platforms=()), T2)
+    text = render.render_product(state)
+
+    assert len(main_table_rows(text)) == 1
+    assert main_table_rows(text)[0][3:5] == ["a" * 64, "b" * 64]
+    assert not row.current
+    assert text.count("| 1.2.3 | 123.456.789 | release | 2026-11-03 |") == 1
+
+
+def test_legacy_missing_installer_does_not_imply_empty_downloads():
+    state = history.History(
+        "IIU", "IntelliJ IDEA", [history.Record("1.2.3", "123", "release", "2026-11-03", "mac")]
+    )
+
+    text = render.render_product(state)
+
+    assert not main_table_rows(text)
+    assert "### Versions with empty downloads" not in text
+
+
 def test_cli_seeds_without_network_and_render_is_idempotent(tmp_path, product_factory, monkeypatch):
     source = tmp_path / "products.json"
-    source.write_text(json.dumps([product_factory(), product_factory(code="PCP")]))
+    source.write_text(json.dumps([product_factory(), product_factory(code="PCP", platforms=())]))
     data, docs, snapshots = tmp_path / "data", tmp_path / "ides", tmp_path / "catalog"
     monkeypatch.setattr(
         history.transfer.urllib.request,
@@ -93,6 +287,8 @@ def test_cli_seeds_without_network_and_render_is_idempotent(tmp_path, product_fa
     assert before == {path.name: path.read_bytes() for path in docs.glob("*.md")}
     assert set(before) == {"IIU.md", "PCP.md", "README.md"}
     assert len(history.load(data / "IIU.json").records) == 2
+    assert b"### Versions with empty downloads" in before["PCP.md"]
+    assert not main_table_rows(before["PCP.md"].decode())
 
 
 @pytest.mark.parametrize(

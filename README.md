@@ -13,6 +13,10 @@ a separate table of **EAP, RC, preview, and every other non-release channel**:
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
 
+Rows are sorted by **version**, then **build version**, then **installer type**, all
+descending. Version and build components are compared numerically, so `2026.10`
+comes before `2026.9`, regardless of release date.
+
 The application hash is the raw main launcher, such as
 `IntelliJ IDEA.app/Contents/MacOS/idea` or
 `PyCharm.app/Contents/MacOS/pycharm`. It is **not** a hash of the entire `.app`
@@ -33,8 +37,17 @@ Alternate JBR distributions and Windows/Linux installers are outside this projec
 scope. Ignored download types are recorded in each product's JSON history.
 
 Some products classified as IDEs are plugins or hosted services, and some old
-releases have empty download metadata. Their rows are retained as **Not advertised**,
-not silently removed. This does not prove that an installer never existed.
+releases have empty download metadata. Only advertised macOS installer rows appear
+in the main tables: a version with one architecture shows only that architecture.
+Versions with an entirely empty `downloads` object are listed once per build and
+channel under **Collection notes**. Missing architectures and nonempty downloads
+containing only non-macOS artifacts are not listed in that subsection. Collection
+errors remain visible in the notes.
+
+The JSON history retains unadvertised installer entries and records empty-download
+releases separately on catalog refresh; older histories without that information
+are not assumed to have empty downloads. Neither omission nor empty metadata
+proves that an installer never existed.
 
 ## Reissued versions and historical integrity
 
@@ -42,8 +55,8 @@ The canonical data lives in [`data/`](data/), one JSON file per product. The
 collector never replaces a whole history with the latest API response:
 
 - A different **build number** for an existing version creates another record.
-  Both builds remain in the tables, with their versions/builds **bolded** within
-  the same release channel.
+  Advertised installers for both builds remain in the tables, with their
+  versions/builds **bolded** within the same release channel.
 - A different **installer checksum**, even at the same URL with the same version
   and build, preserves the old payload and creates a new revision. These rows
   are marked `(repacked)`.

@@ -1,3 +1,4 @@
+import json
 from dataclasses import replace
 
 import pytest
@@ -80,6 +81,125 @@ def test_omitted_downloads_are_retained_as_unadvertised_and_clear_resolved_metad
     assert len(state.records) == 2
     assert all(row.status == "not_advertised" for row in state.records)
     assert all(row.first_seen == T1 for row in state.records)
+
+
+def test_empty_download_releases_are_persisted_once_per_build_and_channel(
+    tmp_path, product_factory
+):
+    state = history.History("IIU", "IntelliJ IDEA")
+    product = product_factory(platforms=(), build=None)
+    history.refresh_metadata(state, product, T1)
+
+    history.save(state, tmp_path)
+    restored = history.load(tmp_path / "IIU.json")
+
+    assert len(restored.records) == 2
+    assert restored.empty_downloads == [
+        history.EmptyDownloadRelease("1.2.3", "", "release", "2026-11-03")
+    ]
+
+
+@pytest.mark.parametrize("platforms", [("mac",), ("macos_aarch64",), ("linux",)])
+def test_empty_download_notes_clear_when_any_download_is_advertised(product_factory, platforms):
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product_factory(platforms=()), T1)
+    assert state.empty_downloads
+
+    history.refresh_metadata(state, product_factory(platforms=platforms), T2)
+
+    assert state.empty_downloads == []
+
+
+def test_discovery_does_not_turn_omitted_downloads_into_explicitly_empty_metadata(
+    product_factory,
+):
+    product = product_factory()
+    del product["releases"][0]["downloads"]
+    discovered = history.discover([product], [])
+    assert "downloads" not in discovered[0]["releases"][0]
+    state = history.History("IIU", "IntelliJ IDEA")
+
+    history.refresh_metadata(state, discovered[0], T1)
+
+    assert state.empty_downloads == []
+    assert all(row.status == "not_advertised" for row in state.records)
+
+
+def test_disappearing_product_preserves_empty_download_metadata(product_factory):
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product_factory(platforms=()), T1)
+    before = list(state.empty_downloads)
+
+    history.refresh_metadata(
+        state,
+        {"code": state.code, "name": state.name, "releases": [], "absent_from_catalog": True},
+        T2,
+    )
+
+    assert state.empty_downloads == before
+
+
+@pytest.mark.parametrize(
+    "observed_at,empty_downloads,replace_notes",
+    [
+        (T1, [], False),
+        (T2, [], True),
+        (T2, [history.EmptyDownloadRelease("2", "222", "eap", "2026-11-04")], True),
+        (T2, None, False),
+    ],
+)
+def test_merge_only_replaces_empty_download_notes_with_known_current_metadata(
+    observed_at, empty_downloads, replace_notes
+):
+    before = [history.EmptyDownloadRelease("1", "111", "release", "2026-11-03")]
+    destination = history.History(
+        "IIU", "IntelliJ IDEA", catalog_fetched_at=T2, empty_downloads=before
+    )
+    incoming = history.History(
+        "IIU", "IntelliJ IDEA", catalog_fetched_at=observed_at, empty_downloads=empty_downloads
+    )
+
+    history.merge(destination, incoming)
+
+    assert destination.empty_downloads == (empty_downloads if replace_notes else before)
+    if replace_notes:
+        assert destination.empty_downloads is not incoming.empty_downloads
+
+
+def test_legacy_history_loads_without_inventing_empty_download_metadata(tmp_path):
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.save(state, tmp_path)
+    path = tmp_path / "IIU.json"
+    assert "empty_downloads" not in json.loads(path.read_text())
+
+    assert history.load(path).empty_downloads is None
+
+
+@pytest.mark.parametrize(
+    "empty_downloads,error",
+    [
+        ({}, "Invalid history structure"),
+        ("empty", "Invalid history structure"),
+        ([{"version": "1"}], "Invalid history structure"),
+        (
+            [{"version": 1, "build": "", "release_type": "release", "release_date": ""}],
+            "Invalid empty-download release types",
+        ),
+        (
+            [{"version": "1", "build": "", "release_type": "release", "release_date": ""}] * 2,
+            "Duplicate empty-download release",
+        ),
+    ],
+)
+def test_load_rejects_invalid_empty_download_metadata(tmp_path, empty_downloads, error):
+    history.save(history.History("IIU", "IntelliJ IDEA"), tmp_path)
+    path = tmp_path / "IIU.json"
+    payload = json.loads(path.read_text())
+    payload["empty_downloads"] = empty_downloads
+    path.write_text(json.dumps(payload))
+
+    with pytest.raises(transfer.StopRun, match=error):
+        history.load(path)
 
 
 def test_old_catalog_cannot_rewind_build_identity(product_factory):

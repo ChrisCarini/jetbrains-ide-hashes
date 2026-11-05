@@ -1460,5 +1460,6 @@
     "windows_x64",
     "windows_zip_aarch64",
     "windows_zip_x64"
-  ]
+  ],
+  "empty_downloads": []
 }

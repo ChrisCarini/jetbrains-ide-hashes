@@ -67,6 +67,14 @@ class Record:
         return "app_pending" if self.installer_sha256 else "checksum_pending"
 
 
+@dataclass(frozen=True, order=True)
+class EmptyDownloadRelease:
+    version: str
+    build: str
+    release_type: str
+    release_date: str
+
+
 @dataclass
 class History:
     code: str
@@ -75,6 +83,7 @@ class History:
     catalog_fetched_at: str = ""
     catalog_release_count: int = 0
     ignored_download_types: list[str] = field(default_factory=list)
+    empty_downloads: list[EmptyDownloadRelease] | None = None
 
 
 def validate_code(code: str) -> str:
@@ -85,7 +94,11 @@ def validate_code(code: str) -> str:
 
 def save(history: History, directory: Path) -> None:
     history.records.sort(key=lambda r: (r.metadata_key(), r.installer_sha256))
+    if history.empty_downloads is not None:
+        history.empty_downloads.sort()
     payload = {"schema_version": 1, **asdict(history)}
+    if history.empty_downloads is None:
+        del payload["empty_downloads"]
     atomic_write(
         directory / f"{validate_code(history.code)}.json", json.dumps(payload, indent=2) + "\n"
     )
@@ -97,11 +110,30 @@ def load(path: Path) -> History:
         raise StopRun(f"Unsupported history schema in {path}")
     try:
         records = [Record(**row) for row in data.pop("records")]
-        history = History(**data, records=records)
+        empty_downloads = data.pop("empty_downloads", None)
+        if empty_downloads is not None and not isinstance(empty_downloads, list):
+            raise TypeError("Expected an empty-download release array")
+        history = History(
+            **data,
+            records=records,
+            empty_downloads=(
+                [EmptyDownloadRelease(**release) for release in empty_downloads]
+                if empty_downloads is not None
+                else None
+            ),
+        )
     except (KeyError, TypeError) as exc:
         raise StopRun(f"Invalid history structure in {path}: {exc}") from exc
     if validate_code(history.code) != path.stem:
         raise StopRun(f"Product code does not match history filename: {path}")
+    for release in history.empty_downloads or []:
+        if any(
+            not isinstance(getattr(release, item.name), str)
+            for item in fields(EmptyDownloadRelease)
+        ):
+            raise StopRun(f"Invalid empty-download release types in {path}")
+    if len(set(history.empty_downloads or [])) != len(history.empty_downloads or []):
+        raise StopRun(f"Duplicate empty-download release in {path}")
     seen = set()
     string_fields = [f.name for f in fields(Record) if f.name not in ("size_bytes", "current")]
     for row in records:
@@ -216,7 +248,7 @@ def discover(products: list[dict], existing: list[History]) -> list[dict]:
                     "name": product["name"],
                     "releases": [
                         {key: release.get(key) for key in ("version", "build", "date", "type")}
-                        | {"downloads": release.get("downloads", {})}
+                        | ({"downloads": release["downloads"]} if "downloads" in release else {})
                         for release in product["releases"]
                     ],
                 }
@@ -283,6 +315,17 @@ def refresh_metadata(history: History, product: dict, observed_at: str) -> list[
     history.name = product["name"]
     history.catalog_fetched_at = observed_at
     history.catalog_release_count = len(product["releases"])
+    if not product.get("absent_from_catalog"):
+        history.empty_downloads = [
+            EmptyDownloadRelease(
+                version=release.get("version") or "",
+                build=release.get("build") or "",
+                release_type=release.get("type") or "unknown",
+                release_date=release.get("date") or "",
+            )
+            for release in product["releases"]
+            if release.get("downloads") == {}
+        ]
     supported = {p for aliases in PLATFORMS.values() for p in aliases}
     history.ignored_download_types = sorted(
         {
@@ -485,6 +528,8 @@ def merge(destination: History, incoming: History) -> None:
         destination.catalog_fetched_at = incoming.catalog_fetched_at
         destination.catalog_release_count = incoming.catalog_release_count
         destination.ignored_download_types = incoming.ignored_download_types
+        if incoming.empty_downloads is not None:
+            destination.empty_downloads = list(incoming.empty_downloads)
 
 
 def import_legacy(directory: Path, destination: History) -> None:

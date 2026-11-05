@@ -1,6 +1,6 @@
 # JetBrains IDE hashes
 
-Each product page starts with released versions, followed by every other API channel. Product codes keep renamed and legacy editions distinct.
+Each product page starts with released versions, followed by every other API channel. Rows are sorted by version, build version, and installer type, descending. Only advertised macOS installers appear in the main tables; versions with entirely empty downloads are listed in Collection notes. Product codes keep renamed and legacy editions distinct.
 
 | IDE / product | Product code | Installer hashes | Application hashes | Not advertised |
 | --- | --- | --- | --- | --- |

@@ -1,203 +1,5 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
-| 2024.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2024-08-08 |
-| 2024.1 | (not provided) | `mac` | Not advertised | Not advertised | 2024-08-08 |
-| 2023.3.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2024-06-10 |
-| 2023.3.1 | (not provided) | `mac` | Not advertised | Not advertised | 2024-06-10 |
-| 2023.2.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2024-06-10 |
-| 2023.2.1 | (not provided) | `mac` | Not advertised | Not advertised | 2024-06-10 |
-| 2022.2.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2024-04-25 |
-| 2022.2.3 | (not provided) | `mac` | Not advertised | Not advertised | 2024-04-25 |
-| 2023.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2024-03-07 |
-| 2023.3 | (not provided) | `mac` | Not advertised | Not advertised | 2024-03-07 |
-| 2022.2.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2023-12-14 |
-| 2022.2.2 | (not provided) | `mac` | Not advertised | Not advertised | 2023-12-14 |
-| 2021.3.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2023-11-28 |
-| 2021.3.5 | (not provided) | `mac` | Not advertised | Not advertised | 2023-11-28 |
-| 2023.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2023-10-30 |
-| 2023.2 | (not provided) | `mac` | Not advertised | Not advertised | 2023-10-30 |
-| 2021.3.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2023-10-02 |
-| 2021.3.4 | (not provided) | `mac` | Not advertised | Not advertised | 2023-10-02 |
-| 2021.3.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2023-07-14 |
-| 2021.3.3 | (not provided) | `mac` | Not advertised | Not advertised | 2023-07-14 |
-| 2022.2.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2023-06-28 |
-| 2022.2.1 | (not provided) | `mac` | Not advertised | Not advertised | 2023-06-28 |
-| 2021.3.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2022-11-22 |
-| 2021.3.2 | (not provided) | `mac` | Not advertised | Not advertised | 2022-11-22 |
-| 2022.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2022-11-01 |
-| 2022.2 | (not provided) | `mac` | Not advertised | Not advertised | 2022-11-01 |
-| 2021.2.6 | (not provided) | `macM1` | Not advertised | Not advertised | 2022-09-20 |
-| 2021.2.6 | (not provided) | `mac` | Not advertised | Not advertised | 2022-09-20 |
-| 2021.3.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2022-05-02 |
-| 2021.3.1 | (not provided) | `mac` | Not advertised | Not advertised | 2022-05-02 |
-| 2021.2.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2022-03-23 |
-| 2021.2.5 | (not provided) | `mac` | Not advertised | Not advertised | 2022-03-23 |
-| 2021.1.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2022-03-21 |
-| 2021.1.4 | (not provided) | `mac` | Not advertised | Not advertised | 2022-03-21 |
-| 2021.2.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2022-02-23 |
-| 2021.2.4 | (not provided) | `mac` | Not advertised | Not advertised | 2022-02-23 |
-| 2021.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2022-02-15 |
-| 2021.3 | (not provided) | `mac` | Not advertised | Not advertised | 2022-02-15 |
-| 2020.3.6 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-12-27 |
-| 2020.3.6 | (not provided) | `mac` | Not advertised | Not advertised | 2021-12-27 |
-| 2021.2.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-12-03 |
-| 2021.2.3 | (not provided) | `mac` | Not advertised | Not advertised | 2021-12-03 |
-| 2021.2.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-11-03 |
-| 2021.2.2 | (not provided) | `mac` | Not advertised | Not advertised | 2021-11-03 |
-| 2021.2.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-10-11 |
-| 2021.2.1 | (not provided) | `mac` | Not advertised | Not advertised | 2021-10-11 |
-| 2021.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-10-06 |
-| 2021.2 | (not provided) | `mac` | Not advertised | Not advertised | 2021-10-06 |
-| 2021.1.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-08-18 |
-| 2021.1.3 | (not provided) | `mac` | Not advertised | Not advertised | 2021-08-18 |
-| 2021.1.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-08-11 |
-| 2021.1.2 | (not provided) | `mac` | Not advertised | Not advertised | 2021-08-11 |
-| 2020.3.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-06-30 |
-| 2020.3.5 | (not provided) | `mac` | Not advertised | Not advertised | 2021-06-30 |
-| 2021.1.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-06-15 |
-| 2021.1.1 | (not provided) | `mac` | Not advertised | Not advertised | 2021-06-15 |
-| 2020.3.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-05-31 |
-| 2020.3.4 | (not provided) | `mac` | Not advertised | Not advertised | 2021-05-31 |
-| 2021.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-05-17 |
-| 2021.1 | (not provided) | `mac` | Not advertised | Not advertised | 2021-05-17 |
-| 2020.3.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2021-02-08 |
-| 2020.3.1 | (not provided) | `mac` | Not advertised | Not advertised | 2021-02-08 |
-| 2020.2.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-12-01 |
-| 2020.2.3 | (not provided) | `mac` | Not advertised | Not advertised | 2020-12-01 |
-| 2020.1.7 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-11-20 |
-| 2020.1.7 | (not provided) | `mac` | Not advertised | Not advertised | 2020-11-20 |
-| 2020.2.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-10-08 |
-| 2020.2.2 | (not provided) | `mac` | Not advertised | Not advertised | 2020-10-08 |
-| 2020.1.6 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-09-30 |
-| 2020.1.6 | (not provided) | `mac` | Not advertised | Not advertised | 2020-09-30 |
-| 2020.2.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-09-28 |
-| 2020.2.1 | (not provided) | `mac` | Not advertised | Not advertised | 2020-09-28 |
-| 2020.1.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-09-17 |
-| 2020.1.5 | (not provided) | `mac` | Not advertised | Not advertised | 2020-09-17 |
-| 2020.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-09-14 |
-| 2020.2 | (not provided) | `mac` | Not advertised | Not advertised | 2020-09-14 |
-| 2020.1.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-08-19 |
-| 2020.1.4 | (not provided) | `mac` | Not advertised | Not advertised | 2020-08-19 |
-| 2019.3.7 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-08-11 |
-| 2019.3.7 | (not provided) | `mac` | Not advertised | Not advertised | 2020-08-11 |
-| 2019.3.6 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-08-06 |
-| 2019.3.6 | (not provided) | `mac` | Not advertised | Not advertised | 2020-08-06 |
-| 2020.1.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-07-14 |
-| 2020.1.3 | (not provided) | `mac` | Not advertised | Not advertised | 2020-07-14 |
-| 2020.1.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-06-22 |
-| 2020.1.2 | (not provided) | `mac` | Not advertised | Not advertised | 2020-06-22 |
-| 2020.1.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-06-05 |
-| 2020.1.1 | (not provided) | `mac` | Not advertised | Not advertised | 2020-06-05 |
-| 2020.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-05-23 |
-| 2020.1 | (not provided) | `mac` | Not advertised | Not advertised | 2020-05-23 |
-| 2019.3.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-05-20 |
-| 2019.3.5 | (not provided) | `mac` | Not advertised | Not advertised | 2020-05-20 |
-| 2019.3.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-03-31 |
-| 2019.3.4 | (not provided) | `mac` | Not advertised | Not advertised | 2020-03-31 |
-| 2019.3.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-02-26 |
-| 2019.3.3 | (not provided) | `mac` | Not advertised | Not advertised | 2020-02-26 |
-| 2019.3.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-02-07 |
-| 2019.3.2 | (not provided) | `mac` | Not advertised | Not advertised | 2020-02-07 |
-| 2019.3.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2020-01-21 |
-| 2019.3.1 | (not provided) | `mac` | Not advertised | Not advertised | 2020-01-21 |
-| 2019.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-12-23 |
-| 2019.3 | (not provided) | `mac` | Not advertised | Not advertised | 2019-12-23 |
-| 2019.2.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-12-02 |
-| 2019.2.4 | (not provided) | `mac` | Not advertised | Not advertised | 2019-12-02 |
-| 2019.1.6 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-11-13 |
-| 2019.1.6 | (not provided) | `mac` | Not advertised | Not advertised | 2019-11-13 |
-| 2019.2.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-10-04 |
-| 2019.2.3 | (not provided) | `mac` | Not advertised | Not advertised | 2019-10-04 |
-| 2019.2.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-09-25 |
-| 2019.2.2 | (not provided) | `mac` | Not advertised | Not advertised | 2019-09-25 |
-| 2019.2.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-09-09 |
-| 2019.2.1 | (not provided) | `mac` | Not advertised | Not advertised | 2019-09-09 |
-| 2019.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-08-26 |
-| 2019.2 | (not provided) | `mac` | Not advertised | Not advertised | 2019-08-26 |
-| 2019.1.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-07-01 |
-| 2019.1.4 | (not provided) | `mac` | Not advertised | Not advertised | 2019-07-01 |
-| 2019.1.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-06-11 |
-| 2019.1.3 | (not provided) | `mac` | Not advertised | Not advertised | 2019-06-11 |
-| 2018.3.7 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-06-11 |
-| 2018.3.7 | (not provided) | `mac` | Not advertised | Not advertised | 2019-06-11 |
-| 2019.1.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-05-15 |
-| 2019.1.2 | (not provided) | `mac` | Not advertised | Not advertised | 2019-05-15 |
-| 2019.1.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-04-26 |
-| 2019.1.1 | (not provided) | `mac` | Not advertised | Not advertised | 2019-04-26 |
-| 2019.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-04-17 |
-| 2019.1 | (not provided) | `mac` | Not advertised | Not advertised | 2019-04-17 |
-| 2018.3.6 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-03-28 |
-| 2018.3.6 | (not provided) | `mac` | Not advertised | Not advertised | 2019-03-28 |
-| 2018.3.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-03-05 |
-| 2018.3.5 | (not provided) | `mac` | Not advertised | Not advertised | 2019-03-05 |
-| 2018.3.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-02-15 |
-| 2018.3.4 | (not provided) | `mac` | Not advertised | Not advertised | 2019-02-15 |
-| 2018.3.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2019-01-17 |
-| 2018.3.3 | (not provided) | `mac` | Not advertised | Not advertised | 2019-01-17 |
-| 2018.3.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-12-28 |
-| 2018.3.2 | (not provided) | `mac` | Not advertised | Not advertised | 2018-12-28 |
-| 2018.3.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-12-18 |
-| 2018.3.1 | (not provided) | `mac` | Not advertised | Not advertised | 2018-12-18 |
-| 2018.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-12-04 |
-| 2018.3 | (not provided) | `mac` | Not advertised | Not advertised | 2018-12-04 |
-| 2018.2.6 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-11-19 |
-| 2018.2.6 | (not provided) | `mac` | Not advertised | Not advertised | 2018-11-19 |
-| 2018.2.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-10-23 |
-| 2018.2.5 | (not provided) | `mac` | Not advertised | Not advertised | 2018-10-23 |
-| 2018.2.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-09-21 |
-| 2018.2.4 | (not provided) | `mac` | Not advertised | Not advertised | 2018-09-21 |
-| 2018.2.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-09-06 |
-| 2018.2.3 | (not provided) | `mac` | Not advertised | Not advertised | 2018-09-06 |
-| 2018.2.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-08-28 |
-| 2018.2.2 | (not provided) | `mac` | Not advertised | Not advertised | 2018-08-28 |
-| 2018.2.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-08-15 |
-| 2018.2.1 | (not provided) | `mac` | Not advertised | Not advertised | 2018-08-15 |
-| 2018.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-08-06 |
-| 2018.2 | (not provided) | `mac` | Not advertised | Not advertised | 2018-08-06 |
-| 2018.1.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-06-15 |
-| 2018.1.5 | (not provided) | `mac` | Not advertised | Not advertised | 2018-06-15 |
-| 2018.1.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-05-24 |
-| 2018.1.4 | (not provided) | `mac` | Not advertised | Not advertised | 2018-05-24 |
-| 2018.1.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-05-14 |
-| 2018.1.3 | (not provided) | `mac` | Not advertised | Not advertised | 2018-05-14 |
-| 2018.1.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-05-03 |
-| 2018.1.2 | (not provided) | `mac` | Not advertised | Not advertised | 2018-05-03 |
-| 2018.1.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-04-19 |
-| 2018.1.1 | (not provided) | `mac` | Not advertised | Not advertised | 2018-04-19 |
-| 2017.3.6 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-04-09 |
-| 2017.3.6 | (not provided) | `mac` | Not advertised | Not advertised | 2018-04-09 |
-| 2018.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-04-05 |
-| 2018.1 | (not provided) | `mac` | Not advertised | Not advertised | 2018-04-05 |
-| 2017.3.5 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-02-16 |
-| 2017.3.5 | (not provided) | `mac` | Not advertised | Not advertised | 2018-02-16 |
-| 2017.3.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-02-05 |
-| 2017.3.4 | (not provided) | `mac` | Not advertised | Not advertised | 2018-02-05 |
-| 2017.3.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2018-01-20 |
-| 2017.3.3 | (not provided) | `mac` | Not advertised | Not advertised | 2018-01-20 |
-| 2017.3.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-12-28 |
-| 2017.3.2 | (not provided) | `mac` | Not advertised | Not advertised | 2017-12-28 |
-| 2017.3.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-12-15 |
-| 2017.3.1 | (not provided) | `mac` | Not advertised | Not advertised | 2017-12-15 |
-| 2017.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-12-05 |
-| 2017.3 | (not provided) | `mac` | Not advertised | Not advertised | 2017-12-05 |
-| 2017.2.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-11-22 |
-| 2017.2.3 | (not provided) | `mac` | Not advertised | Not advertised | 2017-11-22 |
-| 2017.2.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-09-14 |
-| 2017.2.2 | (not provided) | `mac` | Not advertised | Not advertised | 2017-09-14 |
-| 2017.2.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-08-28 |
-| 2017.2.1 | (not provided) | `mac` | Not advertised | Not advertised | 2017-08-28 |
-| 2017.1.3 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-08-24 |
-| 2017.1.3 | (not provided) | `mac` | Not advertised | Not advertised | 2017-08-24 |
-| 2017.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-08-03 |
-| 2017.2 | (not provided) | `mac` | Not advertised | Not advertised | 2017-08-03 |
-| 2017.1.2 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-05-14 |
-| 2017.1.2 | (not provided) | `mac` | Not advertised | Not advertised | 2017-05-14 |
-| 2017.1.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-04-27 |
-| 2017.1.1 | (not provided) | `mac` | Not advertised | Not advertised | 2017-04-27 |
-| 2017.1 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-04-03 |
-| 2017.1 | (not provided) | `mac` | Not advertised | Not advertised | 2017-04-03 |
-| 3.4.4 | (not provided) | `macM1` | Not advertised | Not advertised | 2017-03-03 |
-| 3.4.4 | (not provided) | `mac` | Not advertised | Not advertised | 2017-03-03 |
 
 ## EAP, RC, preview, and other non-release builds
 
@@ -212,4 +14,44 @@ Installer hashes: **0/0**; application hashes: **0/0**; not advertised: **198**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
-`Pending` means collection has not completed; `Not advertised` means the selected installer type was not listed. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
+
+`Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Versions with empty downloads
+
+These releases had an entirely empty `downloads` object in the latest available catalog. Missing architectures and releases with only non-macOS downloads are not listed here. This does not prove that an installer never existed.
+
+| Version | Build version | Channel | Release date |
+| --- | --- | --- | --- |
+| 2020.3.1 | (not provided) | release | 2021-02-08 |
+| 2018.3.6 | (not provided) | release | 2019-03-28 |
+| 2018.3.5 | (not provided) | release | 2019-03-05 |
+| 2018.3.4 | (not provided) | release | 2019-02-15 |
+| 2018.3.3 | (not provided) | release | 2019-01-17 |
+| 2018.3.2 | (not provided) | release | 2018-12-28 |
+| 2018.3.1 | (not provided) | release | 2018-12-18 |
+| 2018.3 | (not provided) | release | 2018-12-04 |
+| 2018.2.5 | (not provided) | release | 2018-10-23 |
+| 2018.2.4 | (not provided) | release | 2018-09-21 |
+| 2018.2.3 | (not provided) | release | 2018-09-06 |
+| 2018.2.2 | (not provided) | release | 2018-08-28 |
+| 2018.2.1 | (not provided) | release | 2018-08-15 |
+| 2018.2 | (not provided) | release | 2018-08-06 |
+| 2018.1.4 | (not provided) | release | 2018-05-24 |
+| 2018.1.3 | (not provided) | release | 2018-05-14 |
+| 2018.1.2 | (not provided) | release | 2018-05-03 |
+| 2018.1.1 | (not provided) | release | 2018-04-19 |
+| 2018.1 | (not provided) | release | 2018-04-05 |
+| 2017.3.5 | (not provided) | release | 2018-02-16 |
+| 2017.3.4 | (not provided) | release | 2018-02-05 |
+| 2017.3.3 | (not provided) | release | 2018-01-20 |
+| 2017.3.2 | (not provided) | release | 2017-12-28 |
+| 2017.3.1 | (not provided) | release | 2017-12-15 |
+| 2017.3 | (not provided) | release | 2017-12-05 |
+| 2017.2.2 | (not provided) | release | 2017-09-14 |
+| 2017.2.1 | (not provided) | release | 2017-08-28 |
+| 2017.2 | (not provided) | release | 2017-08-03 |
+| 2017.1.2 | (not provided) | release | 2017-05-14 |
+| 2017.1.1 | (not provided) | release | 2017-04-27 |
+| 2017.1 | (not provided) | release | 2017-04-03 |

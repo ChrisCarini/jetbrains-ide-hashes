@@ -738,5 +738,6 @@
     "thirdPartyLibrariesJson",
     "windowsARM64",
     "windowsX64"
-  ]
+  ],
+  "empty_downloads": []
 }
