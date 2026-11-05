@@ -16,16 +16,16 @@
 | **262.834** <sub>preview</sub> | **262.834.55** | `macos_x64` | `2531e74ee8fec7d89164911869d3fb4eabd1834a68fea1cc925a143e268a0aa1` | `72351bcaf0144a9c0e91332e46d0b6fbe0d002ecaaebc091edd6c11a887e69d6` | 2026-09-25 |
 | **262.834** <sub>preview</sub> | **262.834.55** | `macos_aarch64` | `af8bc11f8af52309b598f8d2925649fad4fac1259b54c36320bf9368c3baa047` | `3fd77e7b711f8251cc1863843e6872d0fce568922dd7dbc496f94f2756c56e95` | 2026-09-25 |
 | **262.834** <sub>preview</sub> | **262.834.50** | `macos_x64` | `8d8c20d67c30077592f1842b87d095950cc7f604127bf354f5e13e307aa37dea` | `eb618a95b678ac95e757ba165f04f6dc22a6bf50a4c5c42ddd611207eac42320` | 2026-09-22 |
-| **262.834** <sub>preview</sub> | **262.834.50** | `macos_aarch64` | `4bff72baae05b6001e5821920c71a6e61d53e7aeb6dd6f4b44b0552380c00676` | Pending | 2026-09-22 |
-| **262.834** <sub>preview</sub> | **262.834.44** | `macos_x64` | `9248e37b3977bc2c254ae5b3fb4ec4f691705d0ecb160ea9fb031a3d5b8654ed` | Pending | 2026-09-16 |
-| **262.834** <sub>preview</sub> | **262.834.44** | `macos_aarch64` | `7281d46e9eccfbdee552daf4a0467c0e1cbb902fb3f6697ddbce3f920597595a` | Pending | 2026-09-16 |
-| **262.834** <sub>preview</sub> | **262.834.41** | `macos_x64` | `f1279e2182c43c41bd9a23d474fdf59c551229c7d015632b975d8558134028d9` | Pending | 2026-09-10 |
-| **262.834** <sub>preview</sub> | **262.834.41** | `macos_aarch64` | `68fc5e3a5631e16a43095470fac5403c8ed9bf35ef87392e736b9c2a3687e68f` | Pending | 2026-09-10 |
-| **262.579** <sub>preview</sub> | **262.579.44** | `macos_x64` | `77cbac42b1cdf9685ce5fd3d68ffb4c24ba9994a03f6585e837f77f811f40ee0` | Pending | 2026-08-21 |
-| **262.579** <sub>preview</sub> | **262.579.44** | `macos_aarch64` | `75b61f28a619e1abbb9a55ecf250664a9c670f325f4bb2a212dbdb6da9c6e1f9` | Pending | 2026-08-21 |
-| **262.579** <sub>preview</sub> | **262.579.35** | `macos_x64` | `8a746b1600a7d29d06def325087c626bce6d59bf72411483d91d428d6d354f1f` | Pending | 2026-08-19 |
-| **262.579** <sub>preview</sub> | **262.579.35** | `macos_aarch64` | `db3043491e547c38ed7a4e49df2a67e2f219d32a8273d49fa955fda04d0e9e73` | Pending | 2026-08-19 |
-| **262.132** <sub>preview</sub> | **262.132.35** | `macos_x64` | `3b47fadb741483a945ee2e76b4f23b8216ac9e6f5835627928b775bf93fff3ea` | Pending | 2026-08-10 |
+| **262.834** <sub>preview</sub> | **262.834.50** | `macos_aarch64` | `4bff72baae05b6001e5821920c71a6e61d53e7aeb6dd6f4b44b0552380c00676` | `8e58ee067ed59fa049843c2ed2e1aeee2c587fe8fe75800018636fe0e438c977` | 2026-09-22 |
+| **262.834** <sub>preview</sub> | **262.834.44** | `macos_x64` | `9248e37b3977bc2c254ae5b3fb4ec4f691705d0ecb160ea9fb031a3d5b8654ed` | `cffd000eee50b66fe5a13d973c75979e05f88a5a75d6fb8cc6c5731c03764d7c` | 2026-09-16 |
+| **262.834** <sub>preview</sub> | **262.834.44** | `macos_aarch64` | `7281d46e9eccfbdee552daf4a0467c0e1cbb902fb3f6697ddbce3f920597595a` | `3c6f3796c98932d0f6d8519b7b6551e30636b8b767617c9343b05ff8b7707ba4` | 2026-09-16 |
+| **262.834** <sub>preview</sub> | **262.834.41** | `macos_x64` | `f1279e2182c43c41bd9a23d474fdf59c551229c7d015632b975d8558134028d9` | `83bc7cd03aa523e9d114c380687397f939899407d690a0035d3515d06a26397f` | 2026-09-10 |
+| **262.834** <sub>preview</sub> | **262.834.41** | `macos_aarch64` | `68fc5e3a5631e16a43095470fac5403c8ed9bf35ef87392e736b9c2a3687e68f` | `50aaf6bb8a0bb53c4bbac6985d5252f6572412b99fc2d31871a766f13f48a0ee` | 2026-09-10 |
+| **262.579** <sub>preview</sub> | **262.579.44** | `macos_x64` | `77cbac42b1cdf9685ce5fd3d68ffb4c24ba9994a03f6585e837f77f811f40ee0` | `75210c96d94f20799abd73e97281afdc7cb9015acae52ea7bcf8401d39b2f29a` | 2026-08-21 |
+| **262.579** <sub>preview</sub> | **262.579.44** | `macos_aarch64` | `75b61f28a619e1abbb9a55ecf250664a9c670f325f4bb2a212dbdb6da9c6e1f9` | `19ffbbd9cf977a9067c7537d8c33d66f6a85282abe434df763f8a7ef6c7324b9` | 2026-08-21 |
+| **262.579** <sub>preview</sub> | **262.579.35** | `macos_x64` | `8a746b1600a7d29d06def325087c626bce6d59bf72411483d91d428d6d354f1f` | `92bb05cecc79f33dae9d1491ea175b94f7eef8f87414d4e1ec00bb1286b5eaed` | 2026-08-19 |
+| **262.579** <sub>preview</sub> | **262.579.35** | `macos_aarch64` | `db3043491e547c38ed7a4e49df2a67e2f219d32a8273d49fa955fda04d0e9e73` | `63e024c2addc364aae48d773b61bc4ac0f5bb5cb476a08291e3cd711ea209422` | 2026-08-19 |
+| **262.132** <sub>preview</sub> | **262.132.35** | `macos_x64` | `3b47fadb741483a945ee2e76b4f23b8216ac9e6f5835627928b775bf93fff3ea` | `90d079c6d7448b86ccbf67e4a0a01779783b1cd74c3c1752c9dab3d3436dca57` | 2026-08-10 |
 | **262.132** <sub>preview</sub> | **262.132.35** | `macos_aarch64` | `0e6e074397a80b02ac162f86a2a63054b64c7c002f9504f50646d3954928a83c` | Pending | 2026-08-10 |
 | **262.132** <sub>preview</sub> | **262.132.34** | `macos_x64` | `7dece5ab50a77cdee3ed3eb7c39c5d159afc6379a1aecf309f5f697bab558ee5` | Pending | 2026-08-03 |
 | **262.132** <sub>preview</sub> | **262.132.34** | `macos_aarch64` | `7a068e0fcd77b00b2f02065d58bb040cba0593582c4ccc4e2e9545450a243be9` | Pending | 2026-08-03 |
@@ -86,7 +86,7 @@
 
 Product: **Air** (`AIR`). [Machine-readable history](../data/AIR.json).
 
-Installer hashes: **76/76**; application hashes: **11/76**; not advertised: **0**.
+Installer hashes: **76/76**; application hashes: **21/76**; not advertised: **0**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

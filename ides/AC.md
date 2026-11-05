@@ -10,14 +10,14 @@
 | 2023.1.2 | 231.9011.41 | `mac` | `0a6d20f1adec28da88a02632d99b526195c71ef39dce0bdd10be314e3e282efb` | `9f956d3149f754cdedce4de1943b1306c814d6ca48d495382f5ee22f7ec9b607` | 2023-05-22 |
 | 2023.1.1 | 231.8770.67 | `macM1` | `255afdb3aca2b94315db713b609af1fc2e340dec0384de8cb8988690ea89f264` | `3194af64eb9b8f382fbfa7baaa82e0b7da33cfe0afdbc3b11d3dd869e35ac750` | 2023-05-02 |
 | 2023.1.1 | 231.8770.67 | `mac` | `7cf18cdddc8ac191568d8e6ecbe95da85b8e1c09a6af7866d0f9a59f32ddab5b` | `140111a2b443cf0dbb2c67b0ad4cbfa488613d65c497efd4f32128dfe30078e5` | 2023-05-02 |
-| 2023.1 | 231.8109.217 | `macM1` | `19f63d2c0af3cadc889ab5fe17889e03ddb2b0b2235f1cfbbe485072486d1aa1` | Pending | 2023-04-06 |
-| 2023.1 | 231.8109.217 | `mac` | `405bd0caeaae754ca670636663f9a6a4f77aaa2d7a8dcd4873d7c134efbacae7` | Pending | 2023-04-06 |
-| 2022.2.6 | 222.4554.15 | `macM1` | `181eee7bbff0dcc6322cee8103fedfc7090aa2ea35d8f1d38e68b6f3a57da5e1` | Pending | 2023-03-23 |
-| 2022.2.6 | 222.4554.15 | `mac` | `e9cd19d0803b0ad471e7ab2ac9806b0af1ead03e2c01b1ac9e952861a88c216f` | Pending | 2023-03-23 |
-| 2022.3.3 | 223.8836.52 | `macM1` | `3d57c737d8f3b0c4e31e394a3e1230cf6f995e20df95c940c65aef76d9635ad5` | Pending | 2023-03-17 |
-| 2022.3.3 | 223.8836.52 | `mac` | `cc300aa2d21a82191e9c360bfcf29a1b1b86f51d284c1e9b70e9c50f137b8707` | Pending | 2023-03-17 |
-| 2022.3.2 | 223.8617.49 | `macM1` | `c38bf4e2558d2a41ab856390f713f01a44fade55d21b107cfaef0c8bf6606f86` | Pending | 2023-01-27 |
-| 2022.3.2 | 223.8617.49 | `mac` | `b78910b83ccbd6e19b7912fdfb675912e2b003fd1e4c800d656258504994ede1` | Pending | 2023-01-27 |
+| 2023.1 | 231.8109.217 | `macM1` | `19f63d2c0af3cadc889ab5fe17889e03ddb2b0b2235f1cfbbe485072486d1aa1` | `6ca5a22d0e95c9e0f7ff2d4a478d1aa2434f526bbc601e694e16307d5d777f91` | 2023-04-06 |
+| 2023.1 | 231.8109.217 | `mac` | `405bd0caeaae754ca670636663f9a6a4f77aaa2d7a8dcd4873d7c134efbacae7` | `421912d1bb22a3a523070599ef8966e6971c5ae4ea65a7e3d2c76cd1f057436c` | 2023-04-06 |
+| 2022.2.6 | 222.4554.15 | `macM1` | `181eee7bbff0dcc6322cee8103fedfc7090aa2ea35d8f1d38e68b6f3a57da5e1` | `4a5073f125f1a7f2fa27ddb051cc6918d42f17eb5c3976e03f1e7649d2508657` | 2023-03-23 |
+| 2022.2.6 | 222.4554.15 | `mac` | `e9cd19d0803b0ad471e7ab2ac9806b0af1ead03e2c01b1ac9e952861a88c216f` | `2c1229c639928d34fae4b78d66fb1bea09c7885f20cfaf8354389ced1138eb37` | 2023-03-23 |
+| 2022.3.3 | 223.8836.52 | `macM1` | `3d57c737d8f3b0c4e31e394a3e1230cf6f995e20df95c940c65aef76d9635ad5` | `449688ec6753bbe8aa63a6bfacf92dc6b161af938ae8f0e1c856fef02f975851` | 2023-03-17 |
+| 2022.3.3 | 223.8836.52 | `mac` | `cc300aa2d21a82191e9c360bfcf29a1b1b86f51d284c1e9b70e9c50f137b8707` | `f29104d1cb68c21e25c9b1e52b0f33cbfb166465b2d3249028574ff020403eaa` | 2023-03-17 |
+| 2022.3.2 | 223.8617.49 | `macM1` | `c38bf4e2558d2a41ab856390f713f01a44fade55d21b107cfaef0c8bf6606f86` | `c9722a7c98e31870baa13feb2f1dc5796895fed436f767e469253285273be61a` | 2023-01-27 |
+| 2022.3.2 | 223.8617.49 | `mac` | `b78910b83ccbd6e19b7912fdfb675912e2b003fd1e4c800d656258504994ede1` | `76b63504a5b18c336b5cc884aaa2f2384d78be6502063bd2186fbc984469b4c1` | 2023-01-27 |
 | 2022.3.1 | 223.8214.66 | `macM1` | `8027ecc71214fc06e447a6f01679b30b2c3377bce2140b968189ef4e0386871d` | Pending | 2022-12-22 |
 | 2022.3.1 | 223.8214.66 | `mac` | `9ae5fd60f8f28b4081edf49379dd03d10bcd37cb0dc0032b5b029fedaa3b32af` | Pending | 2022-12-22 |
 | 2022.3 | 223.7571.236 | `macM1` | `9d5d4107a60e4e0562d6d9ce8117bee59a9fe618a907bf1a477c3aeb1a5a10db` | Pending | 2022-12-14 |
@@ -393,8 +393,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
-| 2023.1 <sub>rc</sub> | 231.8109.204 | `macM1` | `d81d583ad788f091ec74f95f7aa5e2859d19db3eb3eb3cc3a92821213cf69b52` | Pending | 2023-03-31 |
-| 2023.1 <sub>rc</sub> | 231.8109.204 | `mac` | `94113f5f3cf96dee8ff85f3ef4769d3d6fb2e63d619cf73f2e1ef3f0212253b4` | Pending | 2023-03-31 |
+| 2023.1 <sub>rc</sub> | 231.8109.204 | `macM1` | `d81d583ad788f091ec74f95f7aa5e2859d19db3eb3eb3cc3a92821213cf69b52` | `1da4a4514052e4f33c59a1a33dc3370588feb244ca34cda6ccb0d700c937a0e7` | 2023-03-31 |
+| 2023.1 <sub>rc</sub> | 231.8109.204 | `mac` | `94113f5f3cf96dee8ff85f3ef4769d3d6fb2e63d619cf73f2e1ef3f0212253b4` | `264942c99e808258c39e2b83bc6f50d4bff23c75c88a0c54e1081a46e3695d91` | 2023-03-31 |
 | 2022.3 <sub>rc</sub> | 223.7571.233 | `macM1` | `410791a4dc728376e173d7d03fae3d092ad653561b5b7a88cf173ab2dda792b9` | Pending | 2022-12-09 |
 | 2022.3 <sub>rc</sub> | 223.7571.233 | `mac` | `88d69f306af82f2760dd8926953b77ef0d795361c9f09b8a8b4e999e64ce72e7` | Pending | 2022-12-09 |
 
@@ -402,7 +402,7 @@
 
 Product: **AppCode** (`AC`). [Machine-readable history](../data/AC.json).
 
-Installer hashes: **185/185**; application hashes: **10/185**; not advertised: **207**.
+Installer hashes: **185/185**; application hashes: **20/185**; not advertised: **207**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

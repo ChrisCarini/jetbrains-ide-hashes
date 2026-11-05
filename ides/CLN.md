@@ -15,16 +15,16 @@
 | **2023.3** <sub>eap</sub> | **233.13871** | `mac` | `0080e4b0096028e6e0798db8917c1c573e730de2238b7cc2a906acd18a2ccd7c` | `a7aa490b21d46b1761ea8bbf108a76e0c965c76d55eff04ac7b08e36249a6b41` | 2024-01-12 |
 | **2023.3** <sub>eap</sub> | **233.13309** | `macM1` | `b991eb85c58966c60cd9fdc9845381d6ba3eea3af4015ad975c984bb817c9610` | `d22afd3c8b29be1c08abb4bd1bcaa7c301c1a8583d41ce9455218699822daeb1` | 2023-12-18 |
 | **2023.3** <sub>eap</sub> | **233.13309** | `mac` | `af4db0fdc6d97efa88122173a2f13698b48b298ce8099528531507184d1e7d58` | `684d5d82cffcc65d567e831d2820d4205fa4ea102965704daecb1d4a071e593f` | 2023-12-18 |
-| **2023.3** <sub>eap</sub> | **233.12287** | `macM1` | `344610c62a3eca90c708686530999f03ab2c3c5d74fb9e3e3c78093bf6ab026d` | Pending | 2023-11-24 |
-| **2023.3** <sub>eap</sub> | **233.12287** | `mac` | `5959b6b3f2815b63856a515e139ae220a02b74cbaa74c51ed40b164c917d3e7e` | Pending | 2023-11-24 |
-| **2023.3** <sub>eap</sub> | **233.11868** | `macM1` | `c0c8b0e1f8e04d9998eac5108ad0b2d85db3993a586599b5065dfffdd6dd57a7` | Pending | 2023-11-09 |
-| **2023.3** <sub>eap</sub> | **233.11868** | `mac` | `9f0e1f2fb23cf1015b6c2faebe01c2650f22a98a3c4c489e7bc5cc90c9f95d60` | Pending | 2023-11-09 |
+| **2023.3** <sub>eap</sub> | **233.12287** | `macM1` | `344610c62a3eca90c708686530999f03ab2c3c5d74fb9e3e3c78093bf6ab026d` | `7a1d1f31d9df9d23c1a24da4aae13a62a7e27f0eb50ab3b778825fbf1ad9cd8c` | 2023-11-24 |
+| **2023.3** <sub>eap</sub> | **233.12287** | `mac` | `5959b6b3f2815b63856a515e139ae220a02b74cbaa74c51ed40b164c917d3e7e` | `85eab63c31b805faf086bc598aedfa4f4f59cfda15426e879064e8d93165f1c3` | 2023-11-24 |
+| **2023.3** <sub>eap</sub> | **233.11868** | `macM1` | `c0c8b0e1f8e04d9998eac5108ad0b2d85db3993a586599b5065dfffdd6dd57a7` | `6d4c950fe70b32214672f4c2e42f6a4b6035d0f2a0048dffe516e313f512092b` | 2023-11-09 |
+| **2023.3** <sub>eap</sub> | **233.11868** | `mac` | `9f0e1f2fb23cf1015b6c2faebe01c2650f22a98a3c4c489e7bc5cc90c9f95d60` | `595e33fdd156a656fc3b734a06c956b2e8a7810d0ed462d06734a93f43cb6aa2` | 2023-11-09 |
 
 ## Collection notes
 
 Product: **CLion Nova** (`CLN`). [Machine-readable history](../data/CLN.json).
 
-Installer hashes: **14/14**; application hashes: **10/14**; not advertised: **0**.
+Installer hashes: **14/14**; application hashes: **14/14**; not advertised: **0**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

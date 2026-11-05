@@ -1,5 +1,7 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3 | 263.7307.211 | `macM1` | `8f83727c7dd0cbdd50bfa0e43cc81e44fe0d4de1e76f634b19a365cc7c867827` | `7c967dfeb51f7daa7d52a6a0cb51d2fcbcaefef7ce1f3d984dad6cdd81c1a4f6` | 2026-11-05 |
+| 2026.3 | 263.7307.211 | `mac` | `f812c7521e77c3d53f35e8aa151834c84142df02700d76256f3ba30f4288f0b9` | `bec356b81c807ebeee5291746d64cb4ef49c8d5d3f62d223036a921dd837f653` | 2026-11-05 |
 | 2026.2.4 | 262.11879.101 | `macM1` | `ba37c61e4637f767ad01d7f88eca9f8f878138e2015b4d2f178640651964ab33` | `0592d64039efa76d860c1e82e1b165c3a3440f3c50b9f00f4a018e258288425b` | 2026-10-30 |
 | 2026.2.4 | 262.11879.101 | `mac` | `e4a26c299fcab2843a2ccc323705ffd5c19dc71962c0e8db992c739651b8e243` | `0078089871d4fc465feed9cda555cf9d4eca98acd61e196c59a746a711e74fb4` | 2026-10-30 |
 | 2026.1.5.1 | 261.27258.135 | `macM1` | `3ae39cebfa9f09881c4119920e597e9f683ab0f6f2640cc278dabdad885f6228` | `e2cdef74834f527702250df4855a0e0b0bea100185f61a89f78d805cb3deea78` | 2026-10-30 |
@@ -381,14 +383,14 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026.3 <sub>rc</sub> | 263.7307.110 | `macM1` | `6a7e7237a7b7d608d16b89ec01047f4a8accbaf20b1ff973c37dce901c191e74` | `b20646ec25b991102789b726760d6f066600179494aa9c5f34e441ddc9502a7b` | 2026-10-30 |
 | 2026.3 <sub>rc</sub> | 263.7307.110 | `mac` | `bb39de840efbd7a28f164afddb6ea42023539d9ea1b63a817deb03eb14c22ad3` | `726b6efcc3eb482f3c859b548c28c1e22c2810acd59a39c76810bbd78d6f5bde` | 2026-10-30 |
-| **2026.3** <sub>eap</sub> | **263.7307.43** | `macM1` | `8302cc628840b212ae1775065ff9e6db0070aa69defa46984c05267ab7fcd2f3` | Pending | 2026-10-23 |
-| **2026.3** <sub>eap</sub> | **263.7307.43** | `mac` | `e0965260eb277f6565075e364bfc1e751a1c17a1ddf366f3dc019c6580b91ed6` | Pending | 2026-10-23 |
-| **2026.3** <sub>eap</sub> | **263.7031.36** | `macM1` | `366d5f3f78879133bc4cdd83a4250bf543db037089018bcecffb06138586a04e` | Pending | 2026-10-16 |
-| **2026.3** <sub>eap</sub> | **263.7031.36** | `mac` | `b3f8f15201a0707f681008f6345d4ba9022af65c2e12079828df4c3de5442d2e` | Pending | 2026-10-16 |
-| **2026.3** <sub>eap</sub> | **263.6259.35** | `macM1` | `2dbebf46f451dabcf81f595c94de01e6eb4a8392d61a0392aab10d5eb3694391` | Pending | 2026-10-01 |
-| **2026.3** <sub>eap</sub> | **263.6259.35** | `mac` | `c5ad20362f50d798126a32093d30596a531dd3c234e1d58f8a2f31197ea2e033` | Pending | 2026-10-01 |
-| **2026.3** <sub>eap</sub> | **263.5701.47** | `macM1` | `68da6c97c0ada3cb155960c0fc93404e61841298ce86b411ec5886e74cfa9593` | Pending | 2026-09-25 |
-| **2026.3** <sub>eap</sub> | **263.5701.47** | `mac` | `5d52fa6b7ba9ffec974cb898ed5274e05fbe94d4f32a3fbcfea4f49c32e0ff5e` | Pending | 2026-09-25 |
+| **2026.3** <sub>eap</sub> | **263.7307.43** | `macM1` | `8302cc628840b212ae1775065ff9e6db0070aa69defa46984c05267ab7fcd2f3` | `04c42be273879ea84a39755eab0f435fcda88a61806f071043574342aa8dd33b` | 2026-10-23 |
+| **2026.3** <sub>eap</sub> | **263.7307.43** | `mac` | `e0965260eb277f6565075e364bfc1e751a1c17a1ddf366f3dc019c6580b91ed6` | `cc9e811e872ba32e1b22d389321db49d07aaa850899ddb2a52dc34f721025fa9` | 2026-10-23 |
+| **2026.3** <sub>eap</sub> | **263.7031.36** | `macM1` | `366d5f3f78879133bc4cdd83a4250bf543db037089018bcecffb06138586a04e` | `494fb5de086010ca992f89782c160424742b25b4601d0ec07221f2f8e2707edf` | 2026-10-16 |
+| **2026.3** <sub>eap</sub> | **263.7031.36** | `mac` | `b3f8f15201a0707f681008f6345d4ba9022af65c2e12079828df4c3de5442d2e` | `193f799115367b9db30642de393376a4c9b26b520696e9604c2aa409c6494de0` | 2026-10-16 |
+| **2026.3** <sub>eap</sub> | **263.6259.35** | `macM1` | `2dbebf46f451dabcf81f595c94de01e6eb4a8392d61a0392aab10d5eb3694391` | `48ccbe42dc2908c4067a4babe32a53e529688d83fe9b428602ca58cfd8a6c38f` | 2026-10-01 |
+| **2026.3** <sub>eap</sub> | **263.6259.35** | `mac` | `c5ad20362f50d798126a32093d30596a531dd3c234e1d58f8a2f31197ea2e033` | `4d9b2566257cff8ff1708ff8d060f17dc4086372ff41d54351c926a5004b4507` | 2026-10-01 |
+| **2026.3** <sub>eap</sub> | **263.5701.47** | `macM1` | `68da6c97c0ada3cb155960c0fc93404e61841298ce86b411ec5886e74cfa9593` | `41abd266cd583372a6f9f1bee3f251580095d5e62e35ff1a321695ebb3648634` | 2026-09-25 |
+| **2026.3** <sub>eap</sub> | **263.5701.47** | `mac` | `5d52fa6b7ba9ffec974cb898ed5274e05fbe94d4f32a3fbcfea4f49c32e0ff5e` | `206ca6dc250b9661385638a595c07eb6b55f13253e24d8e6b9e93c768a032b62` | 2026-09-25 |
 | **2026.3** <sub>eap</sub> | **263.5153.37** | `macM1` | `f09fa6f59b2f5c2c258384102ea85b5e0c16359d46df8762e6390a2b7824b65d` | Pending | 2026-09-17 |
 | **2026.3** <sub>eap</sub> | **263.5153.37** | `mac` | `153d5c4be3979ded9a7b718f4111ea340caf93923b222017b21e598ba7068a1f` | Pending | 2026-09-17 |
 | **2026.3** <sub>eap</sub> | **263.4732.33** | `macM1` | `72c0e90d4bb54200eac04c4985c851a0ccdf3cecf94558c96934d1dce6f1a8de` | Pending | 2026-09-11 |
@@ -616,7 +618,7 @@
 
 Product: **GoLand** (`GO`). [Machine-readable history](../data/GO.json).
 
-Installer hashes: **534/534**; application hashes: **10/534**; not advertised: **72**.
+Installer hashes: **536/536**; application hashes: **20/536**; not advertised: **72**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

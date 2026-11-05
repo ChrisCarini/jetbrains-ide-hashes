@@ -1614,7 +1614,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:03:10.790197+00:00",
       "current": true,
-      "last_attempt": "2026-11-05T05:02:17.201767+00:00",
+      "last_attempt": "2026-11-05T15:27:34.657664+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 139.1803, bundle says IU-139.1803.20; refusing to attribute this executable to the wrong build"
     },
@@ -1918,7 +1918,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:03:10.790197+00:00",
       "current": true,
-      "last_attempt": "2026-11-05T05:02:31.526058+00:00",
+      "last_attempt": "2026-11-05T15:27:42.245002+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 141.3058, bundle says IU-141.3058.30; refusing to attribute this executable to the wrong build"
     },
@@ -17523,6 +17523,44 @@
     },
     {
       "version": "2026.3",
+      "build": "263.7307.200",
+      "release_type": "release",
+      "release_date": "2026-11-05",
+      "platform": "mac",
+      "installer_url": "https://download.jetbrains.com/idea/idea-2026.3.dmg",
+      "checksum_url": "https://download.jetbrains.com/idea/idea-2026.3.dmg.sha256",
+      "size_bytes": 1617547564,
+      "installer_sha256": "41ae3398b87a09c3d2886fd0cd41ead4f0c05e868b99893218d8c4aacc408400",
+      "app_sha256": "a8a9afb55bd72a148f245e9fc2604993743f0b509f61fbc462a3d59594c731dc",
+      "app_path": "IntelliJ IDEA.app/Contents/MacOS/idea",
+      "app_build": "263.7307.200",
+      "first_seen": "2026-11-05T14:45:52.729365+00:00",
+      "current": true,
+      "last_attempt": "2026-11-05T15:27:10.608066+00:00",
+      "error_stage": "",
+      "error": ""
+    },
+    {
+      "version": "2026.3",
+      "build": "263.7307.200",
+      "release_type": "release",
+      "release_date": "2026-11-05",
+      "platform": "macM1",
+      "installer_url": "https://download.jetbrains.com/idea/idea-2026.3-aarch64.dmg",
+      "checksum_url": "https://download.jetbrains.com/idea/idea-2026.3-aarch64.dmg.sha256",
+      "size_bytes": 1559271818,
+      "installer_sha256": "6de6512375736915faec6166026a7572dd03a03fa7e8c87bb51f8fef3d5cc5aa",
+      "app_sha256": "2f9ff57814cc03916bcecca2b05122534793214d4243f7e565e4735c8e1b0785",
+      "app_path": "IntelliJ IDEA.app/Contents/MacOS/idea",
+      "app_build": "263.7307.200",
+      "first_seen": "2026-11-05T14:45:52.729365+00:00",
+      "current": true,
+      "last_attempt": "2026-11-05T15:26:48.337771+00:00",
+      "error_stage": "",
+      "error": ""
+    },
+    {
+      "version": "2026.3",
       "build": "263.7307.44",
       "release_type": "eap",
       "release_date": "2026-10-23",
@@ -17560,8 +17598,8 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-05T04:58:22.165114+00:00",
-  "catalog_release_count": 462,
+  "catalog_fetched_at": "2026-11-05T14:45:52.729365+00:00",
+  "catalog_release_count": 463,
   "ignored_download_types": [
     "linux",
     "linuxARM64",

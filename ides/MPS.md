@@ -8,15 +8,15 @@
 | 2025.2.5 | 252.28539.674 | `mac` | `9a041da0dd474dd2c7ad5c0bede31efb357b84e541919c0c290b31607450b92b` | Unavailable (see collection notes) | 2026-10-30 |
 | 2025.1.5 | 251.29188.797 | `macM1` | `32b85f6503c3bfb4b88a06f447ee9012b8cbea744f0252e77d08ff5bd75053a2` | Unavailable (see collection notes) | 2026-10-30 |
 | 2025.1.5 | 251.29188.797 | `mac` | `18194dc7fbd405fe5557e7157094f2beef897fe8c447b9b9caeef2b8939a3b83` | Unavailable (see collection notes) | 2026-10-30 |
-| 2026.1.1 | 261.25134.877 | `macM1` | `b9170dce0b47f55513ced9f81614064043ead0a5eef52aaf9487cf04fbd78c9b` | Pending | 2026-09-16 |
-| 2026.1.1 | 261.25134.877 | `mac` | `817e93a2a9637802efdb3a24fa8dfee06345c13f40466c74a51a376bcfe3aae2` | Pending | 2026-09-16 |
-| 2025.3.2 | 253.29346.541 | `macM1` | `7cde50cef01d52f2c883f6af79e7cb7af079841eed4e867247913323491a8067` | Pending | 2026-09-16 |
-| 2025.3.2 | 253.29346.541 | `mac` | `ebf5725cfb0ec695a72e845fffee430cbb8c959bb156b546e82566496cbbbbdf` | Pending | 2026-09-16 |
-| 2025.2.4 | 252.28539.667 | `macM1` | `c54bad3d94d0646451779c9dafd417f49f23cc07d911136e3cbdd18697f3bb39` | Pending | 2026-09-16 |
-| 2025.2.4 | 252.28539.667 | `mac` | `658b081a86cb0bfdd84a2e4cc46faa4431bf0a54e76160c7f271e8494e5ff56e` | Pending | 2026-09-16 |
-| 2025.1.4 | 251.28774.766 | `macM1` | `47afa7b7fc6c7a82b5e64f2d1725de29a965aca340d9a149cd1248c7b4b99298` | Pending | 2026-09-16 |
-| 2025.1.4 | 251.28774.766 | `mac` | `59ad190b3fee784cfedba7f760b48a3db8e9502f78ee6ddd64fc614413b49eb7` | Pending | 2026-09-16 |
-| 2025.3.1 | 253.29346.537 | `macM1` | `15b6250fb04ab90438887d46e5d793cf6549d25980c2692ee9a008e1c7b437fc` | Pending | 2026-07-24 |
+| 2026.1.1 | 261.25134.877 | `macM1` | `b9170dce0b47f55513ced9f81614064043ead0a5eef52aaf9487cf04fbd78c9b` | Unavailable (see collection notes) | 2026-09-16 |
+| 2026.1.1 | 261.25134.877 | `mac` | `817e93a2a9637802efdb3a24fa8dfee06345c13f40466c74a51a376bcfe3aae2` | Unavailable (see collection notes) | 2026-09-16 |
+| 2025.3.2 | 253.29346.541 | `macM1` | `7cde50cef01d52f2c883f6af79e7cb7af079841eed4e867247913323491a8067` | Unavailable (see collection notes) | 2026-09-16 |
+| 2025.3.2 | 253.29346.541 | `mac` | `ebf5725cfb0ec695a72e845fffee430cbb8c959bb156b546e82566496cbbbbdf` | Unavailable (see collection notes) | 2026-09-16 |
+| 2025.2.4 | 252.28539.667 | `macM1` | `c54bad3d94d0646451779c9dafd417f49f23cc07d911136e3cbdd18697f3bb39` | Unavailable (see collection notes) | 2026-09-16 |
+| 2025.2.4 | 252.28539.667 | `mac` | `658b081a86cb0bfdd84a2e4cc46faa4431bf0a54e76160c7f271e8494e5ff56e` | Unavailable (see collection notes) | 2026-09-16 |
+| 2025.1.4 | 251.28774.766 | `macM1` | `47afa7b7fc6c7a82b5e64f2d1725de29a965aca340d9a149cd1248c7b4b99298` | Unavailable (see collection notes) | 2026-09-16 |
+| 2025.1.4 | 251.28774.766 | `mac` | `59ad190b3fee784cfedba7f760b48a3db8e9502f78ee6ddd64fc614413b49eb7` | Unavailable (see collection notes) | 2026-09-16 |
+| 2025.3.1 | 253.29346.537 | `macM1` | `15b6250fb04ab90438887d46e5d793cf6549d25980c2692ee9a008e1c7b437fc` | Unavailable (see collection notes) | 2026-07-24 |
 | 2025.3.1 | 253.29346.537 | `mac` | `69264b3306addf5625edbd4b224e5d041aa77071ebf828a9d563d98688d02db1` | Pending | 2026-07-24 |
 | 2025.2.3 | 252.28539.662 | `macM1` | `2ece772b248dfe4d810f5655b894e2851d3e1a70d09f3d88bb85cd5c465d8be8` | Pending | 2026-07-24 |
 | 2025.2.3 | 252.28539.662 | `mac` | `2b3ff70d09bf067405d94b39ca1c62b96f2e734a2e14775b1cb086fe31cdc74d` | Pending | 2026-07-24 |
@@ -371,7 +371,7 @@
 | 2026.2-RC2 <sub>eap</sub> | 262.11879.672 | `mac` | Not advertised | Not advertised | 2026-10-30 |
 | 2026.2-RC1 <sub>eap</sub> | 262.10968.569 | `macM1` | `d6722c2b87eaa339381fcd3dd0b3f24e223002b1332f24e8bf5a4f0708dd8c3d` | Unavailable (see collection notes) | 2026-10-14 |
 | 2026.2-RC1 <sub>eap</sub> | 262.10968.569 | `mac` | Not advertised | Not advertised | 2026-10-14 |
-| 2026.2-EAP1 <sub>eap</sub> | 262.9437.166 | `macM1` | `a2d8254edfc93db8cad9adf4db8b0a47d1cb7240965d449115616e6868c453a5` | Pending | 2026-09-01 |
+| 2026.2-EAP1 <sub>eap</sub> | 262.9437.166 | `macM1` | `a2d8254edfc93db8cad9adf4db8b0a47d1cb7240965d449115616e6868c453a5` | Unavailable (see collection notes) | 2026-09-01 |
 | 2026.2-EAP1 <sub>eap</sub> | 262.9437.166 | `mac` | Not advertised | Not advertised | 2026-09-01 |
 | 2026.1-RC1 <sub>eap</sub> | 261.24374.603 | `macM1` | `07f9a649086b7594909f14a95870d420d9e3334fa4576be5e8288f1ec403a1d1` | Pending | 2026-06-11 |
 | 2026.1-RC1 <sub>eap</sub> | 261.24374.603 | `mac` | `269aa48c0ad33412c3a84aea0db97f453923a0131ed67a3b8f1afa2952eb51dd` | Pending | 2026-06-11 |
@@ -534,3 +534,13 @@ Bold versions/builds have multiple observed build numbers for the same version a
 - 2025.1.5 / 251.29188.797 / `macM1` (application): Invalid application metadata: Invalid file
 - 2025.1.5 / 251.29188.797 / `mac` (application): Invalid application metadata: Invalid file
 - 2026.2-RC1 / 262.10968.569 / `macM1` (application): Invalid application metadata: Invalid file
+- 2026.1.1 / 261.25134.877 / `macM1` (application): Invalid application metadata: Invalid file
+- 2026.1.1 / 261.25134.877 / `mac` (application): Invalid application metadata: Invalid file
+- 2025.3.2 / 253.29346.541 / `macM1` (application): Invalid application metadata: Invalid file
+- 2025.3.2 / 253.29346.541 / `mac` (application): Invalid application metadata: Invalid file
+- 2025.2.4 / 252.28539.667 / `macM1` (application): Invalid application metadata: Invalid file
+- 2025.2.4 / 252.28539.667 / `mac` (application): Invalid application metadata: Invalid file
+- 2025.1.4 / 251.28774.766 / `macM1` (application): Invalid application metadata: Invalid file
+- 2025.1.4 / 251.28774.766 / `mac` (application): Invalid application metadata: Invalid file
+- 2026.2-EAP1 / 262.9437.166 / `macM1` (application): Invalid application metadata: Invalid file
+- 2025.3.1 / 253.29346.537 / `macM1` (application): Invalid application metadata: Invalid file

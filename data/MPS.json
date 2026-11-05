@@ -7504,9 +7504,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:37:58.459659+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2025.1.4",
@@ -7523,9 +7523,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:37:33.597010+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2025.1.5",
@@ -7846,9 +7846,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:37:06.578393+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2025.2.4",
@@ -7865,9 +7865,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:36:40.819020+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2025.2.5",
@@ -8093,9 +8093,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:39:13.611125+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2025.3.2",
@@ -8112,9 +8112,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:32:25.571245+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2025.3.2",
@@ -8131,9 +8131,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:30:28.657614+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2025.3.3",
@@ -8302,9 +8302,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:30:02.559294+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2026.1.1",
@@ -8321,9 +8321,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:29:35.870044+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2026.1.2",
@@ -8397,9 +8397,9 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "",
-      "error_stage": "",
-      "error": ""
+      "last_attempt": "2026-11-05T15:38:47.620892+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
     },
     {
       "version": "2026.2-RC1",
@@ -9618,7 +9618,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-04T13:51:00.720321+00:00",
+  "catalog_fetched_at": "2026-11-05T14:45:52.729365+00:00",
   "catalog_release_count": 253,
   "ignored_download_types": [
     "linux",
