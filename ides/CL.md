@@ -387,3 +387,27 @@ Bold versions/builds have multiple observed build numbers for the same version a
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Versions with no advertised downloads
+
+These releases omitted the `downloads` field or had an empty `downloads` object in the latest available catalog. Missing architectures and releases with only non-macOS downloads are not listed here. This does not prove that an installer never existed.
+
+| Version | Build version | Channel | Release date |
+| --- | --- | --- | --- |
+| 2021.3.1 | 213.6461.46 | release | 2021-12-22 |
+| 2016.1.2 | 145.971 | release | 2016-05-11 |
+| 2016.1.1 | 145.597 | release | 2016-03-31 |
+| 2016.1 | 145.258 | release | 2016-03-17 |
+| 1.2.4 | 143.1186 | release | 2015-12-25 |
+| 1.2.3 | 143.1185 | release | 2015-12-23 |
+| 1.2.2 | 143.1184 | release | 2015-12-10 |
+| 1.2.1 | 143.382 | release | 2015-11-11 |
+| 1.2 | 143.381 | release | 2015-11-02 |
+| 1.1.1 | 141.2614 | release | 2015-09-03 |
+| 1.1 | 141.2348 | release | 2015-08-18 |
+| 1.0.5 | 141.875 | release | 2015-07-10 |
+| 1.0.4 | 141.874 | release | 2015-06-16 |
+| 1.0.3 | 141.873 | release | 2015-05-22 |
+| 1.0.2 | 141.871 | release | 2015-05-18 |
+| 1.0.1 | 141.870 | release | 2015-04-28 |
+| 1.0 | 141.353 | release | 2015-04-14 |

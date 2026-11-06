@@ -692,3 +692,55 @@ Bold versions/builds have multiple observed build numbers for the same version a
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Versions with no advertised downloads
+
+These releases omitted the `downloads` field or had an empty `downloads` object in the latest available catalog. Missing architectures and releases with only non-macOS downloads are not listed here. This does not prove that an installer never existed.
+
+| Version | Build version | Channel | Release date |
+| --- | --- | --- | --- |
+| 2017.2.3 | 172.4155.25 | release | 2017-09-05 |
+| 2017.2.2 | 172.3968.35 | release | 2017-08-31 |
+| 2017.2.1 | 172.3544.41 | release | 2017-08-02 |
+| 2017.2 | 172.3317.83 | release | 2017-07-19 |
+| 2017.1.3 | 171.4424.11 | release | 2017-04-27 |
+| 2017.1.2 | 171.4249.3 | release | 2017-04-12 |
+| 2017.1.1 | 171.4163.3 | release | 2017-04-05 |
+| 2017.1 | 171.3780.104 | release | 2017-03-23 |
+| 2016.3.2 | 163.10504.2 | release | 2016-12-21 |
+| 2016.3.1 | 163.9735.1 | release | 2016-12-07 |
+| 2016.3 | 163.7743.50 | release | 2016-11-24 |
+| 2016.2.1 | 162.1889.1 | release | 2016-08-24 |
+| 2016.2 | 162.1121.38 | release | 2016-07-13 |
+| 2016.1.1 | 145.970 | release | 2016-05-11 |
+| 2016.1 | 145.258 | release | 2016-03-17 |
+| 10.0.3 | 143.1770 | release | 2016-01-08 |
+| 10.0.2 | 143.1184 | release | 2015-12-10 |
+| 10.0.1 | 143.382 | release | 2015-11-11 |
+| 10.0 | 143.381 | release | 2015-11-02 |
+| 9.0.2 | 141.2462 | release | 2015-08-18 |
+| 9.0.1 | 141.2402 | release | 2015-08-12 |
+| 9.0 | 141.1912 | release | 2015-07-09 |
+| 8.0.3 | 139.1348 | release | 2015-02-13 |
+| 8.0.2 | 139.732 | release | 2014-12-11 |
+| 8.0.1 | 138.2001 | release | 2014-09-18 |
+| 8.0 | 138.2000 | release | 2014-09-16 |
+| 7.1.4 | 133.1777 | release | 2014-08-23 |
+| 7.1.3 | 133.982 | release | 2014-02-25 |
+| 7.1.2 | 133.803 | release | 2014-02-04 |
+| 7.1.1 | 133.679 | release | 2014-01-22 |
+| 7.1 | 133.326 | release | 2013-12-17 |
+| 7.0 | 131.374 | release | 2013-10-22 |
+| 6.0.3 | 129.814 | release | 2013-06-24 |
+| 6.0.2 | 129.487 | release | 2013-05-14 |
+| 6.0.1 | 129.291 | release | 2013-04-16 |
+| 6.0 | 127.100 | release | 2013-03-12 |
+| 5.0.3 | 121.351 | release | 2012-10-23 |
+| 5.0.2 | 121.285 | release | 2012-10-03 |
+| 5.0.1 | 121.215 | release | 2012-09-12 |
+| 5.0 | 121.185 | release | 2012-09-12 |
+| 4.0.2 | 117.501 | release | 2012-05-29 |
+| 4.0.1 | 117.257 | release | 2012-04-22 |
+| 4.0 | 117.222 | release | 2012-04-17 |
+| 2.1.4 | 107.592 | release | 2011-03-14 |
+| 1.0.2 | 95.503 | release | 2010-08-08 |

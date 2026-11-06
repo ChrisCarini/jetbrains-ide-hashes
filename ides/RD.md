@@ -470,3 +470,18 @@ Bold versions/builds have multiple observed build numbers for the same version a
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Versions with no advertised downloads
+
+These releases omitted the `downloads` field or had an empty `downloads` object in the latest available catalog. Missing architectures and releases with only non-macOS downloads are not listed here. This does not prove that an installer never existed.
+
+| Version | Build version | Channel | Release date |
+| --- | --- | --- | --- |
+| 2021.3.1 | 213.5744.299 | release | 2021-12-10 |
+| 2021.3 | 213.5744.293 | release | 2021-12-08 |
+| 2021.2.2 | 212.5284.64 | release | 2021-10-13 |
+| 2021.2.1 | 212.5080.71 | release | 2021-08-27 |
+| 2021.2 | 212.4746.113 | release | 2021-08-03 |
+| 2021.1.2 | 211.7142.19 | release | 2021-04-23 |
+| 2021.1.1 | 211.6693.127 | release | 2021-04-10 |
+| 2021.1 | 211.6693.105 | release | 2021-04-08 |

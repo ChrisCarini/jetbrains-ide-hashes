@@ -142,7 +142,7 @@ def test_matching_version_build_type_and_date_have_deterministic_ties(product_fa
         ((), set()),
     ],
 )
-def test_only_advertised_installers_and_truly_empty_download_notes(
+def test_only_advertised_installers_and_no_download_notes(
     product_factory, channel, platforms, expected
 ):
     state = history.History("IIU", "IntelliJ IDEA")
@@ -153,7 +153,7 @@ def test_only_advertised_installers_and_truly_empty_download_notes(
     assert {row[2] for row in main_table_rows(text)} == expected
     assert len(main_table_rows(text)) == len(expected)
     assert "Not advertised" not in text.split("\n## Collection notes\n", 1)[0]
-    assert ("### Versions with empty downloads" in text) == (not platforms)
+    assert ("### Versions with no advertised downloads" in text) == (not platforms)
     if not platforms:
         assert text.count(f"| 1.2.3 | 123.456.789 | {channel} | 2026-11-03 |") == 1
 
@@ -199,16 +199,17 @@ def test_empty_download_notes_escape_cells_and_handle_missing_values(product_fac
     assert "| (not provided) | (not provided) | release | 2026-11-03 |" in text
 
 
-def test_metadata_errors_are_reported_without_claiming_empty_downloads(product_factory):
+@pytest.mark.parametrize("downloads", [None, [], "", 0, False])
+def test_metadata_errors_are_reported_without_claiming_no_downloads(product_factory, downloads):
     product = product_factory()
-    product["releases"][0]["downloads"] = None
+    product["releases"][0]["downloads"] = downloads
     state = history.History("IIU", "IntelliJ IDEA")
     history.refresh_metadata(state, product, T1)
 
     text = render.render_product(state)
 
     assert not main_table_rows(text)
-    assert "### Versions with empty downloads" not in text
+    assert "### Versions with no advertised downloads" not in text
     assert "### Collection errors" in text
     assert "Missing or non-object downloads metadata" in text
 
@@ -225,7 +226,7 @@ def test_advertised_installer_with_missing_hash_stays_visible(product_factory):
     assert len(main_table_rows(text)) == 1
     assert main_table_rows(text)[0][3:5] == ["Unavailable (see collection notes)"] * 2
     assert "HTTP 404" in text
-    assert "### Versions with empty downloads" not in text
+    assert "### Versions with no advertised downloads" not in text
 
 
 def test_historical_installer_stays_visible_when_downloads_disappear(product_factory):
@@ -251,7 +252,7 @@ def test_legacy_missing_installer_does_not_imply_empty_downloads():
     text = render.render_product(state)
 
     assert not main_table_rows(text)
-    assert "### Versions with empty downloads" not in text
+    assert "### Versions with no advertised downloads" not in text
 
 
 def test_cli_seeds_without_network_and_render_is_idempotent(tmp_path, product_factory, monkeypatch):
@@ -287,8 +288,75 @@ def test_cli_seeds_without_network_and_render_is_idempotent(tmp_path, product_fa
     assert before == {path.name: path.read_bytes() for path in docs.glob("*.md")}
     assert set(before) == {"IIU.md", "PCP.md", "README.md"}
     assert len(history.load(data / "IIU.json").records) == 2
-    assert b"### Versions with empty downloads" in before["PCP.md"]
+    assert b"### Versions with no advertised downloads" in before["PCP.md"]
     assert not main_table_rows(before["PCP.md"].decode())
+
+
+def test_catalog_refresh_and_publication_keep_missing_and_empty_download_notes_together(
+    tmp_path, product_factory, monkeypatch
+):
+    product = product_factory()
+    for version in ("1.2.2", "1.2.1"):
+        product["releases"].extend(product_factory(version=version, platforms=())["releases"])
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+    row = next(row for row in state.records if row.installer_url)
+    row.installer_sha256 = "a" * 64
+    row.app_sha256, row.app_path = "b" * 64, "IDE.app/Contents/MacOS/idea"
+    data, incoming, docs = tmp_path / "data", tmp_path / "incoming", tmp_path / "ides"
+    history.save(state, data)
+    history.save(state, incoming)
+    del product["releases"][1]["downloads"]
+    source = tmp_path / "catalog.json"
+    source.write_text(
+        json.dumps({"fetched_at": T2, "product": history.discover([product], [state])[0]})
+    )
+    monkeypatch.setattr(
+        history.transfer.urllib.request,
+        "urlopen",
+        lambda *args, **kwargs: (_ for _ in ()).throw(AssertionError("Unexpected network")),
+    )
+
+    assert (
+        cli.main(
+            [
+                "sync",
+                "--product",
+                "IIU",
+                "--catalog",
+                str(source),
+                "--catalog-only",
+                "--no-render",
+                "--data-dir",
+                str(incoming),
+            ]
+        )
+        == 0
+    )
+    assert (
+        cli.main(
+            [
+                "merge",
+                "--from-dir",
+                str(incoming),
+                "--data-dir",
+                str(data),
+                "--docs-dir",
+                str(docs),
+            ]
+        )
+        == 0
+    )
+
+    restored = history.load(data / "IIU.json")
+    assert restored.empty_downloads == state.empty_downloads
+    assert restored.records == state.records
+    assert restored.catalog_fetched_at == T2
+    text = (docs / "IIU.md").read_text()
+    assert len(main_table_rows(text)) == 1
+    assert text.count("### Versions with no advertised downloads") == 1
+    for version in ("1.2.2", "1.2.1"):
+        assert text.count(f"| {version} | 123.456.789 | release | 2026-11-03 |") == 1
 
 
 @pytest.mark.parametrize(

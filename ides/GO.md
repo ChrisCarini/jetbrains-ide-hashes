@@ -553,3 +553,30 @@ Bold versions/builds have multiple observed build numbers for the same version a
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Versions with no advertised downloads
+
+These releases omitted the `downloads` field or had an empty `downloads` object in the latest available catalog. Missing architectures and releases with only non-macOS downloads are not listed here. This does not prove that an installer never existed.
+
+| Version | Build version | Channel | Release date |
+| --- | --- | --- | --- |
+| 2019.2.1 | 192.6262.60 | release | 2019-08-22 |
+| 2019.2 | 192.5728.103 | release | 2019-07-25 |
+| 2019.1.1 | 191.6707.68 | release | 2019-04-18 |
+| 2019.1 | 191.6183.86 | release | 2019-03-27 |
+| 2018.3.3 | 183.5153.54 | release | 2019-01-17 |
+| 2018.3.2 | 183.4886.44 | release | 2018-12-18 |
+| 2018.3.1 | 183.4588.42 | release | 2018-12-06 |
+| 2018.3 | 183.4284.141 | release | 2018-11-21 |
+| 2018.2.2 | 182.4129.57 | release | 2018-08-24 |
+| 2018.2.1 | 182.3911.47 | release | 2018-08-09 |
+| 2018.2 | 182.3684.99 | release | 2018-07-25 |
+| 2018.1.5 | 181.5281.38 | release | 2018-06-19 |
+| 2018.1.4 | 181.5087.39 | release | 2018-05-24 |
+| 2018.1.3 | 181.4892.55 | release | 2018-05-10 |
+| 2018.1.2 | 181.4668.90 | release | 2018-04-27 |
+| 2018.1 | 181.4203.567 | release | 2018-03-29 |
+| 2017.3.3 | 173.4674.34 | release | 2018-03-06 |
+| 2017.3.2 | 173.4548.17 | release | 2018-01-29 |
+| 2017.3.1 | 173.4381.1 | release | 2018-01-08 |
+| 2017.3 | 173.3727.144 | release | 2017-11-30 |

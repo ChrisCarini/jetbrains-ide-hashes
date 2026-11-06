@@ -96,10 +96,11 @@ def render_product(history: History) -> str:
     )
     if history.empty_downloads:
         result += (
-            "\n### Versions with empty downloads\n\n"
-            "These releases had an entirely empty `downloads` object in the latest available "
-            "catalog. Missing architectures and releases with only non-macOS downloads are not "
-            "listed here. This does not prove that an installer never existed.\n\n"
+            "\n### Versions with no advertised downloads\n\n"
+            "These releases omitted the `downloads` field or had an empty `downloads` object "
+            "in the latest available catalog. Missing architectures and releases with only "
+            "non-macOS downloads are not listed here. This does not prove that an installer "
+            "never existed.\n\n"
             "| Version | Build version | Channel | Release date |\n"
             "| --- | --- | --- | --- |\n"
         )
@@ -137,8 +138,8 @@ def render_all(data_dir: Path, docs_dir: Path) -> None:
         "# JetBrains IDE hashes\n\n"
         "Each product page starts with released versions, followed by every other API channel. "
         "Rows are sorted by version, build version, and installer type, descending. "
-        "Only advertised macOS installers appear in the main tables; versions with entirely "
-        "empty downloads are listed in Collection notes. "
+        "Only advertised macOS installers appear in the main tables; versions with an omitted "
+        "`downloads` field or an empty `downloads` object are listed in Collection notes. "
         "Product codes keep renamed and legacy editions distinct.\n\n"
         "| IDE / product | Product code | Installer hashes | Application hashes | Not advertised |\n"
         "| --- | --- | --- | --- | --- |\n"

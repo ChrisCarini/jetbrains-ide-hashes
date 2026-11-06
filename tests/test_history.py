@@ -83,11 +83,14 @@ def test_omitted_downloads_are_retained_as_unadvertised_and_clear_resolved_metad
     assert all(row.first_seen == T1 for row in state.records)
 
 
+@pytest.mark.parametrize("omit_downloads", [False, True])
 def test_empty_download_releases_are_persisted_once_per_build_and_channel(
-    tmp_path, product_factory
+    tmp_path, product_factory, omit_downloads
 ):
     state = history.History("IIU", "IntelliJ IDEA")
     product = product_factory(platforms=(), build=None)
+    if omit_downloads:
+        del product["releases"][0]["downloads"]
     history.refresh_metadata(state, product, T1)
 
     history.save(state, tmp_path)
@@ -121,7 +124,9 @@ def test_discovery_does_not_turn_omitted_downloads_into_explicitly_empty_metadat
 
     history.refresh_metadata(state, discovered[0], T1)
 
-    assert state.empty_downloads == []
+    assert state.empty_downloads == [
+        history.EmptyDownloadRelease("1.2.3", "123.456.789", "release", "2026-11-03")
+    ]
     assert all(row.status == "not_advertised" for row in state.records)
 
 

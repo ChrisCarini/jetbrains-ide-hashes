@@ -11570,5 +11570,126 @@
     "windowsZip",
     "windowsZipJBR8"
   ],
-  "empty_downloads": []
+  "empty_downloads": [
+    {
+      "version": "2017.3",
+      "build": "173.3727.144",
+      "release_type": "release",
+      "release_date": "2017-11-30"
+    },
+    {
+      "version": "2017.3.1",
+      "build": "173.4381.1",
+      "release_type": "release",
+      "release_date": "2018-01-08"
+    },
+    {
+      "version": "2017.3.2",
+      "build": "173.4548.17",
+      "release_type": "release",
+      "release_date": "2018-01-29"
+    },
+    {
+      "version": "2017.3.3",
+      "build": "173.4674.34",
+      "release_type": "release",
+      "release_date": "2018-03-06"
+    },
+    {
+      "version": "2018.1",
+      "build": "181.4203.567",
+      "release_type": "release",
+      "release_date": "2018-03-29"
+    },
+    {
+      "version": "2018.1.2",
+      "build": "181.4668.90",
+      "release_type": "release",
+      "release_date": "2018-04-27"
+    },
+    {
+      "version": "2018.1.3",
+      "build": "181.4892.55",
+      "release_type": "release",
+      "release_date": "2018-05-10"
+    },
+    {
+      "version": "2018.1.4",
+      "build": "181.5087.39",
+      "release_type": "release",
+      "release_date": "2018-05-24"
+    },
+    {
+      "version": "2018.1.5",
+      "build": "181.5281.38",
+      "release_type": "release",
+      "release_date": "2018-06-19"
+    },
+    {
+      "version": "2018.2",
+      "build": "182.3684.99",
+      "release_type": "release",
+      "release_date": "2018-07-25"
+    },
+    {
+      "version": "2018.2.1",
+      "build": "182.3911.47",
+      "release_type": "release",
+      "release_date": "2018-08-09"
+    },
+    {
+      "version": "2018.2.2",
+      "build": "182.4129.57",
+      "release_type": "release",
+      "release_date": "2018-08-24"
+    },
+    {
+      "version": "2018.3",
+      "build": "183.4284.141",
+      "release_type": "release",
+      "release_date": "2018-11-21"
+    },
+    {
+      "version": "2018.3.1",
+      "build": "183.4588.42",
+      "release_type": "release",
+      "release_date": "2018-12-06"
+    },
+    {
+      "version": "2018.3.2",
+      "build": "183.4886.44",
+      "release_type": "release",
+      "release_date": "2018-12-18"
+    },
+    {
+      "version": "2018.3.3",
+      "build": "183.5153.54",
+      "release_type": "release",
+      "release_date": "2019-01-17"
+    },
+    {
+      "version": "2019.1",
+      "build": "191.6183.86",
+      "release_type": "release",
+      "release_date": "2019-03-27"
+    },
+    {
+      "version": "2019.1.1",
+      "build": "191.6707.68",
+      "release_type": "release",
+      "release_date": "2019-04-18"
+    },
+    {
+      "version": "2019.2",
+      "build": "192.5728.103",
+      "release_type": "release",
+      "release_date": "2019-07-25"
+    },
+    {
+      "version": "2019.2.1",
+      "build": "192.6262.60",
+      "release_type": "release",
+      "release_date": "2019-08-22"
+    }
+  ]
 }

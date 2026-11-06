@@ -37,17 +37,20 @@ Alternate JBR distributions and Windows/Linux installers are outside this projec
 scope. Ignored download types are recorded in each product's JSON history.
 
 Some products classified as IDEs are plugins or hosted services, and some old
-releases have empty download metadata. Only advertised macOS installer rows appear
-in the main tables: a version with one architecture shows only that architecture.
-Versions with an entirely empty `downloads` object are listed once per build and
-channel under **Collection notes**. Missing architectures and nonempty downloads
-containing only non-macOS artifacts are not listed in that subsection. Collection
-errors remain visible in the notes.
+releases have missing or empty download metadata. Only advertised macOS installer
+rows appear in the main tables: a version with one architecture shows only that
+architecture.
+Versions with an omitted `downloads` field or an empty `downloads` object are listed
+once per build and channel under **Collection notes**, in **Versions with no
+advertised downloads**. Missing architectures and nonempty downloads containing only
+non-macOS artifacts are not listed in that subsection. Malformed download metadata
+remains a collection error rather than being classified as no advertised downloads.
 
-The JSON history retains unadvertised installer entries and records empty-download
-releases separately on catalog refresh; older histories without that information
-are not assumed to have empty downloads. Neither omission nor empty metadata
-proves that an installer never existed.
+The JSON history retains unadvertised installer entries and records both cases in
+the existing `empty_downloads` array on catalog refresh. Saved catalog snapshots
+preserve whether the `downloads` field was omitted. Older histories without this
+information are not assumed to have missing or empty download metadata. Neither
+omission nor empty metadata proves that an installer never existed.
 
 ## Reissued versions and historical integrity
 

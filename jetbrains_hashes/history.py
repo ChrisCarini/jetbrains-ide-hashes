@@ -324,7 +324,7 @@ def refresh_metadata(history: History, product: dict, observed_at: str) -> list[
                 release_date=release.get("date") or "",
             )
             for release in product["releases"]
-            if release.get("downloads") == {}
+            if release.get("downloads", {}) == {}
         ]
     supported = {p for aliases in PLATFORMS.values() for p in aliases}
     history.ignored_download_types = sorted(
