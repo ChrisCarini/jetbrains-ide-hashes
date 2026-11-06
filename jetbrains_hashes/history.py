@@ -7,6 +7,7 @@ import json
 import re
 import urllib.parse
 from collections import defaultdict
+from copy import deepcopy
 from dataclasses import asdict, dataclass, field, fields, replace
 from datetime import datetime, timezone
 from pathlib import Path
@@ -316,7 +317,7 @@ def refresh_metadata(history: History, product: dict, observed_at: str) -> list[
     history.catalog_fetched_at = observed_at
     history.catalog_release_count = len(product["releases"])
     if not product.get("absent_from_catalog"):
-        history.empty_downloads = [
+        history.empty_downloads = sorted(
             EmptyDownloadRelease(
                 version=release.get("version") or "",
                 build=release.get("build") or "",
@@ -325,7 +326,7 @@ def refresh_metadata(history: History, product: dict, observed_at: str) -> list[
             )
             for release in product["releases"]
             if release.get("downloads", {}) == {}
-        ]
+        )
     supported = {p for aliases in PLATFORMS.values() for p in aliases}
     history.ignored_download_types = sorted(
         {
@@ -355,15 +356,13 @@ def observe_checksum(history: History, source: Record, digest: str, observed_at:
     return target
 
 
-def collect(
+def refresh_checksums(
     history: History,
     sources: list[Record],
     persist: Callable[[], None],
-    work_dir: Path,
-    max_installers: int,
     deadline: float | None,
-    checksums_only: bool = False,
-) -> int:
+) -> tuple[int, bool]:
+    """Return the failure count and whether every checksum source was checked."""
     failures = 0
     cache: dict[str, bytes] = {}
     url_builds: dict[str, set[str]] = defaultdict(set)
@@ -395,7 +394,43 @@ def collect(
                 failures += 1
                 log(f"ERROR {history.code} {source.release_key()}: {exc}")
             persist()
-        if checksums_only:
+    except BudgetReached as exc:
+        log(f"{history.code}: {exc}; checksum refresh incomplete")
+        return failures, False
+    return failures, True
+
+
+def needs_sync(saved: History, product: dict, observed_at: str, deadline: float | None) -> bool:
+    """Check for work without changing saved history or downloading installers."""
+    state = deepcopy(saved)
+    try:
+        sources = refresh_metadata(state, product, observed_at)
+    except (StopRun, ValueError) as exc:
+        log(f"ERROR {saved.code}: {exc}; keeping IDE queued for collection")
+        return True
+    if any(
+        row.error or ((row.installer_url or row.installer_sha256) and not row.app_sha256)
+        for row in state.records
+    ):
+        return True
+    checksum_sources = [source for source in sources if source.checksum_url]
+    failures, complete = refresh_checksums(state, checksum_sources, lambda: None, deadline)
+    return bool(failures) or not complete or state != replace(saved, catalog_fetched_at=observed_at)
+
+
+def collect(
+    history: History,
+    sources: list[Record],
+    persist: Callable[[], None],
+    work_dir: Path,
+    max_installers: int,
+    deadline: float | None,
+    checksums_only: bool = False,
+) -> int:
+    failures = 0
+    try:
+        failures, complete = refresh_checksums(history, sources, persist, deadline)
+        if checksums_only or not complete:
             return failures
 
         work_dir.mkdir(parents=True, exist_ok=True)
