@@ -1068,7 +1068,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-05T14:45:52.729365+00:00",
+  "catalog_fetched_at": "2026-11-05T19:58:48.481865+00:00",
   "catalog_release_count": 28,
   "ignored_download_types": [
     "linuxARM64",
@@ -1079,126 +1079,5 @@
     "windowsARM64",
     "windowsX64"
   ],
-  "empty_downloads": [
-    {
-      "version": "0.0.10",
-      "build": "2025.2.0.10",
-      "release_type": "eap",
-      "release_date": "2025-09-10"
-    },
-    {
-      "version": "0.0.11",
-      "build": "2025.2.0.11",
-      "release_type": "eap",
-      "release_date": "2025-09-25"
-    },
-    {
-      "version": "0.0.12",
-      "build": "2025.2.0.12",
-      "release_type": "eap",
-      "release_date": "2025-10-14"
-    },
-    {
-      "version": "0.0.13",
-      "build": "2025.2.0.13",
-      "release_type": "eap",
-      "release_date": "2025-10-29"
-    },
-    {
-      "version": "0.0.14",
-      "build": "2025.2.0.14",
-      "release_type": "eap",
-      "release_date": "2025-11-11"
-    },
-    {
-      "version": "0.0.15",
-      "build": "2025.2.0.15",
-      "release_type": "eap",
-      "release_date": "2025-11-25"
-    },
-    {
-      "version": "0.0.16",
-      "build": "2025.2.0.16",
-      "release_type": "eap",
-      "release_date": "2025-12-08"
-    },
-    {
-      "version": "0.0.17",
-      "build": "2025.2.0.17",
-      "release_type": "eap",
-      "release_date": "2025-12-23"
-    },
-    {
-      "version": "0.0.18",
-      "build": "2025.2.0.18",
-      "release_type": "eap",
-      "release_date": "2026-01-16"
-    },
-    {
-      "version": "0.0.19",
-      "build": "2025.2.0.19",
-      "release_type": "eap",
-      "release_date": "2026-02-02"
-    },
-    {
-      "version": "0.0.2",
-      "build": "2025.2.0.2",
-      "release_type": "eap",
-      "release_date": "2025-05-19"
-    },
-    {
-      "version": "0.0.20",
-      "build": "2025.2.0.20",
-      "release_type": "eap",
-      "release_date": "2026-02-17"
-    },
-    {
-      "version": "0.0.21",
-      "build": "2025.2.0.21",
-      "release_type": "eap",
-      "release_date": "2026-02-26"
-    },
-    {
-      "version": "0.0.3",
-      "build": "2025.2.0.3",
-      "release_type": "eap",
-      "release_date": "2025-05-20"
-    },
-    {
-      "version": "0.0.4",
-      "build": "2025.2.0.4",
-      "release_type": "eap",
-      "release_date": "2025-06-10"
-    },
-    {
-      "version": "0.0.5",
-      "build": "2025.2.0.5",
-      "release_type": "eap",
-      "release_date": "2025-06-23"
-    },
-    {
-      "version": "0.0.6",
-      "build": "2025.2.0.6",
-      "release_type": "eap",
-      "release_date": "2025-07-14"
-    },
-    {
-      "version": "0.0.7",
-      "build": "2025.2.0.7",
-      "release_type": "eap",
-      "release_date": "2025-08-01"
-    },
-    {
-      "version": "0.0.8",
-      "build": "2025.2.0.8",
-      "release_type": "eap",
-      "release_date": "2025-08-11"
-    },
-    {
-      "version": "0.0.9",
-      "build": "2025.2.0.9",
-      "release_type": "eap",
-      "release_date": "2025-08-27"
-    }
-  ]
+  "empty_downloads": []
 }
