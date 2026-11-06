@@ -15974,5 +15974,276 @@
     "windowsARM64",
     "windowsZip"
   ],
-  "empty_downloads": []
+  "empty_downloads": [
+    {
+      "version": "1.0.2",
+      "build": "95.503",
+      "release_type": "release",
+      "release_date": "2010-08-08"
+    },
+    {
+      "version": "10.0",
+      "build": "143.381",
+      "release_type": "release",
+      "release_date": "2015-11-02"
+    },
+    {
+      "version": "10.0.1",
+      "build": "143.382",
+      "release_type": "release",
+      "release_date": "2015-11-11"
+    },
+    {
+      "version": "10.0.2",
+      "build": "143.1184",
+      "release_type": "release",
+      "release_date": "2015-12-10"
+    },
+    {
+      "version": "10.0.3",
+      "build": "143.1770",
+      "release_type": "release",
+      "release_date": "2016-01-08"
+    },
+    {
+      "version": "2.1.4",
+      "build": "107.592",
+      "release_type": "release",
+      "release_date": "2011-03-14"
+    },
+    {
+      "version": "2016.1",
+      "build": "145.258",
+      "release_type": "release",
+      "release_date": "2016-03-17"
+    },
+    {
+      "version": "2016.1.1",
+      "build": "145.970",
+      "release_type": "release",
+      "release_date": "2016-05-11"
+    },
+    {
+      "version": "2016.2",
+      "build": "162.1121.38",
+      "release_type": "release",
+      "release_date": "2016-07-13"
+    },
+    {
+      "version": "2016.2.1",
+      "build": "162.1889.1",
+      "release_type": "release",
+      "release_date": "2016-08-24"
+    },
+    {
+      "version": "2016.3",
+      "build": "163.7743.50",
+      "release_type": "release",
+      "release_date": "2016-11-24"
+    },
+    {
+      "version": "2016.3.1",
+      "build": "163.9735.1",
+      "release_type": "release",
+      "release_date": "2016-12-07"
+    },
+    {
+      "version": "2016.3.2",
+      "build": "163.10504.2",
+      "release_type": "release",
+      "release_date": "2016-12-21"
+    },
+    {
+      "version": "2017.1",
+      "build": "171.3780.104",
+      "release_type": "release",
+      "release_date": "2017-03-23"
+    },
+    {
+      "version": "2017.1.1",
+      "build": "171.4163.3",
+      "release_type": "release",
+      "release_date": "2017-04-05"
+    },
+    {
+      "version": "2017.1.2",
+      "build": "171.4249.3",
+      "release_type": "release",
+      "release_date": "2017-04-12"
+    },
+    {
+      "version": "2017.1.3",
+      "build": "171.4424.11",
+      "release_type": "release",
+      "release_date": "2017-04-27"
+    },
+    {
+      "version": "2017.2",
+      "build": "172.3317.83",
+      "release_type": "release",
+      "release_date": "2017-07-19"
+    },
+    {
+      "version": "2017.2.1",
+      "build": "172.3544.41",
+      "release_type": "release",
+      "release_date": "2017-08-02"
+    },
+    {
+      "version": "2017.2.2",
+      "build": "172.3968.35",
+      "release_type": "release",
+      "release_date": "2017-08-31"
+    },
+    {
+      "version": "2017.2.3",
+      "build": "172.4155.25",
+      "release_type": "release",
+      "release_date": "2017-09-05"
+    },
+    {
+      "version": "4.0",
+      "build": "117.222",
+      "release_type": "release",
+      "release_date": "2012-04-17"
+    },
+    {
+      "version": "4.0.1",
+      "build": "117.257",
+      "release_type": "release",
+      "release_date": "2012-04-22"
+    },
+    {
+      "version": "4.0.2",
+      "build": "117.501",
+      "release_type": "release",
+      "release_date": "2012-05-29"
+    },
+    {
+      "version": "5.0",
+      "build": "121.185",
+      "release_type": "release",
+      "release_date": "2012-09-12"
+    },
+    {
+      "version": "5.0.1",
+      "build": "121.215",
+      "release_type": "release",
+      "release_date": "2012-09-12"
+    },
+    {
+      "version": "5.0.2",
+      "build": "121.285",
+      "release_type": "release",
+      "release_date": "2012-10-03"
+    },
+    {
+      "version": "5.0.3",
+      "build": "121.351",
+      "release_type": "release",
+      "release_date": "2012-10-23"
+    },
+    {
+      "version": "6.0",
+      "build": "127.100",
+      "release_type": "release",
+      "release_date": "2013-03-12"
+    },
+    {
+      "version": "6.0.1",
+      "build": "129.291",
+      "release_type": "release",
+      "release_date": "2013-04-16"
+    },
+    {
+      "version": "6.0.2",
+      "build": "129.487",
+      "release_type": "release",
+      "release_date": "2013-05-14"
+    },
+    {
+      "version": "6.0.3",
+      "build": "129.814",
+      "release_type": "release",
+      "release_date": "2013-06-24"
+    },
+    {
+      "version": "7.0",
+      "build": "131.374",
+      "release_type": "release",
+      "release_date": "2013-10-22"
+    },
+    {
+      "version": "7.1",
+      "build": "133.326",
+      "release_type": "release",
+      "release_date": "2013-12-17"
+    },
+    {
+      "version": "7.1.1",
+      "build": "133.679",
+      "release_type": "release",
+      "release_date": "2014-01-22"
+    },
+    {
+      "version": "7.1.2",
+      "build": "133.803",
+      "release_type": "release",
+      "release_date": "2014-02-04"
+    },
+    {
+      "version": "7.1.3",
+      "build": "133.982",
+      "release_type": "release",
+      "release_date": "2014-02-25"
+    },
+    {
+      "version": "7.1.4",
+      "build": "133.1777",
+      "release_type": "release",
+      "release_date": "2014-08-23"
+    },
+    {
+      "version": "8.0",
+      "build": "138.2000",
+      "release_type": "release",
+      "release_date": "2014-09-16"
+    },
+    {
+      "version": "8.0.1",
+      "build": "138.2001",
+      "release_type": "release",
+      "release_date": "2014-09-18"
+    },
+    {
+      "version": "8.0.2",
+      "build": "139.732",
+      "release_type": "release",
+      "release_date": "2014-12-11"
+    },
+    {
+      "version": "8.0.3",
+      "build": "139.1348",
+      "release_type": "release",
+      "release_date": "2015-02-13"
+    },
+    {
+      "version": "9.0",
+      "build": "141.1912",
+      "release_type": "release",
+      "release_date": "2015-07-09"
+    },
+    {
+      "version": "9.0.1",
+      "build": "141.2402",
+      "release_type": "release",
+      "release_date": "2015-08-12"
+    },
+    {
+      "version": "9.0.2",
+      "build": "141.2462",
+      "release_type": "release",
+      "release_date": "2015-08-18"
+    }
+  ]
 }

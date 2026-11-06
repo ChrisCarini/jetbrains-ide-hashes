@@ -292,6 +292,98 @@ Rows are sorted by version, build version, and installer type, descending, with 
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
 
+### Versions with no advertised downloads
+
+These releases omitted the `downloads` field or had an empty `downloads` object in the latest available catalog. Missing architectures and releases with only non-macOS downloads are not listed here. This does not prove that an installer never existed.
+
+| Version | Build version | Channel | Release date |
+| --- | --- | --- | --- |
+| 2019.3 | 193.1034 | rc | 2019-12-10 |
+| 2019.3 | 193.866 | eap | 2019-11-21 |
+| 2019.3 | 193.742 | eap | 2019-11-08 |
+| 2019.3 | 193.573 | eap | 2019-10-24 |
+| 2019.3 | 193.412 | eap | 2019-10-10 |
+| 2019.2 | 192.1804 | eap | 2019-08-05 |
+| 2019.2 | 192.1671 | eap | 2019-07-29 |
+| 2019.2 | 192.1369 | eap | 2019-07-17 |
+| 2019.2 | 192.897 | eap | 2019-06-17 |
+| 2019.2 | 192.629 | eap | 2019-06-03 |
+| 2019.1 | 191.1243 | rc | 2019-04-01 |
+| 2019.1 | 191.1124 | eap | 2019-03-22 |
+| 2019.1 | 191.983 | eap | 2019-03-13 |
+| 2019.1 | 191.904 | eap | 2019-03-06 |
+| 2019.1 | 191.798 | eap | 2019-02-27 |
+| 2019.1 | 191.777 | eap | 2019-02-21 |
+| 2019.1 | 191.728 | eap | 2019-02-14 |
+| 2019.1 | 191.625 | eap | 2019-02-05 |
+| 2019.1 | 191.555 | eap | 2019-01-30 |
+| 2018.3.6 | 183.1786 | release | 2019-03-28 |
+| 2018.3.5 | 183.1735 | release | 2019-03-05 |
+| 2018.3.4 | 183.1686 | release | 2019-02-15 |
+| 2018.3.3 | 183.1596 | release | 2019-01-17 |
+| 2018.3.2 | 183.1562 | release | 2018-12-28 |
+| 2018.3.1 | 183.1523 | release | 2018-12-18 |
+| 2018.3 | 183.1458 | release | 2018-12-04 |
+| 2018.2.5 | 182.1542 | release | 2018-10-23 |
+| 2018.2.4 | 182.1490 | release | 2018-09-21 |
+| 2018.2.3 | 182.1460 | release | 2018-09-06 |
+| 2018.2.2 | 182.1427 | release | 2018-08-28 |
+| 2018.2.1 | 182.1378 | release | 2018-08-15 |
+| 2018.2 | 182.1322 | release | 2018-08-06 |
+| 2018.1.4 | 181.1404 | release | 2018-05-24 |
+| 2018.1.3 | 181.1367 | release | 2018-05-14 |
+| 2018.1.2 | 181.1323 | release | 2018-05-03 |
+| 2018.1.1 | 181.1254 | release | 2018-04-19 |
+| 2018.1 | 181.1168 | release | 2018-04-05 |
+| 2017.3.5 | 173.1767 | release | 2018-02-16 |
+| 2017.3.4 | 173.1734 | release | 2018-02-05 |
+| 2017.3.3 | 173.1677 | release | 2018-01-20 |
+| 2017.3.2 | 173.1609 | release | 2017-12-28 |
+| 2017.3.1 | 173.1525 | release | 2017-12-15 |
+| 2017.3 | 173.1427 | release | 2017-12-05 |
+| 2017.2.2 | 172.1347 | release | 2017-09-14 |
+| 2017.2.1 | 172.1256 | release | 2017-08-28 |
+| 2017.2 | 172.1127 | release | 2017-08-04 |
+| 2017.1.2 | 171.1342 | release | 2017-05-14 |
+| 2017.1.1 | 171.1216 | release | 2017-04-27 |
+| 2017.1 | 171.1065 | release | 2017-04-03 |
+| 3.4.3 | 162.2189 | release | 2017-01-04 |
+| 3.4.2 | 162.2065 | release | 2016-11-28 |
+| 3.4.1 | 162.1913 | release | 2016-10-24 |
+| 3.4 | 162.1616 | release | 2016-09-29 |
+| 3.3.4 | 143.1187 | release | 2016-03-10 |
+| 3.3.3 | 143.1160 | release | 2016-03-04 |
+| 3.3.2 | 143.1025 | release | 2016-02-03 |
+| 3.3.1 | 143.958 | release | 2016-01-19 |
+| 3.3 | 143.795 | release | 2015-12-23 |
+| 3.2.3 | 139.2677 | release | 2015-06-12 |
+| 3.2.2 | 139.2566 | release | 2015-05-20 |
+| 3.2.1 | 139.2387 | release | 2015-04-09 |
+| 3.2 | 139.2225 | release | 2015-03-14 |
+| 3.1.6 | 135.1483 | release | 2016-05-11 |
+| 3.1.5 | 135.1462 | release | 2014-10-14 |
+| 3.1.4 | 135.1441 | release | 2014-09-24 |
+| 3.1.3 | 135.1415 | release | 2014-09-15 |
+| 3.1.2 | 135.1254 | release | 2014-08-11 |
+| 3.1.1 | 135.1110 | release | 2014-07-21 |
+| 3.1 | 135.944 | release | 2014-06-11 |
+| 3.0.5 | 129.516 | release | 2016-05-11 |
+| 3.0.4 | 129.488 | release | 2014-03-03 |
+| 3.0.3 | 129.473 | release | 2014-01-23 |
+| 3.0.2 | 129.438 | release | 2013-12-02 |
+| 3.0.1.1 | 129.385 | release | 2013-09-24 |
+| 3.0.1 | 129.380 | release | 2013-09-23 |
+| 3.0 | 129.350 | release | 2013-09-03 |
+| 2.5.4 | 117.9448 | release | 2014-02-18 |
+| 2.5.3 | 117.9406 | release | 2013-12-19 |
+| 2.5.2 | 117.9351 | release | 2013-10-03 |
+| 2.5.1 | 117.9271 | release | 2013-07-25 |
+| 2.5 | 25.9237 | release | 2013-07-04 |
+| 2.0.6 | 7767 | release | 2012-03-23 |
+| 1.5.2 | 6461 | release | 2011-02-23 |
+| 1.1 | 5265 | release | 2009-11-28 |
+| 1.0.1 | 4128 | release | 2009-05-29 |
+
 ### Collection errors
 
 - 2026.2-RC2 / 262.11879.672 / `macM1` (application): Invalid application metadata: Invalid file

@@ -9971,5 +9971,54 @@
     "windowsZip",
     "windowsZipARM64"
   ],
-  "empty_downloads": []
+  "empty_downloads": [
+    {
+      "version": "2021.1",
+      "build": "211.6693.105",
+      "release_type": "release",
+      "release_date": "2021-04-08"
+    },
+    {
+      "version": "2021.1.1",
+      "build": "211.6693.127",
+      "release_type": "release",
+      "release_date": "2021-04-10"
+    },
+    {
+      "version": "2021.1.2",
+      "build": "211.7142.19",
+      "release_type": "release",
+      "release_date": "2021-04-23"
+    },
+    {
+      "version": "2021.2",
+      "build": "212.4746.113",
+      "release_type": "release",
+      "release_date": "2021-08-03"
+    },
+    {
+      "version": "2021.2.1",
+      "build": "212.5080.71",
+      "release_type": "release",
+      "release_date": "2021-08-27"
+    },
+    {
+      "version": "2021.2.2",
+      "build": "212.5284.64",
+      "release_type": "release",
+      "release_date": "2021-10-13"
+    },
+    {
+      "version": "2021.3",
+      "build": "213.5744.293",
+      "release_type": "release",
+      "release_date": "2021-12-08"
+    },
+    {
+      "version": "2021.3.1",
+      "build": "213.5744.299",
+      "release_type": "release",
+      "release_date": "2021-12-10"
+    }
+  ]
 }

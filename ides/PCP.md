@@ -622,3 +622,104 @@ Bold versions/builds have multiple observed build numbers for the same version a
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Versions with no advertised downloads
+
+These releases omitted the `downloads` field or had an empty `downloads` object in the latest available catalog. Missing architectures and releases with only non-macOS downloads are not listed here. This does not prove that an installer never existed.
+
+| Version | Build version | Channel | Release date |
+| --- | --- | --- | --- |
+| 2021.1 | 211.6693.115 | release | 2021-04-07 |
+| 2020.3.2 | 203.6682.179 | release | 2020-12-30 |
+| 2020.3.1 | 203.6682.86 | release | 2020-12-21 |
+| 2020.3 | 203.5981.165 | release | 2020-12-02 |
+| 2020.2.2 | 202.7319.64 | release | 2020-09-17 |
+| 2020.2.1 | 202.6948.78 | release | 2020-08-26 |
+| 2020.2 | 202.6397.98 | release | 2020-07-29 |
+| 2020.1.2 | 201.7846.77 | release | 2020-06-03 |
+| 2020.1.1 | 201.7223.92 | release | 2020-05-07 |
+| 2020.1 | 201.6668.115 | release | 2020-04-08 |
+| 2019.3.2 | 193.6015.41 | release | 2020-01-22 |
+| 2019.3.1 | 193.5662.61 | release | 2019-12-19 |
+| 2019.3 | 193.5233.109 | release | 2019-12-02 |
+| 2019.2.3 | 192.6817.19 | release | 2019-09-25 |
+| 2019.2.2 | 192.6603.34 | release | 2019-09-11 |
+| 2019.2.1 | 192.6262.63 | release | 2019-08-23 |
+| 2019.2 | 192.5728.105 | release | 2019-07-24 |
+| 2019.1.2 | 191.7141.48 | release | 2019-05-08 |
+| 2019.1 | 191.6183.50 | release | 2019-03-27 |
+| 2018.3.4 | 183.5429.31 | release | 2019-01-30 |
+| 2018.3.3 | 183.5153.39 | release | 2019-01-10 |
+| 2018.3.2 | 183.4886.43 | release | 2018-12-19 |
+| 2018.3.1 | 183.4588.64 | release | 2018-12-05 |
+| 2018.3 | 183.4284.139 | release | 2018-11-21 |
+| 2018.2.5 | 182.5107.22 | release | 2018-11-14 |
+| 2018.2.4 | 182.4505.26 | release | 2018-09-20 |
+| 2018.2.3 | 182.4323.49 | release | 2018-09-06 |
+| 2018.2.2 | 182.4129.34 | release | 2018-08-22 |
+| 2018.2.1 | 182.3911.33 | release | 2018-08-08 |
+| 2018.2 | 182.3684.100 | release | 2018-07-25 |
+| 2018.1.3 | 181.4892.64 | release | 2018-05-16 |
+| 2018.1.2 | 181.4668.75 | release | 2018-04-25 |
+| 2018.1.1 | 181.4445.76 | release | 2018-04-10 |
+| 2018.1 | 181.4203.547 | release | 2018-03-28 |
+| 2017.3.4 | 173.4674.37 | release | 2018-03-07 |
+| 2017.3.3 | 173.4301.16 | release | 2018-01-18 |
+| 2017.3.2 | 173.4127.16 | release | 2017-12-28 |
+| 2017.3.1 | 173.3942.36 | release | 2017-12-14 |
+| 2017.3 | 173.3727.137 | release | 2017-11-29 |
+| 2017.2.4 | 172.4343.24 | release | 2017-10-31 |
+| 2017.2.3 | 172.3968.37 | release | 2017-09-06 |
+| 2017.2.2 | 172.3757.67 | release | 2017-08-24 |
+| 2017.2.1 | 172.3544.46 | release | 2017-08-09 |
+| 2017.2 | 172.3317.103 | release | 2017-07-26 |
+| 2017.1.5 | 171.4694.67 | release | 2017-07-12 |
+| 2017.1.4 | 171.4694.38 | release | 2017-06-15 |
+| 2017.1.3 | 171.4424.42 | release | 2017-05-23 |
+| 2017.1.2 | 171.4249.47 | release | 2017-04-28 |
+| 2017.1 | 171.3780.115 | release | 2017-03-24 |
+| 2016.3.3 | 163.15188.4 | release | 2017-03-17 |
+| 2016.3.2 | 163.10154.50 | release | 2016-12-30 |
+| 2016.3.1 | 163.9735.8 | release | 2016-12-14 |
+| 2016.3 | 163.8233.8 | release | 2016-11-23 |
+| 2016.2.2 | 162.1812.1 | release | 2016-08-24 |
+| 2016.2.1 | 162.1628.8 | release | 2016-08-11 |
+| 2016.2 | 162.1237.1 | release | 2016-07-21 |
+| 2016.1.4 | 145.1504 | release | 2016-05-26 |
+| 2016.1.3 | 145.971 | release | 2016-05-11 |
+| 2016.1.2 | 145.844 | release | 2016-04-09 |
+| 2016.1.1 | 145.598 | release | 2016-04-05 |
+| 2016.1 | 145.26 | release | 2016-03-23 |
+| 5.0.5 | 143.2370 | release | 2016-05-11 |
+| 5.0.4 | 143.1919 | release | 2016-01-28 |
+| 5.0.3 | 143.1559 | release | 2015-12-24 |
+| 5.0.2 | 143.1184 | release | 2015-12-10 |
+| 5.0.1 | 143.595 | release | 2015-11-11 |
+| 5.0 | 143.589 | release | 2015-11-02 |
+| 4.5.4 | 141.2569 | release | 2015-09-01 |
+| 4.5.3 | 141.1899 | release | 2015-07-09 |
+| 4.5.2 | 141.158 | release | 2015-05-04 |
+| 4.5.1 | 141.1245 | release | 2015-05-22 |
+| 4.5 | 141.1116 | release | 2015-05-15 |
+| 4.0.6 | 139.1659 | release | 2015-04-03 |
+| 4.0.5 | 139.1547 | release | 2015-03-10 |
+| 4.0.4 | 139.1001 | release | 2015-01-08 |
+| 4.0.3 | 139.781 | release | 2014-12-16 |
+| 4.0.2 | 139.711 | release | 2014-12-09 |
+| 4.0.1 | 139.574 | release | 2014-11-27 |
+| 4.0 | 139.487 | release | 2014-11-19 |
+| 3.4.3 | 135.1318 | release | 2015-10-23 |
+| 3.4.2 | 135.1317 | release | 2015-10-19 |
+| 3.4.1 | 135.1057 | release | 2014-06-10 |
+| 3.4 | 135.973 | release | 2014-05-30 |
+| 3.1.3 | 133.1347 | release | 2014-04-22 |
+| 3.1.2 | 133.1229 | release | 2014-04-04 |
+| 3.1.1 | 133.881 | release | 2014-02-14 |
+| 3.1 | 133.804 | release | 2014-02-04 |
+| 3.0.2 | 131.618 | release | 2013-11-29 |
+| 3.0.1 | 131.339 | release | 2013-10-17 |
+| 3.0 | 131.19 | release | 2013-09-25 |
+| 2.7.3 | 129.782 | release | 2013-06-18 |
+| 2.7.2 | 129.314 | release | 2013-04-18 |
+| 2.7.1 | 125.92 | release | 2013-02-28 |
+| 2.7 | 125.57 | release | 2013-02-07 |
