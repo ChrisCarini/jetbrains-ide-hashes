@@ -55,22 +55,29 @@ def discover_command(args: argparse.Namespace) -> int:
                     f"Unknown IDE product code: {selected_code}. Available codes: {available}"
                 )
             products = selected
+        codes = []
+        deadline = time.monotonic() + args.max_minutes * 60
         for product in products:
             code = history.validate_code(product["code"])
+            state = histories.get(code, History(code, product["name"]))
+            if args.only_pending:
+                if not history.needs_sync(state, product, fetched_at, deadline):
+                    log(f"{code}: up to date; skipping collection")
+                    continue
+                log(f"{code}: queued for collection")
+            codes.append(code)
             snapshot = {"fetched_at": fetched_at, "product": product}
             atomic_write(args.output_dir / f"{code}.json", json.dumps(snapshot, indent=2) + "\n")
             if args.seed:
-                state = histories.get(code, History(code, product["name"]))
                 history.refresh_metadata(state, product, fetched_at)
                 history.save(state, args.data_dir)
         if args.seed:
             render.render_all(args.data_dir, args.docs_dir)
-    matrix = json.dumps(
-        {"product": [product["code"] for product in products]}, separators=(",", ":")
-    )
+    matrix = json.dumps({"product": codes}, separators=(",", ":"))
     if args.github_output:
         with args.github_output.open("a", encoding="utf-8") as output:
             output.write(f"matrix={matrix}\n")
+            output.write(f"has_work={str(bool(codes)).lower()}\n")
     print(matrix)
     return 0
 
@@ -164,10 +171,22 @@ def parser() -> argparse.ArgumentParser:
     )
     discover.add_argument("--output-dir", type=Path, default=Path("catalog-snapshot"))
     discover.add_argument(
-        "--github-output", type=Path, help="Append a JSON matrix to this GitHub output file"
+        "--github-output", type=Path, help="Append matrix and has_work to this GitHub output file"
+    )
+    modes = discover.add_mutually_exclusive_group()
+    modes.add_argument(
+        "--seed", action="store_true", help="Seed metadata/tables without fetching hashes"
+    )
+    modes.add_argument(
+        "--only-pending",
+        action="store_true",
+        help="Skip unchanged, complete IDEs after checking their checksum sidecars",
     )
     discover.add_argument(
-        "--seed", action="store_true", help="Seed metadata/tables without fetching hashes"
+        "--max-minutes",
+        type=positive_int,
+        default=5,
+        help="Checksum preflight budget for --only-pending (default: 5); unverified IDEs stay queued",
     )
     discover.set_defaults(run=discover_command)
 

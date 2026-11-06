@@ -85,17 +85,26 @@ published checksums are upstream observations, not independent security endorsem
 [Update JetBrains IDE hashes](.github/workflows/update-hashes.yml) runs daily at
 **06:23 UTC**, and can also be started manually:
 
-1. An Ubuntu job discovers the selected products and snapshots every release channel.
-2. At most **two macOS jobs run concurrently**, each processing one IDE.
+1. An Ubuntu job compares the selected products, across every release channel, with
+   saved history. It snapshots only IDEs needing collection and logs why others are skipped.
+2. At most **two macOS jobs run concurrently**, each processing one queued IDE.
 3. Each IDE gets at most **10 installer download attempts** and **40 minutes** by
    default. Successful work is checkpointed after each artifact. New/never-attempted
    builds take priority over retries, so one broken URL cannot stall the backfill.
 4. Product checkpoints are uploaded even when individual artifacts fail. A final
    Ubuntu job merges the successful progress into the latest default branch,
    regenerates the Markdown, and commits only `data/` and `ides/`.
+   If no IDE needs work, artifact upload, collection, and publication are all skipped.
 
-All current checksum sidecars for the selected IDEs are refreshed on each run to detect repacked
-installers. The download limit applies to full installers; reaching a time/download
+Missing hashes (including historical backfill), recorded errors, and catalog changes
+keep an IDE queued. Before skipping an otherwise-complete IDE, discovery checks its
+current checksum sidecars to detect repacked installers even when URLs and builds
+have not changed. This preflight has a shared **five-minute budget**; IDEs that cannot
+be verified because of errors or the budget remain queued, never silently skipped.
+A newer catalog fetch timestamp alone does not count as work.
+
+Queued IDEs still refresh their current checksum sidecars during collection.
+The download limit applies to full installers; reaching a time/download
 budget leaves explicit pending work for the next run. Actual collection failures
 remain visible as failed jobs and in the product's collection notes.
 
@@ -156,6 +165,9 @@ python -m jetbrains_hashes discover --seed
 
 # Prepare workflow snapshots for one IDE, including every release channel.
 python -m jetbrains_hashes discover --product PCP
+
+# Skip IDEs with unchanged metadata and complete hashes after checksum verification.
+python -m jetbrains_hashes discover --only-pending --max-minutes 5
 
 # Rebuild Markdown deterministically from the saved history; no network access.
 python -m jetbrains_hashes render

@@ -32,6 +32,7 @@ jobs:
     timeout-minutes: 10
     outputs:
       matrix: ${{ steps.discover.outputs.matrix }}
+      has_work: ${{ steps.discover.outputs.has_work }}
       max_installers: ${{ steps.limits.outputs.max_installers }}
       max_minutes: ${{ steps.limits.outputs.max_minutes }}
       timeout_minutes: ${{ steps.limits.outputs.timeout_minutes }}
@@ -61,12 +62,16 @@ jobs:
               for name, value in values.items():
                   output.write(f"{name}={value}\n")
           PY
-      - name: Discover selected IDEs and every channel
+      - name: Discover IDEs requiring collection across every channel
         id: discover
         env:
           PRODUCT: ${{ inputs.product }}
-        run: python -m jetbrains_hashes discover --product "$PRODUCT" --github-output "$GITHUB_OUTPUT"
+        run: |
+          python -m jetbrains_hashes discover \
+            --product "$PRODUCT" --only-pending --max-minutes 5 \
+            --github-output "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: steps.discover.outputs.has_work == 'true'
         with:
           name: catalog-snapshot
           path: catalog-snapshot/*.json
@@ -75,6 +80,7 @@ jobs:
 
   collect:
     needs: discover
+    if: needs.discover.outputs.has_work == 'true'
     runs-on: macos-15
     timeout-minutes: ${{ fromJSON(needs.discover.outputs.timeout_minutes) }}
     strategy:
@@ -119,6 +125,7 @@ jobs:
     if: >-
       ${{
         always() && !cancelled() && needs.discover.result == 'success' &&
+        needs.discover.outputs.has_work == 'true' &&
         github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
       }}
     runs-on: ubuntu-latest

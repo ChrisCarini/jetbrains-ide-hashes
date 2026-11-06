@@ -1,4 +1,5 @@
 import json
+from copy import deepcopy
 from dataclasses import replace
 
 import pytest
@@ -234,6 +235,196 @@ def test_discovery_keeps_legacy_and_miscategorized_ides(product_factory):
     assert all(row.status == "not_advertised" for row in history.descriptors(cloud, T1))
 
 
+def test_needs_sync_verifies_complete_history_without_mutating_it(product_factory, monkeypatch):
+    state, row = observed(product_factory)
+    before = deepcopy(state)
+    fetched = []
+
+    def fetch(url, deadline):
+        fetched.append(url)
+        return SHA_A.encode()
+
+    monkeypatch.setattr(transfer, "fetch_bytes", fetch)
+    monkeypatch.setattr(
+        transfer, "collect_app", lambda *args: pytest.fail("Preflight must not download installers")
+    )
+
+    assert not history.needs_sync(state, product_factory(), T2, None)
+    assert fetched == [row.checksum_url]
+    assert state == before
+
+
+@pytest.mark.parametrize(
+    "changes",
+    [
+        {"installer_sha256": "", "app_sha256": "", "app_path": ""},
+        {"app_sha256": "", "app_path": ""},
+        {"error_stage": "checksum", "error": "HTTP 404"},
+        {"error_stage": "application", "error": "Missing launcher"},
+        {"error_stage": "metadata", "error": "Invalid metadata"},
+    ],
+)
+def test_needs_sync_keeps_missing_hashes_and_errors(product_factory, monkeypatch, changes):
+    state, row = observed(product_factory)
+    for name, value in changes.items():
+        setattr(row, name, value)
+    before = deepcopy(state)
+    monkeypatch.setattr(transfer, "fetch_bytes", lambda *args: SHA_A.encode())
+
+    assert history.needs_sync(state, product_factory(), T2, None)
+    assert state == before
+
+
+@pytest.mark.parametrize(
+    "kwargs",
+    [
+        {"version": "2.0"},
+        {"build": "123.456.799"},
+        {"channel": "eap"},
+        {"channel": "rc"},
+        {"channel": "preview"},
+        {"channel": "future-channel"},
+        {"platforms": ("mac", "macM1")},
+        {"url": "https://download.jetbrains.com/idea/new.dmg"},
+    ],
+)
+def test_needs_sync_keeps_new_catalog_artifacts_without_preflight(
+    product_factory, monkeypatch, kwargs
+):
+    state, _ = observed(product_factory)
+    monkeypatch.setattr(
+        transfer, "fetch_bytes", lambda *args: pytest.fail("Known work needs no checksum preflight")
+    )
+
+    assert history.needs_sync(state, product_factory(**kwargs), T2, None)
+
+
+@pytest.mark.parametrize("digest", [SHA_A, SHA_B, "e" * 64])
+def test_needs_sync_detects_repacks_but_skips_unchanged_completed_revisions(
+    product_factory, monkeypatch, digest
+):
+    state, old = observed(product_factory)
+    source = history.descriptors(product_factory(), T1)[0]
+    current = history.observe_checksum(state, source, SHA_B, T1)
+    current.app_sha256, current.app_path = APP_B, old.app_path
+    before = deepcopy(state)
+    monkeypatch.setattr(transfer, "fetch_bytes", lambda *args: digest.encode())
+
+    assert history.needs_sync(state, product_factory(), T2, None) == (digest != SHA_B)
+    assert state == before
+    assert not old.current and current.current
+
+
+@pytest.mark.parametrize(
+    "change", ["name", "downloads", "ignored_download_types", "empty_downloads"]
+)
+def test_needs_sync_keeps_metadata_only_changes(product_factory, monkeypatch, change):
+    state, _ = observed(product_factory)
+    product = product_factory()
+    if change == "name":
+        product["name"] = "Renamed IDE"
+    elif change == "downloads":
+        product["releases"][0]["downloads"] = {}
+    elif change == "ignored_download_types":
+        product["releases"][0]["downloads"]["linux"] = {}
+    else:
+        product["releases"].extend(product_factory(version="2.0", platforms=())["releases"])
+    monkeypatch.setattr(transfer, "fetch_bytes", lambda *args: SHA_A.encode())
+
+    assert history.needs_sync(state, product, T2, None)
+
+
+@pytest.mark.parametrize("problem", ["empty", "build", "duplicate", "url", "stale"])
+def test_needs_sync_leaves_catalog_validation_failures_to_collection(
+    product_factory, monkeypatch, capsys, problem
+):
+    state, _ = observed(product_factory)
+    product = product_factory()
+    if problem == "empty":
+        product["releases"] = []
+    elif problem == "build":
+        product["releases"][0]["build"] = 123
+    elif problem == "duplicate":
+        product["releases"] *= 2
+    elif problem == "url":
+        product["releases"][0]["downloads"]["mac"]["link"] = "https://["
+    else:
+        state.catalog_fetched_at = T2
+    before = deepcopy(state)
+    monkeypatch.setattr(
+        transfer, "fetch_bytes", lambda *args: pytest.fail("Catalog validation failed")
+    )
+
+    assert history.needs_sync(state, product, T1, None)
+    assert state == before
+    assert "keeping IDE queued for collection" in capsys.readouterr().err
+
+
+def test_needs_sync_skips_unchanged_unadvertised_releases_even_after_budget(
+    tmp_path, product_factory, monkeypatch
+):
+    product = product_factory(version="2.0", platforms=())
+    product["releases"].extend(product_factory(platforms=())["releases"])
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+    history.save(state, tmp_path)
+    monkeypatch.setattr(transfer, "fetch_bytes", lambda *args: pytest.fail("No sidecars to check"))
+
+    assert not history.needs_sync(state, product, T2, -1)
+    product["releases"].reverse()
+    assert not history.needs_sync(state, product, T2, -1)
+
+
+@pytest.mark.parametrize("incomplete", [False, True])
+def test_needs_sync_retains_historical_backfill_for_absent_products(product_factory, incomplete):
+    state, row = observed(product_factory)
+    if incomplete:
+        row.app_sha256, row.app_path = "", ""
+    product = {
+        "code": state.code,
+        "name": state.name,
+        "releases": [],
+        "absent_from_catalog": True,
+    }
+    history.refresh_metadata(state, product, T1)
+
+    assert history.needs_sync(state, product, T2, -1) == incomplete
+
+
+@pytest.mark.parametrize(
+    "failure",
+    [None, transfer.ArtifactError("HTTP 404"), transfer.BudgetReached("Retry exceeds budget")],
+)
+def test_needs_sync_keeps_unverifiable_checksums_queued(
+    product_factory, monkeypatch, capsys, failure
+):
+    state, _ = observed(product_factory)
+    before = deepcopy(state)
+
+    def fetch(*args):
+        if failure is not None:
+            raise failure
+        return b"not a checksum"
+
+    monkeypatch.setattr(transfer, "fetch_bytes", fetch)
+
+    assert history.needs_sync(state, product_factory(), T2, None)
+    assert state == before
+    assert capsys.readouterr().err
+
+
+def test_needs_sync_does_not_skip_unchecked_sidecars_after_budget(
+    product_factory, monkeypatch, capsys
+):
+    state, _ = observed(product_factory)
+    monkeypatch.setattr(
+        transfer, "fetch_bytes", lambda *args: pytest.fail("The preflight budget is exhausted")
+    )
+
+    assert history.needs_sync(state, product_factory(), T2, -1)
+    assert "checksum refresh incomplete" in capsys.readouterr().err
+
+
 def test_merge_keeps_newer_history_and_rejects_conflicting_app_hash(product_factory):
     destination, old = observed(product_factory)
     incoming = history.History("IIU", "IntelliJ IDEA", [replace(old)], T1)
@@ -348,6 +539,35 @@ def test_checksum_failure_is_recorded_and_reported(tmp_path, product_factory, mo
     restored = history.load(tmp_path / "IIU.json")
     assert result == 1
     assert any(row.error_stage == "checksum" for row in restored.records)
+    assert history.coverage(restored)["installer_hashes"] == 0
+
+
+def test_checksum_budget_preserves_earlier_failures(tmp_path, product_factory, monkeypatch):
+    product = product_factory()
+    product["releases"].extend(
+        product_factory(build="123.456.799", url="https://download.jetbrains.com/idea/second.dmg")[
+            "releases"
+        ]
+    )
+    state = history.History("IIU", "IntelliJ IDEA")
+    sources = history.refresh_metadata(state, product, T1)
+
+    def fetch(url, deadline):
+        if "second.dmg" in url:
+            raise transfer.BudgetReached("Retry exceeds budget")
+        raise transfer.ArtifactError("HTTP 404")
+
+    monkeypatch.setattr(transfer, "fetch_bytes", fetch)
+    monkeypatch.setattr(
+        transfer, "collect_app", lambda *args: pytest.fail("Checksum refresh was incomplete")
+    )
+
+    assert (
+        history.collect(state, sources, lambda: history.save(state, tmp_path), tmp_path, 10, None)
+        == 1
+    )
+    restored = history.load(tmp_path / "IIU.json")
+    assert history.coverage(restored)["errors"] == 1
     assert history.coverage(restored)["installer_hashes"] == 0
 
 

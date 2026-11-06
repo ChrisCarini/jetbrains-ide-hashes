@@ -394,7 +394,7 @@ def test_discover_product_selection_controls_snapshots_seed_and_matrix(
 
     matrix = json.dumps({"product": expected}, separators=(",", ":"))
     assert capsys.readouterr().out == matrix + "\n"
-    assert output.read_text() == f"existing=value\nmatrix={matrix}\n"
+    assert output.read_text() == f"existing=value\nmatrix={matrix}\nhas_work=true\n"
     assert {path.stem for path in snapshots.glob("*.json")} == set(expected)
     assert {path.stem for path in data.glob("*.json")} == set(expected)
     assert {path.stem for path in docs.glob("*.md")} == set(expected) | {"README"}
@@ -406,6 +406,92 @@ def test_discover_product_selection_controls_snapshots_seed_and_matrix(
         "preview",
         "future-channel",
     }
+
+
+@pytest.mark.parametrize(
+    "product,pcp_complete,expected,checks",
+    [
+        (None, False, ["PCP"], 1),
+        ("", False, ["PCP"], 1),
+        ("AIR", False, [], 1),
+        ("PCP", False, ["PCP"], 0),
+        (None, True, [], 2),
+    ],
+)
+def test_pending_discovery_skips_complete_air_and_handles_empty_matrix(
+    tmp_path, product_factory, monkeypatch, capsys, product, pcp_complete, expected, checks
+):
+    air = product_factory(code="AIR", channel="preview", platforms=("macos_x64", "macos_aarch64"))
+    pcp = product_factory(code="PCP")
+    for channel in ("eap", "rc", "preview", "future-channel"):
+        pcp["releases"].extend(product_factory(code="PCP", channel=channel)["releases"])
+    source = tmp_path / "products.json"
+    source.write_text(json.dumps([air, pcp]))
+    data, docs, snapshots = tmp_path / "data", tmp_path / "ides", tmp_path / "catalog"
+    for complete_product in [air, pcp] if pcp_complete else [air]:
+        state = history.History(complete_product["code"], complete_product["name"])
+        sources = history.refresh_metadata(state, complete_product, T1)
+        for descriptor in sources:
+            if descriptor.installer_url:
+                row = history.observe_checksum(state, descriptor, "a" * 64, T1)
+                row.app_sha256, row.app_path = "b" * 64, "IDE.app/Contents/MacOS/launcher"
+        history.save(state, data)
+    before = {path.name: path.read_bytes() for path in data.glob("*.json")}
+    fetched = []
+
+    def fetch(url, deadline):
+        assert deadline is not None
+        fetched.append(url)
+        return b"a" * 64
+
+    monkeypatch.setattr(history.transfer, "fetch_bytes", fetch)
+    monkeypatch.setattr(
+        history.transfer,
+        "collect_app",
+        lambda *args: pytest.fail("Discovery must not download installers"),
+    )
+    output = tmp_path / "github-output"
+    output.write_text("existing=value\n")
+    args = [
+        "discover",
+        "--only-pending",
+        "--catalog-file",
+        str(source),
+        "--data-dir",
+        str(data),
+        "--docs-dir",
+        str(docs),
+        "--output-dir",
+        str(snapshots),
+        "--github-output",
+        str(output),
+    ]
+    if product is not None:
+        args.extend(["--product", product])
+
+    assert cli.main(args) == 0
+
+    captured = capsys.readouterr()
+    matrix = json.dumps({"product": expected}, separators=(",", ":"))
+    assert captured.out == matrix + "\n"
+    assert output.read_text() == (
+        f"existing=value\nmatrix={matrix}\nhas_work={str(bool(expected)).lower()}\n"
+    )
+    assert {path.stem for path in snapshots.glob("*.json")} == set(expected)
+    assert before == {path.name: path.read_bytes() for path in data.glob("*.json")}
+    assert not docs.exists()
+    assert len(fetched) == checks
+    if product != "PCP":
+        assert "AIR: up to date; skipping collection" in captured.err
+    if "PCP" in expected:
+        snapshot = json.loads((snapshots / "PCP.json").read_text())
+        assert {release["type"] for release in snapshot["product"]["releases"]} == {
+            "release",
+            "eap",
+            "rc",
+            "preview",
+            "future-channel",
+        }
 
 
 @pytest.mark.parametrize(
