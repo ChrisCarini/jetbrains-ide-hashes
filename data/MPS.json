@@ -5604,7 +5604,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:26:14.457559+00:00",
+      "last_attempt": "2026-11-06T18:07:45.435473+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -5623,7 +5623,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:25:52.154871+00:00",
+      "last_attempt": "2026-11-06T18:07:34.510550+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -5794,7 +5794,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:25:30.553696+00:00",
+      "last_attempt": "2026-11-06T18:07:21.332736+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -5813,7 +5813,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:25:06.840204+00:00",
+      "last_attempt": "2026-11-06T18:07:09.532208+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -6022,7 +6022,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:26:59.673156+00:00",
+      "last_attempt": "2026-11-06T18:08:07.551764+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -6041,7 +6041,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:26:35.343855+00:00",
+      "last_attempt": "2026-11-06T18:07:56.518811+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -6155,7 +6155,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:27:23.568231+00:00",
+      "last_attempt": "2026-11-06T18:08:19.788952+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -6402,7 +6402,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:24:44.538475+00:00",
+      "last_attempt": "2026-11-06T18:06:57.347836+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -6421,7 +6421,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:24:18.919797+00:00",
+      "last_attempt": "2026-11-06T18:06:46.557646+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -6440,7 +6440,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T10:23:54.323535+00:00",
+      "last_attempt": "2026-11-06T18:06:31.210226+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -9618,7 +9618,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-06T06:43:25.533367+00:00",
+  "catalog_fetched_at": "2026-11-06T17:23:33.162070+00:00",
   "catalog_release_count": 253,
   "ignored_download_types": [
     "linux",

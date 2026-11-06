@@ -26,6 +26,6 @@ Each product page starts with released versions, followed by every other API cha
 | [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 56 |
 | [Rider](RD.md) | `RD` | 453/453 | 310/453 | 71 |
 | [RubyMine](RM.md) | `RM` | 678/678 | 310/678 | 176 |
-| [RustRover](RR.md) | `RR` | 300/300 | 110/300 | 0 |
-| [WebStorm](WS.md) | `WS` | 664/664 | 110/664 | 196 |
+| [RustRover](RR.md) | `RR` | 300/300 | 120/300 | 0 |
+| [WebStorm](WS.md) | `WS` | 664/664 | 120/664 | 196 |
 | [Youtrack Workflow Editor](YTWE.md) | `YTWE` | 1/1 | 0/1 | 1 |
