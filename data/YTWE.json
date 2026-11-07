@@ -18,7 +18,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-07T00:00:46.120088+00:00",
+      "last_attempt": "2026-11-07T13:51:47.673648+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -42,7 +42,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-06T19:00:27.720292+00:00",
+  "catalog_fetched_at": "2026-11-07T13:15:30.481005+00:00",
   "catalog_release_count": 1,
   "ignored_download_types": [
     "linux",

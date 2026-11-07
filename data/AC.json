@@ -1386,7 +1386,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:12:19.320274+00:00",
+      "last_attempt": "2026-11-07T13:17:07.463353+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.971, bundle says OC-145.971.26; refusing to attribute this executable to the wrong build"
     },
@@ -1424,7 +1424,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:12:10.394957+00:00",
+      "last_attempt": "2026-11-07T13:16:57.498025+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.972, bundle says OC-145.972.5; refusing to attribute this executable to the wrong build"
     },
@@ -1462,7 +1462,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:11:59.446604+00:00",
+      "last_attempt": "2026-11-07T13:16:47.899790+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.1617, bundle says OC-145.1617.5; refusing to attribute this executable to the wrong build"
     },
@@ -1500,7 +1500,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:11:36.027808+00:00",
+      "last_attempt": "2026-11-07T13:16:29.195784+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.2073, bundle says OC-145.2073.4; refusing to attribute this executable to the wrong build"
     },
@@ -1538,7 +1538,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:11:46.566863+00:00",
+      "last_attempt": "2026-11-07T13:16:38.836831+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 162.1236, bundle says OC-162.1236.19; refusing to attribute this executable to the wrong build"
     },
@@ -7162,7 +7162,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:12:48.222959+00:00",
+      "last_attempt": "2026-11-07T13:17:34.390698+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 139.1803, bundle says OC-139.1803.27; refusing to attribute this executable to the wrong build"
     },
@@ -7238,7 +7238,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:12:41.316754+00:00",
+      "last_attempt": "2026-11-07T13:17:27.562872+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 141.3058, bundle says OC-141.3058.49; refusing to attribute this executable to the wrong build"
     },
@@ -7428,7 +7428,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:12:29.270915+00:00",
+      "last_attempt": "2026-11-07T13:17:16.338574+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.2370, bundle says OC-143.2370.39; refusing to attribute this executable to the wrong build"
     },
@@ -7452,7 +7452,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-06T19:00:27.720292+00:00",
+  "catalog_fetched_at": "2026-11-07T13:15:30.481005+00:00",
   "catalog_release_count": 196,
   "ignored_download_types": [
     "macJBR8",

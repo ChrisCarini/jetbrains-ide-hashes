@@ -322,7 +322,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:13:55.383809+00:00",
+      "last_attempt": "2026-11-07T13:17:24.158563+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 141.3058, bundle says CL-141.3058.48; refusing to attribute this executable to the wrong build"
     },
@@ -550,7 +550,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:13:45.428331+00:00",
+      "last_attempt": "2026-11-07T13:17:16.565159+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.2370, bundle says CL-143.2370.46; refusing to attribute this executable to the wrong build"
     },
@@ -740,7 +740,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-06T19:13:23.156005+00:00",
+      "last_attempt": "2026-11-07T13:17:07.184203+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.1617, bundle says CL-145.1617.9; refusing to attribute this executable to the wrong build"
     },
@@ -9238,7 +9238,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-06T19:00:27.720292+00:00",
+  "catalog_fetched_at": "2026-11-07T13:15:30.481005+00:00",
   "catalog_release_count": 243,
   "ignored_download_types": [
     "linux",
