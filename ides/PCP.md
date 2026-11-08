@@ -172,10 +172,10 @@
 | 2023.2.6 | 232.10300.41 | `mac` | `85eb40c1bf80ff2ec6c397c1f022d95da668f35bc2eb420191f7a87400016955` | `b5c9e463c3d487dec37cfad8c84bad31fcaf385defc3d27b1eaa1d9ca0b4c036` | 2024-02-15 |
 | 2023.2.5 | 232.10227.11 | `macM1` | `ee1e255047a5cf452c6f4e7b981f27edcf8bd7efa3be51e7d75d2defe63c5105` | `d40721180de5b5c926c9216a207eb29b64932ab96708d4755bd186a9851918eb` | 2023-11-14 |
 | 2023.2.5 | 232.10227.11 | `mac` | `a8fbd5fda39cf94ccf86918fe170bcd74595e0d59491b79c329033d0e517ae2d` | `5d42a5d7044a2d5dacebcf5dbd4cf6649145b4112e9a6f171b4c7006f4fac873` | 2023-11-14 |
-| 2023.2.4 | 232.10203.26 | `macM1` | `57a0e043f9a2b7019dff5a251122be9ca97026709d2f2b7c08c41185ba29d8f5` | Pending | 2023-11-01 |
-| 2023.2.4 | 232.10203.26 | `mac` | `8b52582589ca8dcbae75da6f0d1c63953de1e368b2095c12b5154cbc3d45f7f4` | Pending | 2023-11-01 |
-| 2023.2.3 | 232.10072.31 | `macM1` | `63d68b20963575f76937ca0ce18a8150639c47b8cf8f3d6e96fa3306191cd076` | Pending | 2023-10-12 |
-| 2023.2.3 | 232.10072.31 | `mac` | `b33bbd30222363cdc3091aee923ed1c309edba799616a3a681cd9a1ca94e822a` | Pending | 2023-10-12 |
+| 2023.2.4 | 232.10203.26 | `macM1` | `57a0e043f9a2b7019dff5a251122be9ca97026709d2f2b7c08c41185ba29d8f5` | `b4af429e8e7302aa13d5871eb149a6b6bcc29de0c6195246f41c2c24b18ad608` | 2023-11-01 |
+| 2023.2.4 | 232.10203.26 | `mac` | `8b52582589ca8dcbae75da6f0d1c63953de1e368b2095c12b5154cbc3d45f7f4` | `e7b5ba453f9e70eab6ad336674571e6b14ee01ec1df6332531aa6187de5dde78` | 2023-11-01 |
+| 2023.2.3 | 232.10072.31 | `macM1` | `63d68b20963575f76937ca0ce18a8150639c47b8cf8f3d6e96fa3306191cd076` | `5a7ce199fc596c41f61cfe034e2e8566875307d24fd10a4ab5db5a38bca53a1f` | 2023-10-12 |
+| 2023.2.3 | 232.10072.31 | `mac` | `b33bbd30222363cdc3091aee923ed1c309edba799616a3a681cd9a1ca94e822a` | `caf47975c26d0530207b4e525bfd41b37230b3a7e77135e7612ea29a8ec536ea` | 2023-10-12 |
 | 2023.2.2 | 232.9921.89 | `macM1` | `5d4292dd0e40db35199ebcd6472d4b46c505d3357d2324690338758355e0f092` | Pending | 2023-10-02 |
 | 2023.2.2 | 232.9921.89 | `mac` | `830f590d63199b389bbaa955c8602fa027bc1eb25bd8ce5636474eec72745b58` | Pending | 2023-10-02 |
 | 2023.2.1 | 232.9559.58 | `macM1` | `82722d522176ca9aac0e919a38c3b88155e6e3cc104b64204755a9657a180b52` | Pending | 2023-08-24 |
@@ -556,12 +556,12 @@
 | 2023.3 <sub>rc</sub> | 233.11799.209 | `mac` | `583ae9170389a0d002bcdbe99335cda30c54acfa64453cd3f2a771aee0a99818` | `fd043674b60a5af08cd67cadc15c8d7ce410d0fbe3845a0c209ce272bcaeb1f7` | 2023-11-30 |
 | **2023.3** <sub>eap</sub> | **233.11799.32** | `macM1` | `701383415eaddcf883bdc9f37ef9daaf273fbbadf11e685c9ba49cd2d153b966` | `8c53ae3c816a255cf830976f504bac6b31aa6bef3739c50ff629f2548ee0287d` | 2023-11-16 |
 | **2023.3** <sub>eap</sub> | **233.11799.32** | `mac` | `6fcb0abd3426a1bd9f613e355e41ddf0043dc563309743834551a8650a4c22da` | `7ac19974e3bdbcce3b11500110a04be06a5a67ce6003ffb17357833c1c4790ac` | 2023-11-16 |
-| **2023.3** <sub>eap</sub> | **233.11799.20** | `macM1` | `4d5fa297bf5d7cf6464a6b99f1eee70bd00f235f056be620978c0f6d19bf8c48` | Pending | 2023-11-13 |
-| **2023.3** <sub>eap</sub> | **233.11799.20** | `mac` | `ac86c283ff50d90613bcf86e88af2d9eed8fa7fccc026b5d0dfd38decdb0ef29` | Pending | 2023-11-13 |
-| **2023.3** <sub>eap</sub> | **233.11555.5** | `macM1` | `662bd1f3ea7a231252cbba186cfe45a689772f35c6b11fe31e4058594aa74d00` | Pending | 2023-11-02 |
-| **2023.3** <sub>eap</sub> | **233.11555.5** | `mac` | `b35323baf744fd8038194fb8adfd8694ee91b9f9c4bb48f539cec589afe68d13` | Pending | 2023-11-02 |
-| **2023.3** <sub>eap</sub> | **233.11361.11** | `macM1` | `dcf01dbab263fdfe7317bcb2809dccf907d549f532e66497849bacdc234529ff` | Pending | 2023-10-27 |
-| **2023.3** <sub>eap</sub> | **233.11361.11** | `mac` | `90713885c8dec9b167fb811fa3d12c248ac27feb11cf8879f562f467cc6b25e8` | Pending | 2023-10-27 |
+| **2023.3** <sub>eap</sub> | **233.11799.20** | `macM1` | `4d5fa297bf5d7cf6464a6b99f1eee70bd00f235f056be620978c0f6d19bf8c48` | `a7068a4e8a5ef701bc37896e0de0ddc8f36f6332846c5438416510ed5d606805` | 2023-11-13 |
+| **2023.3** <sub>eap</sub> | **233.11799.20** | `mac` | `ac86c283ff50d90613bcf86e88af2d9eed8fa7fccc026b5d0dfd38decdb0ef29` | `fd3a735af8afcc376e51960de663ca48307e3fb426de87028f2a6493a2e75de7` | 2023-11-13 |
+| **2023.3** <sub>eap</sub> | **233.11555.5** | `macM1` | `662bd1f3ea7a231252cbba186cfe45a689772f35c6b11fe31e4058594aa74d00` | `386e5efb7f849381a2f68923fa907ef03eae38a59e542144e181bc4cc4cb581d` | 2023-11-02 |
+| **2023.3** <sub>eap</sub> | **233.11555.5** | `mac` | `b35323baf744fd8038194fb8adfd8694ee91b9f9c4bb48f539cec589afe68d13` | `676eae3dd7e623b8ea0cf597467dcfbd1c348ab922336cdcd7386ae70b094cea` | 2023-11-02 |
+| **2023.3** <sub>eap</sub> | **233.11361.11** | `macM1` | `dcf01dbab263fdfe7317bcb2809dccf907d549f532e66497849bacdc234529ff` | `290874d1934851cef396cbf452fc853eb4c1073f8195cfef962d41de650399e5` | 2023-10-27 |
+| **2023.3** <sub>eap</sub> | **233.11361.11** | `mac` | `90713885c8dec9b167fb811fa3d12c248ac27feb11cf8879f562f467cc6b25e8` | `1c02e0c684f06d17008149056cb784fffaf0f98ab21fee45efa37d3626d360ef` | 2023-10-27 |
 | **2023.3** <sub>eap</sub> | **233.9802.6** | `macM1` | `9a9db55acd25c3bdc2d3105ccd91ccdaec8a14a26bf47f5a0e2a98ff709fbbf8` | Pending | 2023-10-11 |
 | **2023.3** <sub>eap</sub> | **233.9802.6** | `mac` | `716cc8604650caa9b40cda32777cd3a41489f684c8cf9301539186eaac025c3f` | Pending | 2023-10-11 |
 | **2023.3** <sub>eap</sub> | **233.9102.128** | `macM1` | `d143ff5234d717018bfecfcb3abae4b738247ddd153f947f5736eece875f6f1b` | Pending | 2023-10-05 |
@@ -615,7 +615,7 @@
 
 Product: **PyCharm** (`PCP`). [Machine-readable history](../data/PCP.json).
 
-Installer hashes: **605/605**; application hashes: **420/605**; not advertised: **239**.
+Installer hashes: **605/605**; application hashes: **430/605**; not advertised: **239**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
