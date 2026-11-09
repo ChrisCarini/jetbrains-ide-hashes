@@ -246,7 +246,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:00:14.228383+00:00",
+      "last_attempt": "2026-11-09T16:10:56.707943+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 141.3058, bundle says WS-141.3058.28; refusing to attribute this executable to the wrong build"
     },
@@ -436,7 +436,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:00:35.351676+00:00",
+      "last_attempt": "2026-11-09T16:11:00.262753+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.2370, bundle says WS-143.2370.35; refusing to attribute this executable to the wrong build"
     },
@@ -702,7 +702,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T07:59:53.292563+00:00",
+      "last_attempt": "2026-11-09T16:10:51.248885+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.1616, bundle says WS-145.1616.9; refusing to attribute this executable to the wrong build"
     },
@@ -16320,7 +16320,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T07:59:59.171034+00:00",
+      "last_attempt": "2026-11-09T16:10:54.819994+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 139.1803, bundle says WS-139.1803.34; refusing to attribute this executable to the wrong build"
     },
@@ -16344,7 +16344,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-09T07:27:45.125453+00:00",
+  "catalog_fetched_at": "2026-11-09T15:43:20.124566+00:00",
   "catalog_release_count": 430,
   "ignored_download_types": [
     "linux",

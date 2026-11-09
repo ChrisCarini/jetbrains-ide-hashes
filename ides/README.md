@@ -17,7 +17,7 @@ Each product page starts with released versions, followed by every other API cha
 | [IntelliJ IDEA](IIU.md) | `IIU` | 659/659 | 657/659 | 267 |
 | [IntelliJ IDEA Community Edition](IIC.md) | `IIC` | 521/521 | 518/521 | 267 |
 | [JetBrains AI Assistant for Visual Studio Code](VSCAI.md) | `VSCAI` | 0/0 | 0/0 | 38 |
-| [MPS](MPS.md) | `MPS` | 274/274 | 0/274 | 232 |
+| [MPS](MPS.md) | `MPS` | 275/275 | 0/275 | 233 |
 | [MPS IntelliJ IDEA plugin](MPSIIP.md) | `MPSIIP` | 0/0 | 0/0 | 198 |
 | [PhpStorm](PS.md) | `PS` | 675/675 | 669/675 | 165 |
 | [PhpStorm Light](PSL.md) | `PSL` | 10/10 | 10/10 | 0 |

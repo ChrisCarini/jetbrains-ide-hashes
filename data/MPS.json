@@ -3134,7 +3134,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:04:11.754470+00:00",
+      "last_attempt": "2026-11-09T16:01:24.342830+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -3172,7 +3172,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:03:43.505055+00:00",
+      "last_attempt": "2026-11-09T16:01:06.210077+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -3514,7 +3514,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:05:10.455422+00:00",
+      "last_attempt": "2026-11-09T16:02:04.281396+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -3552,7 +3552,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:02:40.543733+00:00",
+      "last_attempt": "2026-11-09T16:00:24.277411+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -3704,7 +3704,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:01:06.617895+00:00",
+      "last_attempt": "2026-11-09T15:59:22.402487+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -3818,7 +3818,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:04:40.353196+00:00",
+      "last_attempt": "2026-11-09T16:01:44.323159+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -3856,7 +3856,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:03:12.402816+00:00",
+      "last_attempt": "2026-11-09T16:00:45.284845+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -3894,7 +3894,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:02:10.791639+00:00",
+      "last_attempt": "2026-11-09T16:00:05.253739+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -4084,7 +4084,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T01:01:38.767682+00:00",
+      "last_attempt": "2026-11-09T15:59:44.297810+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file"
     },
@@ -8364,6 +8364,44 @@
       "error": "Invalid application metadata: Invalid file"
     },
     {
+      "version": "2026.2",
+      "build": "262.11879.701",
+      "release_type": "release",
+      "release_date": "2026-11-09",
+      "platform": "mac",
+      "installer_url": "",
+      "checksum_url": "",
+      "size_bytes": 0,
+      "installer_sha256": "",
+      "app_sha256": "",
+      "app_path": "",
+      "app_build": "",
+      "first_seen": "2026-11-09T15:43:20.124566+00:00",
+      "current": true,
+      "last_attempt": "",
+      "error_stage": "",
+      "error": ""
+    },
+    {
+      "version": "2026.2",
+      "build": "262.11879.701",
+      "release_type": "release",
+      "release_date": "2026-11-09",
+      "platform": "macM1",
+      "installer_url": "https://download.jetbrains.com/mps/2026.2/MPS-2026.2-macos-aarch64.dmg",
+      "checksum_url": "https://download.jetbrains.com/mps/2026.2/MPS-2026.2-macos-aarch64.dmg.sha256",
+      "size_bytes": 847279664,
+      "installer_sha256": "3bd01adf7cf04c51e6b3478a7f1370af7df511012ed7b87902755ad0e2806cc5",
+      "app_sha256": "",
+      "app_path": "",
+      "app_build": "",
+      "first_seen": "2026-11-09T15:43:20.124566+00:00",
+      "current": true,
+      "last_attempt": "2026-11-09T15:59:01.452119+00:00",
+      "error_stage": "application",
+      "error": "Invalid application metadata: Invalid file"
+    },
+    {
       "version": "2026.2-EAP1",
       "build": "262.9437.166",
       "release_type": "eap",
@@ -9618,8 +9656,8 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-09T07:27:45.125453+00:00",
-  "catalog_release_count": 253,
+  "catalog_fetched_at": "2026-11-09T15:43:20.124566+00:00",
+  "catalog_release_count": 254,
   "ignored_download_types": [
     "linux",
     "linuxARM64",

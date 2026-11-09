@@ -1,5 +1,6 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.2 | 262.11879.701 | `macM1` | `3bd01adf7cf04c51e6b3478a7f1370af7df511012ed7b87902755ad0e2806cc5` | Unavailable (see collection notes) | 2026-11-09 |
 | 2026.1.2 | 261.27258.1085 | `macM1` | `d3097f8397da7e6409e01eaa5760d4f800440aaf90ac591fddf5d8ab0dcb79a7` | Unavailable (see collection notes) | 2026-10-30 |
 | 2026.1.2 | 261.27258.1085 | `mac` | `5eaecbe04607409a2a467346c5c18b814119c6bb28236d6ebdcef5d3cc283dcd` | Unavailable (see collection notes) | 2026-10-30 |
 | 2026.1.1 | 261.25134.877 | `macM1` | `b9170dce0b47f55513ced9f81614064043ead0a5eef52aaf9487cf04fbd78c9b` | Unavailable (see collection notes) | 2026-09-16 |
@@ -284,7 +285,7 @@
 
 Product: **MPS** (`MPS`). [Machine-readable history](../data/MPS.json).
 
-Installer hashes: **274/274**; application hashes: **0/274**; not advertised: **232**.
+Installer hashes: **275/275**; application hashes: **0/275**; not advertised: **233**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -389,6 +390,7 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 - 2026.2-RC2 / 262.11879.672 / `macM1` (application): Invalid application metadata: Invalid file
 - 2026.2-RC1 / 262.10968.569 / `macM1` (application): Invalid application metadata: Invalid file
 - 2026.2-EAP1 / 262.9437.166 / `macM1` (application): Invalid application metadata: Invalid file
+- 2026.2 / 262.11879.701 / `macM1` (application): Invalid application metadata: Invalid file
 - 2026.1.2 / 261.27258.1085 / `macM1` (application): Invalid application metadata: Invalid file
 - 2026.1.2 / 261.27258.1085 / `mac` (application): Invalid application metadata: Invalid file
 - 2026.1.1 / 261.25134.877 / `macM1` (application): Invalid application metadata: Invalid file
