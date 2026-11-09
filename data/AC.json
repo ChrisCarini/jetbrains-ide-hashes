@@ -1495,14 +1495,14 @@
       "checksum_url": "https://download.jetbrains.com/objc/AppCode-2016.1.4.dmg.sha256",
       "size_bytes": 261310672,
       "installer_sha256": "7354ddf250cd56cb68be83017b31d92c301a80ec8794bddb05e735eea862121d",
-      "app_sha256": "",
-      "app_path": "",
-      "app_build": "",
+      "app_sha256": "2c21a97235b9c6e10f3a8128c794ddc3462ca7026a3bb5c2f38e5a5b9bf41c1c",
+      "app_path": "AppCode.app/Contents/MacOS/appcode",
+      "app_build": "OC-145.2073.4",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:42:13.184576+00:00",
-      "error_stage": "application",
-      "error": "Bundle build mismatch: API says 145.2073, bundle says OC-145.2073.4; refusing to attribute this executable to the wrong build"
+      "last_attempt": "2026-11-09T17:29:52.165243+00:00",
+      "error_stage": "",
+      "error": ""
     },
     {
       "version": "2016.1.4",

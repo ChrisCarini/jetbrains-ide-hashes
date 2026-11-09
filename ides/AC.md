@@ -171,7 +171,7 @@
 | 2016.2.2 | 162.1967.8 | `mac` | `73392ea84d247ec3a75b7ecf9c5f11078b32e01fbde5a7f54e8ad95a65fc68dc` | `332de5be9bee71dda5332245fbe95cd179dfa646d3e94b708b1b9922cf09177c` | 2016-09-07 |
 | 2016.2.1 | 162.1628.44 | `mac` | `bb476d237f95ab775936ea02380c92e5e5602643c125f19bab4134d61f209a46` | `67bdb15b64bfefa78c94de6eb218b7e4cc43eb0f2bcb00b045db30511e68a3e4` | 2016-08-18 |
 | 2016.2 | 162.1236 | `mac` | `e4950f49c0fb736400dfd25cdc564593b61c2f97c61cac93fa99b6d53a01b2c4` | Unavailable (see collection notes) | 2016-07-20 |
-| 2016.1.4 | 145.2073 | `mac` | `7354ddf250cd56cb68be83017b31d92c301a80ec8794bddb05e735eea862121d` | Unavailable (see collection notes) | 2016-09-09 |
+| 2016.1.4 | 145.2073 | `mac` | `7354ddf250cd56cb68be83017b31d92c301a80ec8794bddb05e735eea862121d` | `2c21a97235b9c6e10f3a8128c794ddc3462ca7026a3bb5c2f38e5a5b9bf41c1c` | 2016-09-09 |
 | 2016.1.3 | 145.1617 | `mac` | `b0de414b7785cf89f680bc8f413c5ebdb66430cebb20f0395c4c49590c4d3f09` | Unavailable (see collection notes) | 2016-06-01 |
 | 2016.1.2b | 145.972 | `mac` | `f724bc1db8d47e934bae1010ac8abc18445a5a41d162cf8f1d0504ebc8808ece` | Unavailable (see collection notes) | 2016-05-18 |
 | 2016.1.2 | 145.971 | `mac` | `24188b9b99f2d5afa85665711b33cf8cfc439916d5f822e41d7dba31115060c9` | Unavailable (see collection notes) | 2016-05-11 |
@@ -195,7 +195,7 @@
 
 Product: **AppCode** (`AC`). [Machine-readable history](../data/AC.json).
 
-Installer hashes: **185/185**; application hashes: **177/185**; not advertised: **207**.
+Installer hashes: **185/185**; application hashes: **178/185**; not advertised: **207**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -267,7 +267,6 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 ### Collection errors
 
 - 2016.2 / 162.1236 / `mac` (application): Bundle build mismatch: API says 162.1236, bundle says OC-162.1236.19; refusing to attribute this executable to the wrong build
-- 2016.1.4 / 145.2073 / `mac` (application): Bundle build mismatch: API says 145.2073, bundle says OC-145.2073.4; refusing to attribute this executable to the wrong build
 - 2016.1.3 / 145.1617 / `mac` (application): Bundle build mismatch: API says 145.1617, bundle says OC-145.1617.5; refusing to attribute this executable to the wrong build
 - 2016.1.2b / 145.972 / `mac` (application): Bundle build mismatch: API says 145.972, bundle says OC-145.972.5; refusing to attribute this executable to the wrong build
 - 2016.1.2 / 145.971 / `mac` (application): Bundle build mismatch: API says 145.971, bundle says OC-145.971.26; refusing to attribute this executable to the wrong build
