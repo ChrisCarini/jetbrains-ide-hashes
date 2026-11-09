@@ -3932,7 +3932,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:12:38.035251+00:00",
+      "last_attempt": "2026-11-09T07:36:09.861712+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build"
     },
@@ -3951,7 +3951,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:11:42.244269+00:00",
+      "last_attempt": "2026-11-09T07:35:56.389313+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build"
     },
@@ -4602,7 +4602,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-09T00:03:40.550819+00:00",
+  "catalog_fetched_at": "2026-11-09T07:27:45.125453+00:00",
   "catalog_release_count": 121,
   "ignored_download_types": [
     "linux",

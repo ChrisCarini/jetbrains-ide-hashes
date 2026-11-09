@@ -27,5 +27,5 @@ Each product page starts with released versions, followed by every other API cha
 | [Rider](RD.md) | `RD` | 453/453 | 453/453 | 71 |
 | [RubyMine](RM.md) | `RM` | 678/678 | 678/678 | 176 |
 | [RustRover](RR.md) | `RR` | 300/300 | 300/300 | 0 |
-| [WebStorm](WS.md) | `WS` | 664/664 | 640/664 | 196 |
+| [WebStorm](WS.md) | `WS` | 664/664 | 660/664 | 196 |
 | [Youtrack Workflow Editor](YTWE.md) | `YTWE` | 1/1 | 0/1 | 1 |

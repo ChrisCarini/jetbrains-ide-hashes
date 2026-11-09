@@ -18,7 +18,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:12:55.420086+00:00",
+      "last_attempt": "2026-11-09T07:36:12.640428+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.1410, bundle says DB-143.1410.7; refusing to attribute this executable to the wrong build"
     },
@@ -56,7 +56,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:12:45.704616+00:00",
+      "last_attempt": "2026-11-09T07:36:05.584733+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.1411, bundle says DB-143.1411.5; refusing to attribute this executable to the wrong build"
     },
@@ -94,7 +94,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:15:29.394117+00:00",
+      "last_attempt": "2026-11-09T07:37:50.199286+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.1997, bundle says DB-143.1997.7; refusing to attribute this executable to the wrong build"
     },
@@ -132,7 +132,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:15:21.467994+00:00",
+      "last_attempt": "2026-11-09T07:37:46.413135+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.2263, bundle says DB-143.2263.2; refusing to attribute this executable to the wrong build"
     },
@@ -170,7 +170,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:15:03.480520+00:00",
+      "last_attempt": "2026-11-09T07:37:35.368972+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.2371, bundle says DB-143.2371.6; refusing to attribute this executable to the wrong build"
     },
@@ -208,7 +208,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:14:44.360652+00:00",
+      "last_attempt": "2026-11-09T07:37:22.231478+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.2372, bundle says DB-143.2372.1; refusing to attribute this executable to the wrong build"
     },
@@ -246,7 +246,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:15:11.321289+00:00",
+      "last_attempt": "2026-11-09T07:37:40.198192+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.862, bundle says DB-145.862.4; refusing to attribute this executable to the wrong build"
     },
@@ -284,7 +284,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:14:51.788606+00:00",
+      "last_attempt": "2026-11-09T07:37:26.492286+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.863, bundle says DB-145.863.1; refusing to attribute this executable to the wrong build"
     },
@@ -322,7 +322,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:14:35.389953+00:00",
+      "last_attempt": "2026-11-09T07:37:16.511290+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.864, bundle says DB-145.864.1; refusing to attribute this executable to the wrong build"
     },
@@ -664,7 +664,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:14:25.629154+00:00",
+      "last_attempt": "2026-11-09T07:37:08.495920+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build"
     },
@@ -7922,7 +7922,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:13:44.599823+00:00",
+      "last_attempt": "2026-11-09T07:36:41.018554+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build"
     },
@@ -7941,7 +7941,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T00:13:03.233683+00:00",
+      "last_attempt": "2026-11-09T07:36:17.570433+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build"
     },
@@ -9048,7 +9048,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-09T00:03:40.550819+00:00",
+  "catalog_fetched_at": "2026-11-09T07:27:45.125453+00:00",
   "catalog_release_count": 238,
   "ignored_download_types": [
     "linux",
