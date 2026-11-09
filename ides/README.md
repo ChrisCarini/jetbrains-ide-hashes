@@ -20,7 +20,7 @@ Each product page starts with released versions, followed by every other API cha
 | [MPS](MPS.md) | `MPS` | 275/275 | 0/275 | 233 |
 | [MPS IntelliJ IDEA plugin](MPSIIP.md) | `MPSIIP` | 0/0 | 0/0 | 198 |
 | [PhpStorm](PS.md) | `PS` | 675/675 | 669/675 | 165 |
-| [PhpStorm Light](PSL.md) | `PSL` | 10/10 | 10/10 | 0 |
+| [PhpStorm Light](PSL.md) | `PSL` | 12/12 | 12/12 | 0 |
 | [PyCharm](PCP.md) | `PCP` | 605/605 | 601/605 | 239 |
 | [PyCharm Community Edition](PCC.md) | `PCC` | 462/462 | 459/462 | 232 |
 | [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 56 |

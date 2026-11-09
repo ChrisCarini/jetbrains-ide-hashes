@@ -5,6 +5,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| **2026.3** <sub>eap</sub> | **263.8054** | `macM1` | `fa47039c58c03711e046c4a3b0f476f6665cc43c0311598ddacb1f4fa49e9514` | `13bbf9cab7aecbda4cc6c006868c289d34ddaa53e80a0c8b194aa64270ecccf5` | 2026-11-09 |
+| **2026.3** <sub>eap</sub> | **263.8054** | `mac` | `0c3a62249c60c45d0c1003550c94dedcd25d4defcde3ef2590eac559aa867573` | `e4ed39e9da7f48e5cfddd8ec1467777c049c0c1193e1a16d97f7b9421517d79c` | 2026-11-09 |
 | **2026.3** <sub>eap</sub> | **263.6949** | `macM1` | `2b7541d6e562c168bdf97867af0d746b4f63d16f6dea8269f7c6eab82caaa634` | `6adec5a97017d49961d04c068f148c2a325fe59a090a1f3242b31ef406389d03` | 2026-10-10 |
 | **2026.3** <sub>eap</sub> | **263.6949** | `mac` | `74c05148d4991f80b129201845ad60965345c59181ba40c24905e4f8a7f76990` | `a0ef3446f1cdeced09f7e46c0cba90aadb8d5e1b2d74dc19af18e53d9f646dec` | 2026-10-10 |
 | **2026.3** <sub>eap</sub> | **263.6219** | `macM1` | `551fa1dbfd0d7f949616b25ab6042f1354d3cd32b6273041b9ab1d57e200164f` | `376f67ea5dd4b6ded32ac45faa73f41ae474a29f27bfc0984ffb695585218090` | 2026-09-29 |
@@ -20,7 +22,7 @@
 
 Product: **PhpStorm Light** (`PSL`). [Machine-readable history](../data/PSL.json).
 
-Installer hashes: **10/10**; application hashes: **10/10**; not advertised: **0**.
+Installer hashes: **12/12**; application hashes: **12/12**; not advertised: **0**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
