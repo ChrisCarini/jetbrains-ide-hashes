@@ -19,13 +19,13 @@ Each product page starts with released versions, followed by every other API cha
 | [JetBrains AI Assistant for Visual Studio Code](VSCAI.md) | `VSCAI` | 0/0 | 0/0 | 38 |
 | [MPS](MPS.md) | `MPS` | 274/274 | 0/274 | 232 |
 | [MPS IntelliJ IDEA plugin](MPSIIP.md) | `MPSIIP` | 0/0 | 0/0 | 198 |
-| [PhpStorm](PS.md) | `PS` | 675/675 | 639/675 | 165 |
+| [PhpStorm](PS.md) | `PS` | 675/675 | 669/675 | 165 |
 | [PhpStorm Light](PSL.md) | `PSL` | 10/10 | 10/10 | 0 |
 | [PyCharm](PCP.md) | `PCP` | 605/605 | 601/605 | 239 |
 | [PyCharm Community Edition](PCC.md) | `PCC` | 462/462 | 459/462 | 232 |
 | [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 56 |
 | [Rider](RD.md) | `RD` | 453/453 | 453/453 | 71 |
-| [RubyMine](RM.md) | `RM` | 678/678 | 630/678 | 176 |
+| [RubyMine](RM.md) | `RM` | 678/678 | 678/678 | 176 |
 | [RustRover](RR.md) | `RR` | 300/300 | 300/300 | 0 |
-| [WebStorm](WS.md) | `WS` | 664/664 | 440/664 | 196 |
+| [WebStorm](WS.md) | `WS` | 664/664 | 640/664 | 196 |
 | [Youtrack Workflow Editor](YTWE.md) | `YTWE` | 1/1 | 0/1 | 1 |

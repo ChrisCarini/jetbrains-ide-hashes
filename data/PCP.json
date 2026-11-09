@@ -94,7 +94,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-08T19:09:56.472869+00:00",
+      "last_attempt": "2026-11-09T00:25:35.286340+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build"
     },
@@ -15522,7 +15522,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-08T19:09:08.344876+00:00",
+      "last_attempt": "2026-11-09T00:25:25.288179+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 139.1803, bundle says PY-139.1803.14; refusing to attribute this executable to the wrong build"
     },
@@ -15750,7 +15750,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-08T19:09:00.405806+00:00",
+      "last_attempt": "2026-11-09T00:25:14.495804+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 141.3058, bundle says PY-141.3058.47; refusing to attribute this executable to the wrong build"
     },
@@ -16016,7 +16016,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-08T19:08:40.415528+00:00",
+      "last_attempt": "2026-11-09T00:25:04.076366+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.2371, bundle says PY-143.2371.1; refusing to attribute this executable to the wrong build"
     },
@@ -16040,7 +16040,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-08T17:28:00.800987+00:00",
+  "catalog_fetched_at": "2026-11-09T00:03:40.550819+00:00",
   "catalog_release_count": 422,
   "ignored_download_types": [
     "linux",
