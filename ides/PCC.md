@@ -472,7 +472,7 @@
 
 Product: **PyCharm Community Edition** (`PCC`). [Machine-readable history](../data/PCC.json).
 
-Installer hashes: **462/462**; application hashes: **459/462**; not advertised: **232**.
+Installer hashes: **462/462**; application hashes: **459/462**; not advertised: **232**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -583,6 +583,6 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 
 ### Collection errors
 
-- 5.0.6 / 143.2371 / `mac` (application): Bundle build mismatch: API says 143.2371, bundle says PC-143.2371.1; refusing to attribute this executable to the wrong build
-- 4.5.5 / 141.3058 / `mac` (application): Bundle build mismatch: API says 141.3058, bundle says PC-141.3058.47; refusing to attribute this executable to the wrong build
-- 4.0.7 / 139.1803 / `mac` (application): Bundle build mismatch: API says 139.1803, bundle says PC-139.1803.14; refusing to attribute this executable to the wrong build
+- 5.0.6 / 143.2371 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2371, bundle says PC-143.2371.1; refusing to attribute this executable to the wrong build
+- 4.5.5 / 141.3058 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 141.3058, bundle says PC-141.3058.47; refusing to attribute this executable to the wrong build
+- 4.0.7 / 139.1803 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 139.1803, bundle says PC-139.1803.14; refusing to attribute this executable to the wrong build

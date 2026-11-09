@@ -669,7 +669,7 @@
 
 Product: **IntelliJ IDEA** (`IIU`). [Machine-readable history](../data/IIU.json).
 
-Installer hashes: **659/659**; application hashes: **657/659**; not advertised: **267**.
+Installer hashes: **659/659**; application hashes: **657/659**; not advertised: **267**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -801,5 +801,5 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 
 ### Collection errors
 
-- 14.1.7 / 141.3058 / `mac` (application): Bundle build mismatch: API says 141.3058, bundle says IU-141.3058.30; refusing to attribute this executable to the wrong build
-- 14.0.5 / 139.1803 / `mac` (application): Bundle build mismatch: API says 139.1803, bundle says IU-139.1803.20; refusing to attribute this executable to the wrong build
+- 14.1.7 / 141.3058 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 141.3058, bundle says IU-141.3058.30; refusing to attribute this executable to the wrong build
+- 14.0.5 / 139.1803 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 139.1803, bundle says IU-139.1803.20; refusing to attribute this executable to the wrong build

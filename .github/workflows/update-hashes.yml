@@ -18,6 +18,10 @@ on:
         description: Collection minutes per IDE (1-240; cleanup gets extra time)
         type: number
         default: 40
+      retry_quarantined:
+        description: Retry quarantined records with a fresh five-failure allowance
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -66,10 +70,15 @@ jobs:
         id: discover
         env:
           PRODUCT: ${{ inputs.product }}
+          RETRY_QUARANTINED: ${{ inputs.retry_quarantined }}
         run: |
+          retry_args=()
+          if [ "$RETRY_QUARANTINED" = "true" ]; then
+            retry_args+=(--retry-quarantined)
+          fi
           python -m jetbrains_hashes discover \
             --product "$PRODUCT" --only-pending --max-minutes 5 \
-            --github-output "$GITHUB_OUTPUT"
+            --github-output "$GITHUB_OUTPUT" "${retry_args[@]}"
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: steps.discover.outputs.has_work == 'true'
         with:
@@ -103,14 +112,19 @@ jobs:
           PRODUCT: ${{ matrix.product }}
           MAX_INSTALLERS: ${{ needs.discover.outputs.max_installers }}
           MAX_MINUTES: ${{ needs.discover.outputs.max_minutes }}
+          RETRY_QUARANTINED: ${{ inputs.retry_quarantined }}
         run: |
+          retry_args=()
+          if [ "$RETRY_QUARANTINED" = "true" ]; then
+            retry_args+=(--retry-quarantined)
+          fi
           python -m jetbrains_hashes sync \
             --product "$PRODUCT" \
             --catalog "catalog-snapshot/$PRODUCT.json" \
             --max-installers "$MAX_INSTALLERS" \
             --max-minutes "$MAX_MINUTES" \
             --work-dir "$RUNNER_TEMP" \
-            --no-render
+            --no-render "${retry_args[@]}"
       - name: Preserve progress even when some artifacts fail
         if: always()
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2

@@ -400,7 +400,7 @@
 
 Product: **DataGrip** (`DG`). [Machine-readable history](../data/DG.json).
 
-Installer hashes: **390/390**; application hashes: **378/390**; not advertised: **86**.
+Installer hashes: **390/390**; application hashes: **378/390**; not advertised: **86**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -410,15 +410,15 @@ Rows are sorted by version, build version, and installer type, descending, with 
 
 ### Collection errors
 
-- 2025.3.5.1 / 253.31033.213 / `macM1` (application): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
-- 2025.3.5.1 / 253.31033.213 / `mac` (application): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
-- 2016.3.1 / 163.9735.5 / `mac` (application): Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build
-- 2016.1.2 / 145.864 / `mac` (application): Bundle build mismatch: API says 145.864, bundle says DB-145.864.1; refusing to attribute this executable to the wrong build
-- 2016.1.1 / 145.863 / `mac` (application): Bundle build mismatch: API says 145.863, bundle says DB-145.863.1; refusing to attribute this executable to the wrong build
-- 2016.1 / 145.862 / `mac` (application): Bundle build mismatch: API says 145.862, bundle says DB-145.862.4; refusing to attribute this executable to the wrong build
-- 1.0.5 / 143.2372 / `mac` (application): Bundle build mismatch: API says 143.2372, bundle says DB-143.2372.1; refusing to attribute this executable to the wrong build
-- 1.0.4 / 143.2371 / `mac` (application): Bundle build mismatch: API says 143.2371, bundle says DB-143.2371.6; refusing to attribute this executable to the wrong build
-- 1.0.3 / 143.2263 / `mac` (application): Bundle build mismatch: API says 143.2263, bundle says DB-143.2263.2; refusing to attribute this executable to the wrong build
-- 1.0.2 / 143.1997 / `mac` (application): Bundle build mismatch: API says 143.1997, bundle says DB-143.1997.7; refusing to attribute this executable to the wrong build
-- 1.0.1 / 143.1411 / `mac` (application): Bundle build mismatch: API says 143.1411, bundle says DB-143.1411.5; refusing to attribute this executable to the wrong build
-- 1.0 / 143.1410 / `mac` (application): Bundle build mismatch: API says 143.1410, bundle says DB-143.1410.7; refusing to attribute this executable to the wrong build
+- 2025.3.5.1 / 253.31033.213 / `macM1` (application; 0/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
+- 2025.3.5.1 / 253.31033.213 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
+- 2016.3.1 / 163.9735.5 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build
+- 2016.1.2 / 145.864 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 145.864, bundle says DB-145.864.1; refusing to attribute this executable to the wrong build
+- 2016.1.1 / 145.863 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 145.863, bundle says DB-145.863.1; refusing to attribute this executable to the wrong build
+- 2016.1 / 145.862 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 145.862, bundle says DB-145.862.4; refusing to attribute this executable to the wrong build
+- 1.0.5 / 143.2372 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2372, bundle says DB-143.2372.1; refusing to attribute this executable to the wrong build
+- 1.0.4 / 143.2371 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2371, bundle says DB-143.2371.6; refusing to attribute this executable to the wrong build
+- 1.0.3 / 143.2263 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2263, bundle says DB-143.2263.2; refusing to attribute this executable to the wrong build
+- 1.0.2 / 143.1997 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.1997, bundle says DB-143.1997.7; refusing to attribute this executable to the wrong build
+- 1.0.1 / 143.1411 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.1411, bundle says DB-143.1411.5; refusing to attribute this executable to the wrong build
+- 1.0 / 143.1410 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.1410, bundle says DB-143.1410.7; refusing to attribute this executable to the wrong build

@@ -252,7 +252,7 @@
 
 Product: **DataSpell** (`DS`). [Machine-readable history](../data/DS.json).
 
-Installer hashes: **242/242**; application hashes: **240/242**; not advertised: **0**.
+Installer hashes: **242/242**; application hashes: **240/242**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -262,5 +262,5 @@ Rows are sorted by version, build version, and installer type, descending, with 
 
 ### Collection errors
 
-- 2025.2.4 / 252.28539.109 / `macM1` (application): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build
-- 2025.2.4 / 252.28539.109 / `mac` (application): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build
+- 2025.2.4 / 252.28539.109 / `macM1` (application; 0/5 identical failures): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build
+- 2025.2.4 / 252.28539.109 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build

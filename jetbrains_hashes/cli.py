@@ -61,8 +61,18 @@ def discover_command(args: argparse.Namespace) -> int:
             code = history.validate_code(product["code"])
             state = histories.get(code, History(code, product["name"]))
             if args.only_pending:
-                if not history.needs_sync(state, product, fetched_at, deadline):
+                requested_retry = args.retry_quarantined and any(
+                    row.quarantined for row in state.records
+                )
+                if not requested_retry and not history.needs_sync(
+                    state, product, fetched_at, deadline
+                ):
                     log(f"{code}: up to date; skipping collection")
+                    quarantined = sum(row.quarantined for row in state.records)
+                    if quarantined:
+                        log(
+                            f"{code}: {quarantined} quarantined records remain in the failure report"
+                        )
                     continue
                 log(f"{code}: queued for collection")
             codes.append(code)
@@ -99,6 +109,9 @@ def sync_command(args: argparse.Namespace) -> int:
         state = history.load(path) if path.exists() else History(code, product["name"])
         failures = 0
         try:
+            if args.retry_quarantined:
+                count = history.retry_quarantined(state)
+                log(f"{code}: reset {count} quarantined records for an explicit retry")
             sources = history.refresh_metadata(state, product, fetched_at)
             history.save(state, args.data_dir)
             if not args.catalog_only:
@@ -118,7 +131,10 @@ def sync_command(args: argparse.Namespace) -> int:
         counts = history.coverage(state)
         log(f"{code}: {json.dumps(counts, sort_keys=True)}")
         if counts["app_hashes"] < counts["advertised"]:
-            log("Application coverage is partial; bounded future runs continue the backfill.")
+            log(
+                "Application coverage is partial; future runs continue retryable work. "
+                f"{counts['quarantined']} records are quarantined."
+            )
         return int(failures > 0)
 
 
@@ -159,10 +175,18 @@ def parser() -> argparse.ArgumentParser:
         command.add_argument("--data-dir", type=Path, default=Path("data"))
         command.add_argument("--docs-dir", type=Path, default=Path("ides"))
 
+    def retry_option(command: argparse.ArgumentParser) -> None:
+        command.add_argument(
+            "--retry-quarantined",
+            action="store_true",
+            help="Retry quarantined records with a fresh five-failure allowance",
+        )
+
     discover = commands.add_parser(
         "discover", help="Discover IDEs and prepare per-product API snapshots"
     )
     paths(discover)
+    retry_option(discover)
     discover.add_argument(
         "--product", default="", help="JetBrains IDE product code; omit or leave blank for all"
     )
@@ -180,7 +204,7 @@ def parser() -> argparse.ArgumentParser:
     modes.add_argument(
         "--only-pending",
         action="store_true",
-        help="Skip unchanged, complete IDEs after checking their checksum sidecars",
+        help="Skip unchanged IDEs with only completed or quarantined records",
     )
     discover.add_argument(
         "--max-minutes",
@@ -194,6 +218,7 @@ def parser() -> argparse.ArgumentParser:
         "sync", help="Refresh one IDE and collect a bounded batch of missing hashes"
     )
     paths(sync)
+    retry_option(sync)
     sync.add_argument("--product", required=True, help="JetBrains product code, e.g. IIU or PCP")
     sync.add_argument("--catalog", type=Path, help="Per-product snapshot produced by discover")
     sync.add_argument("--work-dir", type=Path, default=Path(tempfile.gettempdir()))

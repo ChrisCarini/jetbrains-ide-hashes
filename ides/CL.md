@@ -380,7 +380,7 @@
 
 Product: **CLion** (`CL`). [Machine-readable history](../data/CL.json).
 
-Installer hashes: **370/370**; application hashes: **367/370**; not advertised: **116**.
+Installer hashes: **370/370**; application hashes: **367/370**; not advertised: **116**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -414,6 +414,6 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 
 ### Collection errors
 
-- 2016.1.3 / 145.1617 / `mac` (application): Bundle build mismatch: API says 145.1617, bundle says CL-145.1617.9; refusing to attribute this executable to the wrong build
-- 1.2.5 / 143.2370 / `mac` (application): Bundle build mismatch: API says 143.2370, bundle says CL-143.2370.46; refusing to attribute this executable to the wrong build
-- 1.1.2 / 141.3058 / `mac` (application): Bundle build mismatch: API says 141.3058, bundle says CL-141.3058.48; refusing to attribute this executable to the wrong build
+- 2016.1.3 / 145.1617 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 145.1617, bundle says CL-145.1617.9; refusing to attribute this executable to the wrong build
+- 1.2.5 / 143.2370 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2370, bundle says CL-143.2370.46; refusing to attribute this executable to the wrong build
+- 1.1.2 / 141.3058 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 141.3058, bundle says CL-141.3058.48; refusing to attribute this executable to the wrong build

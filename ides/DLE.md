@@ -10,7 +10,7 @@
 
 Product: **Datalore Enterprise** (`DLE`). [Machine-readable history](../data/DLE.json).
 
-Installer hashes: **0/0**; application hashes: **0/0**; not advertised: **90**.
+Installer hashes: **0/0**; application hashes: **0/0**; not advertised: **90**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
