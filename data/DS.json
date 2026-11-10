@@ -16,11 +16,15 @@
       "app_sha256": "eb6da43b50519abe7112a59cddc0b8e0795f37ec44410e9983c9f9dbae80b8c9",
       "app_path": "DataSpell 2021.3.app/Contents/MacOS/dataspell",
       "app_build": "213.5744.251",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:11:05.624088+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2021.3",
@@ -35,11 +39,15 @@
       "app_sha256": "34bf3e58927a15db10f7ddee3866bb91bfb15efc851c1313bd3edc905e72e01d",
       "app_path": "DataSpell 2021.3.app/Contents/MacOS/dataspell",
       "app_build": "213.5744.251",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:10:43.578908+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2021.3.1",
@@ -54,11 +62,15 @@
       "app_sha256": "1ea11d59c4dc034a13a07cec6bb752bde634aa11908bb3a2789a1ba0e65cf4ca",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "213.6461.76",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:10:24.445953+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2021.3.1",
@@ -73,11 +85,15 @@
       "app_sha256": "460e1dcd33a49462fa37577c16eba9df4b99c6aaf9c390069a449692eeb77eb4",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "213.6461.76",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:10:02.572627+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2021.3.2",
@@ -92,11 +108,15 @@
       "app_sha256": "8663b00a11efde7ae317621c4695262469ad324d54ce861a5d8f7ef5191d0bdf",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "213.6777.49",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:09:41.369519+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2021.3.2",
@@ -111,11 +131,15 @@
       "app_sha256": "149fcfb164b140327cfbfd0b5688ecd3b7370382b2fd8b12016dc474f724c301",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "213.6777.49",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:09:21.329104+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2021.3.3",
@@ -130,11 +154,15 @@
       "app_sha256": "fab41d853221cf8a9d449764571a8c67cff1b362c96e9f021358ffb90f0569be",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "213.7172.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:09:01.375531+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2021.3.3",
@@ -149,11 +177,15 @@
       "app_sha256": "9d5834a72c0a7d1b5e4d637a19e59f1934e7a156ec43607582512e33d4362113",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "213.7172.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:08:43.456737+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1",
@@ -168,11 +200,15 @@
       "app_sha256": "1823a6b9c34b00aad01dc464226d36012cd1a24ca416b4ed7b72ad90eee1c3a5",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.5080.210",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:08:22.755989+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1",
@@ -187,11 +223,15 @@
       "app_sha256": "09992ea5ab5fff0fa07095537cb9d2c340a68865863dae57309040e2e309f87f",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.5080.210",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:08:02.343036+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1.1",
@@ -206,11 +246,15 @@
       "app_sha256": "bb65a948ecc7b200acb75898f14bac10d16f8b3bf142ab777682e78be8743666",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.5591.55",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:07:41.451500+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1.1",
@@ -225,11 +269,15 @@
       "app_sha256": "180bbe8bc3690b036e08fec3601dcaa91fb3c56d2d619041fac9f551d2ec7a23",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.5591.55",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:07:19.499624+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1.2",
@@ -244,11 +292,15 @@
       "app_sha256": "b15ae16c93473d9eb6893599ba9a9a9f2fc99ce6ac15d91c82d032a8847c976d",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.5787.37",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:06:58.651475+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1.2",
@@ -263,11 +315,15 @@
       "app_sha256": "27162fff9437e22258a048b4aa83c68435b1c874c61b14001db8638c69d9ce66",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.5787.37",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:06:36.654159+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1.3",
@@ -282,11 +338,15 @@
       "app_sha256": "7bd76b9302a53f8ae03b10da8f4b377c287be456e78793c24fa932eb9c7f0e76",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.5921.20",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:06:14.312841+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1.3",
@@ -301,11 +361,15 @@
       "app_sha256": "988c54cee005dc66647ba899d62753ec037a62478b6a7f40ad5e98b80f90d0dc",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.5921.20",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:05:52.740799+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1.4",
@@ -320,11 +384,15 @@
       "app_sha256": "c93b1365f3bd5668fa1c1b8b298aa70274449aa120fc5e4c2fe0336018bd4536",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.6008.15",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:05:29.858216+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.1.4",
@@ -339,11 +407,15 @@
       "app_sha256": "679e5c6615fba1e366c1739c8fe4d7a46a4d7bb7fc65eeb31f2f163e69597d41",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "221.6008.15",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:05:05.748512+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2",
@@ -358,11 +430,15 @@
       "app_sha256": "cfe28ff15ddcf6949aa7f4ffc4b3caa9c65c7b289132fbbf4a2d7ec0a28482f2",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.3345.132",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:04:45.346784+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2",
@@ -377,11 +453,15 @@
       "app_sha256": "ae21596ffa26bfea56c7e545c784e23d5439e602d3b5206009794e8fd50bb011",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.3345.132",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:04:24.517695+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.1",
@@ -396,11 +476,15 @@
       "app_sha256": "18e451c2dbcb8dd2ea571e7d01b7fc9d8b1d638588549835c39c89446628f85c",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.3739.64",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:04:01.604437+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.1",
@@ -415,11 +499,15 @@
       "app_sha256": "316e084937c25c92be294241bbc1979db19fb0020028a978b8452a6cf5e17aab",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.3739.64",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:03:37.497923+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.2",
@@ -434,11 +522,15 @@
       "app_sha256": "14d1cea2aa99bca0faa1f8fe39fbd6cc068570f0b4c8c6c6d73e01d826f70935",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.4167.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:03:12.459780+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.2",
@@ -453,11 +545,15 @@
       "app_sha256": "6c1cd94957a4fab8e50f4114f7c759e89c93627b225959b569cd72cc7d289eaf",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.4167.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:02:49.639903+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.3",
@@ -472,11 +568,15 @@
       "app_sha256": "3d3086acc966bad685e94db39d61fbefd76b3de6ed43a92b7c39579305e5d4e1",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.4345.24",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:02:24.673150+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.3",
@@ -491,11 +591,15 @@
       "app_sha256": "6c7d8de97df328b2177deab98fb95c83bf39d57bad88abc253d0786217036416",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.4345.24",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:02:00.500545+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.4",
@@ -510,11 +614,15 @@
       "app_sha256": "4fbe40b11bf16b4100db8d7b2e9fc447f6e3efe165589cf606f39df76d42f673",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.4459.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:01:37.643964+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.4",
@@ -529,11 +637,15 @@
       "app_sha256": "d12e57650600b4a38d381937e4c9a015cc939d6fec8bc3eb4435f92c6ef4fd99",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.4459.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:01:12.701787+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.5",
@@ -548,11 +660,15 @@
       "app_sha256": "7aa4a05d74dfc4bbc91a270c8d1879589443998662bbef2076e71dfe132fab13",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.4554.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:52:10.926707+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.5",
@@ -567,11 +683,15 @@
       "app_sha256": "acc4dfe51b366691cdd7d0dc46d4f8f16e40ac089cf99f133591b9275b04f531",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "222.4554.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:51:50.594622+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3",
@@ -586,11 +706,15 @@
       "app_sha256": "5857ae3386954044effbc64b9ceda8df0718fa47d9be821f1628e117f99b8789",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.7571.211",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:00:47.493837+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3",
@@ -605,11 +729,15 @@
       "app_sha256": "c9c2acefbdc907c0f9c269af1b1d7f410b4a3163ac32643be2c4e8fb77c892d1",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.7571.211",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:00:21.204019+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.1",
@@ -624,11 +752,15 @@
       "app_sha256": "eb0e3be61a49a1c0c7a401507faad824381fe79436869cf364add0e2beb7901f",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8214.61",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:59:54.604630+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.1",
@@ -643,11 +775,15 @@
       "app_sha256": "97e1be6ce93801d1503eea5ca01a6c81db60538f990a8b18b5809f7b78e51ba7",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8214.61",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:59:28.735032+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.2",
@@ -662,11 +798,15 @@
       "app_sha256": "626add3282bee02571ee1ea810b8ab116c87ee6045d717cd49ad40217d3f55f7",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8617.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:59:01.697774+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.2",
@@ -681,11 +821,15 @@
       "app_sha256": "01f37d5f3dbdd7c74a0bd58c2c720c59bc7dbfe216ffcb626a68917533474a76",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8617.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:58:34.682748+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.2",
@@ -700,11 +844,15 @@
       "app_sha256": "e7f2724bdd240042428228e40eeaf1f7d6ff28facb536fa5c387e37ee9f91aca",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8617.58",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:58:07.560599+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.2",
@@ -719,11 +867,15 @@
       "app_sha256": "1d08d4c25a619811cbc140aa370966b6a3411544d90b7737d411140f132a3043",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8617.58",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:57:42.761728+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.3",
@@ -738,11 +890,15 @@
       "app_sha256": "e7a2f3707d4e4e34e9cb2f9461c79c26a48d3f3ccf0291ff3776f40a4e93a078",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8836.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:56:23.847751+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.3",
@@ -757,11 +913,15 @@
       "app_sha256": "86ad45bc541524336373cf35e8374973b10a59c09da6a9569272d96da0fe4653",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8836.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:55:59.707579+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.3",
@@ -776,11 +936,15 @@
       "app_sha256": "b4bf3614c3a040d75ac1d8ac6f70594e2165210e976f9d17585fbca92b3ed8aa",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8836.46",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:55:33.695720+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.3",
@@ -795,11 +959,15 @@
       "app_sha256": "46e99e8841cdc7d32f2cf6ece922640947f60c7523138c40e336a486ad80c320",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "223.8836.46",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:55:08.210387+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -814,11 +982,15 @@
       "app_sha256": "4b6cd4be2aeda3a9f3ce0128d54f63dd161f82d66aaadc851f2a0a70976655d0",
       "app_path": "DataSpell 2023.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "231.6471.17",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:57:16.581824+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -833,11 +1005,15 @@
       "app_sha256": "2b0d7355fb593ec0c46919bd00d96860988e1fc9467426afc5dc6fcac8c7ec2c",
       "app_path": "DataSpell 2023.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "231.6471.17",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:56:49.836156+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -852,11 +1028,15 @@
       "app_sha256": "43ffadfae8b53c43df53e0b07985b771661897c853388b76b3d554619968bc00",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.8109.143",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:53:48.691929+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -871,11 +1051,15 @@
       "app_sha256": "eaa2f1d8b2a6e612e40a4a9811b4d797e82884c76f4cdbb49ad5ec0b736bec40",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.8109.143",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:53:22.652531+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -890,11 +1074,15 @@
       "app_sha256": "7b605eb7698c379de681909a02c0c63ecee0665f6e84bf9984379ca68a24be7d",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.8109.197",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:52:55.832045+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -909,11 +1097,15 @@
       "app_sha256": "fd684dedfa5e1a70968af5aa6965b28759a1da92486481ea62e51b65c2aea387",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.8109.197",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:52:33.480857+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -928,11 +1120,15 @@
       "app_sha256": "39d7daa55101085e1f0a3dc4062470eeb190d67909250639620686a31015e36f",
       "app_path": "DataSpell 2023.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "231.8109.86",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:54:40.599050+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -947,11 +1143,15 @@
       "app_sha256": "9d875bcc47afe212a2bb72baa2422b616941821a5bbeec88c6fc87dbbe4bfd3e",
       "app_path": "DataSpell 2023.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "231.8109.86",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:54:13.622787+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.1",
@@ -966,11 +1166,15 @@
       "app_sha256": "b58ac3bf7317be4cdf8a1f4359a63c7b8a1cc7c8c7156fa29d510b4d002b80ed",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.8770.63",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:51:25.688409+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.1",
@@ -985,11 +1189,15 @@
       "app_sha256": "4bcc5dc5f89c6d8e71e62803ca6beeea75d105c56e99bffc939a77aa1c97a943",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.8770.63",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:51:01.691948+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.1",
@@ -1004,11 +1212,15 @@
       "app_sha256": "cdb3a8b0cf886ac06b4a24f59549c7f5fb4083861a6a8e4be91cff42a5e4ddeb",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.8770.72",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:50:37.007342+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.1",
@@ -1023,11 +1235,15 @@
       "app_sha256": "47c2875d45cef8a90f540d75578489daa13e83b0a0d635351f89f3b771182b6f",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.8770.72",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:50:09.645439+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.2",
@@ -1042,11 +1258,15 @@
       "app_sha256": "20f9a5887ed20cb5f676ad983855efbb39853cb358608d3ba5bc6b251b56414b",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9011.36",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:48:50.550665+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.2",
@@ -1061,11 +1281,15 @@
       "app_sha256": "9d6b55afeecfa6e7650c937927490228a19bd8322939bae4e9524bad96e2ca89",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9011.36",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:48:25.518596+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.3",
@@ -1080,11 +1304,15 @@
       "app_sha256": "f0a235319c6cee559bd83dc6f270ffd2d6d19d3b5c3b7c2f571fa16cb5829a29",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9161.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:47:59.564982+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.3",
@@ -1099,11 +1327,15 @@
       "app_sha256": "dfe68ada09739124ba3c62def270470f8b8d69f6314d345ce6e9c5e270bea059",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9161.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:47:33.550239+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.3",
@@ -1118,11 +1350,15 @@
       "app_sha256": "e0d3ae439a545369442047b9a308b064388b2b73bc6656d4b14141fc009949d4",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9161.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:46:17.725716+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.3",
@@ -1137,11 +1373,15 @@
       "app_sha256": "a1536d940b05e58568dfee6bb295c4a519405da85a0aa2b09a03c1dc2f0f4100",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9161.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:45:52.674684+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.4",
@@ -1156,11 +1396,15 @@
       "app_sha256": "0723bd739c610eeb1dcea67b1b7bc6bb744d0466fe7a45833d378e1f3ca6ef4c",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9225.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:44:35.711936+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.4",
@@ -1175,11 +1419,15 @@
       "app_sha256": "ca2c4203b5aa0b727b6564b881d9f146437e10f4f28d0b4098a0a1b1faab500a",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9225.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:44:09.785535+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.5",
@@ -1194,11 +1442,15 @@
       "app_sha256": "167a92193a744c54eff7c96ed34072f3336dbc9781c7bdbcc24edab2f0cbbb99",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9414.12",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:52:47.477563+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.5",
@@ -1213,11 +1465,15 @@
       "app_sha256": "a133a16df5b7a1e1c934f50d03e0309c97d4e735afc70d22eaca71d082e651f8",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9414.12",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:52:34.541367+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.6",
@@ -1232,11 +1488,15 @@
       "app_sha256": "3cf828f558217693e3581f3b968f40a72d9d95a03f8a221e226363b009d949fe",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9423.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:00:18.744670+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.6",
@@ -1251,11 +1511,15 @@
       "app_sha256": "87dda209debb82e3244fe20647c4350158e319ae61db8060effbdabe6dc71f04",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "231.9423.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:59:54.659494+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1270,11 +1534,15 @@
       "app_sha256": "8409713335a2946329dd05c40e9ba47efb039fed6128dcbf1de0172af0955bf2",
       "app_path": "DataSpell 2023.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "232.5150.113",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:49:42.693745+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1289,11 +1557,15 @@
       "app_sha256": "bef31586ec6974c377e7ab6782a52079db1383fb7c81c135ad16589508991cbc",
       "app_path": "DataSpell 2023.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "232.5150.113",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:49:15.550312+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1308,11 +1580,15 @@
       "app_sha256": "4a9904197c92a2933e94742c4887318e87bab3827de0de7737bf7f14bbbdbad2",
       "app_path": "DataSpell 2023.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "232.7754.78",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:47:08.631984+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1327,11 +1603,15 @@
       "app_sha256": "6984449688239a0e105da64220f47073affa70e69866019645569fc8780993bb",
       "app_path": "DataSpell 2023.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "232.7754.78",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:46:43.338760+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1346,11 +1626,15 @@
       "app_sha256": "74d5052c52bc80d9a65fd9d488fb66be3cd327747d9e488a067234679b56aa9f",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.8660.158",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:43:44.894754+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1365,11 +1649,15 @@
       "app_sha256": "6be413f23fec9a7851b7fb6bf9759549abe53c91f8367f4ade2fd4100aa4bb65",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.8660.158",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:43:18.778599+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1384,11 +1672,15 @@
       "app_sha256": "76e2239b0a7c11cbdaa64c573e47b791fea3d79612189b416ef5f81abc236852",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.8660.202",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:42:54.739729+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1403,11 +1695,15 @@
       "app_sha256": "fe837bdc7a47817765a838c79ca56ce37d57f592f6d85a3295480ac9f931e626",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.8660.202",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:42:29.746154+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1422,11 +1718,15 @@
       "app_sha256": "8c296502fce090713f21afaf106af1bc297e5c9592fc0d9dd18cd278f87c0cdd",
       "app_path": "DataSpell 2023.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "232.8660.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:45:26.706694+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1441,11 +1741,15 @@
       "app_sha256": "0ff8155e9ef63d37380ba7718945049b845f8ba612fd2c406ae671febf003e82",
       "app_path": "DataSpell 2023.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "232.8660.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:45:01.120407+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1460,11 +1764,15 @@
       "app_sha256": "132276a193ae065581f38e24c664c9146e556a3ab98840ba79046b9d6fe65d01",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.9559.39",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:42:04.591362+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1479,11 +1787,15 @@
       "app_sha256": "27b07a90278411dd40c7b1f01bd4fd8cd625755fe1000f806a4e1c9620284715",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.9559.39",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:41:39.943160+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1498,11 +1810,15 @@
       "app_sha256": "d158ba5caebcf943daac3d5829a81d2edb77bf7788780c75595912bb5ed571e6",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.9559.63",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:41:15.675679+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1517,11 +1833,15 @@
       "app_sha256": "7b5e847270ff6fc817be47aa2d1f482f4fff2faa81d71c22f7d73ff23bca6602",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.9559.63",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:40:51.205096+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.2",
@@ -1536,11 +1856,15 @@
       "app_sha256": "c6363891f741b6966283ab1a4ea8e08a03c7cfa885bd0885509b65e81cafda8d",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.9921.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:40:27.614419+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.2",
@@ -1555,11 +1879,15 @@
       "app_sha256": "f017bf7694ba726aaac58ccbdf6faddab704773f309a55e99b8a2a5a15ca8767",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.9921.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:40:02.617365+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.2",
@@ -1574,11 +1902,15 @@
       "app_sha256": "7ffe23eb97b580fc518accb8197c01d338aafb907a958425354010279b6d7f54",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.9921.48",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:39:35.613611+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.2",
@@ -1593,11 +1925,15 @@
       "app_sha256": "02bd1955227a81fab5b9d1fa098e94300f883ca70163a227696dd10a3e6ef6b3",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.9921.48",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:39:11.740367+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.3",
@@ -1612,11 +1948,15 @@
       "app_sha256": "d1bb813a3feb24545b7d301bdef77f56f0582a387b1e450482600b8cb0315606",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10072.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:36:33.710965+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.3",
@@ -1631,11 +1971,15 @@
       "app_sha256": "4a993f5d9432073e32ceeca146da7bbc1702e3d8a3f577c6f844a68a2700b089",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10072.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:36:07.822153+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.4",
@@ -1650,11 +1994,15 @@
       "app_sha256": "7acf4dbb92657fdb760cb1f4e38ba48812072e55605a9b029cce63b6e12f397d",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10203.19",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:35:42.775494+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.4",
@@ -1669,11 +2017,15 @@
       "app_sha256": "904823ff4682a67bf72cc3f4c9fc9b4f59c7e44ca523873b1766ada74d087a22",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10203.19",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:35:18.457951+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.5",
@@ -1688,11 +2040,15 @@
       "app_sha256": "eafe7126a8f82dfc1c058200d0a9e0e0a928ee5b5c208cc2082b1bf66681b371",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10227.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:33:51.495193+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.5",
@@ -1707,11 +2063,15 @@
       "app_sha256": "424eadceb2a2e466660f627026631cb5c27d87d2f870f60d07858d56feddb04f",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10227.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:33:27.894343+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.6",
@@ -1726,11 +2086,15 @@
       "app_sha256": "b187c38578ffe8f2f29da3ccfaf2e7912acd424fd76d0df5a4c37419c74cbdc1",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10300.41",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:52:21.582785+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.6",
@@ -1745,11 +2109,15 @@
       "app_sha256": "b17f5251ab49ded57085af875a76c2402f1b9e47f5fe3154b86af4d44b7579ee",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10300.41",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:52:06.744965+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.7",
@@ -1764,11 +2132,15 @@
       "app_sha256": "c78524153ce9f0c5e541f4dc304981241b9a59fd9443a4eed82ff77235ae1828",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10319.16",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:59:31.563339+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.7",
@@ -1783,11 +2155,15 @@
       "app_sha256": "923930bf824ec2f5ed01e090fab85f19b88af73d9a6588679e8d50bfef974eca",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "232.10319.16",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:59:07.572072+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1802,11 +2178,15 @@
       "app_sha256": "029b3ac3ce4c8126476cb132c3c7a79bc92b922b7b0485949e01d583f37bfce8",
       "app_path": "DataSpell 2023.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "233.11361.11",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:34:53.525456+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1821,11 +2201,15 @@
       "app_sha256": "f45165030a423ec95e2b392d0cb3b7dc2dded709c0db3a6354b9051237a4d2fe",
       "app_path": "DataSpell 2023.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "233.11361.11",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:34:29.601585+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1840,11 +2224,15 @@
       "app_sha256": "49c9adb6621c66e2ad2f779029650841f713cd6e4910e8f45639a2bfd3036a70",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.11799.180",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:32:13.758134+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1859,11 +2247,15 @@
       "app_sha256": "702ab79d8946c6f611fc4df88abfbb1a61de4a260c52f412dc0e4ceedb823dd2",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.11799.180",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:31:48.632892+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1878,11 +2270,15 @@
       "app_sha256": "eeeccb2811238a3dd52e37df437d3b7f166fc6b3b6b0880a71ef72d1729abbd1",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.11799.244",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:31:22.588973+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1897,11 +2293,15 @@
       "app_sha256": "b0facc8a2858d3a9d8f59fb1d299583760bf454cb450bb9461237119c96c3233",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.11799.244",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:30:57.811154+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1916,11 +2316,15 @@
       "app_sha256": "53b5935df12d6aa767d2632f6502dda7bb332518399459581f12f1e2625c009c",
       "app_path": "DataSpell 2023.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "233.11799.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:33:02.627660+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1935,11 +2339,15 @@
       "app_sha256": "f6abdde7a13ad83525616af7298369efa48ef52f9200fd856b4a6286c2955540",
       "app_path": "DataSpell 2023.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "233.11799.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:32:37.711979+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1954,11 +2362,15 @@
       "app_sha256": "716bc4b2e5f4f9f93a78b7b4f30e1a7ed2bcade8d9968a5e4df69e655b9fff52",
       "app_path": "DataSpell 2023.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "233.6745.319",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:38:46.586041+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1973,11 +2385,15 @@
       "app_sha256": "d3b1bbc357e7775158beeaf1f7b090e39fa4e0b762683e4e5929819d5ca02761",
       "app_path": "DataSpell 2023.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "233.6745.319",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:38:19.707518+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1992,11 +2408,15 @@
       "app_sha256": "7e7d10ce8a88ced2aeef9e52b35d7d6a8a17a702f32f7e7411ff509284c31ace",
       "app_path": "DataSpell 2023.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "233.9102.195",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:37:56.733302+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -2011,11 +2431,15 @@
       "app_sha256": "d8257d168ad2204c7b4a0500d40b0458d210823dab1b7843719a5d9378082bdd",
       "app_path": "DataSpell 2023.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "233.9102.195",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:36:59.817831+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.1",
@@ -2030,11 +2454,15 @@
       "app_sha256": "d12e1a8506d3a77b44bcaa44e6e0d1d754f7339c01f47317593e5771a16d12dd",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.11799.285",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:30:31.659589+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.1",
@@ -2049,11 +2477,15 @@
       "app_sha256": "50c63193c4ad60476f65c06a873127ac591a334595a95ca26dceb6fc05f5f293",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.11799.285",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:30:05.844056+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.2",
@@ -2068,11 +2500,15 @@
       "app_sha256": "099d979d155008ceaf9ec83c13074756ed75533f8cb9673162cf9c00c961791e",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.13135.105",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:29:39.576609+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.2",
@@ -2087,11 +2523,15 @@
       "app_sha256": "b35b70744840e732ba760ae59af3ad7b864f2a3645a4e6857adb2ffe25e0108b",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.13135.105",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:29:15.608141+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.3",
@@ -2106,11 +2546,15 @@
       "app_sha256": "526fa8a11f42e019cb7ad67bdc5797f2e8ff9dc97efd50c3f7396bc042dadf73",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.14015.111",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:27:01.746370+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.3",
@@ -2125,11 +2569,15 @@
       "app_sha256": "e71116f7b8e1652bfa0e54905d1481ddd92c7f470b642269017c6f0d403fc857",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.14015.111",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:26:36.660676+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.3",
@@ -2144,11 +2592,15 @@
       "app_sha256": "ead0ae7ce185f43939fddd147844a9d0d32f063520bc435f41c30a04ee36dd26",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.14015.67",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:27:53.666779+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.3",
@@ -2163,11 +2615,15 @@
       "app_sha256": "d26a034e6dee89bdbf06df20f9c7e24dd4907fc11265e0032a45cd34ab93162c",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.14015.67",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:27:27.731508+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.4",
@@ -2182,11 +2638,15 @@
       "app_sha256": "afbb285d8f14357a46869218255d51b454355dac1ab78c83fcd49bcd47839c2a",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.14475.37",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:51:52.574223+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.4",
@@ -2201,11 +2661,15 @@
       "app_sha256": "b41135a8346caff3c1842833d419e8fd71788d76930f6601058e71035fb5b53e",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.14475.37",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:51:38.698562+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.4",
@@ -2220,11 +2684,15 @@
       "app_sha256": "64e354702c133cbf9b05fb7bd58ca8443c15651adb79c927100c3f127d81d42b",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.14475.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:25:20.911540+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.4",
@@ -2239,11 +2707,15 @@
       "app_sha256": "7aee101ad5ab4c916dc17f0cec0903e0dff5ba695733411f876476f43e9b49f5",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.14475.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:24:56.704272+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.5",
@@ -2258,11 +2730,15 @@
       "app_sha256": "7041dfead6cf415194a6354da581769b0082f8de7792a1928c47c5796c818cd5",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.15026.16",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:50:48.025837+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.5",
@@ -2277,11 +2753,15 @@
       "app_sha256": "ce4c086e404ee374b7d025ae5174b0de5bb71037d46e262a457a08a60c5c56fb",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.15026.16",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:50:33.589321+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.6",
@@ -2296,11 +2776,15 @@
       "app_sha256": "77550d7146fca1d06c49ee3a0c96a3389221cd6af2f4fb49709900b943b02601",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.15325.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:58:44.622965+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.6",
@@ -2315,11 +2799,15 @@
       "app_sha256": "4508eff64df657385d87b08c59b0b2efea01722f3edc8eb0e689e22b0e598f63",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "233.15325.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:58:21.575223+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2334,11 +2822,15 @@
       "app_sha256": "f324c53c5d6da04ae83516748713144b4b562095d395b00769f05bd6b2762f36",
       "app_path": "DataSpell 2024.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "241.10840.15",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:26:10.628212+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2353,11 +2845,15 @@
       "app_sha256": "a95b0254ae47b0cd0bcabc254841a4dcd62a6a51fe8f75021b8ae6565590de99",
       "app_path": "DataSpell 2024.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "241.10840.15",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:25:45.009763+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2372,11 +2868,15 @@
       "app_sha256": "6627ba858c67db6228642f328d5f08e0acedde97d24cce8a3b3f07a47a1077ec",
       "app_path": "DataSpell 2024.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "241.14494.121",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:51:22.732229+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2391,11 +2891,15 @@
       "app_sha256": "5549d19a1854df39e0e051aa8f2392495da5e5442c7928b18ea7a824a26d3b0d",
       "app_path": "DataSpell 2024.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "241.14494.121",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T17:51:04.873753+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2410,11 +2914,15 @@
       "app_sha256": "565832ca52f53d947e0fda6f6e0b85b96f653c48facf39df004ec56d42c7d9e1",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.14494.189",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:10:35.518364+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2429,11 +2937,15 @@
       "app_sha256": "a93e1ff8673ccce5da2a833dd07a3d844be83d41ca67174d5f5f119d12134c8d",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.14494.189",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:10:06.509128+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2448,11 +2960,15 @@
       "app_sha256": "d24402f7f632502cef9f0b100116349e4d60b40e551f7890e40c0dc62a7cee06",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.14494.247",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:09:37.242461+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2467,11 +2983,15 @@
       "app_sha256": "a4ae26e5eb21b39e684e79212e4aa34cc490bc3981e1fd90d27baefe7bf42060",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.14494.247",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:09:08.611487+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2486,11 +3006,15 @@
       "app_sha256": "92472fe66cbadf2879cba6d53ff4a2e8244c861c56d6e143446fe20eeb36236d",
       "app_path": "DataSpell 2024.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "241.8102.135",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:28:45.792757+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2505,11 +3029,15 @@
       "app_sha256": "ea4cce9ff7caf73941132f11e8c34e4622bb934cf947908132d75124e78833c5",
       "app_path": "DataSpell 2024.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "241.8102.135",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T08:28:21.623064+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.1",
@@ -2524,11 +3052,15 @@
       "app_sha256": "797b4a7495191769b90567b89397d6fdf7d6583357cb1323ea2a07ab925eabb1",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.15989.20",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:04:27.511476+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.1",
@@ -2543,11 +3075,15 @@
       "app_sha256": "66d71a32ecf9e3dc97ace291784a79cdd32c05595f8c9d58ff014bd9f424d6c6",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.15989.20",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:03:59.544986+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.1",
@@ -2562,11 +3098,15 @@
       "app_sha256": "ecc2cf926b4ea513635b8ed8107bac8e0a66eeae972f46f335b2499301daa9ca",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.15989.62",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:03:13.589093+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.1",
@@ -2581,11 +3121,15 @@
       "app_sha256": "60f5d3b3a884d4f86e0c69d15e9fa98b4eaf00153258ba93a61bc0f59b52f2a7",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.15989.62",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:00:42.606061+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.2",
@@ -2600,11 +3144,15 @@
       "app_sha256": "50824538bb3ca5639a8d862ce4aae33da6e1a6b8f65fe110c345ff08bb6f9cd3",
       "app_path": "DataSpell 2024.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "241.17890.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:57:53.553706+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.2",
@@ -2619,11 +3167,15 @@
       "app_sha256": "b85e3e23eafb621c2c5403654c08a00f2c10ce9bcdf692102d0e0ca297af6404",
       "app_path": "DataSpell 2024.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "241.17890.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:57:24.782762+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.3",
@@ -2638,11 +3190,15 @@
       "app_sha256": "ff6aae11a123d7fb76364c4b34f6baed17f07954f40e1eb0bd6e996f3b27b4af",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.18034.23",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:55:55.452085+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.3",
@@ -2657,11 +3213,15 @@
       "app_sha256": "87f56fb76f7455cf39af5639183a8e1819dfb0b37d22ad23b42f979bcd7aea2b",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.18034.23",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:55:26.688765+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.4",
@@ -2676,11 +3236,15 @@
       "app_sha256": "88a37e083ad7f7669c5bc862406bdc37e8700ede2f8b85120b72452736d48dd8",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.19072.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:52:46.506785+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.4",
@@ -2695,11 +3259,15 @@
       "app_sha256": "9a309a74f714200055d7bcc51f6303127e7caccf32427929e621146a31ec70c8",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "241.19072.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:52:17.483745+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2714,11 +3282,15 @@
       "app_sha256": "1c3dfbd6df719cadc7534dadc6295cc02f24968dd3f5e6b2697c1c148409448a",
       "app_path": "DataSpell 2024.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "242.15523.21",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:56:54.224979+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2733,11 +3305,15 @@
       "app_sha256": "4774364a6cd0a01061197c7dfd92573b7f8ed055ddfeddfb65ede81891e134a3",
       "app_path": "DataSpell 2024.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "242.15523.21",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:56:25.516607+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2752,11 +3328,15 @@
       "app_sha256": "3fa23435143ab3b7fd88c76c098b352a3a0252c50d342f3dba87777bcb1aaa2d",
       "app_path": "DataSpell 2024.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "242.20224.180",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:54:53.726831+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2771,11 +3351,15 @@
       "app_sha256": "aae1fc2b70fbfdc4a4b1c63197c4f132f9e0d9314dafad9a4acfe1a71714d3a3",
       "app_path": "DataSpell 2024.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "242.20224.180",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:54:19.770172+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2790,11 +3374,15 @@
       "app_sha256": "fa8404d9559b8cd6eafaec619193861cc51c1ba19e9527b27849118e662a1870",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.20224.267",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:53:48.503616+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2809,11 +3397,15 @@
       "app_sha256": "4aa9150debb7339f98e5a12d5ef67c6a2dcd2fc8634767e83a2e412d002ea92d",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.20224.267",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:53:15.659416+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2828,11 +3420,15 @@
       "app_sha256": "498f18bf1ab7e029975629e04bf06add16dc5e1125a3819a5f57840d7ad67ff1",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.20224.354",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:51:45.422821+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2847,11 +3443,15 @@
       "app_sha256": "862c9c9aee8a838d3496bb6b0d7a3530be83abd0fb9963ce325c9b2ac7399ee5",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.20224.354",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:51:11.776195+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.1",
@@ -2866,11 +3466,15 @@
       "app_sha256": "2c9fd7d59eadb5599eb3b17b3b11b1ac38c6250e373a30770db593ce2f9c6dee",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.21829.112",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:50:42.577860+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.1",
@@ -2885,11 +3489,15 @@
       "app_sha256": "a99c01d7e898d505a6e6a18c07c78c83e35602fd086a2e5ac4489ad595e94949",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.21829.112",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:50:12.721143+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.2",
@@ -2904,11 +3512,15 @@
       "app_sha256": "ca6985e765e577cbed849d8a2a37bc5507234a578ed31e23cd5bbb3adb9f7cd6",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.22855.78",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:49:42.594931+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.2",
@@ -2923,11 +3535,15 @@
       "app_sha256": "da0da757436772c37dbf6c15afb5db30db6ed50c1e6f5fe02a82a9ef7ea7e0e4",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.22855.78",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:49:12.766249+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.3",
@@ -2942,11 +3558,15 @@
       "app_sha256": "e0b423e1c16e6c2533db265079a06960369020b2f432bb942bfa7266b7f25829",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.26775.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:35:22.525798+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.3",
@@ -2961,11 +3581,15 @@
       "app_sha256": "ceb178326dab384e8e780550079221bf4d974fe4150dde9756c81c988ebeaf35",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "242.26775.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:34:50.728465+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -2980,11 +3604,15 @@
       "app_sha256": "d8b672fd6edddd7bc262b7d6e05618d81be9c059bb44d89ffae9b923db05af69",
       "app_path": "DataSpell 2024.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "243.18137.18",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:48:40.685760+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -2999,11 +3627,15 @@
       "app_sha256": "12e8da43466e0b5136937af6af33e2e48684204e82274ee6a48da9c7fa4a82df",
       "app_path": "DataSpell 2024.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "243.18137.18",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:48:09.686523+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3018,11 +3650,15 @@
       "app_sha256": "8eccc972f0f57103729808e849e3488ddfff1457010cedb15e59cee55783826a",
       "app_path": "DataSpell 2024.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "243.20847.49",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:47:38.499479+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3037,11 +3673,15 @@
       "app_sha256": "a623ef27c0d78336328ca59397145eb3e6be6bdf5dce37c670f7bed95e566543",
       "app_path": "DataSpell 2024.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "243.20847.49",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:47:06.655118+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3056,11 +3696,15 @@
       "app_sha256": "eaabbaf7c65fe9bfcad4a4de66ddc0c05c79bbd40084fa728290bcf336581321",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.21565.212",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:46:33.910969+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3075,11 +3719,15 @@
       "app_sha256": "3900417f4cbd80ab763b2e321b9ff7d1a8556e3b4d41240548813172f2737841",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.21565.212",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:46:01.442300+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3094,11 +3742,15 @@
       "app_sha256": "202060aea26e276c939c832d027e30a95e282d3ce07adc0b83fb9d3cea488dc2",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.21565.247",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:45:29.506744+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3113,11 +3765,15 @@
       "app_sha256": "b4f6b21e4a9c2e5280049f6f3f7b0c482ed9243436c7effe40661505640ca9d9",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.21565.247",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:44:58.564981+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.1",
@@ -3132,11 +3788,15 @@
       "app_sha256": "5e12dcad69e91f2568b6205fb0c26f2386e65ea08b2ce0da159ea8d91d12803a",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.22562.185",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:44:25.663825+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.1",
@@ -3151,11 +3811,15 @@
       "app_sha256": "b537d8207da51c877c7afca766369c322851b2ca96100fb78104bd4ff57af897",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.22562.185",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:43:54.752841+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.1.1",
@@ -3170,11 +3834,15 @@
       "app_sha256": "ef0f972b5658b22f6db454905c5a2a0848e02fc7b01b84fc243b71e6aa7083ce",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.22562.236",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:43:20.424379+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.1.1",
@@ -3189,11 +3857,15 @@
       "app_sha256": "69314fe9caca40c6379bcb42288854432e7acaca00c0e9f945869b16d731c38c",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.22562.236",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:42:49.522928+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.2",
@@ -3208,11 +3880,15 @@
       "app_sha256": "cd8412768c2f2a3fd5cb34816e5a01d2ffe17f9c6da275725449d7ace39bade7",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.25659.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:40:05.051431+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.2",
@@ -3227,11 +3903,15 @@
       "app_sha256": "b9d1e19a996f8d46e8be134b763556f190b613eaef36a7da232954bb0ae80cb9",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.25659.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:39:32.541937+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.2.1",
@@ -3246,11 +3926,15 @@
       "app_sha256": "810ad2218d4e6798a059fbdb26a80c88c05ed0bc2a851b86e5cc7d405e3d2501",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.26574.111",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:08:41.701928+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.2.1",
@@ -3265,11 +3949,15 @@
       "app_sha256": "ff34b0c62b67d183df36d95884ce87bef92342961af22877eaffe427fc91aaaa",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "243.26574.111",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:08:05.597288+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3284,11 +3972,15 @@
       "app_sha256": "8c5ad42563693fa7c36fb3839cb481d0c2f9001bb0db5d1e8d8c1fbc7983f56b",
       "app_path": "DataSpell 2025.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "251.17181.24",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:42:17.631789+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3303,11 +3995,15 @@
       "app_sha256": "14adb940a8c7cc7eedc821b7c37f46bb24cdfee61a7b4861f84cbdc368f2346d",
       "app_path": "DataSpell 2025.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "251.17181.24",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:41:44.683051+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3322,11 +4018,15 @@
       "app_sha256": "0b9e0827e96daca84b5d8227a16cad4d6101edf1b5f2e20c8c81f5a5284472c0",
       "app_path": "DataSpell 2025.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "251.22821.86",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:41:12.047377+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3341,11 +4041,15 @@
       "app_sha256": "73f25e56825bdaead0ccda61b2c2264a253b49155260b72a6a7475581bd602c4",
       "app_path": "DataSpell 2025.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "251.22821.86",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:40:37.837281+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3360,11 +4064,15 @@
       "app_sha256": "983fcc3722f005b8c82f0017a7d727b8f662c098a4830b7ae805e22ab89b4d6f",
       "app_path": "DataSpell 2025.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "251.23774.146",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:39:00.613406+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3379,11 +4087,15 @@
       "app_sha256": "a6fe695ef58aecfa22d8b2730e74235e04e2fff3bec60f301caf032dff679f80",
       "app_path": "DataSpell 2025.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "251.23774.146",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:38:26.517265+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3398,11 +4110,15 @@
       "app_sha256": "568f8520b325eb5151c83dfb114453ae097b52410bda5f48384259e9aa1bef24",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.23774.335",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:37:51.588482+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3417,11 +4133,15 @@
       "app_sha256": "4309f5f01621668837bf24de7d231d6d7683d141a23854abaa4e8c280279caac",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.23774.335",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:37:16.918413+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3436,11 +4156,15 @@
       "app_sha256": "e0ed83b2b0a7f97264bba36ed31b0f7d56604810410f70d21225f81772db309e",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.23774.439",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:36:43.588425+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3455,11 +4179,15 @@
       "app_sha256": "23836e729515f3e38e18f8f5e361d4306723c05bb1a535078b79aff1a261b670",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.23774.439",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:35:56.438854+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.1",
@@ -3474,11 +4202,15 @@
       "app_sha256": "baabcdf47eed9099c0decd939882c5c98ae9f56798b2c84e96608b901a74f847",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.25410.158",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:32:17.808172+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.1",
@@ -3493,11 +4225,15 @@
       "app_sha256": "3d9da9b42e921dc8457e88ec105e7a5d314c304224425abed5da7ad9af37b8b6",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.25410.158",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:31:44.481446+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.2",
@@ -3512,11 +4248,15 @@
       "app_sha256": "785e600eb8fe1bc1da02622b39aa9849ca12107a2264c88dd43cfbe6d807acc4",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.26927.75",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:29:43.511580+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.2",
@@ -3531,11 +4271,15 @@
       "app_sha256": "4afe57ff03adf16c3ebf1970bcbe77ff6b00a2396eb200a90b746d5c1a3ac481",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.26927.75",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:29:09.620680+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.2.1",
@@ -3550,11 +4294,15 @@
       "app_sha256": "22437cc5f1e73c981dce8c07d814d444b3755701defcc0fcefa9960b0ec6c8a0",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.26927.91",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:28:34.953387+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.2.1",
@@ -3569,11 +4317,15 @@
       "app_sha256": "da0488e6d2ccd66f63737dc94fe610ec96578aef0c5f5b68261821573cdda788",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.26927.91",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:27:11.661388+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.2.2",
@@ -3588,11 +4340,15 @@
       "app_sha256": "0ae06256f215e1df87e1d4d43003315714d8607211017972f5dc1790244b8dd1",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.26927.99",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:07:31.911789+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.2.2",
@@ -3607,11 +4363,15 @@
       "app_sha256": "634111fb4895c96521ea849341f810d1f607e500cb592d17c121c56c01f7c8ca",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.26927.99",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:06:55.456205+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.3",
@@ -3626,11 +4386,15 @@
       "app_sha256": "4061c16d5a0f8fef74fd11c44923398786364759465c48627fae0e00426fcb89",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.29188.81",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:10:10.441370+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.3",
@@ -3645,11 +4409,15 @@
       "app_sha256": "b92ebfc7dad66205d914841a15cca9dbcae73cabd84e1773250b0f5b702fe7ea",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "251.29188.81",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:09:21.445959+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3664,11 +4432,15 @@
       "app_sha256": "36ed1aa92685e67d3645758ec01d4624ed08134f30b1bf465cd8507cc7e96241",
       "app_path": "DataSpell 2025.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "252.23309.49",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:30:55.588948+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3683,11 +4455,15 @@
       "app_sha256": "60b04c1ff2bb79a81259c822b0e7e08b2c15d98a161774a282b202fa712912de",
       "app_path": "DataSpell 2025.2 EAP.app/Contents/MacOS/dataspell",
       "app_build": "252.23309.49",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:30:18.034961+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3702,11 +4478,15 @@
       "app_sha256": "4ba5ae362daddcc25f08c5680e41dd16c9a5507f7bb618f40d4e43d5f1b97248",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.23892.362",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:26:34.612137+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3721,11 +4501,15 @@
       "app_sha256": "484fd35f4e88cc59931f100bfa80b55fbab10b605b160a61e9a999abcb3cd276",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.23892.362",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:25:56.901245+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3740,11 +4524,15 @@
       "app_sha256": "d853b5cdf067071b37719dd60d2ecfff800f7e00203d9cd3864f586d157c07e7",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.23892.514",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:25:16.628437+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3759,11 +4547,15 @@
       "app_sha256": "ba90e33b5f514157519343094817ff7576fdb8ee7bdb2534fa8c2fe61bb3e5ed",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.23892.514",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:24:38.552280+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.1",
@@ -3778,11 +4570,15 @@
       "app_sha256": "6f17b1dbef48f286e4bd513ac75c711f59b0e974931022abfee8de139b4f0219",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.26199.84",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:24:00.693405+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.1",
@@ -3797,11 +4593,15 @@
       "app_sha256": "62786b62188ddd3d82df404d4cdc0ec59032d19c0438362e81cdf09bb0fb58f3",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.26199.84",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:23:22.494257+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.2",
@@ -3816,11 +4616,15 @@
       "app_sha256": "b4536fc0bce505c3fb029dea58309dadb36e0545e339e589414db49ff1b9ee90",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.27397.107",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:21:38.627739+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.2",
@@ -3835,11 +4639,15 @@
       "app_sha256": "400e1065a84008cf91ef75db4cdffbe73ac98e19fbe3f2db94e9438da42d94cc",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.27397.107",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:21:01.516702+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.3",
@@ -3854,11 +4662,15 @@
       "app_sha256": "877f158f54e9ccb9f28b3e37c0a29abd8a3a899db4708c21a24ec3dd81f86060",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.27397.129",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:20:21.691638+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.3",
@@ -3873,11 +4685,15 @@
       "app_sha256": "9a6641f47b5e8324bf1a93556ddf93fdbd9a8f1dd64ed8ecaf7ffcfab1f52e42",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.27397.129",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:19:43.623346+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.3.1",
@@ -3892,11 +4708,15 @@
       "app_sha256": "6bf0d00c635a3609190a5f6bd4186af638f12ca8d221944dc1d8a77ff9c70199",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.27397.153",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:16:54.832662+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.3.1",
@@ -3911,11 +4731,15 @@
       "app_sha256": "c1edb4adef3fe98f29ef9b7e9fcdfbae0b544f1158bef7c598c85e14ca6d84f2",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.27397.153",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:15:58.920139+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.4",
@@ -3930,11 +4754,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-10T15:26:52.714141+00:00",
+      "last_attempt": "2026-11-10T20:18:19.028280+00:00",
       "error_stage": "application",
-      "error": "Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build"
+      "error": "Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build",
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-10T20:18:42.877962+00:00"
     },
     {
       "version": "2025.2.4",
@@ -3949,11 +4777,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-10T15:26:42.113900+00:00",
+      "last_attempt": "2026-11-10T20:17:53.683745+00:00",
       "error_stage": "application",
-      "error": "Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build"
+      "error": "Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build",
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-10T20:18:19.019437+00:00"
     },
     {
       "version": "2025.2.4.1",
@@ -3968,11 +4800,15 @@
       "app_sha256": "b6b7ea8937201b436dc2dd9fe11fc4a48800d0f76a214880aa061187bf64c15c",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.28539.155",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:18:34.632746+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.4.1",
@@ -3987,11 +4823,15 @@
       "app_sha256": "0ddd29d6d3e53474a12bfbabbc1451cbf9aa9b19b66bd10d5e7d03381134e852",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "252.28539.155",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:17:47.569532+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4006,11 +4846,15 @@
       "app_sha256": "12e2632e6e0cc2b51383acc29b110baf6f37086acf54d5a95fe87e835dfe9ea9",
       "app_path": "DataSpell 2025.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "253.27642.21",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:22:50.603465+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4025,11 +4869,15 @@
       "app_sha256": "4818a621a6a3038c39774800eed37fac0def3fe373c7897280be79dacb696578",
       "app_path": "DataSpell 2025.3 EAP.app/Contents/MacOS/dataspell",
       "app_build": "253.27642.21",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:22:17.663728+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4044,11 +4892,15 @@
       "app_sha256": "256ed51791d2064615926a3ffd03ce1e56b86f77690fdcb3fbb7bfb718b1b912",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.28294.322",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:19:09.568819+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4063,11 +4915,15 @@
       "app_sha256": "f9f16668a52170c1f63176e413070beebfd9395e5da5ed81f1b4e861a32da985",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.28294.322",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:18:35.695998+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4082,11 +4938,15 @@
       "app_sha256": "16fe0db20f0e5d1474f03ebb194a467d5e99042fc121675da414de9e0e058d0f",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.28294.351",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:18:00.940925+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4101,11 +4961,15 @@
       "app_sha256": "4fb718a64bd6e9537fbeb5c14cf37933b3777cb63fb1ca1b0da5e7d9b27f037e",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.28294.351",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:17:27.692082+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.1",
@@ -4120,11 +4984,15 @@
       "app_sha256": "62b25e26dfe4531f5da58d2793c7a4b77485bdba4a7b4ad82005e3837572eea0",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.29346.157",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:16:53.854297+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.1",
@@ -4139,11 +5007,15 @@
       "app_sha256": "15a69c71462a1955b7299086b1abaeddad6f3427aa19204a59b41404a7dbe8fb",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.29346.157",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:16:19.552321+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.2",
@@ -4158,11 +5030,15 @@
       "app_sha256": "34cc8825ec7fcd963ca880fa9429eebc26f4dbf4aaa3e5c73efc27ff17c6ab77",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.30387.154",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:14:35.734764+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.2",
@@ -4177,11 +5053,15 @@
       "app_sha256": "2e2833fbde18656c771a19901268945fa22cc9970f6c3078ce85fed215a8c74a",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.30387.154",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:14:01.863596+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.2.1",
@@ -4196,11 +5076,15 @@
       "app_sha256": "0054064de70adb60a26fcb81c7cc91a7e69cb07700a3d1830f04f5da99d25385",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.30387.205",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:15:11.296780+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.2.1",
@@ -4215,11 +5099,15 @@
       "app_sha256": "57366eb39226a681366bd83b1c3d162156a7121aa86c3792fc4a430ef679c5fc",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.30387.205",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:14:24.045945+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.3",
@@ -4234,11 +5122,15 @@
       "app_sha256": "f8692daef49abfbcfc5716b469b96fc2fcf372eac9fdefe9699aa8360f10b2ff",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.33813.68",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:19:53.191010+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.3",
@@ -4253,11 +5145,15 @@
       "app_sha256": "e05e8c90b1f1e4c68de642ff8e87f56bbc47b0d9b6d07f3067155a0cca23a498",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.33813.68",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:19:19.908689+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.3.1",
@@ -4272,11 +5168,15 @@
       "app_sha256": "7be1e87e7d4fc1088c40df67c3c2d198aa3321706b14750d2fc0d89140f682e5",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.33813.109",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:17:13.594496+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.3.1",
@@ -4291,11 +5191,15 @@
       "app_sha256": "5fca9eb6716281f7a7df905af893d0de87dc79e448dc1a87d6b48b6f834c372a",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "253.33813.109",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:16:38.469745+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4310,11 +5214,15 @@
       "app_sha256": "dae61360c68246f65bb7f8c5eb7c134b3183b9cefccd7b8e2b47ae37f1795b88",
       "app_path": "DataSpell 2026.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "261.17801.86",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:15:44.859168+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4329,11 +5237,15 @@
       "app_sha256": "48ca6dba8a8b8c7e4840e3173610436532a2d1c65e3cadfb94bc1a5c7769605e",
       "app_path": "DataSpell 2026.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "261.17801.86",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:15:10.705961+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4348,11 +5260,15 @@
       "app_sha256": "0763a7444d4294bbdd7269484c583aec3098105a86f44dbcaed0b06368981fe7",
       "app_path": "DataSpell 2026.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "261.21849.35",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:13:25.946913+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4367,11 +5283,15 @@
       "app_sha256": "fec5d27e66e58ef20e28e4bbd79b8b9c585d0e66e01015535dbbd4605906bf50",
       "app_path": "DataSpell 2026.1 EAP.app/Contents/MacOS/dataspell",
       "app_build": "261.21849.35",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:12:51.360587+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4386,11 +5306,15 @@
       "app_sha256": "e321548fb6a6b19f5885d2cffd667fa48ab54a5cab779e9195d6b5535642c7fe",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.22158.223",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:12:17.782566+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4405,11 +5329,15 @@
       "app_sha256": "7bdb64b9ebabda3198a6cdb22e065deb96cbe3edf35e99533677a57507df658c",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.22158.223",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:11:42.619728+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4424,11 +5352,15 @@
       "app_sha256": "8d27c0e0f37653f373c834dd8b956c3317f5afb0eb122ea66de94143d6e8fe1f",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.22158.332",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:11:03.002951+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4443,11 +5375,15 @@
       "app_sha256": "acf671acbfb0770bbf1672668d8b6085569abd8502708fd0d9c5fdd59915653f",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.22158.332",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:10:26.734780+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.1",
@@ -4462,11 +5398,15 @@
       "app_sha256": "74ee70115d1644d95233cd14789d4bf61cd97ea9cf97089c34755d14387b9970",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.23567.176",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:09:48.928270+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.1",
@@ -4481,11 +5421,15 @@
       "app_sha256": "cf3d726e7fb7a7db1579f24d061d33c9407818211a178c6489625f569ceac4bb",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.23567.176",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T22:09:13.357937+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.2",
@@ -4500,11 +5444,15 @@
       "app_sha256": "36278c9e7d123477ba7550af148fc455a426b3d6d2db8bc20303cfafa8093bf3",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.25134.18",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:13:31.267352+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.2",
@@ -4519,11 +5467,15 @@
       "app_sha256": "b330082f4030772063b4fb7cfc4d0f71236d5e27fd7b59a20e93b4eb2d419763",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.25134.18",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:12:43.162355+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3",
@@ -4538,11 +5490,15 @@
       "app_sha256": "b37565e888a1b72ebab8231b3002d177fab8596f8a801ba23524aea3a7226205",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.26222.84",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:11:51.751184+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3",
@@ -4557,11 +5513,15 @@
       "app_sha256": "c2e4549ba0abf1054439317e79e4c23dabea1c84b214baf71ed3fcd79b715527",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.26222.84",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:10:59.807731+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3.1",
@@ -4576,11 +5536,15 @@
       "app_sha256": "fc31feb8e2076a1e7e40e4d5208d6502de9a5742affb8df4cad68d95e882158b",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.27258.145",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:16:16.990841+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3.1",
@@ -4595,14 +5559,18 @@
       "app_sha256": "19b38e85b8f9723e8385ac0d74b7dbde8e0d383f1c9dbdaa38c6ee16666ebb3a",
       "app_path": "DataSpell.app/Contents/MacOS/dataspell",
       "app_build": "261.27258.145",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:15:57.294840+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-10T15:00:34.427952+00:00",
+  "catalog_fetched_at": "2026-11-10T19:53:33.302097+00:00",
   "catalog_release_count": 121,
   "ignored_download_types": [
     "linux",

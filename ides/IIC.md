@@ -674,4 +674,4 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 
 ### Collection errors
 
-- 11.0.2 / 111.277 / `mac` (application; 0/5 identical failures): Invalid application metadata: unexpected key at line 10
+- 11.0.2 / 111.277 / `mac` (application; 1/5 identical failures): Invalid application metadata: unexpected key at line 10

@@ -4,6 +4,8 @@
 | 2026.3.0.1 | 263.7307.257 | `mac` | `dda109eeb07e9ee562719f32c5dc5708491035a49ffac7d8a9d85ef6958bf308` | `ae7a495d5787c996c2cc88d04e7ae20d6cbaf45f08f30a421b2473c119160de6` | 2026-11-10 |
 | 2026.3 | 263.7307.209 | `macM1` | `af62fec6fe5acc793f18680376deaaa2ad6ae70eeb98d349102fddd46b41ee7e` | `0d4ed19b385266074a5b844c76a089ac4a180baa57426fb55034b1af1848a1aa` | 2026-11-05 |
 | 2026.3 | 263.7307.209 | `mac` | `b9252dbe765afb3dc3a4d477517d97ab969b1aca6b019506eb111e5ca9d4e9dc` | `b7ffca748795cec06b7502c6adc978433b1f13f5f95fbc9574646ff7a7a01719` | 2026-11-05 |
+| 2026.2.5 | 262.12573.12 | `macM1` | `1cf1e0277637f86c03aa123060a981e4ff1e7209df95a2d0c208f40487055cc4` | `438d798cc879a54774da083f80a51dc39f1133f0772645ceb917941cc1e8d454` | 2026-11-10 |
+| 2026.2.5 | 262.12573.12 | `mac` | `b5a3ffb64defe05da5e5bb9727812af760535cd5ed28a622128b293edcbce480` | `ba96ca1f2d498095964d442f230609da111c00cb719dcff045f2e8393450c8b3` | 2026-11-10 |
 | 2026.2.4.1 | 262.11879.106 | `macM1` | `d332e4532fb12f74801a05707c784f57cf0ff73895116811fa6ebe5a2f568216` | `013972b6efcc38c77c7bc7f3d60ba2594444e12e88162ef6c34102c368c88b50` | 2026-10-30 |
 | 2026.2.4.1 | 262.11879.106 | `mac` | `e7d69c42ae9a417debfc1450612c6f35b8cd39fbe6081dd7e1e0fa1aa40c74c3` | `59a4cceb07e424f09c9f64d8ad0fef89ce43b4490aaef477ecfb98c1c66f5b36` | 2026-10-30 |
 | 2026.2.4 | 262.11879.74 | `macM1` | `c326b8719ebede5ebd2483c6af4631e16d5e1bee0fd4ac97d15682c84cd6586f` | `517be305a5987deeef21d1f3beab0c4684eafcad87d72b1411ff76d3e479281f` | 2026-10-23 |
@@ -382,7 +384,7 @@
 
 Product: **CLion** (`CL`). [Machine-readable history](../data/CL.json).
 
-Installer hashes: **372/372**; application hashes: **372/372**; not advertised: **116**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **374/374**; application hashes: **374/374**; not advertised: **116**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

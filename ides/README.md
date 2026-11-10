@@ -8,7 +8,7 @@ Each product page starts with released versions, followed by every other API cha
 | --- | --- | --- | --- | --- | --- |
 | [Air](AIR.md) | `AIR` | 76/76 | 76/76 | 0 | 0 |
 | [AppCode](AC.md) | `AC` | 185/185 | 185/185 | 207 | 0 |
-| [CLion](CL.md) | `CL` | 372/372 | 372/372 | 116 | 0 |
+| [CLion](CL.md) | `CL` | 374/374 | 374/374 | 116 | 0 |
 | [CLion Nova](CLN.md) | `CLN` | 14/14 | 14/14 | 0 | 0 |
 | [DataGrip](DG.md) | `DG` | 390/390 | 387/390 | 86 | 0 |
 | [Datalore](DL.md) | `DL` | 0/0 | 0/0 | 2 | 0 |
@@ -25,8 +25,8 @@ Each product page starts with released versions, followed by every other API cha
 | [PhpStorm Light](PSL.md) | `PSL` | 12/12 | 12/12 | 0 | 0 |
 | [PyCharm](PCP.md) | `PCP` | 605/605 | 604/605 | 239 | 0 |
 | [PyCharm Community Edition](PCC.md) | `PCC` | 462/462 | 462/462 | 232 | 0 |
-| [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 56 | 0 |
-| [Rider](RD.md) | `RD` | 453/453 | 453/453 | 71 | 0 |
+| [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 58 | 0 |
+| [Rider](RD.md) | `RD` | 455/455 | 455/455 | 71 | 0 |
 | [RubyMine](RM.md) | `RM` | 678/678 | 678/678 | 176 | 0 |
 | [RustRover](RR.md) | `RR` | 300/300 | 300/300 | 0 | 0 |
 | [WebStorm](WS.md) | `WS` | 664/664 | 664/664 | 196 | 0 |

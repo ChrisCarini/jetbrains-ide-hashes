@@ -16,11 +16,15 @@
       "app_sha256": "70e059531ef2b9c536fc27b193f0a26f7649d36cbf73f7fc3da8eea7f658977c",
       "app_path": "PhpStorm 2026.2 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "262.10155",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:51:23.516813+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -35,11 +39,15 @@
       "app_sha256": "31b57eb2daa69b5c4badb2ddd409ebd16b44a55e663c8f97f9d98c40b4a1d4f3",
       "app_path": "PhpStorm 2026.2 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "262.10155",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:50:55.386579+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -54,11 +62,15 @@
       "app_sha256": "c693fe68f96800e0cf16d665206a64035b867b80ade07ad158bc3884b51c1b2b",
       "app_path": "PhpStorm 2026.2 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "262.10623",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:50:25.334752+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -73,11 +85,15 @@
       "app_sha256": "e9883aa95908ceb23c9066454ea40d70b8110c15b52b2d5d946c0bc00abf9cc9",
       "app_path": "PhpStorm 2026.2 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "262.10623",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:49:58.532656+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -92,11 +108,15 @@
       "app_sha256": "df73594ffd3667cfa42d570d1e0a6a614e12ac0d6bcfa70cf4e54f98afbbd7c7",
       "app_path": "PhpStorm 2026.2 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "262.9421",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:52:21.602919+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -111,11 +131,15 @@
       "app_sha256": "847dbb6930899eaf19fcb880ea56fdd46f0d7a15f29558a4f90a3aaa243e4317",
       "app_path": "PhpStorm 2026.2 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "262.9421",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:51:53.460964+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -130,11 +154,15 @@
       "app_sha256": "8ea575ae20061e1203ccf5448dadfbf6818614a1d689c3167fcc330c22ebe752",
       "app_path": "PhpStorm 2026.3 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "263.6219",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:49:27.456660+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -149,11 +177,15 @@
       "app_sha256": "376f67ea5dd4b6ded32ac45faa73f41ae474a29f27bfc0984ffb695585218090",
       "app_path": "PhpStorm 2026.3 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "263.6219",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:48:56.748808+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -168,11 +200,15 @@
       "app_sha256": "a0ef3446f1cdeced09f7e46c0cba90aadb8d5e1b2d74dc19af18e53d9f646dec",
       "app_path": "PhpStorm 2026.3 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "263.6949",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:48:23.994156+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -187,11 +223,15 @@
       "app_sha256": "6adec5a97017d49961d04c068f148c2a325fe59a090a1f3242b31ef406389d03",
       "app_path": "PhpStorm 2026.3 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "263.6949",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:47:50.112520+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -206,11 +246,15 @@
       "app_sha256": "e4ed39e9da7f48e5cfddd8ec1467777c049c0c1193e1a16d97f7b9421517d79c",
       "app_path": "PhpStorm 2026.3 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "263.8054",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-09T16:36:13.880552+00:00",
       "current": true,
       "last_attempt": "2026-11-09T17:05:08.907308+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -225,14 +269,18 @@
       "app_sha256": "13bbf9cab7aecbda4cc6c006868c289d34ddaa53e80a0c8b194aa64270ecccf5",
       "app_path": "PhpStorm 2026.3 EAP.app/Contents/MacOS/phpstorm",
       "app_build": "263.8054",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-09T16:36:13.880552+00:00",
       "current": true,
       "last_attempt": "2026-11-09T17:04:25.106499+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-09T16:36:13.880552+00:00",
+  "catalog_fetched_at": "2026-11-10T19:53:33.302097+00:00",
   "catalog_release_count": 6,
   "ignored_download_types": [
     "linux",

@@ -16,11 +16,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.10",
@@ -35,11 +39,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.11",
@@ -54,11 +62,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.11",
@@ -73,11 +85,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.12",
@@ -92,11 +108,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.12",
@@ -111,11 +131,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.13",
@@ -130,11 +154,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.13",
@@ -149,11 +177,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.14",
@@ -168,11 +200,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.14",
@@ -187,11 +223,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.15",
@@ -206,11 +246,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.15",
@@ -225,11 +269,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.16",
@@ -244,11 +292,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.16",
@@ -263,11 +315,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.17",
@@ -282,11 +338,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.17",
@@ -301,11 +361,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.18",
@@ -320,11 +384,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.18",
@@ -339,11 +407,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.19",
@@ -358,11 +430,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.19",
@@ -377,11 +453,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.2",
@@ -396,11 +476,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.2",
@@ -415,11 +499,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.20",
@@ -434,11 +522,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.20",
@@ -453,11 +545,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.21",
@@ -472,11 +568,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.21",
@@ -491,11 +591,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.3",
@@ -510,11 +614,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.3",
@@ -529,11 +637,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.4",
@@ -548,11 +660,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.4",
@@ -567,11 +683,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.5",
@@ -586,11 +706,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.5",
@@ -605,11 +729,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.6",
@@ -624,11 +752,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.6",
@@ -643,11 +775,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.7",
@@ -662,11 +798,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.7",
@@ -681,11 +821,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.8",
@@ -700,11 +844,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.8",
@@ -719,11 +867,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.9",
@@ -738,11 +890,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "0.0.9",
@@ -757,11 +913,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.0",
@@ -776,11 +936,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.0",
@@ -795,11 +959,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.1",
@@ -814,11 +982,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.1",
@@ -833,11 +1005,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.2",
@@ -852,11 +1028,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.2",
@@ -871,11 +1051,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3",
@@ -890,11 +1074,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3",
@@ -909,11 +1097,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.0",
@@ -928,11 +1120,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.0",
@@ -947,11 +1143,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.1",
@@ -966,11 +1166,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.1",
@@ -985,11 +1189,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.2",
@@ -1004,11 +1212,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.2",
@@ -1023,11 +1235,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.3",
@@ -1042,11 +1258,15 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.3",
@@ -1061,15 +1281,65 @@
       "app_sha256": "",
       "app_path": "",
       "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
+    },
+    {
+      "version": "2026.3.0",
+      "build": "263.7307.256",
+      "release_type": "release",
+      "release_date": "2026-11-10",
+      "platform": "mac",
+      "installer_url": "",
+      "checksum_url": "",
+      "size_bytes": 0,
+      "installer_sha256": "",
+      "app_sha256": "",
+      "app_path": "",
+      "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
+      "first_seen": "2026-11-10T19:53:33.302097+00:00",
+      "current": true,
+      "last_attempt": "",
+      "error_stage": "",
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
+    },
+    {
+      "version": "2026.3.0",
+      "build": "263.7307.256",
+      "release_type": "release",
+      "release_date": "2026-11-10",
+      "platform": "macM1",
+      "installer_url": "",
+      "checksum_url": "",
+      "size_bytes": 0,
+      "installer_sha256": "",
+      "app_sha256": "",
+      "app_path": "",
+      "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
+      "first_seen": "2026-11-10T19:53:33.302097+00:00",
+      "current": true,
+      "last_attempt": "",
+      "error_stage": "",
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-08T13:36:47.934413+00:00",
-  "catalog_release_count": 28,
+  "catalog_fetched_at": "2026-11-10T19:53:33.302097+00:00",
+  "catalog_release_count": 29,
   "ignored_download_types": [
     "linuxARM64",
     "linuxX64",

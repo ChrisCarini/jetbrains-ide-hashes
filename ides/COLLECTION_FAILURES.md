@@ -14,9 +14,9 @@ To explicitly retry one product, run `python -m jetbrains_hashes sync --product 
 
 | Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2025.3.5.1 | 253.31033.213 | release | `macM1` | `944d1bf2cdfb9811c9eded221df2925bff6fa44f7977ffb0a6322091c18372bf` | Retrying | 0/5 | 2026-11-10T15:21:50.328063+00:00 | application: Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build |
-| 2025.3.5.1 | 253.31033.213 | release | `mac` | `1644cae61bb71a5a31cf3940b972542371b9c3ce18bf3218b5f6b487a843679c` | Retrying | 0/5 | 2026-11-10T15:22:07.980491+00:00 | application: Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build |
-| 2016.3.1 | 163.9735.5 | release | `mac` | `9a1abde45c59cdde3ef884a8cb879fdaeb8899e822120a392890f0038fe94ecf` | Retrying | 0/5 | 2026-11-10T15:22:23.405431+00:00 | application: Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build |
+| 2025.3.5.1 | 253.31033.213 | release | `macM1` | `944d1bf2cdfb9811c9eded221df2925bff6fa44f7977ffb0a6322091c18372bf` | Retrying | 1/5 | 2026-11-10T20:06:11.000768+00:00 | application: Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build |
+| 2025.3.5.1 | 253.31033.213 | release | `mac` | `1644cae61bb71a5a31cf3940b972542371b9c3ce18bf3218b5f6b487a843679c` | Retrying | 1/5 | 2026-11-10T20:06:18.944510+00:00 | application: Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build |
+| 2016.3.1 | 163.9735.5 | release | `mac` | `9a1abde45c59cdde3ef884a8cb879fdaeb8899e822120a392890f0038fe94ecf` | Retrying | 1/5 | 2026-11-10T20:06:23.332195+00:00 | application: Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build |
 
 ## DataSpell (`DS`)
 
@@ -24,8 +24,8 @@ To explicitly retry one product, run `python -m jetbrains_hashes sync --product 
 
 | Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2025.2.4 | 252.28539.109 | release | `macM1` | `7e24ea16aac493513782572d1f3a1d84d61fd8dae64f56d4099fb93fb08fbfcc` | Retrying | 0/5 | 2026-11-10T15:26:42.113900+00:00 | application: Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build |
-| 2025.2.4 | 252.28539.109 | release | `mac` | `c43df917d98e01a07ecd2032524788c46deffe1b025fcf60463cd79eaa84a0f9` | Retrying | 0/5 | 2026-11-10T15:26:52.714141+00:00 | application: Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build |
+| 2025.2.4 | 252.28539.109 | release | `macM1` | `7e24ea16aac493513782572d1f3a1d84d61fd8dae64f56d4099fb93fb08fbfcc` | Retrying | 1/5 | 2026-11-10T20:18:19.019437+00:00 | application: Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build |
+| 2025.2.4 | 252.28539.109 | release | `mac` | `c43df917d98e01a07ecd2032524788c46deffe1b025fcf60463cd79eaa84a0f9` | Retrying | 1/5 | 2026-11-10T20:18:42.877962+00:00 | application: Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build |
 
 ## IntelliJ IDEA Community Edition (`IIC`)
 
@@ -33,7 +33,7 @@ To explicitly retry one product, run `python -m jetbrains_hashes sync --product 
 
 | Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 11.0.2 | 111.277 | release | `mac` | `a56abc799d5141b0c1d3234a97e6a42f53b97de2721aa943f7b2b8478e3c632d` | Retrying | 0/5 | 2026-11-10T15:30:48.307851+00:00 | application: Invalid application metadata: unexpected key at line 10 |
+| 11.0.2 | 111.277 | release | `mac` | `a56abc799d5141b0c1d3234a97e6a42f53b97de2721aa943f7b2b8478e3c632d` | Retrying | 1/5 | 2026-11-10T20:10:49.529272+00:00 | application: Invalid application metadata: unexpected key at line 10 |
 
 ## MPS (`MPS`)
 
@@ -298,17 +298,17 @@ To explicitly retry one product, run `python -m jetbrains_hashes sync --product 
 | 2019.2.4 | 192.2456 | release | `mac` | `4095ae7e98480ccf05b6474c6dba5fba736149c74c0aa8c53146b97587dda9af` | Retrying | 0/5 | 2026-11-10T15:34:20.036364+00:00 | application: Invalid application metadata: Invalid file |
 | 2019.2.3 | 192.2321 | release | `mac` | `24e5adbd156455c695c26fabbe5dc9b9dfd2790b03a6bb8e9845cb67428b780f` | Retrying | 0/5 | 2026-11-10T15:34:44.303183+00:00 | application: Invalid application metadata: Invalid file |
 | 2019.2.2 | 192.2288 | release | `mac` | `60a024e04e123233c9daa6ceb931d287d4f64c419fd902e968cd80a3e6a5ff50` | Retrying | 0/5 | 2026-11-10T15:35:09.136717+00:00 | application: Invalid application metadata: Invalid file |
-| 2019.2.1 | 192.2176 | release | `mac` | `d42158b6b2524ba745e8f16616be6aaf3dbc5e55915cea5390a75cc2ee3d52ba` | Retrying | 0/5 | 2026-11-09T01:15:32.340459+00:00 | application: Invalid application metadata: Invalid file |
-| 2019.2 | 192.2072 | release | `mac` | `dde50b6a558a0a25c2b157f555cf29f71401b0962218a437b827c259055c4ba8` | Retrying | 0/5 | 2026-11-09T01:15:58.269620+00:00 | application: Invalid application metadata: Invalid file |
+| 2019.2.1 | 192.2176 | release | `mac` | `d42158b6b2524ba745e8f16616be6aaf3dbc5e55915cea5390a75cc2ee3d52ba` | Retrying | 1/5 | 2026-11-10T20:17:58.592708+00:00 | application: Invalid application metadata: Invalid file |
+| 2019.2 | 192.2072 | release | `mac` | `dde50b6a558a0a25c2b157f555cf29f71401b0962218a437b827c259055c4ba8` | Retrying | 1/5 | 2026-11-10T20:18:19.543948+00:00 | application: Invalid application metadata: Invalid file |
 | 2019.1.6 | 191.1698 | release | `mac` | `11fd6309a65a7b4b3773befbf4097bc7d39df101f939217ad5e3973d968046d0` | Retrying | 0/5 | 2026-11-10T15:34:30.403659+00:00 | application: Invalid application metadata: Invalid file |
-| 2019.1.5 | 191.1593 | release | `mac` | `a838a769b7247725844232621efca81688ff431fca6e9482be8fa326c10476c1` | Retrying | 0/5 | 2026-11-09T01:16:25.429629+00:00 | application: Invalid application metadata: Invalid file |
-| 2019.1.4 | 191.1577 | release | `mac` | `411f5ea3e6ce3b9b637184afe48167fe6fa974c7534d2d4a2d7f7083663da6f6` | Retrying | 0/5 | 2026-11-09T01:16:46.358477+00:00 | application: Invalid application metadata: Invalid file |
-| 2019.1.3 | 191.1525 | release | `mac` | `9691bc011412c51a930d4944fac984c54861b88c70928c9a2109405d46bc8b4c` | Retrying | 0/5 | 2026-11-09T01:17:05.357053+00:00 | application: Invalid application metadata: Invalid file |
-| 2019.1.2 | 191.1476 | release | `mac` | `2a5a0c946cd6feedc77916d4b75225a1fac0772808fbf38ec22582767c902a4e` | Retrying | 0/5 | 2026-11-09T01:17:42.395809+00:00 | application: Invalid application metadata: Invalid file |
-| 2019.1.1 | 191.1434 | release | `mac` | `742e31b6f992b752eaad5b5284ebb5f69f9bbaa272fb6154e13711cee5fa5f38` | Retrying | 0/5 | 2026-11-09T01:18:00.238091+00:00 | application: Invalid application metadata: Invalid file |
-| 2019.1 | 191.1384 | release | `mac` | `c9ca83f3a05b20950883478df5610a48f9a1a33462e18d41f9cdf4b595ca2de2` | Retrying | 0/5 | 2026-11-09T01:18:19.389570+00:00 | application: Invalid application metadata: Invalid file |
-| 2018.3.7 | 183.1868 | release | `mac` | `83bfa24d1df510699397ace9af9e211148178fe5d8e3aa0495bf3524fa533818` | Retrying | 0/5 | 2026-11-09T01:17:25.296432+00:00 | application: Invalid application metadata: Invalid file |
-| 2018.2.6 | 182.1603 | release | `mac` | `f84cbaf0fc8b8c49d95a4bc5502cb4e88cc8f6f85da065f8d048424a96aebb73` | Retrying | 0/5 | 2026-11-09T01:18:38.407624+00:00 | application: Invalid application metadata: Invalid file |
+| 2019.1.5 | 191.1593 | release | `mac` | `a838a769b7247725844232621efca81688ff431fca6e9482be8fa326c10476c1` | Retrying | 1/5 | 2026-11-10T20:18:33.808300+00:00 | application: Invalid application metadata: Invalid file |
+| 2019.1.4 | 191.1577 | release | `mac` | `411f5ea3e6ce3b9b637184afe48167fe6fa974c7534d2d4a2d7f7083663da6f6` | Retrying | 1/5 | 2026-11-10T20:18:46.287260+00:00 | application: Invalid application metadata: Invalid file |
+| 2019.1.3 | 191.1525 | release | `mac` | `9691bc011412c51a930d4944fac984c54861b88c70928c9a2109405d46bc8b4c` | Retrying | 1/5 | 2026-11-10T20:19:01.519131+00:00 | application: Invalid application metadata: Invalid file |
+| 2019.1.2 | 191.1476 | release | `mac` | `2a5a0c946cd6feedc77916d4b75225a1fac0772808fbf38ec22582767c902a4e` | Retrying | 1/5 | 2026-11-10T20:19:30.378499+00:00 | application: Invalid application metadata: Invalid file |
+| 2019.1.1 | 191.1434 | release | `mac` | `742e31b6f992b752eaad5b5284ebb5f69f9bbaa272fb6154e13711cee5fa5f38` | Retrying | 1/5 | 2026-11-10T20:19:39.287941+00:00 | application: Invalid application metadata: Invalid file |
+| 2019.1 | 191.1384 | release | `mac` | `c9ca83f3a05b20950883478df5610a48f9a1a33462e18d41f9cdf4b595ca2de2` | Retrying | 1/5 | 2026-11-10T20:19:52.453666+00:00 | application: Invalid application metadata: Invalid file |
+| 2018.3.7 | 183.1868 | release | `mac` | `83bfa24d1df510699397ace9af9e211148178fe5d8e3aa0495bf3524fa533818` | Retrying | 1/5 | 2026-11-10T20:19:14.937502+00:00 | application: Invalid application metadata: Invalid file |
+| 2018.2.6 | 182.1603 | release | `mac` | `f84cbaf0fc8b8c49d95a4bc5502cb4e88cc8f6f85da065f8d048424a96aebb73` | Retrying | 1/5 | 2026-11-10T20:20:00.360094+00:00 | application: Invalid application metadata: Invalid file |
 | 2018.1.5 | 181.1469 | release | `mac` | `aa6c938cb9fa3eeefb1cd4a8f232e5819c995d5a53d5345bcb43eee916a83554` | Retrying | 0/5 | 2026-11-09T01:18:56.276664+00:00 | application: Invalid application metadata: Invalid file |
 | 2017.3.6 | 173.1812 | release | `mac` | `b44eebc63bf9ad57654a6d8c2b799aab9f331baf973f94fcecb34a61364b11d7` | Retrying | 0/5 | 2026-11-09T01:19:12.342071+00:00 | application: Invalid application metadata: Invalid file |
 | 2017.2.3 | 172.1493 | release | `mac` | `2640499fceeef83fce5bdbdf799a7ea1eb468f8fd4ca340263a7f8ba91956bd3` | Retrying | 0/5 | 2026-11-09T01:19:29.369901+00:00 | application: Invalid application metadata: Invalid file |
@@ -323,8 +323,8 @@ To explicitly retry one product, run `python -m jetbrains_hashes sync --product 
 
 | Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 2018.3.6 | 183.6156.29 | release | `mac` | `00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c` | Retrying | 0/5 | 2026-11-09T17:04:06.970054+00:00 | application: Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced. |
-| 3.0.3 | 111.271 | release | `mac` | `088da95aec3d05722da182cdf7379becfc4f01dc843e84181d4ca8d0a0e93581` | Retrying | 0/5 | 2026-11-09T17:04:02.944611+00:00 | application: Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build |
+| 2018.3.6 | 183.6156.29 | release | `mac` | `00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c` | Retrying | 1/5 | 2026-11-10T20:23:57.917019+00:00 | application: Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced. |
+| 3.0.3 | 111.271 | release | `mac` | `088da95aec3d05722da182cdf7379becfc4f01dc843e84181d4ca8d0a0e93581` | Retrying | 1/5 | 2026-11-10T20:23:56.397945+00:00 | application: Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build |
 
 ## PyCharm (`PCP`)
 
@@ -332,7 +332,7 @@ To explicitly retry one product, run `python -m jetbrains_hashes sync --product 
 
 | Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1.5.4 | 107.756 | release | `mac` | `1ce83ae7168f37a3d6fd02d76ecb2fb71a03957d66bd2c00dfa37f89537f29b1` | Retrying | 0/5 | 2026-11-10T15:46:56.240727+00:00 | application: Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build |
+| 1.5.4 | 107.756 | release | `mac` | `1ce83ae7168f37a3d6fd02d76ecb2fb71a03957d66bd2c00dfa37f89537f29b1` | Retrying | 1/5 | 2026-11-10T20:22:27.633361+00:00 | application: Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build |
 
 ## Youtrack Workflow Editor (`YTWE`)
 
@@ -340,4 +340,4 @@ To explicitly retry one product, run `python -m jetbrains_hashes sync --product 
 
 | Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 6.0 | 3385 | release | `mac` | `113749a54abd6c537bf1838a91cf35a70b2fdf04cfc4880eb906448b3156053e` | Retrying | 0/5 | 2026-11-10T15:58:26.289685+00:00 | application: Invalid application metadata: Invalid file |
+| 6.0 | 3385 | release | `mac` | `113749a54abd6c537bf1838a91cf35a70b2fdf04cfc4880eb906448b3156053e` | Retrying | 1/5 | 2026-11-10T20:30:37.658214+00:00 | application: Invalid application metadata: Invalid file |

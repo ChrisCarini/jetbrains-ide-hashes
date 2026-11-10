@@ -1,5 +1,7 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3 | 263.7307.258 | `macM1` | `3719650bb2bf0f0f92e54720c9f1209fde9d1bb305419357827621f49d5437bb` | `bca7de89641de83b44b46f8ae3de325036e50a00d45b6e527866003b0c0a07b2` | 2026-11-10 |
+| 2026.3 | 263.7307.258 | `mac` | `f1e758e624f648f6acd4e3c2fc5d79a88a1f1fc1d133bd64804d9116bd513144` | `009c9a9048b583d5c681fe46e6ea9d09b92ba8c9e71c554b08f7f0e69a2da2d0` | 2026-11-10 |
 | 2026.2.4.1 | 262.11879.119 | `macM1` | `12677cf3c5b7265ff26be9e1edc973deb2628e04793e5759b8c9ea55de8020e2` | `eeb11a51db727d9acd211ba0ccc86c66e888d6722b81a3939b556876a99b2dac` | 2026-11-03 |
 | 2026.2.4.1 | 262.11879.119 | `mac` | `6674cd5ef3684ee6d29f43314b7d37f03c9e10b3829334fe785a54b9e2026085` | `2d0f574818faa9d78375a58979883fed277aa7338ccd5c280d31992777edbb8d` | 2026-11-03 |
 | 2026.2.4 | 262.11879.110 | `macM1` | `4adfd542691dee694e82636a583dbf681627d582b8fc41ab9ecef88181b531ec` | `e1af17cf48d27e063aecb46bbae959d813f397ff0d15677df6f1756c4b9c6985` | 2026-10-30 |
@@ -463,7 +465,7 @@
 
 Product: **Rider** (`RD`). [Machine-readable history](../data/RD.json).
 
-Installer hashes: **453/453**; application hashes: **453/453**; not advertised: **71**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **455/455**; application hashes: **455/455**; not advertised: **71**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
