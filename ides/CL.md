@@ -328,10 +328,10 @@
 | 2016.2.1 | 162.1628.20 | `mac` | `bc411574a2bc0666e4ebfd0a2bfb798dded012a428e8470e2508ed180ea6f529` | `c3ea618a531af440106ac24d4b85dbe4a30fc2ef9929dd252070c406d4f05701` | 2016-08-10 |
 | 2016.2 | 162.1236.16 | `mac` | `69370ae8bf8f5020af237187524565eae0cc833696e6eb1f2015e4b3b23c8c70` | `b100ea42e34ad007044d26b011055a46af2a2b1ae43d9713fd77f0889b4a71d9` | 2016-07-20 |
 | 2016.1.4 | 145.2073.2 | `mac` | `4fee59d07c936f2d1e6eb48f83224355110b19f87362123da8b850317952e21a` | `b91a8d623739f0e052f286f83f7505ca60f6c6ffc79b196a7c4b0320f1fcd273` | 2016-09-06 |
-| 2016.1.3 | 145.1617 | `mac` | `0364f320f698a5dfa4f40c63d1a3517eda49347aab966fab9616ac038fe36745` | Unavailable (see collection notes) | 2016-06-07 |
+| 2016.1.3 | 145.1617 | `mac` | `0364f320f698a5dfa4f40c63d1a3517eda49347aab966fab9616ac038fe36745` | `8e04970565a8a2ce41eeb091fe3f05093d0271c22585c794c70d3caaff614079` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-06-07 |
 | 2016.1.2b | 145.972.6 | `mac` | `c840632dc631a22f6296c744a32952075e34fe4a2b379b4a9f787650098c59f2` | `a30fa1c39c3ab7603b543c5f5f02081bd48269d0251a4af0de516eede81d4578` | 2016-05-18 |
-| 1.2.5 | 143.2370 | `mac` | `59c6f434e45040bbcbd096ba33c2727e50cbdde5fccdc55fe366f3507e80fb7b` | Unavailable (see collection notes) | 2016-05-11 |
-| 1.1.2 | 141.3058 | `mac` | `f0e154268c0956543c3138570355df06f4018bb4035043e3fd10c8a805a2b9be` | Unavailable (see collection notes) | 2016-05-11 |
+| 1.2.5 | 143.2370 | `mac` | `59c6f434e45040bbcbd096ba33c2727e50cbdde5fccdc55fe366f3507e80fb7b` | `d7a484973d1a8ab6f1859b73821eb583c7a7295d970becc6d4e148199a6eb74b` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 1.1.2 | 141.3058 | `mac` | `f0e154268c0956543c3138570355df06f4018bb4035043e3fd10c8a805a2b9be` | `4757e25461204314bc0eaa641e04992dc45591a864281402ee0455d10e397d3f` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
 
 ## EAP, RC, preview, and other non-release builds
 
@@ -382,13 +382,25 @@
 
 Product: **CLion** (`CL`). [Machine-readable history](../data/CL.json).
 
-Installer hashes: **372/372**; application hashes: **369/372**; not advertised: **116**.
+Installer hashes: **372/372**; application hashes: **372/372**; not advertised: **116**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Bundle details for abbreviated API builds
+
+Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's two-component build. After ignoring the optional IDE prefix, the observed bundle adds exactly one numeric component. Both hashes remain in the normal tables; the application hash belongs to this exact bundle and installer SHA-256, not to every bundle sharing the API build prefix.
+
+Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleShortVersionString` values. Missing legacy metadata is not inferred.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | Bundle identifier | Bundle version | Executable |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2016.1.3 | 145.1617 | release | `mac` | `0364f320f698a5dfa4f40c63d1a3517eda49347aab966fab9616ac038fe36745` | `CL-145.1617.9` | com.jetbrains.CLion | 2016.1.3 | `CLion.app/Contents/MacOS/clion` |
+| 1.2.5 | 143.2370 | release | `mac` | `59c6f434e45040bbcbd096ba33c2727e50cbdde5fccdc55fe366f3507e80fb7b` | `CL-143.2370.46` | com.jetbrains.CLion | 1.2.5 | `CLion.app/Contents/MacOS/clion` |
+| 1.1.2 | 141.3058 | release | `mac` | `f0e154268c0956543c3138570355df06f4018bb4035043e3fd10c8a805a2b9be` | `CL-141.3058.48` | com.jetbrains.CLion | 1.1.2 | `CLion.app/Contents/MacOS/clion` |
 
 ### Versions with no advertised downloads
 
@@ -413,9 +425,3 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 | 1.0.2 | 141.871 | release | 2015-05-18 |
 | 1.0.1 | 141.870 | release | 2015-04-28 |
 | 1.0 | 141.353 | release | 2015-04-14 |
-
-### Collection errors
-
-- 2016.1.3 / 145.1617 / `mac` (application): Bundle build mismatch: API says 145.1617, bundle says CL-145.1617.9; refusing to attribute this executable to the wrong build
-- 1.2.5 / 143.2370 / `mac` (application): Bundle build mismatch: API says 143.2370, bundle says CL-143.2370.46; refusing to attribute this executable to the wrong build
-- 1.1.2 / 141.3058 / `mac` (application): Bundle build mismatch: API says 141.3058, bundle says CL-141.3058.48; refusing to attribute this executable to the wrong build

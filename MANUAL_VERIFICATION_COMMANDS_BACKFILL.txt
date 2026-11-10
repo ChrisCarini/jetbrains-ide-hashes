@@ -1,0 +1,103 @@
+# Backfill ONLY missing application hashes for the abbreviated-API-build case.
+# Run individual commands from the repository root in an interactive macOS terminal.
+# Snapshot: 36 pending records across 9 products.
+# Coverage: 38 known matching cases = 36 missing + 2 already hashed (omitted).
+# Selection uses current data/*.json plus historical failure diagnostics:
+# 1301ce331ec568139a462e3faa2ed5dce8923c88:ides/COLLECTION_FAILURES.md
+# Every command pins the exact version, API build, channel, platform, and installer SHA-256.
+# Genuine mismatches (including both negative smoke tests) and unrelated failures are EXCLUDED.
+# Review each proposal. Enter defaults to y and writes JSON/tables.
+# If a GENUINE build mismatch appears, DO NOT ACCEPT: type n, not Enter.
+# Downloads still must pass installer checksum/size checks; prior diagnostics are not a live check.
+# Already hashed, omitted: AC 2016.1.4 / 145.2073 / release / mac.
+# Already hashed, omitted: PCP 4.0.7 / 139.1803 / release / mac.
+
+# AppCode (AC) - 7 pending
+# 2016.2: API 162.1236 -> previously observed bundle OC-162.1236.19
+python3 -m jetbrains_hashes.manual_verify --product AC --version 2016.2 --build 162.1236 --channel release --platform mac --expected-installer-sha256 e4950f49c0fb736400dfd25cdc564593b61c2f97c61cac93fa99b6d53a01b2c4
+# 2016.1.3: API 145.1617 -> previously observed bundle OC-145.1617.5
+python3 -m jetbrains_hashes.manual_verify --product AC --version 2016.1.3 --build 145.1617 --channel release --platform mac --expected-installer-sha256 b0de414b7785cf89f680bc8f413c5ebdb66430cebb20f0395c4c49590c4d3f09
+# 2016.1.2b: API 145.972 -> previously observed bundle OC-145.972.5
+python3 -m jetbrains_hashes.manual_verify --product AC --version 2016.1.2b --build 145.972 --channel release --platform mac --expected-installer-sha256 f724bc1db8d47e934bae1010ac8abc18445a5a41d162cf8f1d0504ebc8808ece
+# 2016.1.2: API 145.971 -> previously observed bundle OC-145.971.26
+python3 -m jetbrains_hashes.manual_verify --product AC --version 2016.1.2 --build 145.971 --channel release --platform mac --expected-installer-sha256 24188b9b99f2d5afa85665711b33cf8cfc439916d5f822e41d7dba31115060c9
+# 3.3.4: API 143.2370 -> previously observed bundle OC-143.2370.39
+python3 -m jetbrains_hashes.manual_verify --product AC --version 3.3.4 --build 143.2370 --channel release --platform mac --expected-installer-sha256 ef7926adf51a2dbf88459fb8edadfeddcfd8724c3fde30ee2383bee795ce67f7
+# 3.2.1: API 141.3058 -> previously observed bundle OC-141.3058.49
+python3 -m jetbrains_hashes.manual_verify --product AC --version 3.2.1 --build 141.3058 --channel release --platform mac --expected-installer-sha256 b02929ab7605562e9716f45c77b96c04cc27c5f65214f4a8e48465a01cb701b2
+# 3.1.8: API 139.1803 -> previously observed bundle OC-139.1803.27
+python3 -m jetbrains_hashes.manual_verify --product AC --version 3.1.8 --build 139.1803 --channel release --platform mac --expected-installer-sha256 8c0fc213e846a44bc0e8a04b7b74f21819c07eaab0843bdf50bcf884c90efec9
+
+# CLion (CL) - 3 pending
+# 2016.1.3: API 145.1617 -> previously observed bundle CL-145.1617.9
+python3 -m jetbrains_hashes.manual_verify --product CL --version 2016.1.3 --build 145.1617 --channel release --platform mac --expected-installer-sha256 0364f320f698a5dfa4f40c63d1a3517eda49347aab966fab9616ac038fe36745
+# 1.2.5: API 143.2370 -> previously observed bundle CL-143.2370.46
+python3 -m jetbrains_hashes.manual_verify --product CL --version 1.2.5 --build 143.2370 --channel release --platform mac --expected-installer-sha256 59c6f434e45040bbcbd096ba33c2727e50cbdde5fccdc55fe366f3507e80fb7b
+# 1.1.2: API 141.3058 -> previously observed bundle CL-141.3058.48
+python3 -m jetbrains_hashes.manual_verify --product CL --version 1.1.2 --build 141.3058 --channel release --platform mac --expected-installer-sha256 f0e154268c0956543c3138570355df06f4018bb4035043e3fd10c8a805a2b9be
+
+# DataGrip (DG) - 9 pending
+# 2016.1.2: API 145.864 -> previously observed bundle DB-145.864.1
+python3 -m jetbrains_hashes.manual_verify --product DG --version 2016.1.2 --build 145.864 --channel release --platform mac --expected-installer-sha256 092a348f3382de10ff437d8d1a940197a1becd2c00eb1da12670ddf2913299dc
+# 2016.1.1: API 145.863 -> previously observed bundle DB-145.863.1
+python3 -m jetbrains_hashes.manual_verify --product DG --version 2016.1.1 --build 145.863 --channel release --platform mac --expected-installer-sha256 78976fcf73155e3e4b0f0defae550ddf7af6517d656d199e53f7f10dd89e02fb
+# 2016.1: API 145.862 -> previously observed bundle DB-145.862.4
+python3 -m jetbrains_hashes.manual_verify --product DG --version 2016.1 --build 145.862 --channel release --platform mac --expected-installer-sha256 f238284e831f7e7216c11591c7ca1bb4765aa7a42fa0246748fb434eeeeb58e5
+# 1.0.5: API 143.2372 -> previously observed bundle DB-143.2372.1
+python3 -m jetbrains_hashes.manual_verify --product DG --version 1.0.5 --build 143.2372 --channel release --platform mac --expected-installer-sha256 d85cdf5618bdb122f3001da1358b4a6ab32c6540b9b160138f2635dde01e0bcd
+# 1.0.4: API 143.2371 -> previously observed bundle DB-143.2371.6
+python3 -m jetbrains_hashes.manual_verify --product DG --version 1.0.4 --build 143.2371 --channel release --platform mac --expected-installer-sha256 fc382feacb78075be94783b7429cae8ecd0d0b10f933dfed7c835e6b619f256c
+# 1.0.3: API 143.2263 -> previously observed bundle DB-143.2263.2
+python3 -m jetbrains_hashes.manual_verify --product DG --version 1.0.3 --build 143.2263 --channel release --platform mac --expected-installer-sha256 30efdd28f396807ec2b02127216e9c7294b13621118ce95f4f3eac1b86a7e6a1
+# 1.0.2: API 143.1997 -> previously observed bundle DB-143.1997.7
+python3 -m jetbrains_hashes.manual_verify --product DG --version 1.0.2 --build 143.1997 --channel release --platform mac --expected-installer-sha256 1b3054eeb6c0f2b0b9ea7176d7c47d3a7e87f00effac1fc310939d840aeaa9ea
+# 1.0.1: API 143.1411 -> previously observed bundle DB-143.1411.5
+python3 -m jetbrains_hashes.manual_verify --product DG --version 1.0.1 --build 143.1411 --channel release --platform mac --expected-installer-sha256 28b9fdf21db461325d4ecb0c14d71aef70fea258f1e16910bbc20f8697378619
+# 1.0: API 143.1410 -> previously observed bundle DB-143.1410.7
+python3 -m jetbrains_hashes.manual_verify --product DG --version 1.0 --build 143.1410 --channel release --platform mac --expected-installer-sha256 f366c9a1eb177873cfe388796a2da471537242cff93bb731b6604319ee77f475
+
+# IntelliJ IDEA (IIU) - 2 pending
+# 14.1.7: API 141.3058 -> previously observed bundle IU-141.3058.30
+python3 -m jetbrains_hashes.manual_verify --product IIU --version 14.1.7 --build 141.3058 --channel release --platform mac --expected-installer-sha256 9cd822c92371e58e3fe9630bb833d55df7290ec3d964785b10c3f8fb00b5cbf7
+# 14.0.5: API 139.1803 -> previously observed bundle IU-139.1803.20
+python3 -m jetbrains_hashes.manual_verify --product IIU --version 14.0.5 --build 139.1803 --channel release --platform mac --expected-installer-sha256 49048d76c986c7c2d680a00871a412ca986c6b5864532da861b68b1703abb745
+
+# IntelliJ IDEA Community Edition (IIC) - 2 pending
+# 14.1.7: API 141.3058 -> previously observed bundle IC-141.3058.30
+python3 -m jetbrains_hashes.manual_verify --product IIC --version 14.1.7 --build 141.3058 --channel release --platform mac --expected-installer-sha256 c5377b32edb2b4ad1b4b451d64bec3e4295e1ea1446d2614353d6c73a16ebe74
+# 14.0.5: API 139.1803 -> previously observed bundle IC-139.1803.20
+python3 -m jetbrains_hashes.manual_verify --product IIC --version 14.0.5 --build 139.1803 --channel release --platform mac --expected-installer-sha256 e199bc689666eabfe733e566027fb0087f33bbcbbcd3e85a4980c65d76f96a65
+
+# PhpStorm (PS) - 4 pending
+# 2016.1.2: API 145.1616 -> previously observed bundle PS-145.1616.3
+python3 -m jetbrains_hashes.manual_verify --product PS --version 2016.1.2 --build 145.1616 --channel release --platform mac --expected-installer-sha256 8c2151b95903105d19d9a6d60aa4fd10ae7159c75680f1071dce8bd2fb900e4d
+# 10.0.4: API 143.2370 -> previously observed bundle PS-143.2370.33
+python3 -m jetbrains_hashes.manual_verify --product PS --version 10.0.4 --build 143.2370 --channel release --platform mac --expected-installer-sha256 b121e4d132cef9fcf153525dc6164a881b631539c97417ec6c70501a0f302e03
+# 9.0.3: API 141.3058 -> previously observed bundle PS-141.3058.33
+python3 -m jetbrains_hashes.manual_verify --product PS --version 9.0.3 --build 141.3058 --channel release --platform mac --expected-installer-sha256 096d6af9553ec887701b0e18bd163257ebdc67b10c079f3c58ce22f44b8928f2
+# 8.0.4: API 139.1803 -> previously observed bundle PS-139.1803.25
+python3 -m jetbrains_hashes.manual_verify --product PS --version 8.0.4 --build 139.1803 --channel release --platform mac --expected-installer-sha256 9a17c03a742060b7183564a48ac3fc41a7f2c4a81f61bb00c2b804832b2a1bbf
+
+# PyCharm (PCP) - 2 pending
+# 5.0.6: API 143.2371 -> previously observed bundle PY-143.2371.1
+python3 -m jetbrains_hashes.manual_verify --product PCP --version 5.0.6 --build 143.2371 --channel release --platform mac --expected-installer-sha256 86b290bb7eac5555c7f494e9782e999dca7ee9f42e935e1942bd64e081015eac
+# 4.5.5: API 141.3058 -> previously observed bundle PY-141.3058.47
+python3 -m jetbrains_hashes.manual_verify --product PCP --version 4.5.5 --build 141.3058 --channel release --platform mac --expected-installer-sha256 7d0b7d7a8f9cc6d9ff9e8b24271b9f5c74960dbc57b3718173a831f89986696b
+
+# PyCharm Community Edition (PCC) - 3 pending
+# 5.0.6: API 143.2371 -> previously observed bundle PC-143.2371.1
+python3 -m jetbrains_hashes.manual_verify --product PCC --version 5.0.6 --build 143.2371 --channel release --platform mac --expected-installer-sha256 f7e1a6382a8469a27c7ba7969da84f0655dd2ec6509130e30a2b25c15f400cf5
+# 4.5.5: API 141.3058 -> previously observed bundle PC-141.3058.47
+python3 -m jetbrains_hashes.manual_verify --product PCC --version 4.5.5 --build 141.3058 --channel release --platform mac --expected-installer-sha256 2f91810878dee5e07a2565b3eeebf7fe2898f60861cc87355eef154b9cbdcead
+# 4.0.7: API 139.1803 -> previously observed bundle PC-139.1803.14
+python3 -m jetbrains_hashes.manual_verify --product PCC --version 4.0.7 --build 139.1803 --channel release --platform mac --expected-installer-sha256 8d686c160bbe2185a7967d24bec73267dfcfb4426aad3838c6b54e06ae443eac
+
+# WebStorm (WS) - 4 pending
+# 2016.1.3: API 145.1616 -> previously observed bundle WS-145.1616.9
+python3 -m jetbrains_hashes.manual_verify --product WS --version 2016.1.3 --build 145.1616 --channel release --platform mac --expected-installer-sha256 3ef891ccae0061a9ed0652a042af871e69a1fd6566b69a513ea2a591f7048f97
+# 11.0.4: API 143.2370 -> previously observed bundle WS-143.2370.35
+python3 -m jetbrains_hashes.manual_verify --product WS --version 11.0.4 --build 143.2370 --channel release --platform mac --expected-installer-sha256 22c9ba6bf2a9ed17b46c309d3f113ecfe089ce763bd9d4557762bc287d2c5fc7
+# 10.0.5: API 141.3058 -> previously observed bundle WS-141.3058.28
+python3 -m jetbrains_hashes.manual_verify --product WS --version 10.0.5 --build 141.3058 --channel release --platform mac --expected-installer-sha256 e79521f8d33cc42abc965f32fe24aae882210adbd50a626163bb33cc6536c799
+# 9.0.4: API 139.1803 -> previously observed bundle WS-139.1803.34
+python3 -m jetbrains_hashes.manual_verify --product WS --version 9.0.4 --build 139.1803 --channel release --platform mac --expected-installer-sha256 28d3f8fb77b55a1dc76237d80fd81237612270e8b36c9d2ff504a8ff1f5cef35

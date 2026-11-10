@@ -269,20 +269,43 @@ def normalize_build(build: str) -> str:
     return re.sub(r"^[A-Z][A-Z0-9]*-", "", build.strip())
 
 
+def is_abbreviated_build(api_build: str, app_build: str) -> bool:
+    api_build = normalize_build(api_build)
+    app_build = normalize_build(app_build)
+    return bool(
+        re.fullmatch(r"[0-9]+\.[0-9]+", api_build)
+        and re.fullmatch(re.escape(api_build) + r"\.[0-9]+", app_build)
+    )
+
+
+def build_matches(api_build: str, app_build: str) -> bool:
+    return normalize_build(api_build) == normalize_build(app_build) or is_abbreviated_build(
+        api_build, app_build
+    )
+
+
 @dataclass(frozen=True)
 class Application:
     sha256: str
     path: str
     build: str
+    bundle_id: str = ""
+    version: str = ""
 
 
 def bundle_metadata(
     app: str, read: Callable[[str], bytes], exists: Callable[[str], bool], expected_build: str
-) -> tuple[str, str]:
+) -> tuple[str, str, str, str]:
     try:
         info = plistlib.loads(read(f"{app}/Contents/Info.plist"))
         if not isinstance(info, dict):
             raise ArtifactError("Info.plist is not a dictionary")
+        bundle_id = info.get("CFBundleIdentifier", "")
+        version = info.get("CFBundleShortVersionString", "")
+        if not isinstance(bundle_id, str):
+            raise ArtifactError("CFBundleIdentifier is not a string")
+        if not isinstance(version, str):
+            raise ArtifactError("CFBundleShortVersionString is not a string")
         executable = info.get("CFBundleExecutable")
         if (
             not isinstance(executable, str)
@@ -310,12 +333,14 @@ def bundle_metadata(
                 build = bundle_version
         if not isinstance(build, str):
             raise ArtifactError("Bundle build number is not a string")
-        if build and expected_build and normalize_build(build) != normalize_build(expected_build):
+        if build and expected_build and not build_matches(expected_build, build):
             raise ArtifactError(
                 f"Bundle build mismatch: API says {expected_build}, bundle says {build}; "
                 "refusing to attribute this executable to the wrong build"
             )
-        return f"{app}/Contents/MacOS/{executable}", build
+        if is_abbreviated_build(expected_build, build):
+            log(f"  Abbreviated API build {expected_build}; recording exact bundle build {build}")
+        return f"{app}/Contents/MacOS/{executable}", build, bundle_id, version
     except (plistlib.InvalidFileException, ExpatError, ValueError, UnicodeDecodeError) as exc:
         raise ArtifactError(f"Invalid application metadata: {exc}") from exc
 
@@ -341,12 +366,12 @@ def hash_mounted_app(mount: Path, expected_build: str, deadline: float | None) -
             raise ArtifactError("Bundle metadata exceeds 4 MiB")
         return path.read_bytes()
 
-    name, build = bundle_metadata(
+    name, build, bundle_id, version = bundle_metadata(
         apps[0].name, read, lambda name: resolve(name).is_file(), expected_build
     )
     try:
         with resolve(name).open("rb") as source:
-            return Application(hash_stream(source, deadline), name, build)
+            return Application(hash_stream(source, deadline), name, build, bundle_id, version)
     except (FileNotFoundError, IsADirectoryError) as exc:
         raise ArtifactError("Bundle launcher is missing or is not a regular file") from exc
 
@@ -368,7 +393,9 @@ def hash_zipped_app(image: Path, expected_build: str, deadline: float | None) ->
                     raise ArtifactError("Bundle metadata exceeds 4 MiB")
                 return archive.read(name)
 
-            name, build = bundle_metadata(apps[0], read, lambda name: name in names, expected_build)
+            name, build, bundle_id, version = bundle_metadata(
+                apps[0], read, lambda name: name in names, expected_build
+            )
             if ".." in PurePosixPath(name).parts or PurePosixPath(name).is_absolute():
                 raise ArtifactError("Unsafe application path in ZIP")
             entry = archive.getinfo(name)
@@ -379,7 +406,7 @@ def hash_zipped_app(image: Path, expected_build: str, deadline: float | None) ->
             if entry.file_size > GIB:
                 raise ArtifactError("ZIP launcher exceeds 1 GiB")
             with archive.open(name) as source:
-                return Application(hash_stream(source, deadline), name, build)
+                return Application(hash_stream(source, deadline), name, build, bundle_id, version)
     except (zipfile.BadZipFile, KeyError) as exc:
         raise ArtifactError(f"Invalid application ZIP: {exc}") from exc
 

@@ -1,0 +1,27 @@
+# Five targeted checks. Run individual commands from the repository root on macOS.
+# Expected build-check outcomes below come from saved metadata/CI diagnostics.
+# For preview-only trials, answer n: Enter defaults to y and updates JSON/tables.
+# WARNING: Cases 4-5 are NEGATIVE TESTS. DO NOT ACCEPT OR SAVE their proposed changes.
+# Type n and then Enter at confirmation. DO NOT press Enter alone: it defaults to y.
+
+# 1. PyCharm 4.0.7: abbreviated API build; build check should now pass.
+# 139.1803 -> PY-139.1803.14. Saving should add the bundle-details link/section.
+python3 -m jetbrains_hashes.manual_verify --product PCP --version 4.0.7 --build 139.1803 --channel release --platform mac --expected-installer-sha256 ea0b2f431f41ba44221f2c61c8cb0a3e48746a697e755daf74234d7f4b08d97a
+
+# 2. AppCode 2016.1.4: abbreviated API build with a different IDE prefix.
+# 145.2073 -> OC-145.2073.4. Build check should pass and bundle details should appear.
+python3 -m jetbrains_hashes.manual_verify --product AC --version 2016.1.4 --build 145.2073 --channel release --platform mac --expected-installer-sha256 7354ddf250cd56cb68be83017b31d92c301a80ec8794bddb05e735eea862121d
+
+# 3. CLion 2016.1.4: normal exact-build control (already collected).
+# 145.2073.2 -> CL-145.2073.2. Pass after prefix removal; no abbreviated-build annotation.
+python3 -m jetbrains_hashes.manual_verify --product CL --version 2016.1.4 --build 145.2073.2 --channel release --platform mac --expected-installer-sha256 4fee59d07c936f2d1e6eb48f83224355110b19f87362123da8b850317952e21a
+
+# 4. NEGATIVE TEST - PyCharm 1.5.4: DO NOT ACCEPT THIS UPDATE.
+# 107.756 -> PY-107.576 changes the second component; the exception does NOT apply.
+# REQUIRED: type n at confirmation. Do not press Enter alone or override this failure.
+python3 -m jetbrains_hashes.manual_verify --product PCP --version 1.5.4 --build 107.756 --channel release --platform mac --expected-installer-sha256 1ce83ae7168f37a3d6fd02d76ecb2fb71a03957d66bd2c00dfa37f89537f29b1
+
+# 5. NEGATIVE TEST - DataGrip 2025.3.5.1 (macM1, ~957 MiB): DO NOT ACCEPT THIS UPDATE.
+# 253.31033.213 -> 253.31033.21 changes an existing component; this is NOT an abbreviation.
+# REQUIRED: type n at confirmation. Do not press Enter alone or override this failure.
+python3 -m jetbrains_hashes.manual_verify --product DG --version 2025.3.5.1 --build 253.31033.213 --channel release --platform macM1 --expected-installer-sha256 944d1bf2cdfb9811c9eded221df2925bff6fa44f7977ffb0a6322091c18372bf

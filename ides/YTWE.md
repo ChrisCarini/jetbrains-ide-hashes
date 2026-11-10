@@ -11,7 +11,7 @@
 
 Product: **Youtrack Workflow Editor** (`YTWE`). [Machine-readable history](../data/YTWE.json).
 
-Installer hashes: **1/1**; application hashes: **0/1**; not advertised: **1**.
+Installer hashes: **1/1**; application hashes: **0/1**; not advertised: **1**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -21,4 +21,4 @@ Rows are sorted by version, build version, and installer type, descending, with 
 
 ### Collection errors
 
-- 6.0 / 3385 / `mac` (application): Invalid application metadata: Invalid file
+- 6.0 / 3385 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file

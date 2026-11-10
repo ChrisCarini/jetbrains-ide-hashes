@@ -7,8 +7,8 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-from .history import History, Record, coverage, grouped_builds, load
-from .transfer import atomic_write
+from .history import FAILURE_LIMIT, History, Record, coverage, grouped_builds, load
+from .transfer import atomic_write, is_abbreviated_build
 
 HEADER = (
     "| Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |\n"
@@ -29,10 +29,74 @@ def natural(value: str) -> tuple:
 def hash_cell(row: Record, application: bool) -> str:
     digest = row.app_sha256 if application else row.installer_sha256
     if digest:
-        return f"`{digest}`"
+        result = f"`{digest}`"
+        if application and is_abbreviated_build(row.build, row.app_build):
+            result += " [bundle](#bundle-details-for-abbreviated-api-builds)"
+        return result
+    if row.quarantined:
+        return "Quarantined (see collection notes)"
     if row.error and (application or row.error_stage in ("checksum", "metadata")):
         return "Unavailable (see collection notes)"
     return "Pending" if row.installer_url else "Not advertised"
+
+
+def failure_table(rows: list[Record]) -> str:
+    result = (
+        "| Version | API build | Channel | Installer type | Installer SHA256 | State | "
+        "Identical failures | Last result / attempt (UTC) | Stage and reason |\n"
+        "| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n"
+    )
+    for row in sorted(
+        rows,
+        key=lambda row: (natural(row.version), natural(row.build), row.artifact_key()),
+        reverse=True,
+    ):
+        digest = f"`{row.installer_sha256}`" if row.installer_sha256 else "Not captured"
+        state = "Quarantined" if row.quarantined else "Retrying"
+        result += (
+            f"| {cell(row.version or '(not provided)')} | {cell(row.build or '(not provided)')} | "
+            f"{cell(row.release_type)} | `{cell(row.platform)}` | {digest} | {state} | "
+            f"{row.consecutive_failures}/{FAILURE_LIMIT} | "
+            f"{cell(row.failure_updated_at or row.last_attempt or 'Not recorded')} | "
+            f"{cell(row.error_stage)}: {cell(row.error)} |\n"
+        )
+    return result
+
+
+def render_failures(histories: list[History]) -> str:
+    errors = [row for history in histories for row in history.records if row.error]
+    quarantined = sum(row.quarantined for row in errors)
+    result = (
+        "# Collection failures\n\n"
+        f"**{quarantined} quarantined; {len(errors) - quarantined} retrying.** "
+        "Generated from the saved JSON histories, not just the latest workflow run.\n\n"
+        f"After **{FAILURE_LIMIT} consecutive identical collection failures**, an unchanged "
+        "record is quarantined: its missing hashes remain unavailable, but it no longer "
+        "keeps collection jobs queued. Errors are not evidence of a verified artifact. "
+        "Changed metadata or a new installer checksum can create fresh work. Quarantined "
+        "checksum failures can also recover through a successful lightweight checksum probe; "
+        "failed or budget-limited probes do not requeue quarantined records.\n\n"
+        "Counters are per completed collection attempt, not individual HTTP retries. "
+        "Histories predating retry tracking start at zero; their earlier failure counts "
+        "are unknown. Budget limits, interruptions, and infrastructure/safety stops do not "
+        "consume the allowance.\n\n"
+        "To explicitly retry one product, run "
+        "`python -m jetbrains_hashes sync --product CODE --retry-quarantined`, or enable "
+        "`retry_quarantined` when dispatching the update workflow. This resets only "
+        "quarantined records and preserves captured hashes. "
+        "[Manual verification instructions](../MANUAL_VERIFICATION.md).\n"
+    )
+    if not errors:
+        return result + "\nNo collection failures are currently recorded.\n"
+    for history in sorted(histories, key=lambda item: (item.name.casefold(), item.code)):
+        rows = [row for row in history.records if row.error]
+        if rows:
+            result += (
+                f"\n## {cell(history.name)} (`{history.code}`)\n\n"
+                f"[Product table]({history.code}.md) | "
+                f"[JSON history](../data/{history.code}.json)\n\n" + failure_table(rows)
+            )
+    return result
 
 
 def render_product(history: History) -> str:
@@ -84,7 +148,9 @@ def render_product(history: History) -> str:
         f"[Machine-readable history](../data/{history.code}.json).\n\n"
         f"Installer hashes: **{counts['installer_hashes']}/{counts['advertised']}**; "
         f"application hashes: **{counts['app_hashes']}/{counts['advertised']}**; "
-        f"not advertised: **{counts['not_advertised']}**.\n\n"
+        f"not advertised: **{counts['not_advertised']}**; "
+        f"quarantined: **{counts['quarantined']}**. "
+        "[All collection failures](COLLECTION_FAILURES.md).\n\n"
         "Bold versions/builds have multiple observed build numbers for the same version and channel. "
         "`(repacked)` means multiple installer hashes were observed for the same version, build, "
         "channel, and installer type. History is retained even after entries disappear from the API.\n\n"
@@ -94,6 +160,32 @@ def render_product(history: History) -> str:
         "are omitted. Missing hashes are not inferred. Application hashes cover "
         "the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.\n"
     )
+    abbreviated = [
+        row
+        for row in rows
+        if row.installer_url and row.app_sha256 and is_abbreviated_build(row.build, row.app_build)
+    ]
+    if abbreviated:
+        result += (
+            "\n### Bundle details for abbreviated API builds\n\n"
+            "Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's "
+            "two-component build. After ignoring the optional IDE prefix, the observed bundle "
+            "adds exactly one numeric component. Both hashes remain in the normal tables; "
+            "the application hash belongs to this exact bundle and installer SHA-256, "
+            "not to every bundle sharing the API build prefix.\n\n"
+            "Bundle identifiers and versions are observed `CFBundleIdentifier` and "
+            "`CFBundleShortVersionString` values. Missing legacy metadata is not inferred.\n\n"
+            "| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | "
+            "Bundle identifier | Bundle version | Executable |\n"
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n"
+        )
+        for row in abbreviated:
+            result += (
+                f"| {cell(row.version)} | {cell(row.build)} | {cell(row.release_type)} | "
+                f"`{cell(row.platform)}` | `{row.installer_sha256}` | `{cell(row.app_build)}` | "
+                f"{cell(row.app_bundle_id or 'Not recorded')} | "
+                f"{cell(row.app_version or 'Not recorded')} | `{cell(row.app_path)}` |\n"
+            )
     if history.empty_downloads:
         result += (
             "\n### Versions with no advertised downloads\n\n"
@@ -121,13 +213,22 @@ def render_product(history: History) -> str:
                 f"{cell(release.build or '(not provided)')} | "
                 f"{cell(release.release_type)} | {cell(release.release_date)} |\n"
             )
-    errors = [row for row in rows if row.error]
+    quarantined = [row for row in rows if row.quarantined]
+    if quarantined:
+        result += (
+            "\n### Quarantined after repeated failures\n\n"
+            "These records are excluded from automatic collection until their inputs change "
+            "or an explicit retry is requested. Missing hashes are not treated as verified.\n\n"
+            + failure_table(quarantined)
+        )
+    errors = [row for row in rows if row.error and not row.quarantined]
     if errors:
         result += "\n### Collection errors\n\n"
         for row in errors:
             result += (
                 f"- {cell(row.version)} / {cell(row.build)} / `{cell(row.platform)}` "
-                f"({cell(row.error_stage)}): {cell(row.error)}\n"
+                f"({cell(row.error_stage)}; {row.consecutive_failures}/{FAILURE_LIMIT} "
+                f"identical failures): {cell(row.error)}\n"
             )
     return result
 
@@ -141,8 +242,10 @@ def render_all(data_dir: Path, docs_dir: Path) -> None:
         "Only advertised macOS installers appear in the main tables; versions with an omitted "
         "`downloads` field or an empty `downloads` object are listed in Collection notes. "
         "Product codes keep renamed and legacy editions distinct.\n\n"
-        "| IDE / product | Product code | Installer hashes | Application hashes | Not advertised |\n"
-        "| --- | --- | --- | --- | --- |\n"
+        "[Collection failure and quarantine report](COLLECTION_FAILURES.md).\n\n"
+        "| IDE / product | Product code | Installer hashes | Application hashes | Not advertised | "
+        "Quarantined |\n"
+        "| --- | --- | --- | --- | --- | --- |\n"
     )
     for history in sorted(histories, key=lambda item: (item.name.casefold(), item.code)):
         atomic_write(docs_dir / f"{history.code}.md", render_product(history))
@@ -150,6 +253,8 @@ def render_all(data_dir: Path, docs_dir: Path) -> None:
         index += (
             f"| [{cell(history.name)}]({history.code}.md) | `{history.code}` | "
             f"{count['installer_hashes']}/{count['advertised']} | "
-            f"{count['app_hashes']}/{count['advertised']} | {count['not_advertised']} |\n"
+            f"{count['app_hashes']}/{count['advertised']} | {count['not_advertised']} | "
+            f"{count['quarantined']} |\n"
         )
     atomic_write(docs_dir / "README.md", index)
+    atomic_write(docs_dir / "COLLECTION_FAILURES.md", render_failures(histories))

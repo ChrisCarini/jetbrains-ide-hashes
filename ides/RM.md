@@ -688,7 +688,7 @@
 
 Product: **RubyMine** (`RM`). [Machine-readable history](../data/RM.json).
 
-Installer hashes: **678/678**; application hashes: **678/678**; not advertised: **176**.
+Installer hashes: **678/678**; application hashes: **678/678**; not advertised: **176**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

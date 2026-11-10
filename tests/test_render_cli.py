@@ -70,6 +70,69 @@ def test_markdown_is_deterministic_and_escapes_cells(product_factory):
     assert "1&#124;&lt;script&gt;" in first
 
 
+@pytest.mark.parametrize("channel", ["release", "eap"])
+def test_abbreviated_build_hashes_link_to_exact_bundle_and_payload_details(
+    product_factory, channel
+):
+    state = history.History("PCP", "PyCharm")
+    history.refresh_metadata(
+        state, product_factory(code="PCP", version="4.0.7", build="139.1803", channel=channel), T1
+    )
+    row = next(row for row in state.records if row.platform == "mac")
+    row.installer_sha256, row.app_sha256 = "a" * 64, "b" * 64
+    row.app_build, row.app_bundle_id, row.app_version = (
+        "PY-139.1803.14",
+        "com.jetbrains.pycharm",
+        "4.0.7",
+    )
+    row.app_path = "PyCharm.app/Contents/MacOS/pycharm"
+    repacked = replace(
+        row,
+        installer_sha256="c" * 64,
+        app_sha256="d" * 64,
+        app_build="PY-139.1803.15",
+        app_bundle_id="",
+        app_version="",
+    )
+    unverified = replace(row, installer_sha256="e" * 64, app_sha256="")
+    state.records.extend((repacked, unverified))
+
+    text = render.render_product(state)
+    tables = text.split("\n## Collection notes\n", 1)[0]
+    details = text.split("\n### Bundle details for abbreviated API builds\n\n", 1)[1]
+
+    for installer_hash, app_hash in ((row.installer_sha256, row.app_sha256), ("c" * 64, "d" * 64)):
+        assert f"`{installer_hash}` | `{app_hash}` [bundle]" in tables
+    assert tables.count("[bundle](#bundle-details-for-abbreviated-api-builds)") == 2
+    assert "| 139.1803 |" in tables and "PY-139.1803" not in tables
+    assert (
+        f"| 4.0.7 | 139.1803 | {channel} | `mac` | `{'a' * 64}` | `PY-139.1803.14` | "
+        "com.jetbrains.pycharm | 4.0.7 | `PyCharm.app/Contents/MacOS/pycharm` |"
+    ) in details
+    assert (f"`{'c' * 64}` | `PY-139.1803.15` | Not recorded | Not recorded |") in details
+    assert "e" * 64 not in details
+    assert "not to every bundle sharing the API build prefix" in details
+    state.records.reverse()
+    assert render.render_product(state) == text
+
+
+def test_bundle_detail_metadata_is_escaped(product_factory):
+    state = history.History("PCP", "PyCharm")
+    history.refresh_metadata(state, product_factory(code="PCP", build="139.1803"), T1)
+    row = next(row for row in state.records if row.platform == "mac")
+    row.installer_sha256, row.app_sha256 = "a" * 64, "b" * 64
+    row.app_build = "PY-139.1803.14"
+    row.app_bundle_id = "com.jetbrains.<py>|`"
+    row.app_version = "4.0|7"
+    row.app_path = "PyCharm.app/Contents/MacOS/pycharm"
+
+    text = render.render_product(state)
+
+    assert "com.jetbrains.&lt;py&gt;&#124;&#96;" in text
+    assert "4.0&#124;7" in text
+    assert "com.jetbrains.<py>" not in text
+
+
 @pytest.mark.parametrize("channel", ["release", "eap", "rc", "preview", "future-channel"])
 def test_tables_sort_version_build_and_installer_type_before_date(product_factory, channel):
     product = product_factory()
@@ -286,7 +349,7 @@ def test_cli_seeds_without_network_and_render_is_idempotent(tmp_path, product_fa
     assert cli.main(["render", "--data-dir", str(data), "--docs-dir", str(docs)]) == 0
 
     assert before == {path.name: path.read_bytes() for path in docs.glob("*.md")}
-    assert set(before) == {"IIU.md", "PCP.md", "README.md"}
+    assert set(before) == {"IIU.md", "PCP.md", "README.md", "COLLECTION_FAILURES.md"}
     assert len(history.load(data / "IIU.json").records) == 2
     assert b"### Versions with no advertised downloads" in before["PCP.md"]
     assert not main_table_rows(before["PCP.md"].decode())
@@ -397,7 +460,10 @@ def test_discover_product_selection_controls_snapshots_seed_and_matrix(
     assert output.read_text() == f"existing=value\nmatrix={matrix}\nhas_work=true\n"
     assert {path.stem for path in snapshots.glob("*.json")} == set(expected)
     assert {path.stem for path in data.glob("*.json")} == set(expected)
-    assert {path.stem for path in docs.glob("*.md")} == set(expected) | {"README"}
+    assert {path.stem for path in docs.glob("*.md")} == set(expected) | {
+        "README",
+        "COLLECTION_FAILURES",
+    }
     snapshot = json.loads((snapshots / "PCP.json").read_text())
     assert {release["type"] for release in snapshot["product"]["releases"]} == {
         "release",
@@ -623,3 +689,214 @@ def test_empty_publication_is_an_error(tmp_path):
         )
         == 1
     )
+
+
+def test_failure_report_distinguishes_quarantine_from_retrying_and_escapes_content(
+    tmp_path, product_factory
+):
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product_factory(platforms=("mac", "macM1")), T1)
+    for row in state.records:
+        row.installer_sha256 = "a" * 64
+        for _ in range(5 if row.platform == "mac" else 4):
+            history.record_error(row, "application", "Bad | <metadata>\nTry again")
+    data, docs = tmp_path / "data", tmp_path / "ides"
+    history.save(state, data)
+
+    render.render_all(data, docs)
+
+    report = (docs / "COLLECTION_FAILURES.md").read_text()
+    assert "**1 quarantined; 1 retrying.**" in report
+    assert "| Quarantined | 5/5 |" in report and "| Retrying | 4/5 |" in report
+    assert "Bad &#124; &lt;metadata&gt; Try again" in report
+    assert "not just the latest workflow run" in report
+    product = (docs / "IIU.md").read_text()
+    assert "### Quarantined after repeated failures" in product
+    assert "Quarantined (see collection notes)" in product
+    assert "### Collection errors" in product
+    assert "| Quarantined |" in (docs / "README.md").read_text()
+    before = {path.name: path.read_bytes() for path in docs.glob("*.md")}
+    state.records.reverse()
+    history.save(state, data)
+    render.render_all(data, docs)
+    assert before == {path.name: path.read_bytes() for path in docs.glob("*.md")}
+
+
+@pytest.mark.parametrize("retry", [False, True])
+def test_discovery_omits_quarantined_work_unless_an_explicit_retry_is_requested(
+    tmp_path, product_factory, monkeypatch, capsys, retry
+):
+    product = product_factory()
+    state = history.History("IIU", "IntelliJ IDEA")
+    sources = history.refresh_metadata(state, product, T1)
+    row = history.observe_checksum(state, sources[0], "a" * 64, T1)
+    for _ in range(5):
+        history.record_error(row, "application", "Bundle build mismatch")
+    data, snapshots = tmp_path / "data", tmp_path / "catalog"
+    history.save(state, data)
+    before = (data / "IIU.json").read_bytes()
+    source = tmp_path / "products.json"
+    source.write_text(json.dumps([product]))
+    output = tmp_path / "github-output"
+    monkeypatch.setattr(history.transfer, "fetch_bytes", lambda *args: b"a" * 64)
+    monkeypatch.setattr(
+        history.transfer, "collect_app", lambda *args: pytest.fail("No installer downloads")
+    )
+    args = [
+        "discover",
+        "--only-pending",
+        "--catalog-file",
+        str(source),
+        "--data-dir",
+        str(data),
+        "--output-dir",
+        str(snapshots),
+        "--github-output",
+        str(output),
+    ]
+    if retry:
+        args.append("--retry-quarantined")
+
+    assert cli.main(args) == 0
+
+    captured = capsys.readouterr()
+    assert json.loads(captured.out) == {"product": ["IIU"] if retry else []}
+    assert f"has_work={str(retry).lower()}\n" in output.read_text()
+    assert (data / "IIU.json").read_bytes() == before
+    if not retry:
+        assert "1 quarantined records remain in the failure report" in captured.err
+        assert not snapshots.exists()
+
+
+def test_sync_retry_resets_only_quarantined_records_and_preserves_captured_hashes(
+    tmp_path, product_factory, monkeypatch
+):
+    product = product_factory(platforms=("mac", "macM1"))
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+    for row in state.records:
+        row.installer_sha256, row.app_sha256 = "a" * 64, "b" * 64
+        row.app_path = "IDE.app/Contents/MacOS/idea"
+        for _ in range(5 if row.platform == "mac" else 4):
+            history.record_error(row, "checksum", "HTTP 404")
+    data, docs = tmp_path / "data", tmp_path / "ides"
+    history.save(state, data)
+    catalog = tmp_path / "catalog.json"
+    catalog.write_text(json.dumps({"fetched_at": T2, "product": product}))
+    monkeypatch.setattr(
+        history.transfer, "fetch_bytes", lambda *args: pytest.fail("Catalog-only must be offline")
+    )
+
+    assert (
+        cli.main(
+            [
+                "sync",
+                "--product",
+                "IIU",
+                "--retry-quarantined",
+                "--catalog",
+                str(catalog),
+                "--catalog-only",
+                "--data-dir",
+                str(data),
+                "--docs-dir",
+                str(docs),
+            ]
+        )
+        == 0
+    )
+
+    restored = history.load(data / "IIU.json")
+    reset = next(row for row in restored.records if row.platform == "mac")
+    retrying = next(row for row in restored.records if row.platform == "macM1")
+    assert reset.consecutive_failures == 0 and not reset.error
+    assert retrying.consecutive_failures == 4 and retrying.error == "HTTP 404"
+    assert all(row.app_sha256 == "b" * 64 for row in restored.records)
+    assert "**0 quarantined; 1 retrying.**" in (docs / "COLLECTION_FAILURES.md").read_text()
+
+
+@pytest.mark.parametrize("stage", ["application", "checksum"])
+def test_five_published_failed_runs_produce_an_empty_discovery_matrix(
+    tmp_path, product_factory, monkeypatch, capsys, stage
+):
+    product = product_factory()
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+    data, incoming, docs = tmp_path / "data", tmp_path / "incoming", tmp_path / "ides"
+    history.save(state, data)
+    incoming.mkdir()
+    catalog = tmp_path / "catalog.json"
+    catalog.write_text(json.dumps({"product": product, "fetched_at": T2}))
+    products = tmp_path / "products.json"
+    products.write_text(json.dumps([product]))
+
+    def fetch(*args):
+        if stage == "checksum":
+            raise history.transfer.ArtifactError("HTTP 404")
+        return b"a" * 64
+
+    def collect_app(*args):
+        raise history.transfer.ArtifactError("Bundle build mismatch")
+
+    monkeypatch.setattr(history.transfer, "fetch_bytes", fetch)
+    monkeypatch.setattr(history.transfer, "collect_app", collect_app)
+    for attempt in range(1, 6):
+        monkeypatch.setattr(history, "now", lambda: f"2026-11-04T00:00:0{attempt}+00:00")
+        (incoming / "IIU.json").write_bytes((data / "IIU.json").read_bytes())
+        assert (
+            cli.main(
+                [
+                    "sync",
+                    "--product",
+                    "IIU",
+                    "--catalog",
+                    str(catalog),
+                    "--data-dir",
+                    str(incoming),
+                    "--no-render",
+                    "--work-dir",
+                    str(tmp_path / "work"),
+                ]
+            )
+            == 1
+        )
+        assert (
+            cli.main(
+                [
+                    "merge",
+                    "--from-dir",
+                    str(incoming),
+                    "--data-dir",
+                    str(data),
+                    "--docs-dir",
+                    str(docs),
+                ]
+            )
+            == 0
+        )
+        saved = history.load(data / "IIU.json")
+        row = next(row for row in saved.records if row.installer_url)
+        assert row.consecutive_failures == attempt
+
+    capsys.readouterr()
+    output = tmp_path / "github-output"
+    assert (
+        cli.main(
+            [
+                "discover",
+                "--only-pending",
+                "--catalog-file",
+                str(products),
+                "--data-dir",
+                str(data),
+                "--output-dir",
+                str(tmp_path / "snapshots"),
+                "--github-output",
+                str(output),
+            ]
+        )
+        == 0
+    )
+    assert capsys.readouterr().out == '{"product":[]}\n'
+    assert output.read_text() == 'matrix={"product":[]}\nhas_work=false\n'
+    assert "**1 quarantined; 0 retrying.**" in (docs / "COLLECTION_FAILURES.md").read_text()

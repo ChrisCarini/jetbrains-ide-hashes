@@ -170,14 +170,14 @@
 | 2016.2.3 | 162.2380.5 | `mac` | `2a4fe78e2f57b43dd2193db39538b5ca81945cc4c9b1774877c48c53e38ddfa5` | `8cb2b2945b8fb4a82d23333699123a54542c92ddda6e7e9e6e57847e0865b241` | 2016-10-19 |
 | 2016.2.2 | 162.1967.8 | `mac` | `73392ea84d247ec3a75b7ecf9c5f11078b32e01fbde5a7f54e8ad95a65fc68dc` | `332de5be9bee71dda5332245fbe95cd179dfa646d3e94b708b1b9922cf09177c` | 2016-09-07 |
 | 2016.2.1 | 162.1628.44 | `mac` | `bb476d237f95ab775936ea02380c92e5e5602643c125f19bab4134d61f209a46` | `67bdb15b64bfefa78c94de6eb218b7e4cc43eb0f2bcb00b045db30511e68a3e4` | 2016-08-18 |
-| 2016.2 | 162.1236 | `mac` | `e4950f49c0fb736400dfd25cdc564593b61c2f97c61cac93fa99b6d53a01b2c4` | Unavailable (see collection notes) | 2016-07-20 |
-| 2016.1.4 | 145.2073 | `mac` | `7354ddf250cd56cb68be83017b31d92c301a80ec8794bddb05e735eea862121d` | Unavailable (see collection notes) | 2016-09-09 |
-| 2016.1.3 | 145.1617 | `mac` | `b0de414b7785cf89f680bc8f413c5ebdb66430cebb20f0395c4c49590c4d3f09` | Unavailable (see collection notes) | 2016-06-01 |
-| 2016.1.2b | 145.972 | `mac` | `f724bc1db8d47e934bae1010ac8abc18445a5a41d162cf8f1d0504ebc8808ece` | Unavailable (see collection notes) | 2016-05-18 |
-| 2016.1.2 | 145.971 | `mac` | `24188b9b99f2d5afa85665711b33cf8cfc439916d5f822e41d7dba31115060c9` | Unavailable (see collection notes) | 2016-05-11 |
-| 3.3.4 | 143.2370 | `mac` | `ef7926adf51a2dbf88459fb8edadfeddcfd8724c3fde30ee2383bee795ce67f7` | Unavailable (see collection notes) | 2016-05-11 |
-| 3.2.1 | 141.3058 | `mac` | `b02929ab7605562e9716f45c77b96c04cc27c5f65214f4a8e48465a01cb701b2` | Unavailable (see collection notes) | 2016-05-11 |
-| 3.1.8 | 139.1803 | `mac` | `8c0fc213e846a44bc0e8a04b7b74f21819c07eaab0843bdf50bcf884c90efec9` | Unavailable (see collection notes) | 2016-05-11 |
+| 2016.2 | 162.1236 | `mac` | `e4950f49c0fb736400dfd25cdc564593b61c2f97c61cac93fa99b6d53a01b2c4` | `c37653f3199e55aa5e326192a4b0ca1bfef96c5f319fdd169ef2ff194897de37` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-07-20 |
+| 2016.1.4 | 145.2073 | `mac` | `7354ddf250cd56cb68be83017b31d92c301a80ec8794bddb05e735eea862121d` | `2c21a97235b9c6e10f3a8128c794ddc3462ca7026a3bb5c2f38e5a5b9bf41c1c` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-09-09 |
+| 2016.1.3 | 145.1617 | `mac` | `b0de414b7785cf89f680bc8f413c5ebdb66430cebb20f0395c4c49590c4d3f09` | `03553a8868d3b7acfd257de880d0b9cd58f55f379ee23649f3066258797d114b` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-06-01 |
+| 2016.1.2b | 145.972 | `mac` | `f724bc1db8d47e934bae1010ac8abc18445a5a41d162cf8f1d0504ebc8808ece` | `c72bb926d020a3ba941448e828b918bebafc00e0af206d956bb9a800364259a6` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-18 |
+| 2016.1.2 | 145.971 | `mac` | `24188b9b99f2d5afa85665711b33cf8cfc439916d5f822e41d7dba31115060c9` | `e31d96316acaf7ef735f5c442cbd323dbf3bd74fcf6878baf9980b9fbfb6e45d` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 3.3.4 | 143.2370 | `mac` | `ef7926adf51a2dbf88459fb8edadfeddcfd8724c3fde30ee2383bee795ce67f7` | `fdd47d281bb2bcc24a6dc9f7455cbd4b9b8942c95b2b399ed0d5ee2c61367d1b` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 3.2.1 | 141.3058 | `mac` | `b02929ab7605562e9716f45c77b96c04cc27c5f65214f4a8e48465a01cb701b2` | `977dfca9d7f20dc8a66cfb0c2e2bf57fadbab554dafc50c78a04779d7efa28a7` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 3.1.8 | 139.1803 | `mac` | `8c0fc213e846a44bc0e8a04b7b74f21819c07eaab0843bdf50bcf884c90efec9` | `8bf7c9f11a4cd89ded9ae87d2036537c0fa308a9d618d1f0b8e7cf3e702ac141` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
 | 3.0.7 | 137.253 | `mac` | `242c442889c8c9c8f5f172ea052a95563b8b62eb4ed44088e01a1e1a3feb3378` | `7161325d576f8741ab28feb81485b00ff9f83d60c26990e650457627e2c3435a` | 2016-05-11 |
 | 2.5.6 | 131.848 | `mac` | `aaa7592d11846b9bb2a338b963b64bf01b9095508d46435150e2723815dc6662` | `80c9da4ca6aa84f2dafc925cc08cb277345e35e379e80f6a77205520e8ca31b2` | 2016-05-11 |
 | 2.1.3 | 129.1564 | `mac` | `d12e0880f1eca20c2dc3b3b54bdb654d39991df58f34d6d1c0c30708f458ee79` | `80c9da4ca6aa84f2dafc925cc08cb277345e35e379e80f6a77205520e8ca31b2` | 2016-05-11 |
@@ -195,13 +195,30 @@
 
 Product: **AppCode** (`AC`). [Machine-readable history](../data/AC.json).
 
-Installer hashes: **185/185**; application hashes: **177/185**; not advertised: **207**.
+Installer hashes: **185/185**; application hashes: **185/185**; not advertised: **207**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Bundle details for abbreviated API builds
+
+Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's two-component build. After ignoring the optional IDE prefix, the observed bundle adds exactly one numeric component. Both hashes remain in the normal tables; the application hash belongs to this exact bundle and installer SHA-256, not to every bundle sharing the API build prefix.
+
+Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleShortVersionString` values. Missing legacy metadata is not inferred.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | Bundle identifier | Bundle version | Executable |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2016.2 | 162.1236 | release | `mac` | `e4950f49c0fb736400dfd25cdc564593b61c2f97c61cac93fa99b6d53a01b2c4` | `OC-162.1236.19` | com.jetbrains.AppCode | 2016.2 | `AppCode.app/Contents/MacOS/appcode` |
+| 2016.1.4 | 145.2073 | release | `mac` | `7354ddf250cd56cb68be83017b31d92c301a80ec8794bddb05e735eea862121d` | `OC-145.2073.4` | com.jetbrains.AppCode | 2016.1.4 | `AppCode.app/Contents/MacOS/appcode` |
+| 2016.1.3 | 145.1617 | release | `mac` | `b0de414b7785cf89f680bc8f413c5ebdb66430cebb20f0395c4c49590c4d3f09` | `OC-145.1617.5` | com.jetbrains.AppCode | 2016.1.3 | `AppCode.app/Contents/MacOS/appcode` |
+| 2016.1.2b | 145.972 | release | `mac` | `f724bc1db8d47e934bae1010ac8abc18445a5a41d162cf8f1d0504ebc8808ece` | `OC-145.972.5` | com.jetbrains.AppCode | 2016.1.2 | `AppCode.app/Contents/MacOS/appcode` |
+| 2016.1.2 | 145.971 | release | `mac` | `24188b9b99f2d5afa85665711b33cf8cfc439916d5f822e41d7dba31115060c9` | `OC-145.971.26` | com.jetbrains.AppCode | 2016.1.2 | `AppCode.app/Contents/MacOS/appcode` |
+| 3.3.4 | 143.2370 | release | `mac` | `ef7926adf51a2dbf88459fb8edadfeddcfd8724c3fde30ee2383bee795ce67f7` | `OC-143.2370.39` | com.jetbrains.AppCode | 3.3.4 | `AppCode.app/Contents/MacOS/appcode` |
+| 3.2.1 | 141.3058 | release | `mac` | `b02929ab7605562e9716f45c77b96c04cc27c5f65214f4a8e48465a01cb701b2` | `OC-141.3058.49` | com.jetbrains.AppCode | 3.2.1 | `AppCode.app/Contents/MacOS/appcode` |
+| 3.1.8 | 139.1803 | release | `mac` | `8c0fc213e846a44bc0e8a04b7b74f21819c07eaab0843bdf50bcf884c90efec9` | `OC-139.1803.27` | com.jetbrains.AppCode | 3.1.8 | `AppCode.app/Contents/MacOS/appcode` |
 
 ### Versions with no advertised downloads
 
@@ -263,14 +280,3 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 | 1.0.2 | 109.94 | release | 2011-11-22 |
 | 1.0.1 | 109.72 | release | 2011-11-03 |
 | 1.0 | 109.54 | release | 2011-10-25 |
-
-### Collection errors
-
-- 2016.2 / 162.1236 / `mac` (application): Bundle build mismatch: API says 162.1236, bundle says OC-162.1236.19; refusing to attribute this executable to the wrong build
-- 2016.1.4 / 145.2073 / `mac` (application): Bundle build mismatch: API says 145.2073, bundle says OC-145.2073.4; refusing to attribute this executable to the wrong build
-- 2016.1.3 / 145.1617 / `mac` (application): Bundle build mismatch: API says 145.1617, bundle says OC-145.1617.5; refusing to attribute this executable to the wrong build
-- 2016.1.2b / 145.972 / `mac` (application): Bundle build mismatch: API says 145.972, bundle says OC-145.972.5; refusing to attribute this executable to the wrong build
-- 2016.1.2 / 145.971 / `mac` (application): Bundle build mismatch: API says 145.971, bundle says OC-145.971.26; refusing to attribute this executable to the wrong build
-- 3.3.4 / 143.2370 / `mac` (application): Bundle build mismatch: API says 143.2370, bundle says OC-143.2370.39; refusing to attribute this executable to the wrong build
-- 3.2.1 / 141.3058 / `mac` (application): Bundle build mismatch: API says 141.3058, bundle says OC-141.3058.49; refusing to attribute this executable to the wrong build
-- 3.1.8 / 139.1803 / `mac` (application): Bundle build mismatch: API says 139.1803, bundle says OC-139.1803.27; refusing to attribute this executable to the wrong build

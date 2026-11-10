@@ -86,7 +86,7 @@
 
 Product: **Air** (`AIR`). [Machine-readable history](../data/AIR.json).
 
-Installer hashes: **76/76**; application hashes: **76/76**; not advertised: **0**.
+Installer hashes: **76/76**; application hashes: **76/76**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

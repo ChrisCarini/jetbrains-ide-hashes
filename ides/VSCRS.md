@@ -10,7 +10,7 @@
 
 Product: **ReSharper for Visual Studio Code** (`VSCRS`). [Machine-readable history](../data/VSCRS.json).
 
-Installer hashes: **0/0**; application hashes: **0/0**; not advertised: **56**.
+Installer hashes: **0/0**; application hashes: **0/0**; not advertised: **56**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

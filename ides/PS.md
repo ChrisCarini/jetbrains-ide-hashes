@@ -325,10 +325,10 @@
 | 2016.3.4 | 163.15529.17 | `mac` | `505e65977d041c305ff99704844eeec811004a8756cd6bf0270b151f5e987fbb` | `f2664f1fd4d8da73a43ffc41ab5da29bd82eab114d3d1afb9f18ccd08ad779df` | 2017-03-13 |
 | 2016.3.3 | 163.13906.21 | `mac` | `81f52743ac89b19a5ce1720dbf1acbe541ac2801049c0d4f15e8bbe88c5df29c` | `592f12fe77db53939d646413dd03294ceebe5596b9ea45a64a83dae3d5a09c47` | 2017-03-08 |
 | 2016.2.2 | 162.2380.11 | `mac` | `9422a5d8733f82f8a77d7da7376a7bf58ca9d170c43dc1392c8377bda5e6711b` | `8e47f31ebde6f87ad5b57b6377358ee097e0ccb7d5e32c5ad6fd3bc8f574c24a` | 2016-10-24 |
-| 2016.1.2 | 145.1616 | `mac` | `8c2151b95903105d19d9a6d60aa4fd10ae7159c75680f1071dce8bd2fb900e4d` | Unavailable (see collection notes) | 2016-05-25 |
-| 10.0.4 | 143.2370 | `mac` | `b121e4d132cef9fcf153525dc6164a881b631539c97417ec6c70501a0f302e03` | Unavailable (see collection notes) | 2016-05-11 |
-| 9.0.3 | 141.3058 | `mac` | `096d6af9553ec887701b0e18bd163257ebdc67b10c079f3c58ce22f44b8928f2` | Unavailable (see collection notes) | 2016-05-02 |
-| 8.0.4 | 139.1803 | `mac` | `9a17c03a742060b7183564a48ac3fc41a7f2c4a81f61bb00c2b804832b2a1bbf` | Unavailable (see collection notes) | 2016-05-11 |
+| 2016.1.2 | 145.1616 | `mac` | `8c2151b95903105d19d9a6d60aa4fd10ae7159c75680f1071dce8bd2fb900e4d` | `cfbfa766b14853988a1667c33c04cb6345d22753d8414e7cb43a9a7be3ee52b4` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-25 |
+| 10.0.4 | 143.2370 | `mac` | `b121e4d132cef9fcf153525dc6164a881b631539c97417ec6c70501a0f302e03` | `2ca40e371ad491ca1c48909fbb88231b1bafdb64f414378a6a7fc89de0ca3560` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 9.0.3 | 141.3058 | `mac` | `096d6af9553ec887701b0e18bd163257ebdc67b10c079f3c58ce22f44b8928f2` | `0f21a81a2ebe41d5f2efa9f8779f3dfe730b3369985e3453bf099620c3797203` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-02 |
+| 8.0.4 | 139.1803 | `mac` | `9a17c03a742060b7183564a48ac3fc41a7f2c4a81f61bb00c2b804832b2a1bbf` | `311f7298f08d79ea2f29cd64c49225032eef1ed2debc6a8bef31dc3269026cce` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
 | 7.1.5 | 133.1886 | `mac` | `bbfe487bbf125aed6dbad2170caf1a81cf32e3f41be7b82b267755d55b37ab2b` | `97b99281f0334a26d8c16ea2d5e293019b65861813f2a69acfb7ead1469962ab` | 2016-05-11 |
 | 6.0.4 | 129.1560 | `mac` | `ed39dc16ac8e46087c7de2aa743c91f958bf10084698a796f0689bc23579678d` | `80c9da4ca6aa84f2dafc925cc08cb277345e35e379e80f6a77205520e8ca31b2` | 2016-05-11 |
 | 5.0.4 | 121.390 | `mac` | `825c03920212408b37da5c001517ae44037036d6a69be738eacf5d14e7cea80a` | `b22a05786db0972aa9f7ce82a15f4216acbd791d4b66d99209c8fd39641e7d8a` | 2012-11-02 |
@@ -685,13 +685,26 @@
 
 Product: **PhpStorm** (`PS`). [Machine-readable history](../data/PS.json).
 
-Installer hashes: **675/675**; application hashes: **669/675**; not advertised: **165**.
+Installer hashes: **675/675**; application hashes: **673/675**; not advertised: **165**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Bundle details for abbreviated API builds
+
+Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's two-component build. After ignoring the optional IDE prefix, the observed bundle adds exactly one numeric component. Both hashes remain in the normal tables; the application hash belongs to this exact bundle and installer SHA-256, not to every bundle sharing the API build prefix.
+
+Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleShortVersionString` values. Missing legacy metadata is not inferred.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | Bundle identifier | Bundle version | Executable |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2016.1.2 | 145.1616 | release | `mac` | `8c2151b95903105d19d9a6d60aa4fd10ae7159c75680f1071dce8bd2fb900e4d` | `PS-145.1616.3` | com.jetbrains.PhpStorm | 2016.1.2 | `PhpStorm.app/Contents/MacOS/phpstorm` |
+| 10.0.4 | 143.2370 | release | `mac` | `b121e4d132cef9fcf153525dc6164a881b631539c97417ec6c70501a0f302e03` | `PS-143.2370.33` | com.jetbrains.PhpStorm | 10.0.4 | `PhpStorm.app/Contents/MacOS/phpstorm` |
+| 9.0.3 | 141.3058 | release | `mac` | `096d6af9553ec887701b0e18bd163257ebdc67b10c079f3c58ce22f44b8928f2` | `PS-141.3058.33` | com.jetbrains.PhpStorm | 9.0.3 | `PhpStorm.app/Contents/MacOS/phpstorm` |
+| 8.0.4 | 139.1803 | release | `mac` | `9a17c03a742060b7183564a48ac3fc41a7f2c4a81f61bb00c2b804832b2a1bbf` | `PS-139.1803.25` | com.jetbrains.PhpStorm | 8.0.4 | `PhpStorm.app/Contents/MacOS/phpstorm` |
 
 ### Versions with no advertised downloads
 
@@ -747,9 +760,5 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 
 ### Collection errors
 
-- 2018.3.6 / 183.6156.29 / `mac` (application): Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced.
-- 2016.1.2 / 145.1616 / `mac` (application): Bundle build mismatch: API says 145.1616, bundle says PS-145.1616.3; refusing to attribute this executable to the wrong build
-- 10.0.4 / 143.2370 / `mac` (application): Bundle build mismatch: API says 143.2370, bundle says PS-143.2370.33; refusing to attribute this executable to the wrong build
-- 9.0.3 / 141.3058 / `mac` (application): Bundle build mismatch: API says 141.3058, bundle says PS-141.3058.33; refusing to attribute this executable to the wrong build
-- 8.0.4 / 139.1803 / `mac` (application): Bundle build mismatch: API says 139.1803, bundle says PS-139.1803.25; refusing to attribute this executable to the wrong build
-- 3.0.3 / 111.271 / `mac` (application): Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build
+- 2018.3.6 / 183.6156.29 / `mac` (application; 0/5 identical failures): Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced.
+- 3.0.3 / 111.271 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build

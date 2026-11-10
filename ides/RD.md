@@ -463,7 +463,7 @@
 
 Product: **Rider** (`RD`). [Machine-readable history](../data/RD.json).
 
-Installer hashes: **453/453**; application hashes: **453/453**; not advertised: **71**.
+Installer hashes: **453/453**; application hashes: **453/453**; not advertised: **71**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

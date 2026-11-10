@@ -21,6 +21,8 @@ APP_HASH = hashlib.sha256(APP_BYTES).hexdigest()
 URL = "https://download.jetbrains.com/idea/example.dmg"
 BUILD = "123.456.789"
 APP_PATH = "Demo IDE.app/Contents/MacOS/pycharm"
+BUNDLE_ID = "com.jetbrains.pycharm"
+APP_VERSION = "1.2.3"
 
 
 class Response(io.BytesIO):
@@ -36,8 +38,9 @@ def bundle_files(build=BUILD):
         "Demo IDE.app/Contents/Info.plist": plistlib.dumps(
             {
                 "CFBundleExecutable": "pycharm",
-                "CFBundleVersion": "1.2.3",
-                "CFBundleShortVersionString": "1.2.3",
+                "CFBundleIdentifier": BUNDLE_ID,
+                "CFBundleVersion": APP_VERSION,
+                "CFBundleShortVersionString": APP_VERSION,
             }
         ),
         "Demo IDE.app/Contents/Resources/product-info.json": json.dumps(
@@ -204,7 +207,7 @@ def test_short_download_retries_without_appending_partial_bytes(tmp_path, monkey
 def test_discovers_non_idea_launcher_verifies_build_and_cleans_up(tmp_path, fake_system):
     app = transfer.collect_app(URL, len(DMG_BYTES), DMG_HASH, BUILD, tmp_path)
 
-    assert app == transfer.Application(APP_HASH, APP_PATH, BUILD)
+    assert app == transfer.Application(APP_HASH, APP_PATH, BUILD, BUNDLE_ID, APP_VERSION)
     assert "-readonly" in fake_system.attach_args
     assert "-nobrowse" in fake_system.attach_args
     assert not fake_system.mounted
@@ -220,11 +223,37 @@ def test_replaced_installer_is_never_mounted(tmp_path, fake_system, capsys):
     assert "Download complete" not in capsys.readouterr().err
 
 
-def test_bundle_build_mismatch_is_not_attributed_to_old_release(tmp_path, fake_system):
-    fake_system.build = "123.456.799"
+@pytest.mark.parametrize("bundle_build", ["PY-139.1803.14", "139.1803.14"])
+def test_abbreviated_api_build_keeps_exact_bundle_identity(tmp_path, fake_system, bundle_build):
+    fake_system.build = bundle_build
+
+    app = transfer.collect_app(URL, len(DMG_BYTES), DMG_HASH, "139.1803", tmp_path)
+
+    assert app == transfer.Application(APP_HASH, APP_PATH, bundle_build, BUNDLE_ID, APP_VERSION)
+    assert not fake_system.mounted
+    assert list(tmp_path.iterdir()) == []
+
+
+@pytest.mark.parametrize(
+    "api_build,bundle_build",
+    [
+        (BUILD, "123.456.799"),
+        ("253.31033.213", "253.31033.21"),
+        ("139.1803", "PY-139.18030.14"),
+        ("107.756", "PY-107.576"),
+        ("139.1803", "PY-139.1803.14.1"),
+        ("139", "PY-139.1803"),
+        ("139.1803.14", "PY-139.1803"),
+        ("139.1803", "PY-139.1803.14-EAP"),
+    ],
+)
+def test_bundle_build_mismatch_is_not_attributed_to_old_release(
+    tmp_path, fake_system, api_build, bundle_build
+):
+    fake_system.build = bundle_build
 
     with pytest.raises(transfer.ArtifactError, match="Bundle build mismatch"):
-        transfer.collect_app(URL, len(DMG_BYTES), DMG_HASH, BUILD, tmp_path)
+        transfer.collect_app(URL, len(DMG_BYTES), DMG_HASH, api_build, tmp_path)
 
     assert not fake_system.mounted
     assert list(tmp_path.iterdir()) == []
@@ -266,33 +295,53 @@ def test_low_disk_space_fails_before_download(tmp_path, monkeypatch):
     assert list(tmp_path.iterdir()) == []
 
 
-def test_zip_hashes_launcher_without_extracting_bundle(tmp_path):
+@pytest.mark.parametrize("api_build,bundle_build", [(BUILD, BUILD), ("139.1803", "PY-139.1803.14")])
+def test_zip_hashes_launcher_without_extracting_bundle(tmp_path, api_build, bundle_build):
     image = tmp_path / "app.zip"
     with zipfile.ZipFile(image, "w") as archive:
-        for name, body in bundle_files().items():
+        for name, body in bundle_files(bundle_build).items():
             archive.writestr(name, body)
 
-    assert transfer.hash_zipped_app(image, BUILD, None) == transfer.Application(
-        APP_HASH, APP_PATH, BUILD
+    assert transfer.hash_zipped_app(image, api_build, None) == transfer.Application(
+        APP_HASH, APP_PATH, bundle_build, BUNDLE_ID, APP_VERSION
     )
     assert list(tmp_path.iterdir()) == [image]
 
 
-def test_legacy_plist_build_prefix_is_supported():
+@pytest.mark.parametrize(
+    "api_build,bundle_build", [("111.277", "IU-111.277"), ("139.1803", "PY-139.1803.14")]
+)
+def test_legacy_plist_build_prefix_is_supported(api_build, bundle_build):
     content = plistlib.dumps(
         {
             "CFBundleExecutable": "idea",
-            "CFBundleVersion": "IU-111.277",
+            "CFBundleVersion": bundle_build,
             "CFBundleShortVersionString": "11.0.2",
         }
     )
 
-    name, build = transfer.bundle_metadata(
-        "IntelliJ IDEA.app", lambda name: content, lambda name: False, "111.277"
+    name, build, bundle_id, version = transfer.bundle_metadata(
+        "IntelliJ IDEA.app", lambda name: content, lambda name: False, api_build
     )
 
     assert name == "IntelliJ IDEA.app/Contents/MacOS/idea"
-    assert build == "IU-111.277"
+    assert build == bundle_build
+    assert bundle_id == ""
+    assert version == "11.0.2"
+
+
+@pytest.mark.parametrize(
+    "key,value", [("CFBundleIdentifier", 123), ("CFBundleShortVersionString", ["1.2.3"])]
+)
+def test_invalid_bundle_identity_is_not_silently_discarded(key, value):
+    files = bundle_files()
+    path = "Demo IDE.app/Contents/Info.plist"
+    info = plistlib.loads(files[path])
+    info[key] = value
+    files[path] = plistlib.dumps(info)
+
+    with pytest.raises(transfer.ArtifactError, match=f"{key} is not a string"):
+        transfer.bundle_metadata("Demo IDE.app", files.__getitem__, files.__contains__, BUILD)
 
 
 @pytest.mark.native
@@ -322,5 +371,5 @@ def test_native_dmg_round_trip(tmp_path, monkeypatch):
 
     app = transfer.collect_app(URL, len(payload), hashlib.sha256(payload).hexdigest(), BUILD, work)
 
-    assert app == transfer.Application(APP_HASH, APP_PATH, BUILD)
+    assert app == transfer.Application(APP_HASH, APP_PATH, BUILD, BUNDLE_ID, APP_VERSION)
     assert list(work.iterdir()) == []

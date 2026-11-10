@@ -33,11 +33,22 @@ def test_rerelease_preserves_both_builds_and_completed_hashes(product_factory):
 
 def test_same_build_repack_preserves_old_payload_without_copying_app_hash(product_factory):
     state, old = observed(product_factory)
+    old.app_build, old.app_bundle_id, old.app_version = (
+        "IU-123.456.789",
+        "com.jetbrains.intellij",
+        "1.2.3",
+    )
     sources = history.refresh_metadata(state, product_factory(), T2)
     new = history.observe_checksum(state, sources[0], SHA_B, T2)
 
     assert old.installer_sha256 == SHA_A and old.app_sha256 == APP_A
     assert new.installer_sha256 == SHA_B and new.app_sha256 == ""
+    assert (old.app_build, old.app_bundle_id, old.app_version) == (
+        "IU-123.456.789",
+        "com.jetbrains.intellij",
+        "1.2.3",
+    )
+    assert (new.app_build, new.app_bundle_id, new.app_version) == ("", "", "")
     assert not old.current and new.current
     assert len({row.artifact_key() for row in state.records}) == len(state.records)
 
@@ -179,6 +190,24 @@ def test_legacy_history_loads_without_inventing_empty_download_metadata(tmp_path
     assert "empty_downloads" not in json.loads(path.read_text())
 
     assert history.load(path).empty_downloads is None
+
+
+def test_legacy_history_does_not_invent_bundle_identity(tmp_path, product_factory):
+    state, row = observed(product_factory)
+    row.app_build = "IU-123.456.789"
+    history.save(state, tmp_path)
+    path = tmp_path / "IIU.json"
+    payload = json.loads(path.read_text())
+    for record in payload["records"]:
+        record.pop("app_bundle_id")
+        record.pop("app_version")
+    path.write_text(json.dumps(payload))
+
+    restored = next(row for row in history.load(path).records if row.app_sha256)
+
+    assert restored.app_sha256 == APP_A
+    assert restored.app_build == "IU-123.456.789"
+    assert restored.app_bundle_id == restored.app_version == ""
 
 
 @pytest.mark.parametrize(
@@ -453,6 +482,103 @@ def test_publisher_upgrades_pending_record_without_leaving_duplicate(product_fac
     assert history.coverage(destination)["app_hashes"] == 1
 
 
+def test_merge_enriches_bundle_identity_without_erasing_it_with_legacy_artifacts(product_factory):
+    destination, row = observed(product_factory)
+    legacy = history.History("IIU", "IntelliJ IDEA", [replace(row)], T1)
+    incoming = deepcopy(legacy)
+    incoming.records[0].app_build = "IU-123.456.789"
+    incoming.records[0].app_bundle_id = "com.jetbrains.intellij"
+    incoming.records[0].app_version = "1.2.3"
+
+    history.merge(destination, incoming)
+    history.merge(destination, legacy)
+
+    assert (row.app_build, row.app_bundle_id, row.app_version) == (
+        "IU-123.456.789",
+        "com.jetbrains.intellij",
+        "1.2.3",
+    )
+    assert row.installer_sha256 == SHA_A and row.app_sha256 == APP_A
+
+
+@pytest.mark.parametrize("field", ["app_build", "app_bundle_id", "app_version"])
+def test_merge_rejects_conflicting_observed_bundle_metadata(product_factory, field):
+    destination, row = observed(product_factory)
+    row.app_build, row.app_bundle_id, row.app_version = (
+        "IU-123.456.789",
+        "com.jetbrains.intellij",
+        "1.2.3",
+    )
+    incoming = history.History("IIU", "IntelliJ IDEA", [replace(row)], T1)
+    setattr(incoming.records[0], field, "different")
+
+    with pytest.raises(transfer.StopRun, match=f"Conflicting {field}"):
+        history.merge(destination, incoming)
+
+    assert getattr(row, field) != "different"
+
+
+def test_abbreviated_bundle_collection_persists_identity_and_recovers_failure(
+    tmp_path, product_factory, monkeypatch
+):
+    state = history.History("PCP", "PyCharm")
+    sources = history.refresh_metadata(
+        state, product_factory(code="PCP", version="4.0.7", build="139.1803"), T1
+    )
+    row = history.observe_checksum(state, sources[0], SHA_A, T1)
+    original_key = row.artifact_key()
+    history.record_error(row, "application", "Bundle build mismatch")
+    app = transfer.Application(
+        APP_A,
+        "PyCharm.app/Contents/MacOS/pycharm",
+        "PY-139.1803.14",
+        "com.jetbrains.pycharm",
+        "4.0.7",
+    )
+    monkeypatch.setattr(transfer, "collect_app", lambda *args: app)
+
+    assert history.collect(state, [], lambda: history.save(state, tmp_path), tmp_path, 1, None) == 0
+    restored = next(row for row in history.load(tmp_path / "PCP.json").records if row.app_sha256)
+
+    assert restored.artifact_key() == original_key
+    assert restored.app_sha256 == APP_A and restored.app_path == app.path
+    assert (restored.app_build, restored.app_bundle_id, restored.app_version) == (
+        app.build,
+        app.bundle_id,
+        app.version,
+    )
+    assert restored.error == restored.error_stage == ""
+    assert restored.consecutive_failures == 0
+
+
+def test_cached_application_copies_the_observed_bundle_identity(tmp_path, product_factory):
+    state, verified = observed(product_factory, build="139.1803")
+    verified.app_build, verified.app_bundle_id, verified.app_version = (
+        "IU-139.1803.20",
+        "com.jetbrains.intellij",
+        "14.0.5",
+    )
+    pending = replace(
+        verified,
+        release_type="eap",
+        app_sha256="",
+        app_path="",
+        app_build="",
+        app_bundle_id="",
+        app_version="",
+    )
+    state.records.append(pending)
+
+    assert history.collect(state, [], lambda: None, tmp_path, 0, None) == 0
+
+    assert pending.build == "139.1803" and pending.app_sha256 == APP_A
+    assert (pending.app_build, pending.app_bundle_id, pending.app_version) == (
+        "IU-139.1803.20",
+        "com.jetbrains.intellij",
+        "14.0.5",
+    )
+
+
 def test_bounded_collection_checkpoints_and_resumes_other_installers(
     tmp_path, product_factory, monkeypatch
 ):
@@ -602,3 +728,324 @@ def test_stale_artifact_does_not_clear_newer_collection_error(product_factory):
     history.merge(destination, incoming)
 
     assert old.error_stage == "checksum" and old.error == "HTTP 404"
+
+
+@pytest.mark.parametrize("stage", ["metadata", "checksum", "application"])
+def test_five_identical_failures_are_persisted_then_excluded_from_collection(
+    tmp_path, product_factory, monkeypatch, stage
+):
+    product = product_factory()
+    if stage == "metadata":
+        product["releases"][0]["downloads"] = None
+    state = history.History("IIU", "IntelliJ IDEA")
+    downloads = []
+
+    def fetch(*args):
+        if stage == "checksum":
+            raise transfer.ArtifactError("HTTP 404")
+        return SHA_A.encode()
+
+    def collect_app(*args):
+        downloads.append(args[0])
+        raise transfer.ArtifactError("Bundle build mismatch")
+
+    monkeypatch.setattr(transfer, "fetch_bytes", fetch)
+    monkeypatch.setattr(transfer, "collect_app", collect_app)
+    for attempt in range(1, 6):
+        sources = history.refresh_metadata(state, product, T2)
+        assert history.collect(
+            state, sources, lambda: history.save(state, tmp_path), tmp_path, 10, None
+        ) == (2 if stage == "metadata" else 1)
+        state = history.load(tmp_path / "IIU.json")
+        failed = [row for row in state.records if row.error]
+        assert failed
+        assert all(row.consecutive_failures == attempt for row in failed)
+        assert all(row.quarantined == (attempt == 5) for row in failed)
+        assert all(row.failure_updated_at for row in failed)
+        assert all(row.needs_collection == (attempt < 5) for row in failed)
+
+    before = deepcopy(state)
+    assert not history.needs_sync(state, product, T2, None)
+    assert state == before
+    sources = history.refresh_metadata(state, product, T2)
+    assert history.collect(state, sources, lambda: None, tmp_path, 10, None) == 0
+    assert state == before
+    assert len(downloads) == (5 if stage == "application" else 0)
+
+
+def test_different_error_restarts_streak_and_success_clears_it(
+    tmp_path, product_factory, monkeypatch
+):
+    state, row = observed(product_factory)
+    row.app_sha256, row.app_path = "", ""
+    for _ in range(4):
+        history.record_error(row, "application", "HTTP 404")
+    history.record_error(row, "application", "Bundle build mismatch")
+    assert row.consecutive_failures == 1
+    assert not row.quarantined
+    monkeypatch.setattr(
+        transfer,
+        "collect_app",
+        lambda *args: transfer.Application(APP_A, "IDE.app/Contents/MacOS/idea", row.build),
+    )
+
+    assert history.collect(state, [], lambda: None, tmp_path, 10, None) == 0
+    assert row.app_sha256 == APP_A
+    assert row.consecutive_failures == 0
+    assert not row.error and not row.error_stage and not row.quarantined
+
+
+@pytest.mark.parametrize("failure", [transfer.BudgetReached("Budget"), KeyboardInterrupt()])
+def test_budgets_and_interruptions_do_not_increment_failure_streak(
+    tmp_path, product_factory, monkeypatch, failure
+):
+    state, row = observed(product_factory)
+    row.app_sha256, row.app_path = "", ""
+    for _ in range(4):
+        history.record_error(row, "application", "HTTP 404")
+    updated = row.failure_updated_at
+
+    def collect_app(*args):
+        raise failure
+
+    monkeypatch.setattr(transfer, "collect_app", collect_app)
+    if isinstance(failure, KeyboardInterrupt):
+        with pytest.raises(KeyboardInterrupt):
+            history.collect(state, [], lambda: None, tmp_path, 10, None)
+    else:
+        assert history.collect(state, [], lambda: None, tmp_path, 10, None) == 0
+    assert row.consecutive_failures == 4 and not row.quarantined
+    assert row.failure_updated_at == updated
+
+
+def test_safety_stops_are_visible_but_never_quarantine_an_artifact(
+    tmp_path, product_factory, monkeypatch
+):
+    state, row = observed(product_factory)
+    row.app_sha256, row.app_path = "", ""
+
+    def collect_app(*args):
+        raise transfer.StopRun("Insufficient disk space")
+
+    monkeypatch.setattr(transfer, "collect_app", collect_app)
+    for _ in range(6):
+        with pytest.raises(transfer.StopRun, match="Insufficient disk space"):
+            history.collect(state, [], lambda: None, tmp_path, 10, None)
+    assert row.error == "Insufficient disk space"
+    assert row.consecutive_failures == 0 and not row.quarantined
+
+
+def test_temporary_workspace_names_do_not_break_identical_failure_tracking(
+    tmp_path, product_factory, monkeypatch
+):
+    state, row = observed(product_factory)
+    row.app_sha256, row.app_path = "", ""
+    attempts = iter(range(5))
+
+    def collect_app(*args):
+        raise transfer.ArtifactError(
+            f"hdiutil attach: {tmp_path}/jetbrains-sha256-{next(attempts)}/installer.dmg: invalid"
+        )
+
+    monkeypatch.setattr(transfer, "collect_app", collect_app)
+    for _ in range(5):
+        assert history.collect(state, [], lambda: None, tmp_path, 10, None) == 1
+    assert row.quarantined
+    assert "<work-dir>/jetbrains-sha256-<temporary>/installer.dmg" in row.error
+
+
+@pytest.mark.parametrize("probe", ["same", "error", "budget"])
+def test_quarantine_probes_do_not_requeue_or_reactivate_historical_revisions(
+    product_factory, monkeypatch, probe
+):
+    state, old = observed(product_factory)
+    source = history.descriptors(product_factory(), T2)[0]
+    current = history.observe_checksum(state, source, SHA_B, T2)
+    for _ in range(5):
+        history.record_error(current, "application", "Bundle build mismatch")
+    before = deepcopy(state)
+
+    def fetch(*args):
+        if probe == "error":
+            raise transfer.ArtifactError("HTTP 503")
+        return SHA_B.encode()
+
+    monkeypatch.setattr(transfer, "fetch_bytes", fetch)
+    assert not history.needs_sync(state, product_factory(), T2, -1 if probe == "budget" else None)
+    assert state == before
+    assert not old.current and current.current
+
+
+def test_new_checksum_unblocks_a_quarantined_installer_without_losing_old_failure(
+    product_factory, monkeypatch
+):
+    state, old = observed(product_factory)
+    old.app_sha256, old.app_path = "", ""
+    for _ in range(5):
+        history.record_error(old, "application", "Bundle build mismatch")
+    before = deepcopy(state)
+    monkeypatch.setattr(transfer, "fetch_bytes", lambda *args: SHA_B.encode())
+
+    assert history.needs_sync(state, product_factory(), T2, None)
+    assert state == before
+    sources = history.refresh_metadata(state, product_factory(), T2)
+    assert history.refresh_checksums(state, sources, lambda: None, None) == (0, True)
+    current = next(row for row in state.records if row.installer_sha256 == SHA_B)
+    assert current.needs_collection and current.consecutive_failures == 0
+    assert old.quarantined and old.installer_sha256 == SHA_A
+
+
+def test_successful_checksum_probe_recovers_checksum_quarantine(product_factory, monkeypatch):
+    state, row = observed(product_factory)
+    for _ in range(5):
+        history.record_error(row, "checksum", "HTTP 404")
+    monkeypatch.setattr(transfer, "fetch_bytes", lambda *args: SHA_A.encode())
+    before = deepcopy(state)
+
+    assert history.needs_sync(state, product_factory(), T2, None)
+    assert state == before
+    sources = history.refresh_metadata(state, product_factory(), T2)
+    assert history.refresh_checksums(state, sources, lambda: None, None) == (0, True)
+    assert not row.error and row.consecutive_failures == 0
+    assert row.app_sha256 == APP_A
+
+
+@pytest.mark.parametrize("change", ["url", "size", "build"])
+def test_changed_installer_metadata_is_not_blocked_by_quarantine(product_factory, change):
+    state, old = observed(product_factory)
+    old.app_sha256, old.app_path = "", ""
+    for _ in range(5):
+        history.record_error(old, "application", "Bundle build mismatch")
+    product = product_factory(
+        url="https://download.jetbrains.com/new.dmg"
+        if change == "url"
+        else "https://download.jetbrains.com/idea/example.dmg",
+        build="123.456.799" if change == "build" else "123.456.789",
+    )
+    if change == "size":
+        product["releases"][0]["downloads"]["mac"]["size"] += 1
+
+    assert history.needs_sync(state, product, T2, None)
+    history.refresh_metadata(state, product, T2)
+    assert old.quarantined
+    assert any(row.needs_collection and row.consecutive_failures == 0 for row in state.records)
+
+
+def test_corrected_metadata_clears_its_quarantine(product_factory):
+    product = product_factory()
+    product["releases"][0]["downloads"] = None
+    state = history.History("IIU", "IntelliJ IDEA")
+    history.refresh_metadata(state, product, T1)
+    for row in state.records:
+        for _ in range(5):
+            history.record_error(row, "metadata", row.error)
+
+    history.refresh_metadata(state, product_factory(), T2)
+
+    assert all(not row.quarantined and row.consecutive_failures == 0 for row in state.records)
+    assert any(row.needs_collection for row in state.records)
+
+
+def test_quarantine_merge_is_idempotent_and_stale_artifacts_cannot_undo_a_retry(
+    product_factory, monkeypatch
+):
+    state, row = observed(product_factory)
+    monkeypatch.setattr(history, "now", lambda: T1)
+    for _ in range(4):
+        history.record_error(row, "checksum", "HTTP 404")
+    stale = deepcopy(state)
+    monkeypatch.setattr(history, "now", lambda: T2)
+    history.record_error(row, "checksum", "HTTP 404")
+    incoming = deepcopy(state)
+    history.merge(stale, incoming)
+    history.merge(stale, incoming)
+    assert stale.records[0].consecutive_failures == 5
+
+    monkeypatch.setattr(history, "now", lambda: "2026-11-05T00:00:00+00:00")
+    assert history.retry_quarantined(state) == 1
+    history.merge(state, incoming)
+    assert not row.quarantined and not row.error and row.consecutive_failures == 0
+    assert row.app_sha256 == APP_A
+    history.merge(incoming, state)
+    assert incoming.records[0].consecutive_failures == 0
+    assert not incoming.records[0].error
+
+
+@pytest.mark.parametrize("count", [-1, True, 1.5, "5", None])
+def test_failure_counter_rejects_invalid_json_types(tmp_path, product_factory, count):
+    state, _ = observed(product_factory)
+    history.save(state, tmp_path)
+    path = tmp_path / "IIU.json"
+    payload = json.loads(path.read_text())
+    payload["records"][0]["consecutive_failures"] = count
+    path.write_text(json.dumps(payload))
+
+    with pytest.raises(transfer.StopRun, match="Invalid record types"):
+        history.load(path)
+
+
+def test_legacy_errors_do_not_invent_prior_failure_counts(tmp_path, product_factory):
+    state, row = observed(product_factory)
+    row.error_stage, row.error = "application", "Old error"
+    history.save(state, tmp_path)
+    path = tmp_path / "IIU.json"
+    payload = json.loads(path.read_text())
+    for record in payload["records"]:
+        record.pop("consecutive_failures")
+        record.pop("failure_updated_at")
+    path.write_text(json.dumps(payload))
+
+    restored = history.load(path)
+
+    assert all(row.consecutive_failures == 0 for row in restored.records)
+    assert all(not row.failure_updated_at and not row.quarantined for row in restored.records)
+
+
+def test_quarantine_does_not_spend_the_installer_budget_for_new_work(
+    tmp_path, product_factory, monkeypatch
+):
+    state, old = observed(product_factory)
+    old.app_sha256, old.app_path = "", ""
+    for _ in range(5):
+        history.record_error(old, "application", "Bundle build mismatch")
+    product = product_factory()
+    product["releases"].extend(
+        product_factory(
+            version="2.0", build="222", url="https://download.jetbrains.com/idea/new.dmg"
+        )["releases"]
+    )
+    sources = history.refresh_metadata(state, product, T2)
+    monkeypatch.setattr(
+        transfer,
+        "fetch_bytes",
+        lambda url, deadline: (SHA_B if "new.dmg" in url else SHA_A).encode(),
+    )
+    attempted = []
+
+    def collect_app(url, size, digest, build, *args):
+        attempted.append(build)
+        return transfer.Application(APP_B, "IDE.app/Contents/MacOS/idea", build)
+
+    monkeypatch.setattr(transfer, "collect_app", collect_app)
+
+    assert history.collect(state, sources, lambda: None, tmp_path, 1, None) == 0
+    assert attempted == ["222"]
+    assert old.quarantined and old.consecutive_failures == 5
+    assert not history.needs_sync(state, product, T2, None)
+
+
+def test_quarantined_historical_backfill_does_not_queue_an_absent_product(
+    product_factory, monkeypatch
+):
+    state, row = observed(product_factory)
+    row.app_sha256, row.app_path = "", ""
+    for _ in range(5):
+        history.record_error(row, "application", "HTTP 404")
+    product = {"code": state.code, "name": state.name, "releases": [], "absent_from_catalog": True}
+    history.refresh_metadata(state, product, T2)
+    monkeypatch.setattr(
+        transfer, "fetch_bytes", lambda *args: pytest.fail("No current checksum sources")
+    )
+
+    assert not history.needs_sync(state, product, T2, None)
+    assert row.quarantined and not row.current

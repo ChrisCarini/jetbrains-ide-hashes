@@ -7,6 +7,9 @@ executables inside them. Inspired by
 **[Browse the IDE tables and current coverage](ides/README.md).**
 Missing hashes are explicitly marked; the initial historical backfill is not complete.
 
+[Collection failures and quarantined records](ides/COLLECTION_FAILURES.md) |
+[Manual verification guide](MANUAL_VERIFICATION.md).
+
 Each product page starts directly with a table of **released versions**, followed by
 a separate table of **EAP, RC, preview, and every other non-release channel**:
 
@@ -65,11 +68,27 @@ collector never replaces a whole history with the latest API response:
   are marked `(repacked)`.
 - Completed hashes survive disappearing releases, renamed products, stale job
   artifacts, and later API responses. Conflicting application hashes for the
-  same installer are rejected rather than overwritten.
+  same installer, or conflicting captured bundle metadata, are rejected rather
+  than overwritten.
 - A queued historical installer is always checked against its **previously
   captured SHA-256**. If the URL now serves another payload, it is not attributed
   to the old build. Bundle build metadata is also compared with the API build
   when available.
+
+A two-component API build such as `139.1803` may abbreviate an observed bundle
+build such as `PY-139.1803.14`. After ignoring the optional IDE prefix, the
+collector accepts **exactly one additional numeric component**. This is not a
+substring match: `139.18030.14`, extra components, and differing three-component
+builds still fail. The API `build` is never rewritten.
+
+Successful collections retain the full observed `app_build`, `app_bundle_id`
+(`CFBundleIdentifier`), `app_version` (`CFBundleShortVersionString`), and executable
+`app_path` alongside the hashes. Older records without these observations retain
+empty values; metadata is not invented or erased by older publication artifacts.
+Abbreviated-build rows keep both hashes in the normal table and link to **Bundle
+details for abbreviated API builds** below it. Those details identify the exact
+bundle and installer checksum; hashes are not generalized to other bundles
+sharing the same API prefix.
 
 If the API simultaneously advertises the same URL for different builds, that
 ambiguity is reported rather than assigning one sidecar checksum to both builds.
@@ -96,12 +115,35 @@ published checksums are upstream observations, not independent security endorsem
    regenerates the Markdown, and commits only `data/` and `ides/`.
    If no IDE needs work, artifact upload, collection, and publication are all skipped.
 
-Missing hashes (including historical backfill), recorded errors, and catalog changes
-keep an IDE queued. Before skipping an otherwise-complete IDE, discovery checks its
-current checksum sidecars to detect repacked installers even when URLs and builds
-have not changed. This preflight has a shared **five-minute budget**; IDEs that cannot
-be verified because of errors or the budget remain queued, never silently skipped.
-A newer catalog fetch timestamp alone does not count as work.
+Missing hashes (including historical backfill), retryable errors, and catalog changes
+keep an IDE queued. An unchanged record is **quarantined after five consecutive
+identical collection failures** (same stage and error), so permanently unavailable
+artifacts do not keep the matrix running forever. Quarantined rows still show their
+missing hashes and reasons; they are not considered successfully verified.
+
+The JSON retains `consecutive_failures`, `failure_updated_at`, `error_stage`, and
+`error`. A nonempty error with at least five consecutive failures means quarantine.
+Older histories default to zero tracked failures; previous counts are not guessed.
+Individual HTTP retries do not each increment the counter. Success at the failing
+stage clears its counter, a different error starts at one, and changed installer
+metadata or checksums get a fresh allowance. Budget exhaustion, interruptions, and
+infrastructure/safety stops such as insufficient disk space do not count.
+
+Before skipping an otherwise-complete or quarantined IDE, discovery checks current
+checksum sidecars to detect repacked installers even when URLs and builds have not
+changed. This preflight has a shared **five-minute budget**. Unverified
+**non-quarantined** records still keep their IDE queued; unsuccessful or budget-limited
+probes of quarantined records do not. A recovered checksum can clear a checksum-stage
+quarantine; an unchanged checksum does not clear an application-stage quarantine.
+An unchanged catalog containing only completed/quarantined records produces an empty
+matrix when the non-quarantined checksum checks succeed. A newer catalog fetch
+timestamp alone does not count as work.
+
+The generated [failure report](ides/COLLECTION_FAILURES.md) lists retrying and
+quarantined records with their product, version, API build, channel, platform,
+installer checksum, failure count, timestamp, and reason. Each product page also
+identifies quarantined records. The fifth failed attempt still fails that collection
+job and is published; subsequent discovery skips the exhausted work.
 
 Queued IDEs still refresh their current checksum sidecars during collection.
 The download limit applies to full installers; reaching a time/download
@@ -121,6 +163,16 @@ gh workflow run update-hashes.yml -f product=IIU
 Manual runs can also increase `max_installers` and `max_minutes` (up to 240 minutes).
 The initial backfill can take many runs and substantial aggregate bandwidth; there
 is no claim that every historical app hash is available immediately.
+
+To deliberately retry quarantined records for one IDE with a fresh allowance,
+enable the workflow's `retry_quarantined` input:
+
+```bash
+gh workflow run update-hashes.yml -f product=AC -f retry_quarantined=true
+```
+
+Captured hashes are preserved. Other products and failures below the quarantine
+threshold are not reset. No workflow input is needed for ordinary scheduled runs.
 
 Installer downloads log their start, progress roughly every 10 seconds while data
 arrives (downloaded/total MiB, percentage, and average speed), and completion after
@@ -159,6 +211,9 @@ python -m jetbrains_hashes sync --product RD --work-dir /Volumes/External/scratc
 
 # Choose a larger, still bounded backfill.
 python -m jetbrains_hashes sync --product IIU --max-installers 50 --max-minutes 120
+
+# Explicitly retry quarantined AppCode entries.
+python -m jetbrains_hashes sync --product AC --retry-quarantined
 
 # Discover all IDEs and generate metadata-only tables without downloading installers.
 python -m jetbrains_hashes discover --seed

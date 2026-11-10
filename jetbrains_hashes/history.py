@@ -22,6 +22,7 @@ PLATFORMS = {
     "macM1": ("macM1", "macos_aarch64"),
 }
 PRODUCT_CODE = re.compile(r"[A-Z][A-Z0-9]*")
+FAILURE_LIMIT = 5
 
 
 def now() -> str:
@@ -42,11 +43,15 @@ class Record:
     app_sha256: str = ""
     app_path: str = ""
     app_build: str = ""
+    app_bundle_id: str = ""
+    app_version: str = ""
     first_seen: str = ""
     current: bool = True
     last_attempt: str = ""
     error_stage: str = ""
     error: str = ""
+    consecutive_failures: int = 0
+    failure_updated_at: str = ""
 
     def release_key(self) -> tuple:
         return self.version, self.build, self.release_type, self.platform
@@ -58,7 +63,19 @@ class Record:
         return (*self.metadata_key(), self.installer_sha256)
 
     @property
+    def quarantined(self) -> bool:
+        return bool(self.error) and self.consecutive_failures >= FAILURE_LIMIT
+
+    @property
+    def needs_collection(self) -> bool:
+        return not self.quarantined and bool(
+            self.error or ((self.installer_url or self.installer_sha256) and not self.app_sha256)
+        )
+
+    @property
     def status(self) -> str:
+        if self.quarantined:
+            return "quarantined"
         if self.app_sha256:
             return "complete"
         if self.error:
@@ -136,13 +153,19 @@ def load(path: Path) -> History:
     if len(set(history.empty_downloads or [])) != len(history.empty_downloads or []):
         raise StopRun(f"Duplicate empty-download release in {path}")
     seen = set()
-    string_fields = [f.name for f in fields(Record) if f.name not in ("size_bytes", "current")]
+    string_fields = [
+        f.name
+        for f in fields(Record)
+        if f.name not in ("size_bytes", "current", "consecutive_failures")
+    ]
     for row in records:
         if (
             any(not isinstance(getattr(row, name), str) for name in string_fields)
             or type(row.size_bytes) is not int
             or row.size_bytes < 0
             or type(row.current) is not bool
+            or type(row.consecutive_failures) is not int
+            or row.consecutive_failures < 0
         ):
             raise StopRun(f"Invalid record types in {path}")
         if row.platform not in {p for aliases in PLATFORMS.values() for p in aliases}:
@@ -272,6 +295,27 @@ def matching(history: History, descriptor: Record) -> list[Record]:
     return [row for row in history.records if row.metadata_key() == descriptor.metadata_key()]
 
 
+def clear_error(row: Record) -> None:
+    if row.error or row.error_stage or row.consecutive_failures:
+        row.error_stage, row.error = "", ""
+        row.consecutive_failures = 0
+        row.failure_updated_at = now()
+
+
+def record_error(row: Record, stage: str, message: str, *, count: bool = True) -> None:
+    repeated = (row.error_stage, row.error) == (stage, message)
+    row.consecutive_failures = (row.consecutive_failures + 1 if repeated else 1) if count else 0
+    row.error_stage, row.error = stage, message
+    row.failure_updated_at = now()
+
+
+def retry_quarantined(history: History) -> int:
+    rows = [row for row in history.records if row.quarantined]
+    for row in rows:
+        clear_error(row)
+    return len(rows)
+
+
 def refresh_metadata(history: History, product: dict, observed_at: str) -> list[Record]:
     if product.get("code") != history.code:
         raise StopRun("Cannot apply a different product's catalog to this history")
@@ -282,6 +326,7 @@ def refresh_metadata(history: History, product: dict, observed_at: str) -> list[
         raise StopRun(
             f"{history.code}: unexpectedly empty release catalog; retaining previous state"
         )
+    previously_current = {row.artifact_key() for row in history.records if row.current}
     for row in history.records:
         row.current = False
     for source in sources:
@@ -304,15 +349,18 @@ def refresh_metadata(history: History, product: dict, observed_at: str) -> list[
                 previous.installer_url = source.installer_url
                 previous.checksum_url = source.checksum_url
                 previous.size_bytes = source.size_bytes
-                previous.error_stage, previous.error = "", ""
+                clear_error(previous)
                 matches = [previous]
             else:
                 history.records.append(source)
                 matches = [source]
+        current_matches = [row for row in matches if row.artifact_key() in previously_current]
         for row in matches:
-            row.current = True
+            row.current = not current_matches or row in current_matches
             if row.error_stage == "metadata" or source.error_stage == "metadata":
-                row.error_stage, row.error = source.error_stage, source.error
+                if (row.error_stage, row.error) != (source.error_stage, source.error):
+                    clear_error(row)
+                    row.error_stage, row.error = source.error_stage, source.error
     history.name = product["name"]
     history.catalog_fetched_at = observed_at
     history.catalog_release_count = len(product["releases"])
@@ -352,7 +400,7 @@ def observe_checksum(history: History, source: Record, digest: str, observed_at:
     target.installer_sha256 = digest
     target.current = True
     if target.error_stage == "checksum":
-        target.error_stage, target.error = "", ""
+        clear_error(target)
     return target
 
 
@@ -371,13 +419,21 @@ def refresh_checksums(
             url_builds[source.installer_url].add(source.build)
     try:
         for source in sources:
-            transfer.check_deadline(deadline)
+            candidates = matching(history, source)
+            target = max(candidates, key=lambda row: (row.current, row.first_seen))
             if source.error:
+                if target.quarantined:
+                    continue
+                transfer.check_deadline(deadline)
+                record_error(target, "metadata", source.error)
                 log(f"ERROR {history.code} {source.release_key()}: {source.error}")
                 failures += 1
+                persist()
+                continue
             if not source.checksum_url:
                 continue
             try:
+                transfer.check_deadline(deadline)
                 if len(url_builds[source.installer_url]) > 1:
                     raise ArtifactError(
                         "Installer URL is advertised for multiple builds; "
@@ -388,11 +444,22 @@ def refresh_checksums(
                 digest = transfer.parse_checksum(cache[source.checksum_url], source.installer_url)
                 observe_checksum(history, source, digest, history.catalog_fetched_at)
             except ArtifactError as exc:
-                candidates = matching(history, source)
-                target = max(candidates, key=lambda row: row.first_seen)
-                target.error_stage, target.error = "checksum", str(exc)
+                if target.quarantined:
+                    log(
+                        f"{history.code} {source.release_key()}: retaining quarantine; "
+                        f"checksum probe failed: {exc}"
+                    )
+                    continue
+                record_error(target, "checksum", str(exc))
                 failures += 1
                 log(f"ERROR {history.code} {source.release_key()}: {exc}")
+            except BudgetReached as exc:
+                if not target.quarantined:
+                    raise
+                log(
+                    f"{history.code} {source.release_key()}: retaining quarantine; "
+                    f"checksum probe deferred: {exc}"
+                )
             persist()
     except BudgetReached as exc:
         log(f"{history.code}: {exc}; checksum refresh incomplete")
@@ -408,10 +475,7 @@ def needs_sync(saved: History, product: dict, observed_at: str, deadline: float 
     except (StopRun, ValueError) as exc:
         log(f"ERROR {saved.code}: {exc}; keeping IDE queued for collection")
         return True
-    if any(
-        row.error or ((row.installer_url or row.installer_sha256) and not row.app_sha256)
-        for row in state.records
-    ):
+    if any(row.needs_collection for row in state.records):
         return True
     checksum_sources = [source for source in sources if source.checksum_url]
     failures, complete = refresh_checksums(state, checksum_sources, lambda: None, deadline)
@@ -434,7 +498,11 @@ def collect(
             return failures
 
         work_dir.mkdir(parents=True, exist_ok=True)
-        pending = [row for row in history.records if row.installer_sha256 and not row.app_sha256]
+        pending = [
+            row
+            for row in history.records
+            if row.installer_sha256 and not row.app_sha256 and not row.quarantined
+        ]
         # New builds and never-attempted history precede retries, so one bad URL cannot starve backfill.
         pending.sort(key=lambda row: (row.release_date, row.build, row.platform), reverse=True)
         pending.sort(key=lambda row: (bool(row.last_attempt), row.last_attempt, not row.current))
@@ -458,7 +526,8 @@ def collect(
                     cached.app_path,
                     cached.app_build,
                 )
-                row.error_stage, row.error = "", ""
+                row.app_bundle_id, row.app_version = cached.app_bundle_id, cached.app_version
+                clear_error(row)
                 persist()
                 continue
             if downloaded >= max_installers:
@@ -483,12 +552,22 @@ def collect(
                     deadline,
                 )
                 row.app_sha256, row.app_path, row.app_build = app.sha256, app.path, app.build
-                row.error_stage, row.error = "", ""
+                row.app_bundle_id, row.app_version = app.bundle_id, app.version
+                clear_error(row)
             except (ArtifactError, StopRun) as exc:
-                row.error_stage = "application"
-                row.error = str(exc).replace(str(work_dir.resolve()), "<work-dir>")
+                message = re.sub(
+                    r"jetbrains-sha256-[^/\s:]+",
+                    "jetbrains-sha256-<temporary>",
+                    str(exc).replace(str(work_dir.resolve()), "<work-dir>"),
+                )
+                record_error(row, "application", message, count=not isinstance(exc, StopRun))
                 failures += 1
                 log(f"ERROR {history.code} {row.release_key()}: {exc}")
+                if row.quarantined:
+                    log(
+                        f"{history.code} {row.release_key()}: quarantined after "
+                        f"{row.consecutive_failures} identical failures"
+                    )
                 persist()
                 if isinstance(exc, StopRun):
                     raise
@@ -504,6 +583,7 @@ def merge(destination: History, incoming: History) -> None:
     if destination.code != incoming.code:
         raise StopRun("Cannot merge different products")
     newer = incoming.catalog_fetched_at >= destination.catalog_fetched_at
+    app_metadata = ("app_build", "app_bundle_id", "app_version")
     if newer:
         for row in destination.records:
             row.current = False
@@ -543,21 +623,40 @@ def merge(destination: History, incoming: History) -> None:
             raise StopRun(
                 f"Conflicting app hashes for the same installer: {observation.artifact_key()}"
             )
+        if target.app_sha256 and observation.app_sha256:
+            for name in app_metadata:
+                previous, observed = getattr(target, name), getattr(observation, name)
+                if previous and observed and previous != observed:
+                    raise StopRun(
+                        f"Conflicting {name} for the same installer: {observation.artifact_key()}"
+                    )
         if observation.installer_sha256:
             target.installer_sha256 = observation.installer_sha256
         if observation.app_sha256:
             target.app_sha256 = observation.app_sha256
             target.app_path = observation.app_path
-            target.app_build = observation.app_build
+            for name in app_metadata:
+                value = getattr(observation, name)
+                if value:
+                    setattr(target, name, value)
         if observation.first_seen:
             target.first_seen = min(filter(None, (target.first_seen, observation.first_seen)))
         if newer:
             target.current = observation.current
-        if observation.last_attempt > target.last_attempt or (
-            newer and observation.last_attempt == target.last_attempt
-        ):
-            target.last_attempt = observation.last_attempt
+        legacy_result = (
+            not observation.failure_updated_at
+            and not target.failure_updated_at
+            and (
+                observation.last_attempt > target.last_attempt
+                or (newer and observation.last_attempt == target.last_attempt)
+            )
+        )
+        if observation.failure_updated_at > target.failure_updated_at or legacy_result:
             target.error_stage, target.error = observation.error_stage, observation.error
+            target.consecutive_failures = observation.consecutive_failures
+            target.failure_updated_at = observation.failure_updated_at
+        if observation.last_attempt > target.last_attempt:
+            target.last_attempt = observation.last_attempt
     if newer:
         destination.name = incoming.name
         destination.catalog_fetched_at = incoming.catalog_fetched_at
@@ -606,6 +705,7 @@ def coverage(history: History) -> dict[str, int]:
         "app_hashes": sum(bool(row.app_sha256) for row in history.records),
         "not_advertised": sum(row.status == "not_advertised" for row in history.records),
         "errors": sum(bool(row.error) for row in history.records),
+        "quarantined": sum(row.quarantined for row in history.records),
     }
 
 

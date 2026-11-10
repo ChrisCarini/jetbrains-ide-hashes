@@ -310,7 +310,7 @@
 
 Product: **RustRover** (`RR`). [Machine-readable history](../data/RR.json).
 
-Installer hashes: **300/300**; application hashes: **300/300**; not advertised: **0**.
+Installer hashes: **300/300**; application hashes: **300/300**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
