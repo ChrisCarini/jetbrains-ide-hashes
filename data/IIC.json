@@ -94,7 +94,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T15:56:04.764910+00:00",
+      "last_attempt": "2026-11-10T15:30:48.307851+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: unexpected key at line 10"
     },
@@ -1614,7 +1614,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T15:55:55.933998+00:00",
+      "last_attempt": "2026-11-10T15:30:36.373570+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 139.1803, bundle says IC-139.1803.20; refusing to attribute this executable to the wrong build"
     },
@@ -1918,7 +1918,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T15:56:01.409717+00:00",
+      "last_attempt": "2026-11-10T15:30:42.438301+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 141.3058, bundle says IC-141.3058.30; refusing to attribute this executable to the wrong build"
     },
@@ -14976,7 +14976,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-09T15:43:20.124566+00:00",
+  "catalog_fetched_at": "2026-11-10T15:00:34.427952+00:00",
   "catalog_release_count": 394,
   "ignored_download_types": [
     "linux",

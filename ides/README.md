@@ -8,7 +8,7 @@ Each product page starts with released versions, followed by every other API cha
 | --- | --- | --- | --- | --- | --- |
 | [Air](AIR.md) | `AIR` | 76/76 | 76/76 | 0 | 0 |
 | [AppCode](AC.md) | `AC` | 185/185 | 177/185 | 207 | 0 |
-| [CLion](CL.md) | `CL` | 370/370 | 367/370 | 116 | 0 |
+| [CLion](CL.md) | `CL` | 372/372 | 369/372 | 116 | 0 |
 | [CLion Nova](CLN.md) | `CLN` | 14/14 | 14/14 | 0 | 0 |
 | [DataGrip](DG.md) | `DG` | 390/390 | 378/390 | 86 | 0 |
 | [Datalore](DL.md) | `DL` | 0/0 | 0/0 | 2 | 0 |
@@ -22,7 +22,7 @@ Each product page starts with released versions, followed by every other API cha
 | [MPS](MPS.md) | `MPS` | 275/275 | 0/275 | 233 | 0 |
 | [MPS IntelliJ IDEA plugin](MPSIIP.md) | `MPSIIP` | 0/0 | 0/0 | 198 | 0 |
 | [PhpStorm](PS.md) | `PS` | 675/675 | 669/675 | 165 | 0 |
-| [PhpStorm Light](PSL.md) | `PSL` | 10/10 | 10/10 | 0 | 0 |
+| [PhpStorm Light](PSL.md) | `PSL` | 12/12 | 12/12 | 0 | 0 |
 | [PyCharm](PCP.md) | `PCP` | 605/605 | 601/605 | 239 | 0 |
 | [PyCharm Community Edition](PCC.md) | `PCC` | 462/462 | 459/462 | 232 | 0 |
 | [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 56 | 0 |

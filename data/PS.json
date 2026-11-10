@@ -208,7 +208,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:05:01.404710+00:00",
+      "last_attempt": "2026-11-09T17:03:37.528660+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 143.2370, bundle says PS-143.2370.33; refusing to attribute this executable to the wrong build"
     },
@@ -398,7 +398,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:04:57.604681+00:00",
+      "last_attempt": "2026-11-09T17:03:28.291689+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 145.1616, bundle says PS-145.1616.3; refusing to attribute this executable to the wrong build"
     },
@@ -2336,7 +2336,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:05:21.231853+00:00",
+      "last_attempt": "2026-11-09T17:04:06.970054+00:00",
       "error_stage": "application",
       "error": "Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced."
     },
@@ -14800,7 +14800,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:05:19.203018+00:00",
+      "last_attempt": "2026-11-09T17:04:02.944611+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build"
     },
@@ -15788,7 +15788,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:05:08.201876+00:00",
+      "last_attempt": "2026-11-09T17:03:46.298512+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 139.1803, bundle says PS-139.1803.25; refusing to attribute this executable to the wrong build"
     },
@@ -15940,7 +15940,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:05:13.243517+00:00",
+      "last_attempt": "2026-11-09T17:03:54.251951+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 141.3058, bundle says PS-141.3058.33; refusing to attribute this executable to the wrong build"
     },
@@ -15964,7 +15964,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-09T15:43:20.124566+00:00",
+  "catalog_fetched_at": "2026-11-09T16:36:13.880552+00:00",
   "catalog_release_count": 420,
   "ignored_download_types": [
     "linux",
