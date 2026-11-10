@@ -760,5 +760,5 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 
 ### Collection errors
 
-- 2018.3.6 / 183.6156.29 / `mac` (application; 1/5 identical failures): Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced.
-- 3.0.3 / 111.271 / `mac` (application; 1/5 identical failures): Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build
+- 2018.3.6 / 183.6156.29 / `mac` (application; 2/5 identical failures): Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced.
+- 3.0.3 / 111.271 / `mac` (application; 2/5 identical failures): Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build

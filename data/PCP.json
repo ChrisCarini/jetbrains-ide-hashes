@@ -112,11 +112,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-10T20:22:25.199109+00:00",
+      "last_attempt": "2026-11-10T20:58:35.168119+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build",
-      "consecutive_failures": 1,
-      "failure_updated_at": "2026-11-10T20:22:27.633361+00:00"
+      "consecutive_failures": 2,
+      "failure_updated_at": "2026-11-10T20:58:37.602469+00:00"
     },
     {
       "version": "1.5.4",
@@ -19416,7 +19416,7 @@
       "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-10T19:53:33.302097+00:00",
+  "catalog_fetched_at": "2026-11-10T20:41:17.462045+00:00",
   "catalog_release_count": 422,
   "ignored_download_types": [
     "linux",

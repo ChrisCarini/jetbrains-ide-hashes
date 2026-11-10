@@ -16,11 +16,15 @@
       "app_sha256": "c2601798d017fb04cf6f6443ba65e41bc015d57839dc2914b2d05ae09b578ac5",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.3345.108",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:44:11.495529+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2",
@@ -35,11 +39,15 @@
       "app_sha256": "270fd89207e6a52ff862185c7380bf2b4f8773f6a5209c4038b8493cf890147c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.3345.108",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:43:59.640895+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.1",
@@ -54,11 +62,15 @@
       "app_sha256": "489e4d990ae61c9dd80c1ef34e361db71372e5ad935fe3a43ad10e1d2540b8c0",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.3739.54",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:43:49.396965+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.1",
@@ -73,11 +85,15 @@
       "app_sha256": "709180e5bc4060c750d5e555a82ba01d7b82761036193cfd1b28ce905a8f5fc3",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.3739.54",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:43:41.307143+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.2",
@@ -92,11 +108,15 @@
       "app_sha256": "8081f1bedc4a47ed61544b40daa60bb7b1229e7159d695f54a4da515775c2ab4",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.4167.26",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:43:32.333790+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.2",
@@ -111,11 +131,15 @@
       "app_sha256": "21b2a27c98db5608938fa55e29651c49ffe1aee911d1f509a5a9c596ab026be7",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.4167.26",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:43:23.402267+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.3",
@@ -130,11 +154,15 @@
       "app_sha256": "ad31aa277a8e68119b0be73d61542e4268ab1cd5a4b28c3246fdce01226dd10f",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.4345.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:43:14.403078+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.3",
@@ -149,11 +177,15 @@
       "app_sha256": "ac00b2798160009f0c4b4ec6482ecf845e1cf58800468ea30f4627aad0c576ba",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.4345.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:43:06.454046+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.4",
@@ -168,11 +200,15 @@
       "app_sha256": "aab65fa6ea29aea97ecba0e35a279d12ccbe3c3b94ffcf8e8013b562b33cfd6c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.4459.11",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:42:56.593685+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.2.4",
@@ -187,11 +223,15 @@
       "app_sha256": "7e70e832b23e77f2ec8578c45539ea1846ee447b55c380b3d8029e5c4846db48",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "222.4459.11",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:42:46.254511+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3",
@@ -206,11 +246,15 @@
       "app_sha256": "148257469ef4824ce3d2640d8ba2cb5fea626ea20420d7d4d089cbecbe71161b",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "223.7571.203",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:42:37.306861+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3",
@@ -225,11 +269,15 @@
       "app_sha256": "731840f9d57da6e7b9f9bf5d064f0feac311e756b130af0acf5b4e8ee1fb71de",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "223.7571.203",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:42:29.183239+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.1",
@@ -244,11 +292,15 @@
       "app_sha256": "c3dcf96c6908833145ebe5ae567e82e34098c911f101477503664f84e99d0f75",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "223.8214.51",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:42:19.562066+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.1",
@@ -263,11 +315,15 @@
       "app_sha256": "60c664dd757e400e05a9a90541aa44c41d7880f4314d639af6a274be20e5c372",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "223.8214.51",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:42:08.499000+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.2",
@@ -282,11 +338,15 @@
       "app_sha256": "450d5c30c48f2bf06bfd9797f456d106ce91def7f4f2fb250c826a88013cea46",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "223.8617.24",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:41:59.212730+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.2",
@@ -301,11 +361,15 @@
       "app_sha256": "bf4d07a639ae32316632655ad18ad33ee5c0e28b967aa3e3d0617643bcb9199d",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "223.8617.24",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:41:49.643476+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.2",
@@ -320,11 +384,15 @@
       "app_sha256": "ad8dd3f82531284fb42cc8caef3e3749339f8e277f02b4d983ac4398c9f2055f",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "223.8617.56",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:41:21.300194+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2022.3.2",
@@ -339,11 +407,15 @@
       "app_sha256": "bac48a09c36520156288b863a3346ef91ee34ab44883574f54bc3122fe829a40",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "223.8617.56",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:41:12.404323+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -358,11 +430,15 @@
       "app_sha256": "06e2505bb4233c208d455a4f24e26e2b1200ad9747156e04ea4796c73807029f",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.4840.387",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:41:37.367349+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -377,11 +453,15 @@
       "app_sha256": "034183eade62a8c1790c1a47ae751c5d4a272622c4e10e9cda8ee08a5ffff399",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.4840.387",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:41:28.983647+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -396,11 +476,15 @@
       "app_sha256": "b47a31d3183c984cdf9b95ae4ad2273c3a94af6534012e3337bde9e2a0421881",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.5920.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:41:01.479611+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -415,11 +499,15 @@
       "app_sha256": "4a887d78c6f52a3b26d558ad2528d3cefa4d563f25aacbd18a3ee212b972a4d7",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.5920.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:40:50.261965+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -434,11 +522,15 @@
       "app_sha256": "71ec55c510e89af6171d42f9777994f5d289b5192f77d50ca2670a7df958295d",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.6471.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:40:40.328948+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -453,11 +545,15 @@
       "app_sha256": "d7c2b9803042eb42d7e9736fdaf311fec073e524781c468cfaeb73350efb2f15",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.6471.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:40:31.570126+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -472,11 +568,15 @@
       "app_sha256": "e56120d6d4996208bd291dff5d2ea0a55ac1b018cadc442a1989c63366389444",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.6890.12",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:40:20.319917+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -491,11 +591,15 @@
       "app_sha256": "d457ddc647399929f3e05e2aec2e74b9efe8a38fe215e2010306473c696d35cd",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.6890.12",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:40:10.313148+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -510,11 +614,15 @@
       "app_sha256": "f23bdc8cc3c175d7bfc00cb2eb1f71b45f22b916222d8f62ce37dbff5f334725",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.7665.28",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:40:00.365703+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -529,11 +637,15 @@
       "app_sha256": "be3c947d7b0cc4d747bca1124bcb7eb3575fe9d2c778d6d49ae50920538416e0",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.7665.28",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:39:51.486153+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -548,11 +660,15 @@
       "app_sha256": "98c76a467644d5f630f0e68d5ed5f5a0683e886e138c919fcc98137d80fcc2ff",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.7864.81",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:39:40.330772+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -567,11 +683,15 @@
       "app_sha256": "9533c34ea899389ab1a8ce628622c6e4028dcfd9117f6387e2d420cbfb6bdaf7",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.7864.81",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:39:31.350194+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -586,11 +706,15 @@
       "app_sha256": "b9b09ace812a158bf4465893f75b48dd0ec6d2d0a6be7cf08deacc93c18d4d65",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8109.142",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:38:40.377879+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -605,11 +729,15 @@
       "app_sha256": "fa8a87b619ec1ec0119fc3888edee2035708d0266f585138be306cec19abd800",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8109.142",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:38:32.289196+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -624,11 +752,15 @@
       "app_sha256": "57e34b96819233e8fa72bcfe07f7fd91c88c5f53bfafc8f49415f8fc57bd9180",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8109.187",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:38:23.396441+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -643,11 +775,15 @@
       "app_sha256": "1e21f8b440e487aa591512763a065f49e7f89eddc6e5841b5642527ddbfbfe79",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8109.187",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:38:15.134832+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -662,11 +798,15 @@
       "app_sha256": "6bb8467ebb790693e8da7d5938e6aecefa2506daf4ed4da0b22e9502de9c0c97",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.8109.2",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:39:22.364061+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -681,11 +821,15 @@
       "app_sha256": "4a7d14be6b6a0a0387cf8aeed525d641e2791757348add421d0e7f92675c68c0",
       "app_path": "JetBrains Gateway 2023.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "231.8109.2",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:39:11.360670+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -700,11 +844,15 @@
       "app_sha256": "8299fc2f21036d84b78b3de49bfe70aec46ee2ce0e6cf13c8ad791c527a48a8a",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8109.90",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:39:01.465203+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1",
@@ -719,11 +867,15 @@
       "app_sha256": "c4cd067ba17967fb701d2ee172b22505d584453d011cb85364999bcc2f779053",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8109.90",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:38:50.501458+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.1",
@@ -738,11 +890,15 @@
       "app_sha256": "1f94d08a87e1a500532fe5e1d30d3fa1816ef2439dd3b3e1c3f7012dff8bb1f2",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8770.13",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:38:06.490863+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.1",
@@ -757,11 +913,15 @@
       "app_sha256": "a358a6f22c0bb7602a74aa98b5433d5250f2788046dcb8036e1207a78800daf0",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8770.13",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:37:55.289403+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.1",
@@ -776,11 +936,15 @@
       "app_sha256": "569d53028a0e530d47d85fa93804ce8874b9c35cfd87dd510d7fc85a45883237",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8770.69",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:37:46.501105+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.1",
@@ -795,11 +959,15 @@
       "app_sha256": "17cb9a41ee230f110b5cffcc2ce0bc58083db7ebb6bd60dc9375a82aeae25547",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.8770.69",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:37:36.270784+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.2",
@@ -814,11 +982,15 @@
       "app_sha256": "460642bfc6826271dfb67ae7f153bed4a46247e9a82ea0af1cf3f0a22aae6de3",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9011.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:37:07.356268+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.2",
@@ -833,11 +1005,15 @@
       "app_sha256": "e866b61764a903eb182f80518687213336a09197c5a113fb9962ebeb239410e3",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9011.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:36:58.291605+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.2",
@@ -852,11 +1028,15 @@
       "app_sha256": "2d2be3400f4c3479d0273d0585c8567bd08db33cd1e707e99183a7899c545614",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9011.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:36:31.551479+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.2",
@@ -871,11 +1051,15 @@
       "app_sha256": "234a293ab71d442dfce42ca75a48b0a64896134a0e8997ab081e28496b7f7c43",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9011.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:36:21.442667+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.2",
@@ -890,11 +1074,15 @@
       "app_sha256": "350f3f05cbede5daa49ca25beee36aecb815e4ac0c8095df5edc5d17fc0d75b8",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9011.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:37:27.175712+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.2",
@@ -909,11 +1097,15 @@
       "app_sha256": "b116f688cee0b0224f92d194ad3752da5285c5f6d8a08b904f33296609866df4",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9011.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:37:17.104300+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.3",
@@ -928,11 +1120,15 @@
       "app_sha256": "5515a9409b69be9de5ae7a062e90c8f47f5e1ac2e77d99de12075379de89c8cc",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9161.17",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:35:31.482026+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.3",
@@ -947,11 +1143,15 @@
       "app_sha256": "de245ccd6346c06a600e25b52c2caaad0e1b2bc67537018bdb37c2215f981bc1",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9161.17",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:35:22.466696+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.3",
@@ -966,11 +1166,15 @@
       "app_sha256": "cc1a44102e091550aa58aa244a93e63a7203e4997076c111877385cddc33f8b4",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9161.32",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:34:53.310120+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.1.3",
@@ -985,11 +1189,15 @@
       "app_sha256": "3a5975ff1187e5b3cd88f6500300441fd6c0415783f821ed61d4f297682939ca",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "231.9161.32",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:34:43.370971+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1004,11 +1212,15 @@
       "app_sha256": "3774ddc0978869e8ba8d8659d346ffbcc6d2831aba997a23a1f6c1626ce88859",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.5150.116",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:36:49.032614+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1023,11 +1235,15 @@
       "app_sha256": "8ff149924d1f8390486fcb241f474bd3094ed608d6a550e3f49085a95b23d194",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.5150.116",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:36:41.427603+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1042,11 +1258,15 @@
       "app_sha256": "45f892f26f3871610cdc94dc326a2cf663119ece7557266bc15599e054ca2d5f",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.6095.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:36:09.435840+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1061,11 +1281,15 @@
       "app_sha256": "939f25836d6caf2921c59dea3c686afdf152b104ae47792b4220ec58ec33d09b",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.6095.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:35:58.427359+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1080,11 +1304,15 @@
       "app_sha256": "face4137c600da3ff4b94fde54539d53628532cb252b68cb1f7466273a385a32",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.6734.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:35:48.375890+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1099,11 +1327,15 @@
       "app_sha256": "081bd4dd8f5aa66ff2a87c4ccc38d757fd25101b2d26a68ea9ccd1e4a32d2ad0",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.6734.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:35:40.173729+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1118,11 +1350,15 @@
       "app_sha256": "6cf47388a62d3cf0062918ee662d11e24c1bd021cc3b72f893f6032f171e686a",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.7295.16",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:35:11.431533+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1137,11 +1373,15 @@
       "app_sha256": "b6b24e06898ab4d4514f46d21c9325da170ef037fb25f7c13baa1fe71770033b",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.7295.16",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:35:02.943753+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1156,11 +1396,15 @@
       "app_sha256": "08da0fec11913940005d5240a87e8310fce5df78654e8f4b49e450f3b25cc51b",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.7754.77",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:34:32.544919+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1175,11 +1419,15 @@
       "app_sha256": "6f5239db36e1ee785a3caa9b3766afa5429554973f7f7157f68cb83d7102345f",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.7754.77",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:34:22.454564+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1194,11 +1442,15 @@
       "app_sha256": "bf59c1d4d69d0073730e94f50c93b7115cc66367502f050ed46379f771d6f1be",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.8296.17",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:34:11.263202+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1213,11 +1465,15 @@
       "app_sha256": "1e7dcdfe4fb1798af5f5ab6a74a768238fd12a2603a778759c0b01d5363f0d74",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.8296.17",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:34:01.521275+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1232,11 +1488,15 @@
       "app_sha256": "7c5e42c75a034a8e71e40d35ad0b4a663e8065842579b983656c41f5bd876ede",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.8453.131",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:33:49.323900+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1251,11 +1511,15 @@
       "app_sha256": "323271069540d6b179096df98eb55422096bdc09a03c60fd9043878a02d97176",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.8453.131",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:33:40.285188+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1270,11 +1534,15 @@
       "app_sha256": "d3972e3edaa279b3939125da7fcc72a5f388a77e49fb0ca73da98d7fbf65a7b1",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.8660.152",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:33:12.373943+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1289,11 +1557,15 @@
       "app_sha256": "74f800a71952e3edc481bfad17077aa0216e38fadc532ae6bd676e449f116fa3",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.8660.152",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:33:01.509629+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1308,11 +1580,15 @@
       "app_sha256": "278086057d7cd6336784bbd3ce326d770c4d06beec4f4a281dff78169794240a",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.8660.185",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:32:51.329475+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1327,11 +1603,15 @@
       "app_sha256": "cd981b5490b5995caff3bffa194294bb6485b7fab3477e0576338f7bf5193fc6",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.8660.185",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:32:42.555331+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1346,11 +1626,15 @@
       "app_sha256": "10d44215fb6e258e64b0a31598d5989e1c018af700622beb28b63024b8e0f41d",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.8660.48",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:33:32.213908+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2",
@@ -1365,11 +1649,15 @@
       "app_sha256": "0f8c98ae613f757b90a573138bee2653d2583a5092b4769764a82483c97c0802",
       "app_path": "JetBrains Gateway 2023.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "232.8660.48",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:33:22.446319+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1384,11 +1672,15 @@
       "app_sha256": "479c8dd4d0ed8596dbfa8651cf2da5cb72e412bd4d17058004ac408bf5cd0346",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9559.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:32:32.348460+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1403,11 +1695,15 @@
       "app_sha256": "5919782469bbf74d982ff136a9d4162cdbcd072f20729d1d05db696eebf09ea5",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9559.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:32:23.249998+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1422,11 +1718,15 @@
       "app_sha256": "2aa3cfc77f818f9a292ac7399acfe64d72f3f0349e5d8af4917a7df8430b1237",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9559.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:32:15.107165+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1441,11 +1741,15 @@
       "app_sha256": "ff25b993fb2f85ef4e2b1a5125103def7b45cb30b000c624ccdf3d0d983fc171",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9559.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:32:07.344201+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1460,11 +1764,15 @@
       "app_sha256": "4848873ab4ed177a2cc9444d6f7680cdeb3b1a02f3cd4cf541a5e928f2ec8b73",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9559.62",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:31:58.541084+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.1",
@@ -1479,11 +1787,15 @@
       "app_sha256": "4f14ea7642d4d3e59a9279ca8ced8d52acb412abb1d4c69c72949e50d5eb86aa",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9559.62",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:31:48.274756+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.2",
@@ -1498,11 +1810,15 @@
       "app_sha256": "7f3bd1a9b8921e07a22e05ab2b2704cc8e9feb991f705cca5bf5e55a99d2e835",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9921.28",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:31:37.428402+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.2",
@@ -1517,11 +1833,15 @@
       "app_sha256": "a1493ea0c41ba4039099a7a5978a12114feb9efd14427ee24ba0cca16611d40e",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9921.28",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:31:27.085934+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.2",
@@ -1536,11 +1856,15 @@
       "app_sha256": "a620b9f4b3dfee69a48b922d97b487b38ea4011d320edeab8a2725f2fa88a06d",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9921.47",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:31:17.270137+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.2",
@@ -1555,11 +1879,15 @@
       "app_sha256": "11a017648f54c84bd431fb95f6cbb8c614e4d3b6b91acadc6a143b8dff8ab676",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.9921.47",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:31:07.518106+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.3",
@@ -1574,11 +1902,15 @@
       "app_sha256": "5dd6da03ff9758feeb06d93e289f46a66a92128811a0f3af01006b2b36e4ba46",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.10072.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:29:56.426080+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.3",
@@ -1593,11 +1925,15 @@
       "app_sha256": "4168c9c45693b17bdedef3b3473aeb52c00cc9310299225a637d3a9f144730e5",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.10072.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:29:47.397689+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.4",
@@ -1612,11 +1948,15 @@
       "app_sha256": "36959f6b8b68a489d6ed488c4c6129518fb1660838d8af541e69f33e2946cd51",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.10203.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:28:53.267846+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.2.4",
@@ -1631,11 +1971,15 @@
       "app_sha256": "ccc2212c8deb95cfc9b32430a4b3b9e4980f5a3e1dcf93f389fb405ecc45b4ca",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "232.10203.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:28:43.468924+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1650,11 +1994,15 @@
       "app_sha256": "fef26b75b1fe4b022865fd2e353287e78db5acf4d3ad039b9f5bf99e741fc84a",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.10527.20",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:29:15.503519+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1669,11 +2017,15 @@
       "app_sha256": "ff925e308845020db28891ea82dab5062a46fc396e938353aca83d76f35c4d27",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.10527.20",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:29:04.508338+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1688,11 +2040,15 @@
       "app_sha256": "6f58c28de6d0c74d9d1a805d02cfccd4c73751c41cfc7b86bafc9a0607504993",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11361.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:28:34.529682+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1707,11 +2063,15 @@
       "app_sha256": "8f9c3261d2908bc58fd25b62de39049c4ff867a8e7a137ff1ff3214ad549a501",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11361.10",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:28:21.448272+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1726,11 +2086,15 @@
       "app_sha256": "1576787e39f731a7df25c63b5c741432ed551189c89dd50b74e3407bcf94bb6b",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11555.11",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:28:10.444462+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1745,11 +2109,15 @@
       "app_sha256": "4ecc59c56b1793fa92ed88107f629b87332339f7e70a52a2a3080defc2d9d700",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11555.11",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:28:00.642651+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1764,11 +2132,15 @@
       "app_sha256": "1807bad83213086d426ace5e287b0a4ab36325df75aa72e2289f13521cb852e7",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.11799.206",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:26:49.499112+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1783,11 +2155,15 @@
       "app_sha256": "db5118c723e3f22019ff1d48922466187d9acb2fba14c45a9bb83234fa014c11",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.11799.206",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:26:40.203929+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1802,11 +2178,15 @@
       "app_sha256": "64aef7aef8c2aa7a3636fd2725cfbe93474aa8071fdcfe435277daebd9f4553e",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.11799.240",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:26:31.912248+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1821,11 +2201,15 @@
       "app_sha256": "14122a289076fd105bce7de959ae2f5bddbddabb4f019c602964b24d8e9690e4",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.11799.240",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:26:23.462962+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1840,11 +2224,15 @@
       "app_sha256": "9161a98263be686431bfc343ea12ac5f01a18b8a585898ac5a9347c04732d328",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11799.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:27:29.317898+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1859,11 +2247,15 @@
       "app_sha256": "e2ee4351dc6e8a2e89bf66eabc01b9ab241cd36dffc27ff25db0c2335a4d185c",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11799.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:27:20.688109+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1878,11 +2270,15 @@
       "app_sha256": "46a2aec453c7e967a556cad99259d5705eb203a74ca3d7200e38440a0d934317",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11799.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:27:48.275794+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1897,11 +2293,15 @@
       "app_sha256": "a9d34dbd9e8db90a0056b27ce093908c89ed0619c312f7cc67802c177ef1e941",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11799.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:27:39.671531+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1916,11 +2316,15 @@
       "app_sha256": "e0d86d7ae44591d16cea0ce6f982a3e90b620ac29bf3b8ad3de2cdea00698a56",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11799.72",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:27:09.691876+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1935,11 +2339,15 @@
       "app_sha256": "6dd87c9b711039517126fffe4537bf30d75ae7c807ad6568e00cf1cad7571cbc",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.11799.72",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:26:58.609550+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1954,11 +2362,15 @@
       "app_sha256": "6c914fd08770fccd6d663ab24b4f78139bbf35b556ca930e2538b4783f50cc12",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.6745.303",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:30:57.132478+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1973,11 +2385,15 @@
       "app_sha256": "ccb13ebf47405f2db21363a5db1fe265ae441c86f7da68920070b972c1a90de3",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.6745.303",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:30:48.724858+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -1992,11 +2408,15 @@
       "app_sha256": "23a3381bcbcce67726fe2c7400fd91f1a3c8ea779b296cd1c1510b56c7a8d689",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.8264.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:30:37.339684+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -2011,11 +2431,15 @@
       "app_sha256": "fbe047b35ed41504c275a0cb25af32a97e2648e6f67a0f579a66c6d7e0d648b6",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.8264.8",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:30:27.615617+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -2030,11 +2454,15 @@
       "app_sha256": "058dd9aabd0aa268a7f4c8496732433288f62c3bd05aa06af64e3ce78de1336e",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.9102.97",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:30:16.640331+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -2049,11 +2477,15 @@
       "app_sha256": "2d740460c3d35cda43575853aa76791073598be4bfcac372001ec59253caaa8e",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.9102.97",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:30:05.374481+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -2068,11 +2500,15 @@
       "app_sha256": "08b2a55c91bb332c3bea1cdc239f4b1e55096b748b5b7ec247592c01798f8ab5",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.9802.16",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:29:37.511835+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3",
@@ -2087,11 +2523,15 @@
       "app_sha256": "dad69b00d060cc97f352649084ccf94397903ca9a16445bf0ea502bf8cf1c0cb",
       "app_path": "JetBrains Gateway 2023.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "233.9802.16",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:29:26.560540+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.1",
@@ -2106,11 +2546,15 @@
       "app_sha256": "0f26e017e5436cc67ec37236ce20e996c168f33dd8d41e26916bf45a6ac25b7d",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.11799.302",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:26:12.235357+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.1",
@@ -2125,11 +2569,15 @@
       "app_sha256": "59c089734c4ffc788c02d554213588aa6d7b78d4abdc81576d4c4c16dc642d72",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.11799.302",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:26:03.572390+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.2",
@@ -2144,11 +2592,15 @@
       "app_sha256": "f7ebaa4d01e720667291f082830ccf23d5184783cb3e2d042cd0225e24d08ea2",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.13135.102",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:25:54.738950+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.2",
@@ -2163,11 +2615,15 @@
       "app_sha256": "639eec22fc98c2ab6f7d96c16c6dcce66c3f668c7d51f0905c5b5abf263c490b",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.13135.102",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:25:43.506826+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.3",
@@ -2182,11 +2638,15 @@
       "app_sha256": "0850077121cd9ebd60a951836aca04b17a2c452c9cb8361a510df46e897b4ce4",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.14015.129",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:24:53.265894+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.3",
@@ -2201,11 +2661,15 @@
       "app_sha256": "969ec6bee0da0727e3bebe6c1daa0704903c98c523df75dea2b79678e76495e5",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.14015.129",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:24:43.271018+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.3",
@@ -2220,11 +2684,15 @@
       "app_sha256": "c983d83562aa7ac030c4ccd4cc899b3b8c40ec788f1697fe356566951a0d46ef",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.14015.42",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:25:33.254098+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.3",
@@ -2239,11 +2707,15 @@
       "app_sha256": "599d81fc51f887d659d8d3ea736e2cc0ae5146c60d1c8021829dc3d19c39b31c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.14015.42",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:25:23.425683+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.4",
@@ -2258,11 +2730,15 @@
       "app_sha256": "b6f6f9b80fd16f278835818d6b3215a7cc076d94011f9d24462441844eb84046",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.14475.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:23:35.542149+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2023.3.4",
@@ -2277,11 +2753,15 @@
       "app_sha256": "f0ca3727ffeec63e5d45551bfbcac27aaeac0877fae8c205035215b1f2b5fce6",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "233.14475.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:23:24.227513+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2296,11 +2776,15 @@
       "app_sha256": "8d01a1cc1f5651d958f9aed9c5c59ae3958a9f19081450d783773a9bb71047dd",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.10840.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:24:14.244136+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2315,11 +2799,15 @@
       "app_sha256": "e7c348fee7cc278e77694c9a50dfdee6490f37fce79e1d3df5f718d29eead211",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.10840.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:24:05.420869+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2334,11 +2822,15 @@
       "app_sha256": "b622ade36f3b7bef37f70f8fc35184371c113da042f9a60c7e609496a37dd576",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.11761.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:23:53.510658+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2353,11 +2845,15 @@
       "app_sha256": "a80fef356a4b19d3f0eae139d5b8d9dfbae411f1874779e0f506c01b6c1147c8",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.11761.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:23:44.498866+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2372,11 +2868,15 @@
       "app_sha256": "414e53ec05594380eeb711cb7431a3d7b8d3b0cb866c1ee2f91af4d7f3e0f1dc",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.12662.61",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:23:15.250723+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2391,11 +2891,15 @@
       "app_sha256": "ef55e01b84654962de731ebf8caa208907a5a7af55f1b75ededfd7b7b501f87e",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.12662.61",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:23:06.449517+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2410,11 +2914,15 @@
       "app_sha256": "16160fd34730265bd78967c68498dbffef7bb5fceb8d6b20397f865bf55683e0",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.14024.15",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:22:54.334493+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2429,11 +2937,15 @@
       "app_sha256": "e190278bca8f91ddebb2d5d4c0118d7293495a2478543ef1c59c917741fb466b",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.14024.15",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:22:42.471129+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2448,11 +2960,15 @@
       "app_sha256": "59ea4b9411c2584a95ec62fb4bc6767ba0a9a592bcec9c6ac30afbe67aa2a1b7",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.14494.184",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:22:09.510187+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2467,11 +2983,15 @@
       "app_sha256": "80c6ed3929f5cce345f08b1a0d5b456dc59a6218071e3bcc00719a6dbcbfb18c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.14494.184",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:21:58.282160+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2486,11 +3006,15 @@
       "app_sha256": "9efef4bc679606b383715fc2270a19701419e503314d5ffe82d351980bcba0b2",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.14494.255",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:21:48.294902+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2505,11 +3029,15 @@
       "app_sha256": "35dfd37a4d5b3ae27f2e6477d964bb0ee996a6f517ab5d362b1e562e9365b227",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.14494.255",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:21:39.246608+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2524,11 +3052,15 @@
       "app_sha256": "d55ac9a21740e130fada3e55073959a7c599d8c18d1a0222015e2b63cafe99bc",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.14494.32",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:22:31.352842+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2543,11 +3075,15 @@
       "app_sha256": "80f016b3c984b462fad074d3626bdfab1b6c0aa2dd2ed038a330719aac7c692a",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.14494.32",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:22:21.539736+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2562,11 +3098,15 @@
       "app_sha256": "dbbb8a54ff2a1895ce1ca9e38844a3519ce62eb0ee2875ee4680c63d47d0c881",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.8102.129",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:25:13.398811+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2581,11 +3121,15 @@
       "app_sha256": "98870c460bcabb16fe4c46d8f18c01ddbe5f7fb9c0636ef6207f9ecd7e7e42a2",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.8102.129",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:25:01.594519+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2600,11 +3144,15 @@
       "app_sha256": "eef8ec4c0d6868b87c3650366226e16b7c29501fce24393dd3b76a5eb75ae23c",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.9959.37",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:24:34.359569+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1",
@@ -2619,11 +3167,15 @@
       "app_sha256": "5a06caf30f214615a4e58f73b9a16c5ff0b92bf3167ee2218ffc227d7ef85c69",
       "app_path": "JetBrains Gateway 2024.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "241.9959.37",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:24:24.469535+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.1",
@@ -2638,11 +3190,15 @@
       "app_sha256": "08ad5e402b6a6b680609a5153aa10ebb88a8febf5ce133ea5a63c6da5599110d",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.15989.158",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:21:30.289872+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.1",
@@ -2657,11 +3213,15 @@
       "app_sha256": "faa75dd10b28fcfed9d0b48d85350b3e75298c99ffcecf493b6c0187dc3c0d0e",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.15989.158",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:21:18.307367+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.1",
@@ -2676,11 +3236,15 @@
       "app_sha256": "599ebbaad0c21bf966a1becf22448e9203a7a12f4bfb5b422d8b4a9214f7142e",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.15989.74",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:21:07.274973+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.1",
@@ -2695,11 +3259,15 @@
       "app_sha256": "35a732366f89d6b30faea3323ae9cb5e2b44177df62e324502dfa93ea0e8d6e3",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.15989.74",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:20:56.335978+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.2",
@@ -2714,11 +3282,15 @@
       "app_sha256": "90ec756827b8d85156714e8b658bb5602c63e4ab08c5edc1bc526abb27c06125",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.17011.87",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:20:42.224233+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.1.2",
@@ -2733,11 +3305,15 @@
       "app_sha256": "196441113ece5892be3a40f46a7032614179af0eeff5641e202ecfc68d16f5ad",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "241.17011.87",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:20:32.263002+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2752,11 +3328,15 @@
       "app_sha256": "4c78d55f120fc95ea1345ddc8ab27d77cf42db1508173c2d3b6d51352d475e53",
       "app_path": "JetBrains Gateway 2024.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "242.19533.57",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:20:23.298126+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2771,11 +3351,15 @@
       "app_sha256": "e3378f205a5e0ecc77cd0bc2d09d95f2f5d8929bd794de462ee3b5785ea9623f",
       "app_path": "JetBrains Gateway 2024.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "242.19533.57",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:20:13.566332+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2790,11 +3374,15 @@
       "app_sha256": "ac21bcc798af72d9a8893d1cbebce72cd0316fc99a9b7b83af13024626468765",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "242.20224.368",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:19:40.467021+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2809,11 +3397,15 @@
       "app_sha256": "2d959b871f4a9e2784ac8d87116dd2884a58b53753d3195f368f5ae57e724010",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "242.20224.368",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:19:29.776154+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2828,11 +3420,15 @@
       "app_sha256": "dd62d5de755404a8263292d6ebab1fab2c17c423e71fff57d5f85942376ddd19",
       "app_path": "JetBrains Gateway 2024.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "242.20224.92",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:20:02.380747+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2",
@@ -2847,11 +3443,15 @@
       "app_sha256": "33e41a981c114d3322019069db90faedee24668feaa7996f722f2a91a9b1cbd3",
       "app_path": "JetBrains Gateway 2024.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "242.20224.92",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:19:52.509305+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.1",
@@ -2866,11 +3466,15 @@
       "app_sha256": "91126a6444bb9d6cdaf7f09c6c5a088d07d5ed244897a64f7a9ee35d347cb918",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "242.21829.203",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:19:19.430998+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.1",
@@ -2885,11 +3489,15 @@
       "app_sha256": "292f410e023117c1858963f656fc5a90a1a0e546826901964e0bbfbfa33e927d",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "242.21829.203",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:19:09.580972+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.3",
@@ -2904,11 +3512,15 @@
       "app_sha256": "25cc2efc9e13a370f03bc632b3c49faa957250dd0a0a9f2481d552a04dd3db07",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "242.23339.42",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:18:38.268758+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.2.3",
@@ -2923,11 +3535,15 @@
       "app_sha256": "854ffe62c472791479ce33ff714c041d330190af5043b2607a186e3fc6cc8930",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "242.23339.42",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:18:28.457896+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -2942,11 +3558,15 @@
       "app_sha256": "a6e41c5cce92fe741d015a5a0072b0620af0012eb9aa11f2d1ae7c50e642e5b0",
       "app_path": "JetBrains Gateway 2024.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "243.15521.26",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:18:58.453993+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -2961,11 +3581,15 @@
       "app_sha256": "b97ce6ce0a17beb53075e2be829544e552327e1c1e3db2ee7f627d928b6443cf",
       "app_path": "JetBrains Gateway 2024.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "243.15521.26",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:18:47.112903+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -2980,11 +3604,15 @@
       "app_sha256": "1b6ebf3ce89435cfec1549f6c5dc636184994d4d10a9021c03ef86ff5a18e67f",
       "app_path": "JetBrains Gateway 2024.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "243.18137.22",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:18:16.510618+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -2999,11 +3627,15 @@
       "app_sha256": "6cc555ee71c32ca544615f000ef372d5bcad748fe43019eac60c90211f54f5f9",
       "app_path": "JetBrains Gateway 2024.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "243.18137.22",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:18:03.668410+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3018,11 +3650,15 @@
       "app_sha256": "54b1889e016256f6e9395d7a8c2d3ddd03ffe168ccbcdc281ebe3dcd327e75da",
       "app_path": "JetBrains Gateway 2024.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "243.21155.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:17:52.552267+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3037,11 +3673,15 @@
       "app_sha256": "a7fed7b301621d8eec4a7f5d1628d083ee3c32f50e9f6531e7c6c9408f05e04b",
       "app_path": "JetBrains Gateway 2024.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "243.21155.27",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:17:41.526393+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3056,11 +3696,15 @@
       "app_sha256": "e92ed3fba95b38d0db7215d700b7c5d55a08243b5145c2bd7c33cacf9fc61246",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.21565.196",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:17:28.422480+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3",
@@ -3075,11 +3719,15 @@
       "app_sha256": "83924c164266b95b64b4faf7c99575edc2762bc522a795bfdddde1f02a3fb0a3",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.21565.196",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:17:17.465544+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.1",
@@ -3094,11 +3742,15 @@
       "app_sha256": "3b2a916477a6c3d10f3011c685b38d7a108c15dc1c47d49e7ee9ab47c60fffc7",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.22562.160",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:17:05.597322+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.1",
@@ -3113,11 +3765,15 @@
       "app_sha256": "b6904ef01b72ae113e5f0d0b6897d391936737add3824867e653cba5ea0980c5",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.22562.160",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:16:53.599514+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.1.1",
@@ -3132,11 +3788,15 @@
       "app_sha256": "32defd1547442ee96aa9458043550f0a523a798f7e808f7e4b88a425913923f4",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.22562.252",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:16:42.492894+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.1.1",
@@ -3151,11 +3811,15 @@
       "app_sha256": "154051c51387971d64b57f694861953b64d82abaa19acbb8b3b38aecf43a3691",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.22562.252",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:16:31.337667+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.2",
@@ -3170,11 +3834,15 @@
       "app_sha256": "6e40e9ab2dd22a40d0acfe0c4182e9ce85cf2ae4aceb6ad3f9512e7463929d3b",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.23654.132",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:16:21.382003+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.2",
@@ -3189,11 +3857,15 @@
       "app_sha256": "ecccf43172825ddd2ddb7e5ad4897d48378c70f21e776d4522db5fd8dc92e1ea",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.23654.132",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T09:16:10.346624+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.3",
@@ -3208,11 +3880,15 @@
       "app_sha256": "3f536da256c9cb4d44c602797bb5e8c78554e36e6b0e7d67f88d0d4d0f436327",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.24978.56",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:01:35.335883+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.3",
@@ -3227,11 +3903,15 @@
       "app_sha256": "aa7c37ea0a0de6f17cfd08244b432ff5b8ba7f70ea72d7980f4c0d69925757be",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.24978.56",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:01:28.332466+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.6",
@@ -3246,11 +3926,15 @@
       "app_sha256": "5e25c944af1879d5e18da47016a851c0477701af3897f36a36db6b663c57a2c1",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.26574.87",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:35:22.363429+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2024.3.6",
@@ -3265,11 +3949,15 @@
       "app_sha256": "43a9e443a4af050ff9f79d89e9c2143dc36b1be4422316ab2685c87b280f18d9",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "243.26574.87",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:35:13.486241+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3284,11 +3972,15 @@
       "app_sha256": "39ec63d29d4206158ec5e64c1646373c6de737c21b2fec88b05e708a464cfb2f",
       "app_path": "JetBrains Gateway 2025.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "251.17181.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:01:47.241777+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3303,11 +3995,15 @@
       "app_sha256": "449eb6bc9ba459bb608bdbf3d5c955e63d21962b0357e8d5c1de9d83491e743b",
       "app_path": "JetBrains Gateway 2025.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "251.17181.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:01:41.015982+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3322,11 +4018,15 @@
       "app_sha256": "b3721fe82d90542c20a918b7b16227cd5752e70fd28128eecfd1a49658f28c62",
       "app_path": "JetBrains Gateway 2025.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "251.21418.71",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:01:22.281238+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3341,11 +4041,15 @@
       "app_sha256": "1e8cf44f5108f8ca9bc71a7d97423208e763e59563fd93a80042224fc252f0c1",
       "app_path": "JetBrains Gateway 2025.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "251.21418.71",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:01:16.258379+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3360,11 +4064,15 @@
       "app_sha256": "fa0225c51164d74d383b21d1b4146275c1a681c1df0e89da92a0662cd3b7a072",
       "app_path": "JetBrains Gateway 2025.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "251.23774.120",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:01:10.192305+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3379,11 +4087,15 @@
       "app_sha256": "da7b63f46517aeab5ff2a66d130190881b05acd517b225f8514a3a8cc455588c",
       "app_path": "JetBrains Gateway 2025.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "251.23774.120",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:01:03.330935+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3398,11 +4110,15 @@
       "app_sha256": "97809945d9d35d95b279b31ad1176779eee19e59e1f1d2c7632324a8739f8730",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.23774.317",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:00:55.740041+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3417,11 +4133,15 @@
       "app_sha256": "4c1c85f4b241d179be3ddbef2852a924c1ba6e5b1b6da8f35357698c2241058f",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.23774.317",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-06T18:00:48.701284+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3436,11 +4156,15 @@
       "app_sha256": "ee0d85afaabe7824d6a53a31a3ede1d38bc706e8d56c46251a397a31d20b3785",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.23774.441",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:36:57.236238+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1",
@@ -3455,11 +4179,15 @@
       "app_sha256": "9c80264457c5d8db11277a6736fe92146fb2c3a7c72d96df697ceb2011b51119",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.23774.441",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:36:47.343844+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.1",
@@ -3474,11 +4202,15 @@
       "app_sha256": "37ff70f538b13f87e7c4ec3c1443aaf696a4e2454f0a7bcac2d0d8cc6b11f331",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.25410.139",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:36:36.331317+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.1",
@@ -3493,11 +4225,15 @@
       "app_sha256": "465ce000bda0a31bbae031904332c7b3ef7be737a038ec26df0e67e155c27963",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.25410.139",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:36:25.347241+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.1.1",
@@ -3512,11 +4248,15 @@
       "app_sha256": "e7acced89e5b992f7d8fc5898345783b8686834bd4608c4c867cad44b700f7d2",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.25410.160",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:36:14.373670+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.1.1",
@@ -3531,11 +4271,15 @@
       "app_sha256": "58665e040d7df614ffd5043de64d78c21b0462918d82bfbc3edd0114786ff8b7",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.25410.160",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:36:02.503464+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.2",
@@ -3550,11 +4294,15 @@
       "app_sha256": "d1d6250d7d11bb7bebb6103a4b5e2cb8fa22ba19b0a0377097c0bb93da4e7b81",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.26094.128",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:35:02.228803+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.2",
@@ -3569,11 +4317,15 @@
       "app_sha256": "9ffa87395e719cb1683d5b6f0541ed1696484ed40d02c14ca14546ff27ccf9b2",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.26094.128",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:34:52.666863+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.6",
@@ -3588,11 +4340,15 @@
       "app_sha256": "f2b5a4b2ec64459f86dbc31508a60c78f3372b82e6eb9ceca71f86af480797fb",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.28774.5",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:28:26.664229+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.1.6",
@@ -3607,11 +4363,15 @@
       "app_sha256": "4e1767a101d8942c72f286e6334c2d63752322c0b377c6f74bf792527d2ed56a",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "251.28774.5",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:28:13.554165+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3626,11 +4386,15 @@
       "app_sha256": "11b9ae8967f4c5c61cdc4f5cd7934782b97c2ce79527566a0e0f62cbd9f0bd5e",
       "app_path": "JetBrains Gateway 2025.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "252.13776.57",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:35:47.436603+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3645,11 +4409,15 @@
       "app_sha256": "f7715b5b1c8c716330c809dd49829bd2bf4870f7e24d9b4b63545f7ad2576c46",
       "app_path": "JetBrains Gateway 2025.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "252.13776.57",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:35:32.320955+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3664,11 +4432,15 @@
       "app_sha256": "d42a7ea0b53244704a3aca236294321f304f181e4cc7a63a7254da584095f3c3",
       "app_path": "JetBrains Gateway 2025.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "252.19874.23",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:34:38.547304+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3683,11 +4455,15 @@
       "app_sha256": "e8150cb976a9d2f4ee8c72df518f0a6c7c699bda55c150206a4ab175319c31f8",
       "app_path": "JetBrains Gateway 2025.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "252.19874.23",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:34:23.988272+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3702,11 +4478,15 @@
       "app_sha256": "2d42bebc245f464564e243bdcc1d6028d4c69cd38ebcf3f127b05cc110cd209a",
       "app_path": "JetBrains Gateway 2025.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "252.23591.5",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:34:09.745539+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3721,11 +4501,15 @@
       "app_sha256": "d1b122e1eef1ed3de796093d3ab52960540380bd3f25045c7688a8b411664e12",
       "app_path": "JetBrains Gateway 2025.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "252.23591.5",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:33:56.427267+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3740,11 +4524,15 @@
       "app_sha256": "58502a6814c8a4bc68d0a7d4dbf74f47ed2849af18beda036c810b433dc1daf4",
       "app_path": "JetBrains Gateway 2025.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "252.23892.230",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:33:41.461180+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3759,11 +4547,15 @@
       "app_sha256": "09c43b282ace3be461fec0d9f6ca5673f143d4be96f2028e990bfe43b8f967b0",
       "app_path": "JetBrains Gateway 2025.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "252.23892.230",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:33:27.402015+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3778,11 +4570,15 @@
       "app_sha256": "36b67397246641ba37ddff413b5c30be1347c254159cf31a3086c203c7d536a5",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.23892.437",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:33:12.440430+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2",
@@ -3797,11 +4593,15 @@
       "app_sha256": "c92d5fa742e62f3a70c5708e172266fc63414892d3a02c1b4988b2ba5842bdc8",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.23892.437",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:32:58.492810+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.1",
@@ -3816,11 +4616,15 @@
       "app_sha256": "cd7fb1a92f4830708e4e4d6493c88adc9763d8c4454e5129cb34953e1ca77e74",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.25557.133",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:31:46.379060+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.1",
@@ -3835,11 +4639,15 @@
       "app_sha256": "56814152c269c61319ba05add9672b5d09b233906ca50c3c4a82ab5a489558d4",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.25557.133",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:31:32.684580+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.1",
@@ -3854,11 +4662,15 @@
       "app_sha256": "3aabd83bc229ba1237534dd749d14607e14f0849cf6d2f9cc4fbbcc9a7338197",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.25557.21",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:32:45.414261+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.1",
@@ -3873,11 +4685,15 @@
       "app_sha256": "1d7018f165bbd75970cd1b933c29f721d0967679bfbf060f7e6062cee59719d5",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.25557.21",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:32:32.535125+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.1",
@@ -3892,11 +4708,15 @@
       "app_sha256": "d434a15f0feaf6491b817d932f51e742dbb2346d0a09e98f5f01ac937d5df03d",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.25557.66",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:32:18.730404+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.1",
@@ -3911,11 +4731,15 @@
       "app_sha256": "fb533908b52b83b6506f8d8beabf5b51017f27a690979a54ee8440cd609a1ea1",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.25557.66",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:32:02.447166+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.2",
@@ -3930,11 +4754,15 @@
       "app_sha256": "5df631ea9a654a2bd1364c230f1d69982a66fe32dffd066d3f471eebc8108492",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.26199.160",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:29:17.487330+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.2",
@@ -3949,11 +4777,15 @@
       "app_sha256": "41d21e3e6bdb955c2fd7df63779a38486d3f6129d72626ae623a07228d796c87",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.26199.160",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:29:02.534150+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.2",
@@ -3968,11 +4800,15 @@
       "app_sha256": "84e4a4bd60e4d5e5c1748d2fd2c8a58143eb53a6bab933c79236b0a2658548ec",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.26199.88",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:29:45.693375+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.2",
@@ -3987,11 +4823,15 @@
       "app_sha256": "8897f6c8c5aee14b8caa29862ad27ece3da4e13d619c2c77f6caf6cdf5ce754a",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.26199.88",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:29:31.466010+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.3",
@@ -4006,11 +4846,15 @@
       "app_sha256": "526152cd81744c21836925864b357c7b4a9e0706f7b76b9e181a3071731d8826",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.26830.122",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:27:27.251383+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.3",
@@ -4025,11 +4869,15 @@
       "app_sha256": "2416b8618ec08062da13cd8cbdbc71b28c9a05f40b390bfed075705d23a4cb58",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.26830.122",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:27:13.367027+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.3",
@@ -4044,11 +4892,15 @@
       "app_sha256": "c263e053931b0e4f5a55dcba14c3e5dd80bc5d2750e9859a503abea7a2bae3c5",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.26830.23",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:27:56.559629+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.3",
@@ -4063,11 +4915,15 @@
       "app_sha256": "d474ce2c162a5ae92ca422448957d51f7548a8d8cee9b566db46d3930df4c6ac",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.26830.23",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:27:42.508947+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.4",
@@ -4082,11 +4938,15 @@
       "app_sha256": "8cba2a387bfaedd6b43101e4266bd3cb767f33335cc13fdc50237f468ba82a90",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.27397.101",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:26:30.597944+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.4",
@@ -4101,11 +4961,15 @@
       "app_sha256": "0a790478f97a6ae22b2004bde1339ebdae42342863f4aac6bacce5a8eb894fc1",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.27397.101",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:26:17.308093+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.5",
@@ -4120,11 +4984,15 @@
       "app_sha256": "26b89fff2657cc3f504872b15a6268eddfdae2a839857e88403f448e0e8071e3",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.28238.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:25:18.394705+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.5",
@@ -4139,11 +5007,15 @@
       "app_sha256": "671ec2d7d886f5260354f899a5698bae16761c7d4b031903e0a526607e79defb",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.28238.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:25:06.196307+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.6",
@@ -4158,11 +5030,15 @@
       "app_sha256": "cbd978887937aa39bc34cebcceda00e8cf621318f5c8f66b1996d60f3daef30e",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.28539.148",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:25:10.366656+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.2.6",
@@ -4177,11 +5053,15 @@
       "app_sha256": "2a44db55873e49784a599dd989961b84b7426053f34d45cf388072ac1a497ea1",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "252.28539.148",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:24:56.287822+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4196,11 +5076,15 @@
       "app_sha256": "ac357f0df010c302108bb1ab7923637a8edc055038a39c67748266423c16e1de",
       "app_path": "JetBrains Gateway 2025.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "253.20558.48",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:28:48.442673+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4215,11 +5099,15 @@
       "app_sha256": "bbbbc6033a550efbe4a42964d9d0310f7ea1f3520c1bb456549699de660eaa02",
       "app_path": "JetBrains Gateway 2025.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "253.20558.48",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:28:36.133911+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4234,11 +5122,15 @@
       "app_sha256": "dc86a4238a70d6fa288ef09c61ecb6626bccf3015e5b1dd71ea90808fe220d45",
       "app_path": "JetBrains Gateway 2025.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "253.25908.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:27:01.612745+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4253,11 +5145,15 @@
       "app_sha256": "3271a0e28ddd789da2ed100242ccb4ee0aecbd2352a7aba2516264195d5b9fcb",
       "app_path": "JetBrains Gateway 2025.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "253.25908.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:26:48.641032+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4272,11 +5168,15 @@
       "app_sha256": "1d6c8e0d4aea4f687e9ab44f037b2e2f2342ef79a2c253de2d14fd4f0e211453",
       "app_path": "JetBrains Gateway 2025.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "253.28086.53",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:26:06.515297+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4291,11 +5191,15 @@
       "app_sha256": "c665667e6a2d4b2952447ef49b5c8c4faf25dedcf965c5219a552fcd9f53bc09",
       "app_path": "JetBrains Gateway 2025.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "253.28086.53",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:25:53.238824+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4310,11 +5214,15 @@
       "app_sha256": "7df0fd4a3da79bfe33f9370bc19b69b6d10352acd06c1c2f050b578b4d75e387",
       "app_path": "JetBrains Gateway 2025.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "253.28294.174",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:25:43.274268+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4329,11 +5237,15 @@
       "app_sha256": "d774ec1e32482b871cd3b1ed217407530e62ea60f17200ccf02ec99ddccf02fc",
       "app_path": "JetBrains Gateway 2025.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "253.28294.174",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:25:32.437655+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4348,11 +5260,15 @@
       "app_sha256": "854681d1e80cffae8381a70e18d679b6dffee412c9138f35730dae19f589484c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.28294.248",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:24:56.414708+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4367,11 +5283,15 @@
       "app_sha256": "45204850a8ee49ece25a0e20b6efa58fd1419fcef59ff62ced0d54e7a2de2c4e",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.28294.248",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:24:45.188852+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4386,11 +5306,15 @@
       "app_sha256": "27d6fadc32f01a4929102dd01a98b617b76c8a9dee2e0468afb1bb353eb08208",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.28294.342",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:24:35.474535+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3",
@@ -4405,11 +5329,15 @@
       "app_sha256": "ec1a1fc001beebd2c77a798b48b5b094273623a344a794b908470d37aee5a160",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.28294.342",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:24:23.266978+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.1",
@@ -4424,11 +5352,15 @@
       "app_sha256": "88f1af371a0962532ad2a02a256e0907f6764f5580d7c9614777cc1306b82101",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.29346.239",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:24:13.407084+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.1",
@@ -4443,11 +5375,15 @@
       "app_sha256": "f231ec094b91be5cdf3b55edea1a2cc4c960affc2e2610df74e0469d73db394f",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.29346.239",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:24:02.241692+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.2",
@@ -4462,11 +5398,15 @@
       "app_sha256": "9d309e1cf45b5f64fa4c62a7dbb5b79c41d845643d7b7d3cad0760fcd83fb9fd",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.30387.104",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:23:28.385361+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.2",
@@ -4481,11 +5421,15 @@
       "app_sha256": "fad497874944845ed5ece3114e7ad0bc4901a543bd8edb068d532770fb22b621",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.30387.104",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:23:17.320281+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.3",
@@ -4500,11 +5444,15 @@
       "app_sha256": "e002e9e29940088b5a80fa40c8a219af7c3871b4658c8021bd8623f1f27aa552",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.33813.97",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:24:45.476115+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2025.3.3",
@@ -4519,11 +5467,15 @@
       "app_sha256": "6e50e6d876d7f830689d55d91fb3be4a241743b41f31325a38cf6769d693364b",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "253.33813.97",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:24:33.428999+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4538,11 +5490,15 @@
       "app_sha256": "e7ccf4b07e6e9f5c12e1bb584130fc7122ade4474ff46fdd903b2b0b7fbc823c",
       "app_path": "JetBrains Gateway 2026.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "261.17801.64",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:23:52.443290+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4557,11 +5513,15 @@
       "app_sha256": "059ac6c2809ed76667a6b05e41e926ed7d5a7a7c11f5599e4c066cc5c0284beb",
       "app_path": "JetBrains Gateway 2026.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "261.17801.64",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:23:41.357976+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4576,11 +5536,15 @@
       "app_sha256": "bda7777a866fe0023ed2b462c3ef033c786ee54102b24f35b4e26127f654e8dd",
       "app_path": "JetBrains Gateway 2026.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "261.19799.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:23:04.433284+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4595,11 +5559,15 @@
       "app_sha256": "2d8a0a0067e1db743ac908a9778536aa444a31d838ed78d473bf7b8792ef6669",
       "app_path": "JetBrains Gateway 2026.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "261.19799.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:22:53.476251+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4614,11 +5582,15 @@
       "app_sha256": "8106f7bc01f358155342ba7c124446e5e407746d77f0d0ae62b9c3f326f92be3",
       "app_path": "JetBrains Gateway 2026.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "261.21525.50",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:22:42.237614+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4633,11 +5605,15 @@
       "app_sha256": "1df18bb78d965501aec96f100918af0b6634b9752888254dc5f43a59f0a31f18",
       "app_path": "JetBrains Gateway 2026.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "261.21525.50",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:22:32.319477+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4652,11 +5628,15 @@
       "app_sha256": "01441f6658fc825953ccd007667b94f8c29f858d9244729b1b8ab701bf8f1878",
       "app_path": "JetBrains Gateway 2026.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "261.22158.152",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:22:20.363524+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4671,11 +5651,15 @@
       "app_sha256": "ab3b2b4f13af11ec998b03cf72381524db8f7830492d8a0a5983350b63c714d8",
       "app_path": "JetBrains Gateway 2026.1 EAP.app/Contents/MacOS/gateway",
       "app_build": "261.22158.152",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:22:07.425776+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4690,11 +5674,15 @@
       "app_sha256": "cb2caf99e4d90bf141da560fe46496b5586691d01410e542a0567a8ded8b0d01",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.22158.240",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:21:55.283079+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4709,11 +5697,15 @@
       "app_sha256": "fd756b79bdaf056daea9ddf2c9de8b23fc32d19c4b33dd17660e43d79a2c38b3",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.22158.240",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:21:44.301065+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4728,11 +5720,15 @@
       "app_sha256": "781f19f9379e6d4550d15bfda33c38a32799c7662272e2ee463e472b7e83e6a2",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.22158.290",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:21:33.436491+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1",
@@ -4747,11 +5743,15 @@
       "app_sha256": "8e77f86a1485bab520bb1bdbee830e838af11627e169100d89e1d85d709cb40c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.22158.290",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:21:23.321447+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.1",
@@ -4766,11 +5766,15 @@
       "app_sha256": "594dac50b3d659ab2e3cc3c89009fdd6867e9a4775c7ff14c2361928e8664f6c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.23567.152",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:20:46.292820+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.1",
@@ -4785,11 +5789,15 @@
       "app_sha256": "6a3845dc22fc5583eb3a3e657b4f01b015f9e0610207a534f739c2695eb7992c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.23567.152",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:20:34.427346+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.1",
@@ -4804,11 +5812,15 @@
       "app_sha256": "4b53d2f08973f5f6067d3e8e6062068e39cd98d28fe709c449c37b22bc027a7b",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.23567.55",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:21:09.412626+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.1",
@@ -4823,11 +5835,15 @@
       "app_sha256": "59bbc52a4f87adec81721b57d63aa61e59dd85a0ae053327310437635caf6292",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.23567.55",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:20:56.457793+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.2",
@@ -4842,11 +5858,15 @@
       "app_sha256": "f06cbfb0d5f59c4fc9b51b4be3f13f3be79ebfef4972438ad8219eae259160e9",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.24374.120",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:19:34.355515+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.2",
@@ -4861,11 +5881,15 @@
       "app_sha256": "ab0ba4642509e57722b7ba96d21bc2043b913044f409c72da00c8cdb6f399715",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.24374.120",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:19:22.449119+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.2",
@@ -4880,11 +5904,15 @@
       "app_sha256": "d5e08dbc66270deab555ec7978c88ac54a73873ed12f1e3ac5ed0b4426b8b2df",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.24374.64",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:20:23.394196+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.2",
@@ -4899,11 +5927,15 @@
       "app_sha256": "55f12bdc42dfc3300d7826713f6436eef7ce5345a20b3f7c2d281f913f1c06f4",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.24374.64",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:20:11.413951+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3",
@@ -4918,11 +5950,15 @@
       "app_sha256": "a62e0324103c109cf5d41c2d0c19471174cc0111e3413e072a715157ab82c45e",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.25134.43",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:18:43.502599+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3",
@@ -4937,11 +5973,15 @@
       "app_sha256": "354d02af8baab6b02b19cc1b463074fd46b20c0843cd6e2511f8b00bf3430b50",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.25134.43",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:18:32.457268+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3",
@@ -4956,11 +5996,15 @@
       "app_sha256": "fcfd1a62651e39f65dda5b97548cef335256eb562078f8e58bac78a3ee9ec1af",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.25134.98",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:18:20.340563+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.3",
@@ -4975,11 +6019,15 @@
       "app_sha256": "b6ebb8f3f2f94fc211ed6d3b82447ca6c8c1d88bb4ace96d0b58ab82ba85be27",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.25134.98",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:18:07.283128+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.4",
@@ -4994,11 +6042,15 @@
       "app_sha256": "b8eebc40c8838dbc6f73187188c9499993a00020b2e30eb40236b1517134b7cd",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.27258.134",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:24:20.414938+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.1.4",
@@ -5013,11 +6065,15 @@
       "app_sha256": "bb220d1dab34685c6ecfce5e085058c09c0dc18e9e19ece72470dd494bbf0830",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "261.27258.134",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:24:09.406212+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5032,11 +6088,15 @@
       "app_sha256": "ff32d8aef24c516aeeb4a1940d45e172bc9087e8f7d280c2385f08de5384d371",
       "app_path": "JetBrains Gateway 2026.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "262.4852.55",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:19:59.474402+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5051,11 +6111,15 @@
       "app_sha256": "4b440dbbad52fcaa786aecb6782075068b35f258a5b110a5468a09724bddc1e9",
       "app_path": "JetBrains Gateway 2026.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "262.4852.55",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:19:47.418949+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5070,11 +6134,15 @@
       "app_sha256": "d0c0abfa19ed7efd8756b516e2aaf0360fbcd3cb73b8d06ecedc8f2ff909460d",
       "app_path": "JetBrains Gateway 2026.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "262.6653.20",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:19:08.337875+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5089,11 +6157,15 @@
       "app_sha256": "8932babc5e3fb22a7e4b1fbc9be624525c05459266004e3bcbcc3a35c676bac4",
       "app_path": "JetBrains Gateway 2026.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "262.6653.20",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:18:55.420323+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5108,11 +6180,15 @@
       "app_sha256": "b50df9b45a174fb1f10801c8273124dc9f5928649ab57e413267057942f07b2a",
       "app_path": "JetBrains Gateway 2026.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "262.8377.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:17:56.429771+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5127,11 +6203,15 @@
       "app_sha256": "f8b529d58c51d38e5c37b0131dfb820a3c22b1b7a36afce4b089682ab7b411a6",
       "app_path": "JetBrains Gateway 2026.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "262.8377.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:17:44.476690+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5146,11 +6226,15 @@
       "app_sha256": "a2e2e9c6012328ac6a19668b8511c802957e9d8121dc41cf28c58cc83c6773ef",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.8665.175",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:16:37.440017+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5165,11 +6249,15 @@
       "app_sha256": "daafe4f0060afc8164583bafd0770d6fde75040ff75474abdd9e42b15d3be190",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.8665.175",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:16:24.496905+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5184,11 +6272,15 @@
       "app_sha256": "160a99d42625912d856c276ef663153d0806423b96b5daa408528ffaf9c26210",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.8665.250",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:16:11.377444+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5203,11 +6295,15 @@
       "app_sha256": "96278ac031e3b9227f0548f4d71932dd556cf02061a2ddc16de989b787f9a3c0",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.8665.250",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:15:58.326321+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5222,11 +6318,15 @@
       "app_sha256": "7c12eb77cb4bdc0eeff1aba34ea4fc38de7de28bb8216f022389f7a78f4b3c18",
       "app_path": "JetBrains Gateway 2026.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "262.8665.53",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:17:15.383760+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2",
@@ -5241,11 +6341,15 @@
       "app_sha256": "a35959de94d44dca9d44be9f78bbffb25f23de25afe638688512be5d67521fdf",
       "app_path": "JetBrains Gateway 2026.2 EAP.app/Contents/MacOS/gateway",
       "app_build": "262.8665.53",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:16:48.413035+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.1",
@@ -5260,11 +6364,15 @@
       "app_sha256": "61d1ee0cbd0cb65ec53f7fd621045e37d3a658680ab03f36649df9091635a12b",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.9437.193",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:15:05.586166+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.1",
@@ -5279,11 +6387,15 @@
       "app_sha256": "d20c6dbdf309c46c8e5b832929ba017bf315d77304edbc4df9700e336f68d4b6",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.9437.193",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:13:03.505524+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.1",
@@ -5298,11 +6410,15 @@
       "app_sha256": "e569af500c44e270ec45b11c13b99c8d14461b0c6cf6ac051e75d90361541b7c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.9437.72",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:15:45.609671+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.1",
@@ -5317,11 +6433,15 @@
       "app_sha256": "6cf459ce4c1de8461fc62a1076fb8afd5f3ef4432e4102801f708b75b3e70ddb",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.9437.72",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:15:35.016301+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.2",
@@ -5336,11 +6456,15 @@
       "app_sha256": "56fd4c734428d826442bedffa893edf6e6f6e34765e1408419916a0779e51817",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.10315.114",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:21:50.443333+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.2",
@@ -5355,11 +6479,15 @@
       "app_sha256": "c55ee3c1f5c43ba26b64186a8b8faab9e3bfb6f1e5ceb5f43a80aaea2ff3838c",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.10315.114",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:21:36.357661+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.2",
@@ -5374,11 +6502,15 @@
       "app_sha256": "c0cd05a9cad7e7d82cc5f48fa8da486697f44668440d17c6d1be1867644664bb",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.10315.53",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:12:50.440834+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.2",
@@ -5393,11 +6525,15 @@
       "app_sha256": "37ed81c57f62727fb8508cdf16155687d3b1418192f1e8985c2c43d771bb2f34",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.10315.53",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:12:37.372508+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.4",
@@ -5412,11 +6548,15 @@
       "app_sha256": "1dda15feb5aae07004f1f9c6c766110890a802b82d03525c40b675cb9ed694f6",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.11879.99",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:24:00.446936+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.2.4",
@@ -5431,11 +6571,15 @@
       "app_sha256": "1951e4bf9c9cacc7e7966a6b718824f438c879f51fde08926b97688c506d3c36",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "262.11879.99",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:23:54.485851+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5450,11 +6594,15 @@
       "app_sha256": "56ce53c61d30f79bfff2a52fb304a87897b96cd938010157df688176aa478700",
       "app_path": "JetBrains Gateway 2026.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "263.3889.63",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:12:24.717042+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5469,11 +6617,15 @@
       "app_sha256": "5d2e4f7b539b806570b6ea97c176e15a3fa4f4e35c01d0da55160fe9eb9662b1",
       "app_path": "JetBrains Gateway 2026.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "263.3889.63",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T23:12:13.265435+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5488,11 +6640,15 @@
       "app_sha256": "035556a21f321116a199ce2098ce9f77097221ee4029a5bfdbf508fb93470ead",
       "app_path": "JetBrains Gateway 2026.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "263.5701.43",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:21:25.445109+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5507,11 +6663,15 @@
       "app_sha256": "050428f3c85b6da3b8f6a294dea635feb2c3b390549184da6499ebc38d55e613",
       "app_path": "JetBrains Gateway 2026.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "263.5701.43",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:20:54.510514+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5526,11 +6686,15 @@
       "app_sha256": "a7eb013a876251a005a93ac72468ab8f29bde2aef493b5c11b59b90a344df65d",
       "app_path": "JetBrains Gateway 2026.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "263.7031.24",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:20:41.361320+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5545,11 +6709,15 @@
       "app_sha256": "8922e5d86a59e570aa56be92164ebba0018f703aa76968188b4647b8fb8d3365",
       "app_path": "JetBrains Gateway 2026.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "263.7031.24",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:20:29.398864+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5564,11 +6732,15 @@
       "app_sha256": "9da9635f851911547e64643c0c09d80941c12a1fac053580a4ac7435cd07a730",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "263.7307.111",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:23:41.420996+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5583,11 +6755,15 @@
       "app_sha256": "613828f851f6e26c25a34c1847b2d62084e26cd1d78a27f5c52ee62de2e17bfd",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "263.7307.111",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T14:23:30.642999+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5602,11 +6778,15 @@
       "app_sha256": "db236785c70733c11b18e5f3e5911227812cca097098d7d89cfec022115ca611",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "263.7307.184",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-05T14:45:52.729365+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:19:51.627407+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5621,11 +6801,15 @@
       "app_sha256": "fc4acd3c453e975bce847f2ee202d49f9bcb0c94fae78fff4759a3519ae457d1",
       "app_path": "JetBrains Gateway.app/Contents/MacOS/gateway",
       "app_build": "263.7307.184",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-05T14:45:52.729365+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:19:45.368642+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5640,11 +6824,15 @@
       "app_sha256": "e59b592fa210496f767ff77d66998ae77078f07d32df7f0593febd7d63942578",
       "app_path": "JetBrains Gateway 2026.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "263.7307.46",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:20:16.617984+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "2026.3",
@@ -5659,14 +6847,18 @@
       "app_sha256": "8ca8962d129bdd9709ac365a9dc2d5b77665244f92a0e57fa343df4c0262009e",
       "app_path": "JetBrains Gateway 2026.3 EAP.app/Contents/MacOS/gateway",
       "app_build": "263.7307.46",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T15:20:04.404172+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-08T13:36:47.934413+00:00",
+  "catalog_fetched_at": "2026-11-10T20:41:17.462045+00:00",
   "catalog_release_count": 149,
   "ignored_download_types": [
     "linux",
