@@ -1,5 +1,7 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.0.1 | 263.7307.257 | `macM1` | `8ce475f2713ce7302dc5da583aa7a417492605a14928b06f9939b128a92d3415` | `c0ff14b541cf5055b059f937175112539890337af92cb983a62e2a8c8593e93e` | 2026-11-10 |
+| 2026.3.0.1 | 263.7307.257 | `mac` | `dda109eeb07e9ee562719f32c5dc5708491035a49ffac7d8a9d85ef6958bf308` | `ae7a495d5787c996c2cc88d04e7ae20d6cbaf45f08f30a421b2473c119160de6` | 2026-11-10 |
 | 2026.3 | 263.7307.209 | `macM1` | `af62fec6fe5acc793f18680376deaaa2ad6ae70eeb98d349102fddd46b41ee7e` | `0d4ed19b385266074a5b844c76a089ac4a180baa57426fb55034b1af1848a1aa` | 2026-11-05 |
 | 2026.3 | 263.7307.209 | `mac` | `b9252dbe765afb3dc3a4d477517d97ab969b1aca6b019506eb111e5ca9d4e9dc` | `b7ffca748795cec06b7502c6adc978433b1f13f5f95fbc9574646ff7a7a01719` | 2026-11-05 |
 | 2026.2.4.1 | 262.11879.106 | `macM1` | `d332e4532fb12f74801a05707c784f57cf0ff73895116811fa6ebe5a2f568216` | `013972b6efcc38c77c7bc7f3d60ba2594444e12e88162ef6c34102c368c88b50` | 2026-10-30 |
@@ -380,7 +382,7 @@
 
 Product: **CLion** (`CL`). [Machine-readable history](../data/CL.json).
 
-Installer hashes: **370/370**; application hashes: **367/370**; not advertised: **116**.
+Installer hashes: **372/372**; application hashes: **369/372**; not advertised: **116**.
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

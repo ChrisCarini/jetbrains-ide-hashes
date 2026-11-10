@@ -1614,7 +1614,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:03:10.790197+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:48:40.020071+00:00",
+      "last_attempt": "2026-11-10T15:30:29.008215+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 139.1803, bundle says IU-139.1803.20; refusing to attribute this executable to the wrong build"
     },
@@ -1918,7 +1918,7 @@
       "app_build": "",
       "first_seen": "2026-11-04T01:03:10.790197+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T16:48:51.401517+00:00",
+      "last_attempt": "2026-11-10T15:30:34.613608+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 141.3058, bundle says IU-141.3058.30; refusing to attribute this executable to the wrong build"
     },
@@ -17598,7 +17598,7 @@
       "error": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-09T16:36:13.880552+00:00",
+  "catalog_fetched_at": "2026-11-10T15:00:34.427952+00:00",
   "catalog_release_count": 463,
   "ignored_download_types": [
     "linux",

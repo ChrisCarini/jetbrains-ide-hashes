@@ -6,7 +6,7 @@ Each product page starts with released versions, followed by every other API cha
 | --- | --- | --- | --- | --- |
 | [Air](AIR.md) | `AIR` | 76/76 | 76/76 | 0 |
 | [AppCode](AC.md) | `AC` | 185/185 | 177/185 | 207 |
-| [CLion](CL.md) | `CL` | 370/370 | 367/370 | 116 |
+| [CLion](CL.md) | `CL` | 372/372 | 369/372 | 116 |
 | [CLion Nova](CLN.md) | `CLN` | 14/14 | 14/14 | 0 |
 | [DataGrip](DG.md) | `DG` | 390/390 | 378/390 | 86 |
 | [Datalore](DL.md) | `DL` | 0/0 | 0/0 | 2 |
