@@ -8,7 +8,7 @@ from collections import defaultdict
 from pathlib import Path
 
 from .history import FAILURE_LIMIT, History, Record, coverage, grouped_builds, load
-from .transfer import atomic_write
+from .transfer import atomic_write, is_abbreviated_build
 
 HEADER = (
     "| Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |\n"
@@ -29,7 +29,10 @@ def natural(value: str) -> tuple:
 def hash_cell(row: Record, application: bool) -> str:
     digest = row.app_sha256 if application else row.installer_sha256
     if digest:
-        return f"`{digest}`"
+        result = f"`{digest}`"
+        if application and is_abbreviated_build(row.build, row.app_build):
+            result += " [bundle](#bundle-details-for-abbreviated-api-builds)"
+        return result
     if row.quarantined:
         return "Quarantined (see collection notes)"
     if row.error and (application or row.error_stage in ("checksum", "metadata")):
@@ -157,6 +160,32 @@ def render_product(history: History) -> str:
         "are omitted. Missing hashes are not inferred. Application hashes cover "
         "the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.\n"
     )
+    abbreviated = [
+        row
+        for row in rows
+        if row.installer_url and row.app_sha256 and is_abbreviated_build(row.build, row.app_build)
+    ]
+    if abbreviated:
+        result += (
+            "\n### Bundle details for abbreviated API builds\n\n"
+            "Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's "
+            "two-component build. After ignoring the optional IDE prefix, the observed bundle "
+            "adds exactly one numeric component. Both hashes remain in the normal tables; "
+            "the application hash belongs to this exact bundle and installer SHA-256, "
+            "not to every bundle sharing the API build prefix.\n\n"
+            "Bundle identifiers and versions are observed `CFBundleIdentifier` and "
+            "`CFBundleShortVersionString` values. Missing legacy metadata is not inferred.\n\n"
+            "| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | "
+            "Bundle identifier | Bundle version | Executable |\n"
+            "| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n"
+        )
+        for row in abbreviated:
+            result += (
+                f"| {cell(row.version)} | {cell(row.build)} | {cell(row.release_type)} | "
+                f"`{cell(row.platform)}` | `{row.installer_sha256}` | `{cell(row.app_build)}` | "
+                f"{cell(row.app_bundle_id or 'Not recorded')} | "
+                f"{cell(row.app_version or 'Not recorded')} | `{cell(row.app_path)}` |\n"
+            )
     if history.empty_downloads:
         result += (
             "\n### Versions with no advertised downloads\n\n"

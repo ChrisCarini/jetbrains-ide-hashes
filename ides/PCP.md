@@ -294,9 +294,9 @@
 | 2016.3.4 | 163.15529.21 | `mac` | `4b3022f375e3851600cbda09450000f907394fc75cc4c326a06b90571df5620f` | `61621f540e729b15937744ea781f04248e6f52f520b4d79e4e58c97821088bb6` | 2018-03-07 |
 | 2016.2.3 | 162.1967.10 | `mac` | `0e254d18cdf2dfc380110e9d05e8c3a16ec65fbf5c66316a351603e0a6d39ce8` | `105328a90349fb19abd9815e7f180dcfad628c63753319add509b8424f7f5c01` | 2016-09-07 |
 | 2016.1.5 | 145.2073.10 | `mac` | `9555304da2b64bcb785745fd78c5e458da7790aed51f139b4bcb4edbd3fcbc70` | `b5f3eefa416b864e46f02bc274f59a178923007412f2cc72476fc7f72893a6a5` | 2016-11-18 |
-| 5.0.6 | 143.2371 | `mac` | `86b290bb7eac5555c7f494e9782e999dca7ee9f42e935e1942bd64e081015eac` | Unavailable (see collection notes) | 2016-11-18 |
-| 4.5.5 | 141.3058 | `mac` | `7d0b7d7a8f9cc6d9ff9e8b24271b9f5c74960dbc57b3718173a831f89986696b` | Unavailable (see collection notes) | 2016-05-11 |
-| 4.0.7 | 139.1803 | `mac` | `ea0b2f431f41ba44221f2c61c8cb0a3e48746a697e755daf74234d7f4b08d97a` | Unavailable (see collection notes) | 2016-05-11 |
+| 5.0.6 | 143.2371 | `mac` | `86b290bb7eac5555c7f494e9782e999dca7ee9f42e935e1942bd64e081015eac` | `a391f67cd41d9e5d96a670a57ff3f8fdcba075fbc824edc17f72949e609a0e7b` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-11-18 |
+| 4.5.5 | 141.3058 | `mac` | `7d0b7d7a8f9cc6d9ff9e8b24271b9f5c74960dbc57b3718173a831f89986696b` | `883d1bbbd74084709f5b5182c6c8ca78c5561e5e11174ae1a43ace4d4e7d4934` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 4.0.7 | 139.1803 | `mac` | `ea0b2f431f41ba44221f2c61c8cb0a3e48746a697e755daf74234d7f4b08d97a` | `77cedacfcc3569dc187d67bca3f4a7dbfc01617112f2d4c258647ba8f1f644a9` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
 | 3.4.4 | 135.1357 | `mac` | `862dcbd9afebddb15a09179c1d447c5d3f0468fb41b130d03b3475447f2aa671` | `3d8c798ebf9a5380b66f422eacdc4bb33160b56f3808dd4dbf1d8d4a04b0fba1` | 2016-05-11 |
 | 3.1.4 | 133.1884 | `mac` | `a3c78979849c77ccb75e50d775821378309952db3738cfcb582d13114257e076` | `97b99281f0334a26d8c16ea2d5e293019b65861813f2a69acfb7ead1469962ab` | 2016-05-11 |
 | 3.0.3 | 131.849 | `mac` | `c5bbb442e1e4ec110aad507888cfcbc3ed77f5a0510f7e7972291df1b2c4f099` | `80c9da4ca6aa84f2dafc925cc08cb277345e35e379e80f6a77205520e8ca31b2` | 2016-05-11 |
@@ -615,13 +615,25 @@
 
 Product: **PyCharm** (`PCP`). [Machine-readable history](../data/PCP.json).
 
-Installer hashes: **605/605**; application hashes: **601/605**; not advertised: **239**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **605/605**; application hashes: **604/605**; not advertised: **239**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Bundle details for abbreviated API builds
+
+Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's two-component build. After ignoring the optional IDE prefix, the observed bundle adds exactly one numeric component. Both hashes remain in the normal tables; the application hash belongs to this exact bundle and installer SHA-256, not to every bundle sharing the API build prefix.
+
+Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleShortVersionString` values. Missing legacy metadata is not inferred.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | Bundle identifier | Bundle version | Executable |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 5.0.6 | 143.2371 | release | `mac` | `86b290bb7eac5555c7f494e9782e999dca7ee9f42e935e1942bd64e081015eac` | `PY-143.2371.1` | com.jetbrains.pycharm | 5.0.6 | `PyCharm.app/Contents/MacOS/pycharm` |
+| 4.5.5 | 141.3058 | release | `mac` | `7d0b7d7a8f9cc6d9ff9e8b24271b9f5c74960dbc57b3718173a831f89986696b` | `PY-141.3058.47` | com.jetbrains.pycharm | 4.5.5 | `PyCharm.app/Contents/MacOS/pycharm` |
+| 4.0.7 | 139.1803 | release | `mac` | `ea0b2f431f41ba44221f2c61c8cb0a3e48746a697e755daf74234d7f4b08d97a` | `PY-139.1803.14` | com.jetbrains.pycharm | 4.0.7 | `PyCharm.app/Contents/MacOS/pycharm` |
 
 ### Versions with no advertised downloads
 
@@ -726,7 +738,4 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 
 ### Collection errors
 
-- 5.0.6 / 143.2371 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2371, bundle says PY-143.2371.1; refusing to attribute this executable to the wrong build
-- 4.5.5 / 141.3058 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 141.3058, bundle says PY-141.3058.47; refusing to attribute this executable to the wrong build
-- 4.0.7 / 139.1803 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 139.1803, bundle says PY-139.1803.14; refusing to attribute this executable to the wrong build
 - 1.5.4 / 107.756 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build

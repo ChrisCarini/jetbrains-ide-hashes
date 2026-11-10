@@ -43,6 +43,8 @@ class Record:
     app_sha256: str = ""
     app_path: str = ""
     app_build: str = ""
+    app_bundle_id: str = ""
+    app_version: str = ""
     first_seen: str = ""
     current: bool = True
     last_attempt: str = ""
@@ -524,6 +526,7 @@ def collect(
                     cached.app_path,
                     cached.app_build,
                 )
+                row.app_bundle_id, row.app_version = cached.app_bundle_id, cached.app_version
                 clear_error(row)
                 persist()
                 continue
@@ -549,6 +552,7 @@ def collect(
                     deadline,
                 )
                 row.app_sha256, row.app_path, row.app_build = app.sha256, app.path, app.build
+                row.app_bundle_id, row.app_version = app.bundle_id, app.version
                 clear_error(row)
             except (ArtifactError, StopRun) as exc:
                 message = re.sub(
@@ -579,6 +583,7 @@ def merge(destination: History, incoming: History) -> None:
     if destination.code != incoming.code:
         raise StopRun("Cannot merge different products")
     newer = incoming.catalog_fetched_at >= destination.catalog_fetched_at
+    app_metadata = ("app_build", "app_bundle_id", "app_version")
     if newer:
         for row in destination.records:
             row.current = False
@@ -618,12 +623,22 @@ def merge(destination: History, incoming: History) -> None:
             raise StopRun(
                 f"Conflicting app hashes for the same installer: {observation.artifact_key()}"
             )
+        if target.app_sha256 and observation.app_sha256:
+            for name in app_metadata:
+                previous, observed = getattr(target, name), getattr(observation, name)
+                if previous and observed and previous != observed:
+                    raise StopRun(
+                        f"Conflicting {name} for the same installer: {observation.artifact_key()}"
+                    )
         if observation.installer_sha256:
             target.installer_sha256 = observation.installer_sha256
         if observation.app_sha256:
             target.app_sha256 = observation.app_sha256
             target.app_path = observation.app_path
-            target.app_build = observation.app_build
+            for name in app_metadata:
+                value = getattr(observation, name)
+                if value:
+                    setattr(target, name, value)
         if observation.first_seen:
             target.first_seen = min(filter(None, (target.first_seen, observation.first_seen)))
         if newer:

@@ -302,8 +302,8 @@
 | 2016.2.5 | 162.2228.15 | `mac` | `c82f9e36ca9dea459d2427381b84bf56e3aabc61c1bca7ba3efa9062a5fd5fc6` | `3fe607f15b7169df3e59060889b41533f2ce434fb5d6d0ffc370783bd8f0b74c` | 2016-10-17 |
 | 2016.1.4 | 145.2070.6 | `mac` | `c6ed2455cfeeb542c646e6a3d639d32e85ebe8ead87a0f3744dfa3c0a920e2f9` | `aa41eb75ebcbd41f0e181451ad15f564e6efdd1d0a7b35448ea6448f47b8d0bd` | 2016-08-03 |
 | 15.0.6 | 143.2370.31 | `mac` | `277203d7cb0912a81422f4469c838c986be9b15061d12698184026a490546f50` | `537f5cfbef83558f8249deffa17bda440334b1ed33df4560f189812cfa36657e` | 2016-04-29 |
-| 14.1.7 | 141.3058 | `mac` | `9cd822c92371e58e3fe9630bb833d55df7290ec3d964785b10c3f8fb00b5cbf7` | Unavailable (see collection notes) | 2016-05-11 |
-| 14.0.5 | 139.1803 | `mac` | `49048d76c986c7c2d680a00871a412ca986c6b5864532da861b68b1703abb745` | Unavailable (see collection notes) | 2016-05-12 |
+| 14.1.7 | 141.3058 | `mac` | `9cd822c92371e58e3fe9630bb833d55df7290ec3d964785b10c3f8fb00b5cbf7` | `a6d64c9f22210584f988a46b1815f7c96e3d251c89c8b19a45debc34b8c46c19` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 14.0.5 | 139.1803 | `mac` | `49048d76c986c7c2d680a00871a412ca986c6b5864532da861b68b1703abb745` | `14ae5602202685405ceafb863b3909d19ba9d32d6a7d5018d4fbe382300b237f` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-12 |
 | 13.1.7 | 135.1356 | `mac` | `7f1d690b609727571f19c5350915852613e9cfaf479ec8428473972484a93ce9` | `10358f498641b037e6672361dbeb31f16eb97160c0d95d03263990cfa833633a` | 2016-05-13 |
 | 13.0.5 | 133.1885 | `mac` | `a52390ef5540b2ad7540f98a18626fd395ae1f7446c79b9ddaa227ca121fb67a` | `97b99281f0334a26d8c16ea2d5e293019b65861813f2a69acfb7ead1469962ab` | 2016-05-14 |
 | 12.1.8 | 129.1561 | `mac` | `94c2854635f6cfa077de4e3cc71b63242fb652e8c0ef8f6f999e9089eb83d33a` | `80c9da4ca6aa84f2dafc925cc08cb277345e35e379e80f6a77205520e8ca31b2` | 2016-05-15 |
@@ -669,13 +669,24 @@
 
 Product: **IntelliJ IDEA** (`IIU`). [Machine-readable history](../data/IIU.json).
 
-Installer hashes: **659/659**; application hashes: **657/659**; not advertised: **267**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **659/659**; application hashes: **659/659**; not advertised: **267**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Bundle details for abbreviated API builds
+
+Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's two-component build. After ignoring the optional IDE prefix, the observed bundle adds exactly one numeric component. Both hashes remain in the normal tables; the application hash belongs to this exact bundle and installer SHA-256, not to every bundle sharing the API build prefix.
+
+Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleShortVersionString` values. Missing legacy metadata is not inferred.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | Bundle identifier | Bundle version | Executable |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 14.1.7 | 141.3058 | release | `mac` | `9cd822c92371e58e3fe9630bb833d55df7290ec3d964785b10c3f8fb00b5cbf7` | `IU-141.3058.30` | com.jetbrains.intellij | 14.1.7 | `IntelliJ IDEA 14.app/Contents/MacOS/idea` |
+| 14.0.5 | 139.1803 | release | `mac` | `49048d76c986c7c2d680a00871a412ca986c6b5864532da861b68b1703abb745` | `IU-139.1803.20` | com.jetbrains.intellij | 14.0.5 | `IntelliJ IDEA 14.app/Contents/MacOS/idea` |
 
 ### Versions with no advertised downloads
 
@@ -798,8 +809,3 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 | 11.1 | 117.105 | release | 2012-03-28 |
 | 11.0.1 | 111.167 | release | 2011-12-30 |
 | 11.0 | 111.69 | release | 2011-12-06 |
-
-### Collection errors
-
-- 14.1.7 / 141.3058 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 141.3058, bundle says IU-141.3058.30; refusing to attribute this executable to the wrong build
-- 14.0.5 / 139.1803 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 139.1803, bundle says IU-139.1803.20; refusing to attribute this executable to the wrong build

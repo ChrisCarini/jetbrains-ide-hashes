@@ -261,6 +261,7 @@ from pathlib import Path
 app = Path(os.environ["APP"])
 info = plistlib.loads(Path(os.environ["WORK"], "Info.normalized.plist").read_bytes())
 print("CFBundleExecutable:", info.get("CFBundleExecutable"))
+print("CFBundleIdentifier:", info.get("CFBundleIdentifier"))
 print("CFBundleShortVersionString:", info.get("CFBundleShortVersionString"))
 print("CFBundleVersion:", info.get("CFBundleVersion"))
 for suffix in ("Contents/Resources/product-info.json",
@@ -286,12 +287,19 @@ then `Contents/Resources/build.txt` or `Contents/build.txt`, then a meaningful
 `CFBundleVersion`. If those sources disagree or are absent, investigate rather
 than guessing.
 
-An API build such as `145.2073` and bundle build `OC-145.2073.4` are **not equal
-under the collector's rules**. The product prefix is already ignored; the
-additional numeric suffix is the mismatch. Verify the advertised version and
-the bundle's product/version/build against trustworthy release information.
-Matching installer bytes alone does not establish that the API's build label is
-correct. Do not assume every differing build is just a harmless suffix.
+An API build such as `145.2073` and bundle build `OC-145.2073.4` are accepted as
+an **abbreviated API build**, without treating them as the same full identifier.
+After ignoring the optional IDE prefix, this exception requires exactly two
+numeric API components followed by exactly one additional numeric bundle
+component. Other differences, including conflicting three-component builds,
+still require investigation.
+
+Record the complete `app_build`, the observed `CFBundleIdentifier` as
+`app_bundle_id`, and `CFBundleShortVersionString` as `app_version`. Keep missing
+metadata empty rather than guessing it from the API. The hashes remain in the
+normal table, with a link to the exact bundle details for abbreviated-build rows.
+Matching installer bytes does not make all bundles sharing an API prefix
+interchangeable, nor does this exception bypass installer checksum verification.
 
 ## 5. Hash the raw main executable
 
@@ -322,7 +330,7 @@ signing CDHash, or a notarization result.
 
 ## 6. Record only what you actually verified
 
-After resolving the identity discrepancy, set the build to the value you observed
+After confirming the bundle identity, set the build to the value you observed
 (this example is for the AppCode record above), then print the fields to copy into
 that **existing** JSON record:
 
@@ -331,13 +339,21 @@ export APP_BUILD='OC-145.2073.4'
 python3 - <<'PY'
 import json
 import os
+import plistlib
 from datetime import datetime, timezone
+from pathlib import Path
 
 now = datetime.now(timezone.utc).isoformat()
+info = plistlib.loads(Path(os.environ["WORK"], "Info.normalized.plist").read_bytes())
+for key in ("CFBundleIdentifier", "CFBundleShortVersionString"):
+    if not isinstance(info.get(key, ""), str):
+        raise SystemExit(f"{key} is not a string")
 print(json.dumps({
     "app_sha256": os.environ["APP_SHA256"],
     "app_path": os.environ["APP_PATH"],
     "app_build": os.environ["APP_BUILD"],
+    "app_bundle_id": info.get("CFBundleIdentifier", ""),
+    "app_version": info.get("CFBundleShortVersionString", ""),
     "error_stage": "",
     "error": "",
     "consecutive_failures": 0,

@@ -70,6 +70,69 @@ def test_markdown_is_deterministic_and_escapes_cells(product_factory):
     assert "1&#124;&lt;script&gt;" in first
 
 
+@pytest.mark.parametrize("channel", ["release", "eap"])
+def test_abbreviated_build_hashes_link_to_exact_bundle_and_payload_details(
+    product_factory, channel
+):
+    state = history.History("PCP", "PyCharm")
+    history.refresh_metadata(
+        state, product_factory(code="PCP", version="4.0.7", build="139.1803", channel=channel), T1
+    )
+    row = next(row for row in state.records if row.platform == "mac")
+    row.installer_sha256, row.app_sha256 = "a" * 64, "b" * 64
+    row.app_build, row.app_bundle_id, row.app_version = (
+        "PY-139.1803.14",
+        "com.jetbrains.pycharm",
+        "4.0.7",
+    )
+    row.app_path = "PyCharm.app/Contents/MacOS/pycharm"
+    repacked = replace(
+        row,
+        installer_sha256="c" * 64,
+        app_sha256="d" * 64,
+        app_build="PY-139.1803.15",
+        app_bundle_id="",
+        app_version="",
+    )
+    unverified = replace(row, installer_sha256="e" * 64, app_sha256="")
+    state.records.extend((repacked, unverified))
+
+    text = render.render_product(state)
+    tables = text.split("\n## Collection notes\n", 1)[0]
+    details = text.split("\n### Bundle details for abbreviated API builds\n\n", 1)[1]
+
+    for installer_hash, app_hash in ((row.installer_sha256, row.app_sha256), ("c" * 64, "d" * 64)):
+        assert f"`{installer_hash}` | `{app_hash}` [bundle]" in tables
+    assert tables.count("[bundle](#bundle-details-for-abbreviated-api-builds)") == 2
+    assert "| 139.1803 |" in tables and "PY-139.1803" not in tables
+    assert (
+        f"| 4.0.7 | 139.1803 | {channel} | `mac` | `{'a' * 64}` | `PY-139.1803.14` | "
+        "com.jetbrains.pycharm | 4.0.7 | `PyCharm.app/Contents/MacOS/pycharm` |"
+    ) in details
+    assert (f"`{'c' * 64}` | `PY-139.1803.15` | Not recorded | Not recorded |") in details
+    assert "e" * 64 not in details
+    assert "not to every bundle sharing the API build prefix" in details
+    state.records.reverse()
+    assert render.render_product(state) == text
+
+
+def test_bundle_detail_metadata_is_escaped(product_factory):
+    state = history.History("PCP", "PyCharm")
+    history.refresh_metadata(state, product_factory(code="PCP", build="139.1803"), T1)
+    row = next(row for row in state.records if row.platform == "mac")
+    row.installer_sha256, row.app_sha256 = "a" * 64, "b" * 64
+    row.app_build = "PY-139.1803.14"
+    row.app_bundle_id = "com.jetbrains.<py>|`"
+    row.app_version = "4.0|7"
+    row.app_path = "PyCharm.app/Contents/MacOS/pycharm"
+
+    text = render.render_product(state)
+
+    assert "com.jetbrains.&lt;py&gt;&#124;&#96;" in text
+    assert "4.0&#124;7" in text
+    assert "com.jetbrains.<py>" not in text
+
+
 @pytest.mark.parametrize("channel", ["release", "eap", "rc", "preview", "future-channel"])
 def test_tables_sort_version_build_and_installer_type_before_date(product_factory, channel):
     product = product_factory()

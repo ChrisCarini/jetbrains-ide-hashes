@@ -33,11 +33,22 @@ def test_rerelease_preserves_both_builds_and_completed_hashes(product_factory):
 
 def test_same_build_repack_preserves_old_payload_without_copying_app_hash(product_factory):
     state, old = observed(product_factory)
+    old.app_build, old.app_bundle_id, old.app_version = (
+        "IU-123.456.789",
+        "com.jetbrains.intellij",
+        "1.2.3",
+    )
     sources = history.refresh_metadata(state, product_factory(), T2)
     new = history.observe_checksum(state, sources[0], SHA_B, T2)
 
     assert old.installer_sha256 == SHA_A and old.app_sha256 == APP_A
     assert new.installer_sha256 == SHA_B and new.app_sha256 == ""
+    assert (old.app_build, old.app_bundle_id, old.app_version) == (
+        "IU-123.456.789",
+        "com.jetbrains.intellij",
+        "1.2.3",
+    )
+    assert (new.app_build, new.app_bundle_id, new.app_version) == ("", "", "")
     assert not old.current and new.current
     assert len({row.artifact_key() for row in state.records}) == len(state.records)
 
@@ -179,6 +190,24 @@ def test_legacy_history_loads_without_inventing_empty_download_metadata(tmp_path
     assert "empty_downloads" not in json.loads(path.read_text())
 
     assert history.load(path).empty_downloads is None
+
+
+def test_legacy_history_does_not_invent_bundle_identity(tmp_path, product_factory):
+    state, row = observed(product_factory)
+    row.app_build = "IU-123.456.789"
+    history.save(state, tmp_path)
+    path = tmp_path / "IIU.json"
+    payload = json.loads(path.read_text())
+    for record in payload["records"]:
+        record.pop("app_bundle_id")
+        record.pop("app_version")
+    path.write_text(json.dumps(payload))
+
+    restored = next(row for row in history.load(path).records if row.app_sha256)
+
+    assert restored.app_sha256 == APP_A
+    assert restored.app_build == "IU-123.456.789"
+    assert restored.app_bundle_id == restored.app_version == ""
 
 
 @pytest.mark.parametrize(
@@ -451,6 +480,103 @@ def test_publisher_upgrades_pending_record_without_leaving_duplicate(product_fac
 
     assert len(destination.records) == 2
     assert history.coverage(destination)["app_hashes"] == 1
+
+
+def test_merge_enriches_bundle_identity_without_erasing_it_with_legacy_artifacts(product_factory):
+    destination, row = observed(product_factory)
+    legacy = history.History("IIU", "IntelliJ IDEA", [replace(row)], T1)
+    incoming = deepcopy(legacy)
+    incoming.records[0].app_build = "IU-123.456.789"
+    incoming.records[0].app_bundle_id = "com.jetbrains.intellij"
+    incoming.records[0].app_version = "1.2.3"
+
+    history.merge(destination, incoming)
+    history.merge(destination, legacy)
+
+    assert (row.app_build, row.app_bundle_id, row.app_version) == (
+        "IU-123.456.789",
+        "com.jetbrains.intellij",
+        "1.2.3",
+    )
+    assert row.installer_sha256 == SHA_A and row.app_sha256 == APP_A
+
+
+@pytest.mark.parametrize("field", ["app_build", "app_bundle_id", "app_version"])
+def test_merge_rejects_conflicting_observed_bundle_metadata(product_factory, field):
+    destination, row = observed(product_factory)
+    row.app_build, row.app_bundle_id, row.app_version = (
+        "IU-123.456.789",
+        "com.jetbrains.intellij",
+        "1.2.3",
+    )
+    incoming = history.History("IIU", "IntelliJ IDEA", [replace(row)], T1)
+    setattr(incoming.records[0], field, "different")
+
+    with pytest.raises(transfer.StopRun, match=f"Conflicting {field}"):
+        history.merge(destination, incoming)
+
+    assert getattr(row, field) != "different"
+
+
+def test_abbreviated_bundle_collection_persists_identity_and_recovers_failure(
+    tmp_path, product_factory, monkeypatch
+):
+    state = history.History("PCP", "PyCharm")
+    sources = history.refresh_metadata(
+        state, product_factory(code="PCP", version="4.0.7", build="139.1803"), T1
+    )
+    row = history.observe_checksum(state, sources[0], SHA_A, T1)
+    original_key = row.artifact_key()
+    history.record_error(row, "application", "Bundle build mismatch")
+    app = transfer.Application(
+        APP_A,
+        "PyCharm.app/Contents/MacOS/pycharm",
+        "PY-139.1803.14",
+        "com.jetbrains.pycharm",
+        "4.0.7",
+    )
+    monkeypatch.setattr(transfer, "collect_app", lambda *args: app)
+
+    assert history.collect(state, [], lambda: history.save(state, tmp_path), tmp_path, 1, None) == 0
+    restored = next(row for row in history.load(tmp_path / "PCP.json").records if row.app_sha256)
+
+    assert restored.artifact_key() == original_key
+    assert restored.app_sha256 == APP_A and restored.app_path == app.path
+    assert (restored.app_build, restored.app_bundle_id, restored.app_version) == (
+        app.build,
+        app.bundle_id,
+        app.version,
+    )
+    assert restored.error == restored.error_stage == ""
+    assert restored.consecutive_failures == 0
+
+
+def test_cached_application_copies_the_observed_bundle_identity(tmp_path, product_factory):
+    state, verified = observed(product_factory, build="139.1803")
+    verified.app_build, verified.app_bundle_id, verified.app_version = (
+        "IU-139.1803.20",
+        "com.jetbrains.intellij",
+        "14.0.5",
+    )
+    pending = replace(
+        verified,
+        release_type="eap",
+        app_sha256="",
+        app_path="",
+        app_build="",
+        app_bundle_id="",
+        app_version="",
+    )
+    state.records.append(pending)
+
+    assert history.collect(state, [], lambda: None, tmp_path, 0, None) == 0
+
+    assert pending.build == "139.1803" and pending.app_sha256 == APP_A
+    assert (pending.app_build, pending.app_bundle_id, pending.app_version) == (
+        "IU-139.1803.20",
+        "com.jetbrains.intellij",
+        "14.0.5",
+    )
 
 
 def test_bounded_collection_checkpoints_and_resumes_other_installers(

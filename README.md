@@ -68,11 +68,27 @@ collector never replaces a whole history with the latest API response:
   are marked `(repacked)`.
 - Completed hashes survive disappearing releases, renamed products, stale job
   artifacts, and later API responses. Conflicting application hashes for the
-  same installer are rejected rather than overwritten.
+  same installer, or conflicting captured bundle metadata, are rejected rather
+  than overwritten.
 - A queued historical installer is always checked against its **previously
   captured SHA-256**. If the URL now serves another payload, it is not attributed
   to the old build. Bundle build metadata is also compared with the API build
   when available.
+
+A two-component API build such as `139.1803` may abbreviate an observed bundle
+build such as `PY-139.1803.14`. After ignoring the optional IDE prefix, the
+collector accepts **exactly one additional numeric component**. This is not a
+substring match: `139.18030.14`, extra components, and differing three-component
+builds still fail. The API `build` is never rewritten.
+
+Successful collections retain the full observed `app_build`, `app_bundle_id`
+(`CFBundleIdentifier`), `app_version` (`CFBundleShortVersionString`), and executable
+`app_path` alongside the hashes. Older records without these observations retain
+empty values; metadata is not invented or erased by older publication artifacts.
+Abbreviated-build rows keep both hashes in the normal table and link to **Bundle
+details for abbreviated API builds** below it. Those details identify the exact
+bundle and installer checksum; hashes are not generalized to other bundles
+sharing the same API prefix.
 
 If the API simultaneously advertises the same URL for different builds, that
 ambiguity is reported rather than assigning one sidecar checksum to both builds.

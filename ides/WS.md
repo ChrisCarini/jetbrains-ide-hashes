@@ -322,10 +322,10 @@
 | 2016.3.7 | 163.15529.11 | `mac` | `1a95fb1c31fb32d26de79f75114a8413c5c81403102d8417eb0f1c15ec3ddba9` | `34bdf9aec0872d6a5a608f2ddb543ff56745c2b21c18e840304b2bbbcc6442d8` | 2018-03-06 |
 | 2016.3.6 | 163.15188.15 | `mac` | `6f4fc95ccf2b580c987a35a13a7b4d908fc24a5d2c378506b908419f5a5f34bd` | `b6d4be28f82e1317fb647913e2949d1831eb0d6b676e32c6ba0f682168df110f` | 2017-04-12 |
 | 2016.2.4 | 162.2228.20 | `mac` | `f9c3f165dda60fb034eff2c717bca73cf997ee64e6da85575dd829b8104cfa2f` | `8f329dc9844d615c9175630e395720a4071d9a640381ab521f5fcbf210383892` | 2016-10-19 |
-| 2016.1.3 | 145.1616 | `mac` | `3ef891ccae0061a9ed0652a042af871e69a1fd6566b69a513ea2a591f7048f97` | Unavailable (see collection notes) | 2016-05-27 |
-| 11.0.4 | 143.2370 | `mac` | `22c9ba6bf2a9ed17b46c309d3f113ecfe089ce763bd9d4557762bc287d2c5fc7` | Unavailable (see collection notes) | 2016-04-29 |
-| 10.0.5 | 141.3058 | `mac` | `e79521f8d33cc42abc965f32fe24aae882210adbd50a626163bb33cc6536c799` | Unavailable (see collection notes) | 2016-04-30 |
-| 9.0.4 | 139.1803 | `mac` | `28d3f8fb77b55a1dc76237d80fd81237612270e8b36c9d2ff504a8ff1f5cef35` | Unavailable (see collection notes) | 2016-05-09 |
+| 2016.1.3 | 145.1616 | `mac` | `3ef891ccae0061a9ed0652a042af871e69a1fd6566b69a513ea2a591f7048f97` | `7e85fb2ea8963d61fac78403f6879e970f24944013744877750c84f850d93b90` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-27 |
+| 11.0.4 | 143.2370 | `mac` | `22c9ba6bf2a9ed17b46c309d3f113ecfe089ce763bd9d4557762bc287d2c5fc7` | `0e85811e2dc0e2ff197b21f32bf3337431bfeb5c06edc3c35f430ad6bf852bd4` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-04-29 |
+| 10.0.5 | 141.3058 | `mac` | `e79521f8d33cc42abc965f32fe24aae882210adbd50a626163bb33cc6536c799` | `edd2a5e86edc811d32820cfcf218c7b9d292df935a1c379d4210529d06a4977e` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-04-30 |
+| 9.0.4 | 139.1803 | `mac` | `28d3f8fb77b55a1dc76237d80fd81237612270e8b36c9d2ff504a8ff1f5cef35` | `4bf20f07baa0da8256787e8169c2c1ac68759b760702ddc3a18d25e5898064ff` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-09 |
 | 8.0.6 | 135.1358 | `mac` | `d6220a3c167df59fb36af20a5998c1f7bf37ac6983035b753f9b26ddc23e0472` | `d36794d96c6e4d43d4e83eed526d6620a009dc1bce028f2e1372c671fce4398a` | 2016-05-03 |
 | 7.0.5 | 133.1882 | `mac` | `967906a319bb4880e7af9c2529380e1811a6c9cbf5c6a6f2cf11de0be51d2129` | `97b99281f0334a26d8c16ea2d5e293019b65861813f2a69acfb7ead1469962ab` | 2016-04-30 |
 | 6.0.3 | 129.1557 | `mac` | `cb043987ddb65c458e5a8793eb41eb0690e8604761a9ac69efc4137ebd064786` | `80c9da4ca6aa84f2dafc925cc08cb277345e35e379e80f6a77205520e8ca31b2` | 2016-04-30 |
@@ -674,13 +674,26 @@
 
 Product: **WebStorm** (`WS`). [Machine-readable history](../data/WS.json).
 
-Installer hashes: **664/664**; application hashes: **660/664**; not advertised: **196**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **664/664**; application hashes: **664/664**; not advertised: **196**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
 Rows are sorted by version, build version, and installer type, descending, with numeric version/build components compared numerically rather than by release date.
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
+
+### Bundle details for abbreviated API builds
+
+Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's two-component build. After ignoring the optional IDE prefix, the observed bundle adds exactly one numeric component. Both hashes remain in the normal tables; the application hash belongs to this exact bundle and installer SHA-256, not to every bundle sharing the API build prefix.
+
+Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleShortVersionString` values. Missing legacy metadata is not inferred.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | Bundle identifier | Bundle version | Executable |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2016.1.3 | 145.1616 | release | `mac` | `3ef891ccae0061a9ed0652a042af871e69a1fd6566b69a513ea2a591f7048f97` | `WS-145.1616.9` | com.jetbrains.WebStorm | 2016.1.3 | `WebStorm.app/Contents/MacOS/webstorm` |
+| 11.0.4 | 143.2370 | release | `mac` | `22c9ba6bf2a9ed17b46c309d3f113ecfe089ce763bd9d4557762bc287d2c5fc7` | `WS-143.2370.35` | com.jetbrains.WebStorm | 11.0.4 | `WebStorm.app/Contents/MacOS/webstorm` |
+| 10.0.5 | 141.3058 | release | `mac` | `e79521f8d33cc42abc965f32fe24aae882210adbd50a626163bb33cc6536c799` | `WS-141.3058.28` | com.jetbrains.WebStorm | 10.0.5 | `WebStorm.app/Contents/MacOS/webstorm` |
+| 9.0.4 | 139.1803 | release | `mac` | `28d3f8fb77b55a1dc76237d80fd81237612270e8b36c9d2ff504a8ff1f5cef35` | `WS-139.1803.34` | com.jetbrains.WebStorm | 9.0.4 | `WebStorm.app/Contents/MacOS/webide` |
 
 ### Versions with no advertised downloads
 
@@ -748,10 +761,3 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 | 3.0 | 111.19 | release | 2011-12-17 |
 | 2.1.4 | 107.650 | release | 2011-09-07 |
 | 2.0 | 107.592 | release | 2011-02-24 |
-
-### Collection errors
-
-- 2016.1.3 / 145.1616 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 145.1616, bundle says WS-145.1616.9; refusing to attribute this executable to the wrong build
-- 11.0.4 / 143.2370 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2370, bundle says WS-143.2370.35; refusing to attribute this executable to the wrong build
-- 10.0.5 / 141.3058 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 141.3058, bundle says WS-141.3058.28; refusing to attribute this executable to the wrong build
-- 9.0.4 / 139.1803 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 139.1803, bundle says WS-139.1803.34; refusing to attribute this executable to the wrong build

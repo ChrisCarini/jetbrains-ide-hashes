@@ -277,15 +277,15 @@
 | 2016.2.2 | 162.1889.11 | `mac` | `3ef22d19c4d845243dceb73cc06cc473f91e85bb42f433f0fe255b9a50c1ce24` | `67943c0dd896ebb1d84fa684cf1344680c2a43407e450e853da37e49bbdc9b29` | 2016-08-29 |
 | 2016.2.1 | 162.1628.37 | `mac` | `c9e54be3bf4f2f1ba741043ee21120da9ad0277aa712f2b67f54ee5cb9337558` | `7f077f54a7a4461497d607bf21f244713754f37765bbbe35b3c81050c79709d1` | 2016-08-16 |
 | 2016.2 | 162.1122.5 | `mac` | `f4bb5c6345bfa6e1d8478314bc5f8f38be654c7e86d9f9782b208a03fbb2b085` | `5fab05f0c85dfba626bc2d5970459a9537fa557e0bad7c3d2540dfe562b16b85` | 2016-07-20 |
-| 2016.1.2 | 145.864 | `mac` | `092a348f3382de10ff437d8d1a940197a1becd2c00eb1da12670ddf2913299dc` | Unavailable (see collection notes) | 2016-07-06 |
-| 2016.1.1 | 145.863 | `mac` | `78976fcf73155e3e4b0f0defae550ddf7af6517d656d199e53f7f10dd89e02fb` | Unavailable (see collection notes) | 2016-05-11 |
-| 2016.1 | 145.862 | `mac` | `f238284e831f7e7216c11591c7ca1bb4765aa7a42fa0246748fb434eeeeb58e5` | Unavailable (see collection notes) | 2016-04-20 |
-| 1.0.5 | 143.2372 | `mac` | `d85cdf5618bdb122f3001da1358b4a6ab32c6540b9b160138f2635dde01e0bcd` | Unavailable (see collection notes) | 2016-07-06 |
-| 1.0.4 | 143.2371 | `mac` | `fc382feacb78075be94783b7429cae8ecd0d0b10f933dfed7c835e6b619f256c` | Unavailable (see collection notes) | 2016-05-11 |
-| 1.0.3 | 143.2263 | `mac` | `30efdd28f396807ec2b02127216e9c7294b13621118ce95f4f3eac1b86a7e6a1` | Unavailable (see collection notes) | 2016-02-12 |
-| 1.0.2 | 143.1997 | `mac` | `1b3054eeb6c0f2b0b9ea7176d7c47d3a7e87f00effac1fc310939d840aeaa9ea` | Unavailable (see collection notes) | 2016-01-27 |
-| 1.0.1 | 143.1411 | `mac` | `28b9fdf21db461325d4ecb0c14d71aef70fea258f1e16910bbc20f8697378619` | Unavailable (see collection notes) | 2015-12-28 |
-| 1.0 | 143.1410 | `mac` | `f366c9a1eb177873cfe388796a2da471537242cff93bb731b6604319ee77f475` | Unavailable (see collection notes) | 2015-12-16 |
+| 2016.1.2 | 145.864 | `mac` | `092a348f3382de10ff437d8d1a940197a1becd2c00eb1da12670ddf2913299dc` | `d2d2bc2230a3f7de7dc715d944057cc4599c55c9240ec8bb1f93d0732aff6bf7` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-07-06 |
+| 2016.1.1 | 145.863 | `mac` | `78976fcf73155e3e4b0f0defae550ddf7af6517d656d199e53f7f10dd89e02fb` | `3191567dd1af7c8653aa2c0e0c282912cbb995012cbf62937ff7df6507264df6` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 2016.1 | 145.862 | `mac` | `f238284e831f7e7216c11591c7ca1bb4765aa7a42fa0246748fb434eeeeb58e5` | `c35cb0b20848d7b8e3e5c1637e7af92eefb4bc11fb7aefd7ba5972b2f11476ad` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-04-20 |
+| 1.0.5 | 143.2372 | `mac` | `d85cdf5618bdb122f3001da1358b4a6ab32c6540b9b160138f2635dde01e0bcd` | `9744a008b33a48a31dc2fe5f6cdb2ab9b5a2d622e469a4d241de760c5bb93800` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-07-06 |
+| 1.0.4 | 143.2371 | `mac` | `fc382feacb78075be94783b7429cae8ecd0d0b10f933dfed7c835e6b619f256c` | `18dbf634cdc4c9c44a34078ea1104bbf77716ab82cea997fd47191a553018162` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-05-11 |
+| 1.0.3 | 143.2263 | `mac` | `30efdd28f396807ec2b02127216e9c7294b13621118ce95f4f3eac1b86a7e6a1` | `585662b4afce4c0fb6747e8034329eb53aad7b9d7417daa1b1343aaa2d8b8d64` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-02-12 |
+| 1.0.2 | 143.1997 | `mac` | `1b3054eeb6c0f2b0b9ea7176d7c47d3a7e87f00effac1fc310939d840aeaa9ea` | `04cfb990953083b205f027381fdb7b9d082704ba929f707872c9367e970de2fd` [bundle](#bundle-details-for-abbreviated-api-builds) | 2016-01-27 |
+| 1.0.1 | 143.1411 | `mac` | `28b9fdf21db461325d4ecb0c14d71aef70fea258f1e16910bbc20f8697378619` | `bac6a994b34612b232988c0ea68fbd349599a62365877b3e42ef35bad08cf90d` [bundle](#bundle-details-for-abbreviated-api-builds) | 2015-12-28 |
+| 1.0 | 143.1410 | `mac` | `f366c9a1eb177873cfe388796a2da471537242cff93bb731b6604319ee77f475` | `21f5a4938eb86d08f8358fbb26aa22590db16a21bf0f09342b14e91324b994c4` [bundle](#bundle-details-for-abbreviated-api-builds) | 2015-12-16 |
 
 ## EAP, RC, preview, and other non-release builds
 
@@ -400,7 +400,7 @@
 
 Product: **DataGrip** (`DG`). [Machine-readable history](../data/DG.json).
 
-Installer hashes: **390/390**; application hashes: **378/390**; not advertised: **86**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **390/390**; application hashes: **387/390**; not advertised: **86**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -408,17 +408,26 @@ Rows are sorted by version, build version, and installer type, descending, with 
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
 
+### Bundle details for abbreviated API builds
+
+Rows marked [bundle](#bundle-details-for-abbreviated-api-builds) retain the API's two-component build. After ignoring the optional IDE prefix, the observed bundle adds exactly one numeric component. Both hashes remain in the normal tables; the application hash belongs to this exact bundle and installer SHA-256, not to every bundle sharing the API build prefix.
+
+Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleShortVersionString` values. Missing legacy metadata is not inferred.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | Bundle build | Bundle identifier | Bundle version | Executable |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2016.1.2 | 145.864 | release | `mac` | `092a348f3382de10ff437d8d1a940197a1becd2c00eb1da12670ddf2913299dc` | `DB-145.864.1` | com.jetbrains.datagrip | 2016.1.2 | `DataGrip.app/Contents/MacOS/datagrip` |
+| 2016.1.1 | 145.863 | release | `mac` | `78976fcf73155e3e4b0f0defae550ddf7af6517d656d199e53f7f10dd89e02fb` | `DB-145.863.1` | com.jetbrains.datagrip | 2016.1.1 | `DataGrip.app/Contents/MacOS/datagrip` |
+| 2016.1 | 145.862 | release | `mac` | `f238284e831f7e7216c11591c7ca1bb4765aa7a42fa0246748fb434eeeeb58e5` | `DB-145.862.4` | com.jetbrains.datagrip | 2016.1 | `DataGrip.app/Contents/MacOS/datagrip` |
+| 1.0.5 | 143.2372 | release | `mac` | `d85cdf5618bdb122f3001da1358b4a6ab32c6540b9b160138f2635dde01e0bcd` | `DB-143.2372.1` | com.jetbrains.datagrip | 1.0.5 | `DataGrip.app/Contents/MacOS/datagrip` |
+| 1.0.4 | 143.2371 | release | `mac` | `fc382feacb78075be94783b7429cae8ecd0d0b10f933dfed7c835e6b619f256c` | `DB-143.2371.6` | com.jetbrains.datagrip | 1.0.4 | `DataGrip.app/Contents/MacOS/datagrip` |
+| 1.0.3 | 143.2263 | release | `mac` | `30efdd28f396807ec2b02127216e9c7294b13621118ce95f4f3eac1b86a7e6a1` | `DB-143.2263.2` | com.jetbrains.datagrip | 1.0.3 | `DataGrip.app/Contents/MacOS/datagrip` |
+| 1.0.2 | 143.1997 | release | `mac` | `1b3054eeb6c0f2b0b9ea7176d7c47d3a7e87f00effac1fc310939d840aeaa9ea` | `DB-143.1997.7` | com.jetbrains.datagrip | 1.0.2 | `DataGrip.app/Contents/MacOS/datagrip` |
+| 1.0.1 | 143.1411 | release | `mac` | `28b9fdf21db461325d4ecb0c14d71aef70fea258f1e16910bbc20f8697378619` | `DB-143.1411.5` | com.jetbrains.datagrip | 1.0.1 | `DataGrip.app/Contents/MacOS/datagrip` |
+| 1.0 | 143.1410 | release | `mac` | `f366c9a1eb177873cfe388796a2da471537242cff93bb731b6604319ee77f475` | `DB-143.1410.7` | com.jetbrains.datagrip | 1.0 | `DataGrip.app/Contents/MacOS/datagrip` |
+
 ### Collection errors
 
 - 2025.3.5.1 / 253.31033.213 / `macM1` (application; 0/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
 - 2025.3.5.1 / 253.31033.213 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
 - 2016.3.1 / 163.9735.5 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build
-- 2016.1.2 / 145.864 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 145.864, bundle says DB-145.864.1; refusing to attribute this executable to the wrong build
-- 2016.1.1 / 145.863 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 145.863, bundle says DB-145.863.1; refusing to attribute this executable to the wrong build
-- 2016.1 / 145.862 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 145.862, bundle says DB-145.862.4; refusing to attribute this executable to the wrong build
-- 1.0.5 / 143.2372 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2372, bundle says DB-143.2372.1; refusing to attribute this executable to the wrong build
-- 1.0.4 / 143.2371 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2371, bundle says DB-143.2371.6; refusing to attribute this executable to the wrong build
-- 1.0.3 / 143.2263 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.2263, bundle says DB-143.2263.2; refusing to attribute this executable to the wrong build
-- 1.0.2 / 143.1997 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.1997, bundle says DB-143.1997.7; refusing to attribute this executable to the wrong build
-- 1.0.1 / 143.1411 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.1411, bundle says DB-143.1411.5; refusing to attribute this executable to the wrong build
-- 1.0 / 143.1410 / `mac` (application; 0/5 identical failures): Bundle build mismatch: API says 143.1410, bundle says DB-143.1410.7; refusing to attribute this executable to the wrong build
