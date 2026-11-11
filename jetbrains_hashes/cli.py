@@ -11,6 +11,8 @@ import tempfile
 import time
 import urllib.parse
 from contextlib import contextmanager
+from copy import deepcopy
+from dataclasses import replace
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -34,6 +36,79 @@ def existing(directory: Path) -> list[History]:
     return [history.load(path) for path in sorted(directory.glob("*.json"))]
 
 
+def write_matrix(
+    codes: list[str], output_path: Path | None, *, has_updates: bool | None = None
+) -> None:
+    matrix = json.dumps({"product": codes}, separators=(",", ":"))
+    if output_path:
+        with output_path.open("a", encoding="utf-8") as output:
+            output.write(f"matrix={matrix}\nhas_work={str(bool(codes)).lower()}\n")
+            if has_updates is not None:
+                output.write(f"has_updates={str(has_updates).lower()}\n")
+    print(matrix)
+
+
+def prepare_histories(
+    args: argparse.Namespace,
+    products: list[dict],
+    histories: dict[str, History],
+    fetched_at: str,
+) -> int:
+    if args.output_dir.resolve() == args.data_dir.resolve() or any(args.output_dir.glob("*.json")):
+        raise StopRun(
+            "Preparation requires a separate output directory without existing JSON files"
+        )
+    codes = []
+    failures = 0
+    has_updates = False
+    deadline = time.monotonic() + args.max_minutes * 60
+    try:
+        for product in products:
+            code = history.validate_code(product["code"])
+            saved = histories.get(code, History(code, product["name"]))
+            state = deepcopy(saved)
+            try:
+                if args.retry_quarantined:
+                    count = history.retry_quarantined(state)
+                    log(f"{code}: reset {count} quarantined records for an explicit retry")
+                sources = history.refresh_metadata(state, product, fetched_at)
+            except (StopRun, ValueError) as exc:
+                log(f"ERROR {code}: {exc}; retaining saved history")
+                failures += 1
+                continue
+            complete = False
+            try:
+                errors, checked = history.refresh_checksums(state, sources, lambda: None, deadline)
+                failures += errors
+                if checked:
+                    for row in state.records:
+                        if row.needs_application:
+                            history.reuse_application_hash(state, row)
+                    complete = True
+            finally:
+                pending = sum(row.needs_application for row in state.records)
+                changed = state != replace(saved, catalog_fetched_at=fetched_at)
+                if changed or (complete and pending):
+                    history.save(state, args.output_dir)
+                    has_updates = True
+                    if complete and pending:
+                        codes.append(code)
+            if not complete:
+                log(f"{code}: checksum verification incomplete; remaining work deferred to Ubuntu")
+            elif pending:
+                log(f"{code}: {pending} application hashes pending; queued for macOS")
+            elif changed:
+                log(f"{code}: history updates only; skipping macOS collection")
+            else:
+                log(f"{code}: no history changes; skipping macOS collection")
+            quarantined = sum(row.quarantined for row in state.records)
+            if quarantined:
+                log(f"{code}: {quarantined} quarantined records remain in the failure report")
+    finally:
+        write_matrix(codes, args.github_output, has_updates=has_updates)
+    return int(failures > 0)
+
+
 def discover_command(args: argparse.Namespace) -> int:
     selected_code = history.validate_code(args.product) if args.product else None
     if args.catalog_file:
@@ -55,6 +130,8 @@ def discover_command(args: argparse.Namespace) -> int:
                     f"Unknown IDE product code: {selected_code}. Available codes: {available}"
                 )
             products = selected
+        if args.prepare:
+            return prepare_histories(args, products, histories, fetched_at)
         codes = []
         deadline = time.monotonic() + args.max_minutes * 60
         for product in products:
@@ -83,20 +160,25 @@ def discover_command(args: argparse.Namespace) -> int:
                 history.save(state, args.data_dir)
         if args.seed:
             render.render_all(args.data_dir, args.docs_dir)
-    matrix = json.dumps({"product": codes}, separators=(",", ":"))
-    if args.github_output:
-        with args.github_output.open("a", encoding="utf-8") as output:
-            output.write(f"matrix={matrix}\n")
-            output.write(f"has_work={str(bool(codes)).lower()}\n")
-    print(matrix)
+    write_matrix(codes, args.github_output)
     return 0
 
 
 def sync_command(args: argparse.Namespace) -> int:
     code = history.validate_code(args.product)
+    if args.applications_only and (args.catalog or args.retry_quarantined):
+        raise StopRun(
+            "--applications-only uses prepared history; "
+            "apply catalog updates and quarantine retries during preparation"
+        )
     deadline = time.monotonic() + args.max_minutes * 60
     with locked(args.data_dir):
-        if args.catalog:
+        path = args.data_dir / f"{code}.json"
+        if args.applications_only:
+            if not path.exists():
+                raise StopRun(f"--applications-only requires prepared history for {code}")
+            state = history.load(path)
+        elif args.catalog:
             snapshot = json.loads(args.catalog.read_text(encoding="utf-8"))
             product, fetched_at = snapshot["product"], snapshot["fetched_at"]
         else:
@@ -105,15 +187,17 @@ def sync_command(args: argparse.Namespace) -> int:
             if not isinstance(products, list) or len(products) != 1 or products[0]["code"] != code:
                 raise StopRun(f"Expected exactly one {code} product")
             product, fetched_at = products[0], history.now()
-        path = args.data_dir / f"{code}.json"
-        state = history.load(path) if path.exists() else History(code, product["name"])
+        if not args.applications_only:
+            state = history.load(path) if path.exists() else History(code, product["name"])
         failures = 0
         try:
             if args.retry_quarantined:
                 count = history.retry_quarantined(state)
                 log(f"{code}: reset {count} quarantined records for an explicit retry")
-            sources = history.refresh_metadata(state, product, fetched_at)
-            history.save(state, args.data_dir)
+            sources = []
+            if not args.applications_only:
+                sources = history.refresh_metadata(state, product, fetched_at)
+                history.save(state, args.data_dir)
             if not args.catalog_only:
                 failures = history.collect(
                     state,
@@ -183,7 +267,7 @@ def parser() -> argparse.ArgumentParser:
         )
 
     discover = commands.add_parser(
-        "discover", help="Discover IDEs and prepare per-product API snapshots"
+        "discover", help="Discover IDEs and prepare per-product catalogs or histories"
     )
     paths(discover)
     retry_option(discover)
@@ -193,9 +277,16 @@ def parser() -> argparse.ArgumentParser:
     discover.add_argument(
         "--catalog-file", type=Path, help="Read a saved /products response instead of HTTP"
     )
-    discover.add_argument("--output-dir", type=Path, default=Path("catalog-snapshot"))
     discover.add_argument(
-        "--github-output", type=Path, help="Append matrix and has_work to this GitHub output file"
+        "--output-dir",
+        type=Path,
+        default=Path("catalog-snapshot"),
+        help="Catalog snapshots, or updated histories with --prepare",
+    )
+    discover.add_argument(
+        "--github-output",
+        type=Path,
+        help="Append matrix, has_work, and preparation has_updates to this GitHub output file",
     )
     modes = discover.add_mutually_exclusive_group()
     modes.add_argument(
@@ -206,11 +297,16 @@ def parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Skip unchanged IDEs with only completed or quarantined records",
     )
+    modes.add_argument(
+        "--prepare",
+        action="store_true",
+        help="Save metadata/checksum updates and queue only pending application hashes",
+    )
     discover.add_argument(
         "--max-minutes",
         type=positive_int,
         default=5,
-        help="Checksum preflight budget for --only-pending (default: 5); unverified IDEs stay queued",
+        help="Checksum budget for --only-pending or --prepare (default: 5)",
     )
     discover.set_defaults(run=discover_command)
 
@@ -227,6 +323,11 @@ def parser() -> argparse.ArgumentParser:
     modes = sync.add_mutually_exclusive_group()
     modes.add_argument("--catalog-only", action="store_true")
     modes.add_argument("--checksums-only", action="store_true")
+    modes.add_argument(
+        "--applications-only",
+        action="store_true",
+        help="Use prepared history without fetching the catalog or checksum sidecars",
+    )
     sync.add_argument(
         "--no-render", action="store_true", help="Leave rendering to the publication job"
     )

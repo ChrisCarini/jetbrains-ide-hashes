@@ -7,6 +7,7 @@ import json
 import re
 import urllib.parse
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from copy import deepcopy
 from dataclasses import asdict, dataclass, field, fields, replace
 from datetime import datetime, timezone
@@ -23,6 +24,7 @@ PLATFORMS = {
 }
 PRODUCT_CODE = re.compile(r"[A-Z][A-Z0-9]*")
 FAILURE_LIMIT = 5
+CHECKSUM_WORKERS = 8
 
 
 def now() -> str:
@@ -71,6 +73,10 @@ class Record:
         return not self.quarantined and bool(
             self.error or ((self.installer_url or self.installer_sha256) and not self.app_sha256)
         )
+
+    @property
+    def needs_application(self) -> bool:
+        return bool(self.installer_sha256) and not self.app_sha256 and not self.quarantined
 
     @property
     def status(self) -> str:
@@ -412,59 +418,75 @@ def refresh_checksums(
 ) -> tuple[int, bool]:
     """Return the failure count and whether every checksum source was checked."""
     failures = 0
-    cache: dict[str, bytes] = {}
+    budget_error = None
     url_builds: dict[str, set[str]] = defaultdict(set)
     for source in sources:
         if source.installer_url:
             url_builds[source.installer_url].add(source.build)
-    try:
-        for source in sources:
-            candidates = matching(history, source)
-            target = max(candidates, key=lambda row: (row.current, row.first_seen))
-            if source.error:
-                if target.quarantined:
+    urls = dict.fromkeys(
+        source.checksum_url
+        for source in sources
+        if source.checksum_url and not source.error and len(url_builds[source.installer_url]) == 1
+    )
+    if urls:
+        log(
+            f"{history.code}: checking {len(urls)} checksum URLs "
+            f"with up to {CHECKSUM_WORKERS} parallel requests"
+        )
+
+    def fetch(url: str) -> bytes:
+        transfer.check_deadline(deadline)
+        return transfer.fetch_bytes(url, deadline)
+
+    with ThreadPoolExecutor(max_workers=CHECKSUM_WORKERS) as executor:
+        requests = {url: executor.submit(fetch, url) for url in urls}
+        try:
+            for source in sources:
+                if not source.error and not source.checksum_url:
                     continue
-                transfer.check_deadline(deadline)
-                record_error(target, "metadata", source.error)
-                log(f"ERROR {history.code} {source.release_key()}: {source.error}")
-                failures += 1
+                candidates = matching(history, source)
+                target = max(candidates, key=lambda row: (row.current, row.first_seen))
+                if source.error and target.quarantined:
+                    continue
+                try:
+                    if source.error:
+                        transfer.check_deadline(deadline)
+                        raise ArtifactError(source.error)
+                    if len(url_builds[source.installer_url]) > 1:
+                        transfer.check_deadline(deadline)
+                        raise ArtifactError(
+                            "Installer URL is advertised for multiple builds; "
+                            "a checksum sidecar cannot establish which build it belongs to"
+                        )
+                    data = requests[source.checksum_url].result()
+                    digest = transfer.parse_checksum(data, source.installer_url)
+                    observe_checksum(history, source, digest, history.catalog_fetched_at)
+                except ArtifactError as exc:
+                    if target.quarantined:
+                        log(
+                            f"{history.code} {source.release_key()}: retaining quarantine; "
+                            f"checksum probe failed: {exc}"
+                        )
+                        continue
+                    record_error(target, "metadata" if source.error else "checksum", str(exc))
+                    failures += 1
+                    log(f"ERROR {history.code} {source.release_key()}: {exc}")
+                except BudgetReached as exc:
+                    if target.quarantined:
+                        log(
+                            f"{history.code} {source.release_key()}: retaining quarantine; "
+                            f"checksum probe deferred: {exc}"
+                        )
+                    else:
+                        budget_error = str(exc)
+                    continue
                 persist()
-                continue
-            if not source.checksum_url:
-                continue
-            try:
-                transfer.check_deadline(deadline)
-                if len(url_builds[source.installer_url]) > 1:
-                    raise ArtifactError(
-                        "Installer URL is advertised for multiple builds; "
-                        "a checksum sidecar cannot establish which build it belongs to"
-                    )
-                if source.checksum_url not in cache:
-                    cache[source.checksum_url] = transfer.fetch_bytes(source.checksum_url, deadline)
-                digest = transfer.parse_checksum(cache[source.checksum_url], source.installer_url)
-                observe_checksum(history, source, digest, history.catalog_fetched_at)
-            except ArtifactError as exc:
-                if target.quarantined:
-                    log(
-                        f"{history.code} {source.release_key()}: retaining quarantine; "
-                        f"checksum probe failed: {exc}"
-                    )
-                    continue
-                record_error(target, "checksum", str(exc))
-                failures += 1
-                log(f"ERROR {history.code} {source.release_key()}: {exc}")
-            except BudgetReached as exc:
-                if not target.quarantined:
-                    raise
-                log(
-                    f"{history.code} {source.release_key()}: retaining quarantine; "
-                    f"checksum probe deferred: {exc}"
-                )
-            persist()
-    except BudgetReached as exc:
-        log(f"{history.code}: {exc}; checksum refresh incomplete")
-        return failures, False
-    return failures, True
+        finally:
+            for request in requests.values():
+                request.cancel()
+    if budget_error is not None:
+        log(f"{history.code}: {budget_error}; checksum refresh incomplete")
+    return failures, budget_error is None
 
 
 def needs_sync(saved: History, product: dict, observed_at: str, deadline: float | None) -> bool:
@@ -480,6 +502,29 @@ def needs_sync(saved: History, product: dict, observed_at: str, deadline: float 
     checksum_sources = [source for source in sources if source.checksum_url]
     failures, complete = refresh_checksums(state, checksum_sources, lambda: None, deadline)
     return bool(failures) or not complete or state != replace(saved, catalog_fetched_at=observed_at)
+
+
+def reuse_application_hash(history: History, row: Record) -> bool:
+    cached = next(
+        (
+            previous
+            for previous in history.records
+            if previous.app_sha256
+            and previous.installer_sha256 == row.installer_sha256
+            and transfer.normalize_build(previous.build) == transfer.normalize_build(row.build)
+        ),
+        None,
+    )
+    if cached is None:
+        return False
+    row.app_sha256, row.app_path, row.app_build = (
+        cached.app_sha256,
+        cached.app_path,
+        cached.app_build,
+    )
+    row.app_bundle_id, row.app_version = cached.app_bundle_id, cached.app_version
+    clear_error(row)
+    return True
 
 
 def collect(
@@ -498,36 +543,14 @@ def collect(
             return failures
 
         work_dir.mkdir(parents=True, exist_ok=True)
-        pending = [
-            row
-            for row in history.records
-            if row.installer_sha256 and not row.app_sha256 and not row.quarantined
-        ]
+        pending = [row for row in history.records if row.needs_application]
         # New builds and never-attempted history precede retries, so one bad URL cannot starve backfill.
         pending.sort(key=lambda row: (row.release_date, row.build, row.platform), reverse=True)
         pending.sort(key=lambda row: (bool(row.last_attempt), row.last_attempt, not row.current))
         downloaded = 0
         for row in pending:
             transfer.check_deadline(deadline)
-            cached = next(
-                (
-                    previous
-                    for previous in history.records
-                    if previous.app_sha256
-                    and previous.installer_sha256 == row.installer_sha256
-                    and transfer.normalize_build(previous.build)
-                    == transfer.normalize_build(row.build)
-                ),
-                None,
-            )
-            if cached:
-                row.app_sha256, row.app_path, row.app_build = (
-                    cached.app_sha256,
-                    cached.app_path,
-                    cached.app_build,
-                )
-                row.app_bundle_id, row.app_version = cached.app_bundle_id, cached.app_version
-                clear_error(row)
+            if reuse_application_hash(history, row):
                 persist()
                 continue
             if downloaded >= max_installers:
