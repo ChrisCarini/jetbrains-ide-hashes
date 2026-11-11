@@ -1,6 +1,7 @@
 import json
 from copy import deepcopy
 from dataclasses import replace
+from threading import Barrier, Lock, get_ident
 
 import pytest
 
@@ -695,6 +696,83 @@ def test_checksum_budget_preserves_earlier_failures(tmp_path, product_factory, m
     restored = history.load(tmp_path / "IIU.json")
     assert history.coverage(restored)["errors"] == 1
     assert history.coverage(restored)["installer_hashes"] == 0
+
+
+def test_checksum_requests_are_parallel_bounded_and_deduplicated(product_factory, monkeypatch):
+    product = product_factory()
+    product["releases"] = [
+        product_factory(
+            build=f"123.456.{index}",
+            platforms=("mac", "macM1"),
+            url=f"https://download.jetbrains.com/idea/{index}.dmg",
+        )["releases"][0]
+        for index in range(history.CHECKSUM_WORKERS * 2)
+    ]
+    state = history.History("IIU", "IntelliJ IDEA")
+    sources = history.refresh_metadata(state, product, T1)
+    barrier, lock = Barrier(history.CHECKSUM_WORKERS), Lock()
+    active = peak = 0
+    fetched = []
+    caller = get_ident()
+    persisted = []
+
+    def fetch(url, deadline):
+        nonlocal active, peak
+        assert get_ident() != caller
+        with lock:
+            fetched.append(url)
+            active += 1
+            peak = max(peak, active)
+        barrier.wait(timeout=10)
+        with lock:
+            active -= 1
+        return SHA_A.encode()
+
+    def persist():
+        assert get_ident() == caller
+        persisted.append(history.coverage(state)["installer_hashes"])
+
+    monkeypatch.setattr(transfer, "fetch_bytes", fetch)
+
+    assert history.refresh_checksums(state, sources, persist, None) == (0, True)
+    assert peak == history.CHECKSUM_WORKERS
+    assert len(fetched) == len(set(fetched)) == history.CHECKSUM_WORKERS * 2
+    assert persisted == list(range(1, len(sources) + 1))
+
+
+def test_checksum_budget_keeps_other_completed_parallel_results(product_factory, monkeypatch):
+    product = product_factory()
+    product["releases"].extend(
+        product_factory(build="123.456.799", url="https://download.jetbrains.com/idea/second.dmg")[
+            "releases"
+        ]
+    )
+    state = history.History("IIU", "IntelliJ IDEA")
+    sources = history.refresh_metadata(state, product, T1)
+
+    def fetch(url, deadline):
+        if "second.dmg" not in url:
+            raise transfer.BudgetReached("Retry exceeds budget")
+        return SHA_B.encode()
+
+    monkeypatch.setattr(transfer, "fetch_bytes", fetch)
+
+    assert history.refresh_checksums(state, sources, lambda: None, None) == (0, False)
+    first, second = [row for row in state.records if row.installer_url]
+    assert not first.installer_sha256 and not first.error and first.consecutive_failures == 0
+    assert second.installer_sha256 == SHA_B
+
+
+def test_checksum_refresh_handles_disappearing_downloads(product_factory, monkeypatch):
+    state, old = observed(product_factory)
+    product = product_factory(platforms=())
+    sources = history.refresh_metadata(state, product, T2)
+    monkeypatch.setattr(
+        transfer, "fetch_bytes", lambda *args: pytest.fail("No advertised checksum URLs")
+    )
+
+    assert history.refresh_checksums(state, sources, lambda: None, None) == (0, True)
+    assert old.app_sha256 == APP_A and not old.current
 
 
 def test_shared_url_cannot_assign_new_checksum_to_two_different_builds(

@@ -13,5 +13,6 @@ dist/
 jetbrains-sha256-*/
 idea-hashes/
 catalog-snapshot/
+prepared-histories/
 incoming/
 data/.lock

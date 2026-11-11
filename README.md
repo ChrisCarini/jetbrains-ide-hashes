@@ -104,19 +104,27 @@ published checksums are upstream observations, not independent security endorsem
 [Update JetBrains IDE hashes](.github/workflows/update-hashes.yml) runs daily at
 **06:23 UTC**, and can also be started manually:
 
-1. An Ubuntu job compares the selected products, across every release channel, with
-   saved history. It snapshots only IDEs needing collection and logs why others are skipped.
-2. At most **two macOS jobs run concurrently**, each processing one queued IDE.
+1. An Ubuntu job refreshes metadata and checksum sidecars for the selected products,
+   across every release channel. It fetches up to **eight checksum URLs in parallel**,
+   deduplicates URLs within each product, and checkpoints updated histories.
+2. Only IDEs with pending application hashes and captured installer checksums enter
+   the macOS matrix. At most **two macOS jobs run concurrently**. They consume the
+   prepared histories without fetching the catalog or checksum sidecars again.
 3. Each IDE gets at most **10 installer download attempts** and **40 minutes** by
    default. Successful work is checkpointed after each artifact. New/never-attempted
    builds take priority over retries, so one broken URL cannot stall the backfill.
-4. Product checkpoints are uploaded even when individual artifacts fail. A final
-   Ubuntu job merges the successful progress into the latest default branch,
-   regenerates the Markdown, and commits only `data/` and `ides/`.
-   If no IDE needs work, artifact upload, collection, and publication are all skipped.
+4. Preparation and application checkpoints are uploaded even when individual
+   artifacts fail. A final Ubuntu job starts with the prepared histories, overlays
+   any application progress, merges into the latest default branch, regenerates the
+   Markdown, and commits only `data/` and `ides/`. Metadata/checksum-only changes
+   are published even when the entire macOS matrix is skipped. If there are no
+   history updates or pending application hashes, upload and publication are skipped too.
 
 Missing hashes (including historical backfill), retryable errors, and catalog changes
-keep an IDE queued. An unchanged record is **quarantined after five consecutive
+are handled during preparation; only application work requires macOS. Captured
+application hashes are reused on Ubuntu when the installer checksum and normalized
+build match, avoiding jobs that would only copy an existing hash.
+An unchanged record is **quarantined after five consecutive
 identical collection failures** (same stage and error), so permanently unavailable
 artifacts do not keep the matrix running forever. Quarantined rows still show their
 missing hashes and reasons; they are not considered successfully verified.
@@ -129,26 +137,29 @@ stage clears its counter, a different error starts at one, and changed installer
 metadata or checksums get a fresh allowance. Budget exhaustion, interruptions, and
 infrastructure/safety stops such as insufficient disk space do not count.
 
-Before skipping an otherwise-complete or quarantined IDE, discovery checks current
-checksum sidecars to detect repacked installers even when URLs and builds have not
-changed. This preflight has a shared **five-minute budget**. Unverified
-**non-quarantined** records still keep their IDE queued; unsuccessful or budget-limited
-probes of quarantined records do not. A recovered checksum can clear a checksum-stage
-quarantine; an unchanged checksum does not clear an application-stage quarantine.
-An unchanged catalog containing only completed/quarantined records produces an empty
-matrix when the non-quarantined checksum checks succeed. A newer catalog fetch
-timestamp alone does not count as work.
+Ubuntu preparation checks current checksum sidecars, including for complete and
+quarantined IDEs, to detect repacked installers even when URLs and builds have not
+changed. Requests share a **five-minute budget**; history updates are applied serially
+and checkpointed per product, including partial progress on interruption.
+If non-quarantined verification is unfinished, the product is explicitly deferred
+to the next Ubuntu preparation rather than sent to macOS. Successful parallel
+results are retained even if another request exhausts its budget.
+Unsuccessful or budget-limited probes of quarantined records do not unblock them.
+A recovered checksum can clear a checksum-stage quarantine; an unchanged checksum
+does not clear an application-stage quarantine. Completed/quarantined records alone
+never require a macOS job. A newer catalog fetch timestamp alone does not count as work.
 
 The generated [failure report](ides/COLLECTION_FAILURES.md) lists retrying and
 quarantined records with their product, version, API build, channel, platform,
 installer checksum, failure count, timestamp, and reason. Each product page also
-identifies quarantined records. The fifth failed attempt still fails that collection
-job and is published; subsequent discovery skips the exhausted work.
+identifies quarantined records. The fifth failed attempt still fails the preparation
+or application job and is published; subsequent runs skip the exhausted work.
 
-Queued IDEs still refresh their current checksum sidecars during collection.
-The download limit applies to full installers; reaching a time/download
-budget leaves explicit pending work for the next run. Actual collection failures
-remain visible as failed jobs and in the product's collection notes.
+Checksum and metadata failures fail the Ubuntu preparation job, but do not prevent
+other prepared products from collecting applications or publishing their progress.
+The download limit applies to full installers; reaching an application time/download
+budget leaves explicit pending work for the next run. Actual failures remain visible
+as failed jobs and in the product's collection notes.
 
 Manual runs accept an optional `product` input with a JetBrains IDE product code,
 such as `IIU` (IntelliJ IDEA), `PCP` (PyCharm), or `RD` (Rider). Find other codes in
@@ -171,8 +182,9 @@ enable the workflow's `retry_quarantined` input:
 gh workflow run update-hashes.yml -f product=AC -f retry_quarantined=true
 ```
 
-Captured hashes are preserved. Other products and failures below the quarantine
-threshold are not reset. No workflow input is needed for ordinary scheduled runs.
+Captured hashes are preserved. The reset happens once during Ubuntu preparation,
+not again on macOS. Other products and failures below the quarantine threshold are
+not reset. No workflow input is needed for ordinary scheduled runs.
 
 Installer downloads log their start, progress roughly every 10 seconds while data
 arrives (downloaded/total MiB, percentage, and average speed), and completion after
@@ -182,11 +194,11 @@ visible in GitHub Actions logs. Each retry starts its progress from zero.
 Only the publication job receives `contents: write`. Actions are pinned to commit
 SHAs, updates cannot overlap, and publication is restricted to the default branch.
 The branch must permit commits from `github-actions[bot]`; otherwise publication
-fails without force-pushing. Per-product artifacts remain available for 30 days
-for recovery:
+fails without force-pushing. Prepared histories and per-product application
+artifacts remain available for 30 days for recovery:
 
 ```bash
-# After downloading/extracting a run's hashes-* artifacts into incoming/:
+# Extract prepared-histories into incoming/, then overlay that run's hashes-* artifacts:
 python -m jetbrains_hashes merge --from-dir incoming
 ```
 
@@ -218,15 +230,30 @@ python -m jetbrains_hashes sync --product AC --retry-quarantined
 # Discover all IDEs and generate metadata-only tables without downloading installers.
 python -m jetbrains_hashes discover --seed
 
-# Prepare workflow snapshots for one IDE, including every release channel.
+# Prepare catalog-only snapshots for one IDE, including every release channel.
 python -m jetbrains_hashes discover --product PCP
 
-# Skip IDEs with unchanged metadata and complete hashes after checksum verification.
+# Plan full sync jobs without saving checksum observations (legacy catalog-only mode).
 python -m jetbrains_hashes discover --only-pending --max-minutes 5
+
+# Prepare updated histories on Linux and print the application-only matrix.
+python -m jetbrains_hashes discover --prepare --output-dir prepared-histories --max-minutes 5
+
+# On macOS, collect for a product listed in that matrix without repeating preparation.
+python -m jetbrains_hashes sync --product PCP --applications-only \
+  --data-dir prepared-histories --no-render
 
 # Rebuild Markdown deterministically from the saved history; no network access.
 python -m jetbrains_hashes render
 ```
+
+`discover --prepare` requires a separate output directory without existing JSON
+files and leaves `data/` unchanged. Its `--github-output` file distinguishes
+`has_work` (application jobs) from `has_updates` (histories to publish).
+Use `merge --from-dir prepared-histories` to publish those histories locally.
+`sync --applications-only` requires an existing prepared history and does not accept
+`--catalog` or `--retry-quarantined`; apply those changes during preparation instead.
+Ordinary `sync` still performs both preparation and application collection locally.
 
 `jetbrains_sha256.py` is an alternative entry point for these same subcommands.
 The original release-only `idea-hashes/` output can be imported without losing the
