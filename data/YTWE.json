@@ -20,11 +20,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-11T04:15:49.313139+00:00",
+      "last_attempt": "2026-11-11T14:52:54.280450+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 3,
-      "failure_updated_at": "2026-11-11T04:15:51.913677+00:00"
+      "consecutive_failures": 4,
+      "failure_updated_at": "2026-11-11T14:52:56.345800+00:00"
     },
     {
       "version": "6.0",
@@ -50,7 +50,7 @@
       "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-11T04:10:00.750870+00:00",
+  "catalog_fetched_at": "2026-11-11T14:32:18.070381+00:00",
   "catalog_release_count": 1,
   "ignored_download_types": [
     "linux",

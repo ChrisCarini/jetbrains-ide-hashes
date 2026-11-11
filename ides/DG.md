@@ -428,6 +428,6 @@ Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleS
 
 ### Collection errors
 
-- 2025.3.5.1 / 253.31033.213 / `macM1` (application; 3/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
-- 2025.3.5.1 / 253.31033.213 / `mac` (application; 3/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
-- 2016.3.1 / 163.9735.5 / `mac` (application; 3/5 identical failures): Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build
+- 2025.3.5.1 / 253.31033.213 / `macM1` (application; 4/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
+- 2025.3.5.1 / 253.31033.213 / `mac` (application; 4/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
+- 2016.3.1 / 163.9735.5 / `mac` (application; 4/5 identical failures): Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build

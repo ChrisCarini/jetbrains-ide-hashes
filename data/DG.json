@@ -802,11 +802,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-11T04:14:44.562632+00:00",
+      "last_attempt": "2026-11-11T14:34:41.650500+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build",
-      "consecutive_failures": 3,
-      "failure_updated_at": "2026-11-11T04:14:55.255834+00:00"
+      "consecutive_failures": 4,
+      "failure_updated_at": "2026-11-11T14:34:47.463788+00:00"
     },
     {
       "version": "2016.3.1",
@@ -9588,11 +9588,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-11T04:14:03.147451+00:00",
+      "last_attempt": "2026-11-11T14:34:29.045760+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build",
-      "consecutive_failures": 3,
-      "failure_updated_at": "2026-11-11T04:14:44.548710+00:00"
+      "consecutive_failures": 4,
+      "failure_updated_at": "2026-11-11T14:34:41.637834+00:00"
     },
     {
       "version": "2025.3.5.1",
@@ -9611,11 +9611,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-11T04:13:19.895137+00:00",
+      "last_attempt": "2026-11-11T14:34:15.329880+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build",
-      "consecutive_failures": 3,
-      "failure_updated_at": "2026-11-11T04:14:03.135966+00:00"
+      "consecutive_failures": 4,
+      "failure_updated_at": "2026-11-11T14:34:29.006345+00:00"
     },
     {
       "version": "2025.3.6",
@@ -10952,7 +10952,7 @@
       "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-11T04:10:00.750870+00:00",
+  "catalog_fetched_at": "2026-11-11T14:32:18.070381+00:00",
   "catalog_release_count": 238,
   "ignored_download_types": [
     "linux",
