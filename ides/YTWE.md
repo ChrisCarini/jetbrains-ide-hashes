@@ -21,4 +21,4 @@ Rows are sorted by version, build version, and installer type, descending, with 
 
 ### Collection errors
 
-- 6.0 / 3385 / `mac` (application; 2/5 identical failures): Invalid application metadata: Invalid file
+- 6.0 / 3385 / `mac` (application; 3/5 identical failures): Invalid application metadata: Invalid file

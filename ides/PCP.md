@@ -738,4 +738,4 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 
 ### Collection errors
 
-- 1.5.4 / 107.756 / `mac` (application; 2/5 identical failures): Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build
+- 1.5.4 / 107.756 / `mac` (application; 3/5 identical failures): Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build

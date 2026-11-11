@@ -388,22 +388,22 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 ### Collection errors
 
 - 2026.2-RC2 / 262.11879.672 / `macM1` (application; 1/5 identical failures): Invalid application metadata: Invalid file
-- 2026.2-RC1 / 262.10968.569 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
+- 2026.2-RC1 / 262.10968.569 / `macM1` (application; 1/5 identical failures): Invalid application metadata: Invalid file
 - 2026.2-EAP1 / 262.9437.166 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2026.2 / 262.11879.701 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2026.1.2 / 261.27258.1085 / `macM1` (application; 1/5 identical failures): Invalid application metadata: Invalid file
 - 2026.1.2 / 261.27258.1085 / `mac` (application; 1/5 identical failures): Invalid application metadata: Invalid file
-- 2026.1.1 / 261.25134.877 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
-- 2026.1.1 / 261.25134.877 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
+- 2026.1.1 / 261.25134.877 / `macM1` (application; 1/5 identical failures): Invalid application metadata: Invalid file
+- 2026.1.1 / 261.25134.877 / `mac` (application; 1/5 identical failures): Invalid application metadata: Invalid file
 - 2026.1-RC1 / 261.24374.603 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2026.1-RC1 / 261.24374.603 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2026.1-EAP1 / 261.23567.257 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2026.1-EAP1 / 261.23567.257 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2026.1 / 261.25134.779 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2026.1 / 261.25134.779 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
-- 2025.3.3 / 253.33813.547 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
-- 2025.3.3 / 253.33813.547 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
-- 2025.3.2 / 253.29346.541 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
+- 2025.3.3 / 253.33813.547 / `macM1` (application; 1/5 identical failures): Invalid application metadata: Invalid file
+- 2025.3.3 / 253.33813.547 / `mac` (application; 1/5 identical failures): Invalid application metadata: Invalid file
+- 2025.3.2 / 253.29346.541 / `macM1` (application; 1/5 identical failures): Invalid application metadata: Invalid file
 - 2025.3.2 / 253.29346.541 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.3.1 / 253.29346.537 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.3.1 / 253.29346.537 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
@@ -415,8 +415,8 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 - 2025.3-EAP1 / 253.27864.84 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.3 / 253.28294.432 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.3 / 253.28294.432 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
-- 2025.2.5 / 252.28539.674 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
-- 2025.2.5 / 252.28539.674 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
+- 2025.2.5 / 252.28539.674 / `macM1` (application; 1/5 identical failures): Invalid application metadata: Invalid file
+- 2025.2.5 / 252.28539.674 / `mac` (application; 1/5 identical failures): Invalid application metadata: Invalid file
 - 2025.2.4 / 252.28539.667 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.2.4 / 252.28539.667 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.2.3 / 252.28539.662 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
@@ -433,8 +433,8 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 - 2025.2-EAP1 / 252.18003.138 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.2 / 252.23892.529 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.2 / 252.23892.529 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
-- 2025.1.5 / 251.29188.797 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
-- 2025.1.5 / 251.29188.797 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
+- 2025.1.5 / 251.29188.797 / `macM1` (application; 1/5 identical failures): Invalid application metadata: Invalid file
+- 2025.1.5 / 251.29188.797 / `mac` (application; 1/5 identical failures): Invalid application metadata: Invalid file
 - 2025.1.4 / 251.28774.766 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.1.4 / 251.28774.766 / `mac` (application; 0/5 identical failures): Invalid application metadata: Invalid file
 - 2025.1.3 / 251.28774.742 / `macM1` (application; 0/5 identical failures): Invalid application metadata: Invalid file

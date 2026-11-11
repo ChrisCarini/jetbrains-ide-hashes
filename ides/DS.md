@@ -262,5 +262,5 @@ Rows are sorted by version, build version, and installer type, descending, with 
 
 ### Collection errors
 
-- 2025.2.4 / 252.28539.109 / `macM1` (application; 2/5 identical failures): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build
-- 2025.2.4 / 252.28539.109 / `mac` (application; 2/5 identical failures): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build
+- 2025.2.4 / 252.28539.109 / `macM1` (application; 3/5 identical failures): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build
+- 2025.2.4 / 252.28539.109 / `mac` (application; 3/5 identical failures): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build

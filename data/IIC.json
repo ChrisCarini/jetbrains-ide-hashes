@@ -112,11 +112,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-10T20:52:17.873496+00:00",
+      "last_attempt": "2026-11-11T04:14:50.515912+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: unexpected key at line 10",
-      "consecutive_failures": 2,
-      "failure_updated_at": "2026-11-10T20:52:21.824739+00:00"
+      "consecutive_failures": 3,
+      "failure_updated_at": "2026-11-11T04:14:53.125140+00:00"
     },
     {
       "version": "11.0.2",
@@ -18128,7 +18128,7 @@
       "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-10T20:41:17.462045+00:00",
+  "catalog_fetched_at": "2026-11-11T04:10:00.750870+00:00",
   "catalog_release_count": 394,
   "ignored_download_types": [
     "linux",
