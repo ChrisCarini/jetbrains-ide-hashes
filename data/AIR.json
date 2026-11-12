@@ -16,11 +16,15 @@
       "app_sha256": "a2656ec0ab6be061060732c2f704a580a5927026dc717b237a6ccfe873649b91",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.180.33",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:07:15.342880+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.180",
@@ -35,11 +39,15 @@
       "app_sha256": "735935b2363d012ee14e8e4763946c239af46cc8fc3b71d5021e301db953e488",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.180.33",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:07:07.452704+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.180",
@@ -54,11 +62,15 @@
       "app_sha256": "ccdf31fd4b551bd93859cd65624ea811da81e38ec1abc65249a18fa96f5ebb98",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.180.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:06:59.531497+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.180",
@@ -73,11 +85,15 @@
       "app_sha256": "0c2496ae08c83b8617b8a885cd8e1f7a54c8a4db8a641e9e12fbf1a410a16e67",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.180.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:06:48.453341+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.232",
@@ -92,11 +108,15 @@
       "app_sha256": "cb511d070441ba090aee085f002f218804251c2b9e3db113f8f0d2f04c5df024",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.232.19",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:06:39.484603+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.232",
@@ -111,11 +131,15 @@
       "app_sha256": "9aaab26c7704124f9aee0da601a6e0260770edcda040e85914208e01032a4975",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.232.19",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:06:31.443574+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.232",
@@ -130,11 +154,15 @@
       "app_sha256": "56b24495c9d81ded5695f502daabc4d5a1635037bb36d0ee8cd80e3d328c284e",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.232.22",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:06:22.380168+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.232",
@@ -149,11 +177,15 @@
       "app_sha256": "b0cf461db0570620d8e2a63bf2b13897a6056dc0a9490c74900a45915a66b05d",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.232.22",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:06:13.275409+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.232",
@@ -168,11 +200,15 @@
       "app_sha256": "0c5882a05c892e7103609ca961b20a2a37e9a6fb9534b0d0c0d8f45f1356c706",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.232.26",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:06:04.419142+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.232",
@@ -187,11 +223,15 @@
       "app_sha256": "e0df5dcb422bf1713619a5acee76796f4ace933ba1a5fe5b25b479dded2b7a57",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.232.26",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:05:55.634910+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.232",
@@ -206,11 +246,15 @@
       "app_sha256": "f2aebf40e72adba36919756ca2975a9bb5be75fa351176aa7e6691dffaad5f23",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.232.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:05:45.386699+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.232",
@@ -225,11 +269,15 @@
       "app_sha256": "b0c558515960a61366c0df367e9a2349ab3b5e524f03f3cf07ac0ea36ef35bee",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.232.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:05:36.512088+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -244,11 +292,15 @@
       "app_sha256": "ee59877d534b5e369432fb065b505a9d970c2f82d072bb2df0f37b06bc269d73",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:05:25.368780+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -263,11 +315,15 @@
       "app_sha256": "d687e76200db4752bac99d5b85124b69e387fd2622e7d0323f392d5ff7a500d7",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:05:16.244106+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -282,11 +338,15 @@
       "app_sha256": "0329facb91c9366a32241fb264d077d49c8e074459fc0afa2066c642fcfb31a5",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.36",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:05:07.417194+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -301,11 +361,15 @@
       "app_sha256": "9f5d729145a50b4de5798f7dda963e85a3a99c9528307b72c94933736714dc61",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.36",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:04:55.359305+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -320,11 +384,15 @@
       "app_sha256": "d9fab532f0a48fed54d03fe7237f00305719c4aca2870833b292c359cb3017a4",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.41",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:04:45.484170+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -339,11 +407,15 @@
       "app_sha256": "33c1e101d63d252fc8fadf6f9740d5689285c255572b9eb81febe1988f32c2d5",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.41",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:04:33.626864+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -358,11 +430,15 @@
       "app_sha256": "c3e77e4d00d56140f3176fcb463dff909d8806a2709e83aabdd5c8d5f5802967",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:04:23.636551+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -377,11 +453,15 @@
       "app_sha256": "3c7c2b15001710bb61633e27de59646c6d3f4003f94a9fb38af5f55d9e404930",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:04:04.447559+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -396,11 +476,15 @@
       "app_sha256": "05d0ee218404991979e405eefa86220bd7abeca0cc47898c40a248003568f295",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.47",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:03:52.542066+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.311",
@@ -415,11 +499,15 @@
       "app_sha256": "044a778b675d1920db661b0332df93dc26f1a9b6c9056c928157109867b4fdc9",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.311.47",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:03:42.355851+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.398",
@@ -434,11 +522,15 @@
       "app_sha256": "5d7062639eb4a659fab508ef7c67fa2a2c1cdb946bd6f2deaf869cbb28450951",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.398.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:03:31.423638+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.398",
@@ -453,11 +545,15 @@
       "app_sha256": "2d94ba300654dde9d351b6c12907c63f481773c4fdd9be9097f4c149e3b34bc3",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.398.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:03:18.454991+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.398",
@@ -472,11 +568,15 @@
       "app_sha256": "61c8a4477b2c0a3ca2bbe109b9d317393173ac52de53754f6bf5246a6f6b6bc1",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.398.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:02:59.541591+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.398",
@@ -491,11 +591,15 @@
       "app_sha256": "45fe5fe6d2a514e3b529844fd19013742e85f5853a669ce08ba803fc0b975321",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.398.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:02:49.334978+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.474",
@@ -510,11 +614,15 @@
       "app_sha256": "615fef58dd57fcad3593ecf143ba36d73e12bb5af49d62cc7e84c0739d016cc5",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.474.19",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:02:40.305565+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.474",
@@ -529,11 +637,15 @@
       "app_sha256": "6343cfe990ecf66557ff734e11443a74c570a1b0afc9e558dbdacab23f7e158f",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.474.19",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:02:31.283268+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.474",
@@ -548,11 +660,15 @@
       "app_sha256": "57342f296338279f52388c36aefd2269d19d8a0fc81394e9d61af9a7a788739e",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.474.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:02:22.267461+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.474",
@@ -567,11 +683,15 @@
       "app_sha256": "c914d80f65162924f95c7fee40024a68d07374f8fb339627415382ce08fae66e",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.474.25",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:02:12.328572+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.584",
@@ -586,11 +706,15 @@
       "app_sha256": "7f4645dc24552a2db2cafd58b3f381b43a3a0ec31a30ff082882453eb5b5e919",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.584.13",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:02:02.227382+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.584",
@@ -605,11 +729,15 @@
       "app_sha256": "6b2e2ac4122b36003e63e8c820c0e4b262fef8654914695a56c6927252a69701",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.584.13",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:56.304459+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.63",
@@ -624,11 +752,15 @@
       "app_sha256": "f897480236722dd6257e3c1d7bae37ad0c1adab6bd360017677f7507e03c6599",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.63.28",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:07:50.655378+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.63",
@@ -643,11 +775,15 @@
       "app_sha256": "07b6f43f55a7707f2bb20c701a558cdda307806e2a52bee919855cd669010369",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.63.28",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:07:39.156467+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.63",
@@ -662,11 +798,15 @@
       "app_sha256": "604f18d888b647607b91d37a8552d72a507f685a08eea2787db3a176a23ecb50",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.63.35",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:07:31.388111+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.63",
@@ -681,11 +821,15 @@
       "app_sha256": "00ea2154e3112c7c41ab8ea799abafb86e792d67a52d55ded515c66c33eed149",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.63.35",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:07:23.632621+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.681",
@@ -700,11 +844,15 @@
       "app_sha256": "94b4752f4a240be4bfd74f664878bb25d4a73496f54f539745999cf5dd0ed4ea",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.681.18",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:50.295834+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "261.681",
@@ -719,11 +867,15 @@
       "app_sha256": "d0621e8cadb038149c8fa4f225614dbdabf3a856ff72629384b2dd7f21c97751",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "261.681.18",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:43.288021+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.1037",
@@ -738,11 +890,15 @@
       "app_sha256": "30462921c78cd5ab3f70e2ecdf328b377757240e65e791fd9ddf35dc9ab48c81",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.1037.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:56:37.510744+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.1037",
@@ -757,11 +913,15 @@
       "app_sha256": "e9d85d89362c342927b40afb46dd7043c6008a7948734c0b0c263e6e6c71374d",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.1037.14",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T01:55:14.305751+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.1037",
@@ -776,11 +936,15 @@
       "app_sha256": "91cadb6675c1e68d52217c459da2f46ea3c1a39cb722906277f3d6152d061383",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.1037.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:56:59.302950+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.1037",
@@ -795,11 +959,61 @@
       "app_sha256": "3fa8c0949ecb07f432f213688c1c62dc33c243a56dfa0e51921bff3e7fe69ec4",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.1037.6",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:56:48.041309+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
+    },
+    {
+      "version": "262.1102",
+      "build": "262.1102.13",
+      "release_type": "preview",
+      "release_date": "2026-11-11",
+      "platform": "macos_aarch64",
+      "installer_url": "https://download.jetbrains.com/air/installers/macos_aarch64/Air-262.1102.13-aarch64.dmg",
+      "checksum_url": "https://download.jetbrains.com/air/installers/macos_aarch64/Air-262.1102.13-aarch64.dmg.sha256",
+      "size_bytes": 304877724,
+      "installer_sha256": "ac9e4a3d56dd1f6d58aaa7aa4348dad265e926549967e4dd48ed1eed54cc108f",
+      "app_sha256": "",
+      "app_path": "",
+      "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
+      "first_seen": "2026-11-12T15:25:29.893935+00:00",
+      "current": true,
+      "last_attempt": "",
+      "error_stage": "",
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
+    },
+    {
+      "version": "262.1102",
+      "build": "262.1102.13",
+      "release_type": "preview",
+      "release_date": "2026-11-11",
+      "platform": "macos_x64",
+      "installer_url": "https://download.jetbrains.com/air/installers/macos_x64/Air-262.1102.13.dmg",
+      "checksum_url": "https://download.jetbrains.com/air/installers/macos_x64/Air-262.1102.13.dmg.sha256",
+      "size_bytes": 394280618,
+      "installer_sha256": "a85fd48e5c5bd01678e94d94ff7aab5b5bfc0051ff525414b430c91a9893311e",
+      "app_sha256": "",
+      "app_path": "",
+      "app_build": "",
+      "app_bundle_id": "",
+      "app_version": "",
+      "first_seen": "2026-11-12T15:25:29.893935+00:00",
+      "current": true,
+      "last_attempt": "",
+      "error_stage": "",
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -814,11 +1028,15 @@
       "app_sha256": "20587c7fec2f9e138bcdf5affed24bdcb5e11d207ea44ee2991896cf926ec560",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.21",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:00:48.019711+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -833,11 +1051,15 @@
       "app_sha256": "8f8437c731171e4465f193e50d09fc9886e3fe0ced46b7d6e5ab8f452f71f3d3",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.21",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:00:38.630879+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -852,11 +1074,15 @@
       "app_sha256": "439b798bfb8c85188c87c8abf8e345f7236ab1541f3190d051070a20520302bc",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:00:30.514065+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -871,11 +1097,15 @@
       "app_sha256": "85b84a1b5baeb18d61b1518d0c029f17b49c37e2fdda1917e94bcd10a46e206b",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.29",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:00:22.227197+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -890,11 +1120,15 @@
       "app_sha256": "30974aaae7ad10db01b679426762ba09249454da2c168a5951ccd7adb844afbf",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.31",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:00:15.250079+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -909,11 +1143,15 @@
       "app_sha256": "0180d1f2797f56b4a60ec845e0c4516919da9daefa5a20b1aaa4c857847072ad",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.31",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:00:10.252242+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -928,11 +1166,15 @@
       "app_sha256": "71a53a8f8a2dca29300f6e0a2729dbdb71d2a986c94e0f4b735760ae707ff592",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:00:04.347181+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -947,11 +1189,15 @@
       "app_sha256": "e60b0de0a735f48fdd09d5446a7ad08e52b75668252bfe3a21f26048063f0c8c",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.34",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T19:59:58.860867+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -966,11 +1212,15 @@
       "app_sha256": "dfdfa18db22e7f92922bb2d573ab0c7c9f447aaca1d87cb35aa3a01dcd808181",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.35",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T19:59:52.352341+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.132",
@@ -985,11 +1235,15 @@
       "app_sha256": "90d079c6d7448b86ccbf67e4a0a01779783b1cd74c3c1752c9dab3d3436dca57",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.132.35",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:48:35.345993+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.43",
@@ -1004,11 +1258,15 @@
       "app_sha256": "c83c94ec30793464bd34f1b2e83ed84b9d2cf278aed03ba8d4337e667fe7d927",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.43.15",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:36.294405+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.43",
@@ -1023,11 +1281,15 @@
       "app_sha256": "c74cd770bd4382e6eb419d2850839ae868a9616a338e9416f9e0904d49ff1085",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.43.15",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:30.261255+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.43",
@@ -1042,11 +1304,15 @@
       "app_sha256": "fbd0bbea31ee8298e2f8f01a7787037c55d5922743b7bbcac48f1beef79c079d",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.43.17",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:25.345899+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.43",
@@ -1061,11 +1327,15 @@
       "app_sha256": "4436279489f70ca823bd2a30e5dc976dd88704df52f7f67abe77adf6cddba70a",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.43.17",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:18.234252+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.43",
@@ -1080,11 +1350,15 @@
       "app_sha256": "33e5639fc5b42556a95467e7d6503cea44d09a43cd5cada47a01566da9d40c06",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.43.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:12.167113+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.43",
@@ -1099,11 +1373,15 @@
       "app_sha256": "66b4960709bc0ce02ee6813f0c8b49fb0d1b691c517634af5054d616869eb1d7",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.43.30",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:06.963877+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.43",
@@ -1118,11 +1396,15 @@
       "app_sha256": "c739fd8e128f62edd73988d5fd89d9760e496885a1bf32778c89f8c0cb94ff99",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.43.32",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:01:01.396130+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.43",
@@ -1137,11 +1419,15 @@
       "app_sha256": "ce1a8744c01d3e6f05d7eaaab4a7f2e44fb457a381e4b6ee98b4474432b742c0",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.43.32",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T20:00:53.311952+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.579",
@@ -1156,11 +1442,15 @@
       "app_sha256": "63e024c2addc364aae48d773b61bc4ac0f5bb5cb476a08291e3cd711ea209422",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.579.35",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:48:21.491160+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.579",
@@ -1175,11 +1465,15 @@
       "app_sha256": "92bb05cecc79f33dae9d1491ea175b94f7eef8f87414d4e1ec00bb1286b5eaed",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.579.35",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:48:06.467137+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.579",
@@ -1194,11 +1488,15 @@
       "app_sha256": "19ffbbd9cf977a9067c7537d8c33d66f6a85282abe434df763f8a7ef6c7324b9",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.579.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:47:54.336533+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.579",
@@ -1213,11 +1511,15 @@
       "app_sha256": "75210c96d94f20799abd73e97281afdc7cb9015acae52ea7bcf8401d39b2f29a",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.579.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:47:39.535352+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1232,11 +1534,15 @@
       "app_sha256": "50aaf6bb8a0bb53c4bbac6985d5252f6572412b99fc2d31871a766f13f48a0ee",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.41",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:47:25.522343+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1251,11 +1557,15 @@
       "app_sha256": "83bc7cd03aa523e9d114c380687397f939899407d690a0035d3515d06a26397f",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.41",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:47:11.535174+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1270,11 +1580,15 @@
       "app_sha256": "3c6f3796c98932d0f6d8519b7b6551e30636b8b767617c9343b05ff8b7707ba4",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:46:57.433217+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1289,11 +1603,15 @@
       "app_sha256": "cffd000eee50b66fe5a13d973c75979e05f88a5a75d6fb8cc6c5731c03764d7c",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.44",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:46:42.818680+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1308,11 +1626,15 @@
       "app_sha256": "8e58ee067ed59fa049843c2ed2e1aeee2c587fe8fe75800018636fe0e438c977",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.50",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-05T14:46:28.028886+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1327,11 +1649,15 @@
       "app_sha256": "eb618a95b678ac95e757ba165f04f6dc22a6bf50a4c5c42ddd611207eac42320",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.50",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:58:14.240053+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1346,11 +1672,15 @@
       "app_sha256": "3fd77e7b711f8251cc1863843e6872d0fce568922dd7dbc496f94f2756c56e95",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.55",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:58:05.352080+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1365,11 +1695,15 @@
       "app_sha256": "72351bcaf0144a9c0e91332e46d0b6fbe0d002ecaaebc091edd6c11a887e69d6",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.55",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:57:55.198885+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1384,11 +1718,15 @@
       "app_sha256": "50298d5244eb6d99217328a36f02d9f56023c34e7290c2bda5ef684e6796cb4c",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.57",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:57:45.369597+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1403,11 +1741,15 @@
       "app_sha256": "95ebd947ff536ab0af909863a11770c6440fb4bbcdcb99a76e402670e74f4c7c",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.57",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:57:32.316000+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1422,11 +1764,15 @@
       "app_sha256": "6b3c21cdb04a1d16b85d2e9233bd2c1c1748ba2f0259d10f9ac12d3a7627cb1f",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.70",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:57:21.614759+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     },
     {
       "version": "262.834",
@@ -1441,15 +1787,19 @@
       "app_sha256": "b585b5b3b7cf2827752962ec14020b2eab190d28db34ca79683430066b5e4e98",
       "app_path": "Air.app/Contents/MacOS/Air",
       "app_build": "262.834.70",
+      "app_bundle_id": "",
+      "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
       "last_attempt": "2026-11-04T13:57:09.247476+00:00",
       "error_stage": "",
-      "error": ""
+      "error": "",
+      "consecutive_failures": 0,
+      "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-08T13:36:47.934413+00:00",
-  "catalog_release_count": 38,
+  "catalog_fetched_at": "2026-11-12T15:25:29.893935+00:00",
+  "catalog_release_count": 39,
   "ignored_download_types": [
     "linux_aarch64",
     "linux_x64",

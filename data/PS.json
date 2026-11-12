@@ -2826,11 +2826,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-11T14:51:24.455135+00:00",
+      "last_attempt": "2026-11-12T15:58:35.646026+00:00",
       "error_stage": "application",
       "error": "Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced.",
-      "consecutive_failures": 4,
-      "failure_updated_at": "2026-11-11T14:51:26.664559+00:00"
+      "consecutive_failures": 5,
+      "failure_updated_at": "2026-11-12T15:58:43.937222+00:00"
     },
     {
       "version": "2018.3.6",
@@ -17914,11 +17914,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-11T14:51:21.366517+00:00",
+      "last_attempt": "2026-11-12T15:58:31.231474+00:00",
       "error_stage": "application",
       "error": "Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build",
-      "consecutive_failures": 4,
-      "failure_updated_at": "2026-11-11T14:51:24.438909+00:00"
+      "consecutive_failures": 5,
+      "failure_updated_at": "2026-11-12T15:58:35.621840+00:00"
     },
     {
       "version": "3.0.3",
@@ -19324,7 +19324,7 @@
       "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-11T14:32:18.070381+00:00",
+  "catalog_fetched_at": "2026-11-12T15:25:29.893935+00:00",
   "catalog_release_count": 420,
   "ignored_download_types": [
     "linux",

@@ -287,7 +287,7 @@
 | 2019.1.2 | 191.7141.52 | `mac` | `d8921d99363b706f485ca656cb70e3ae55e3759a7e3fd1e88095ec7a914edddb` | `84335f95d234c95c1d287f15d4fcb9e3284ca66a8f0ffc906fd780ad947a277d` | 2019-05-08 |
 | 2019.1.1 | 191.6707.66 | `mac` | `e0f699ae791d02129b31a87dfa14e12b26888cac849bbc65ad6d0ac917e33356` | `4cffbd90fd97f2e143dc42b84223ad16bdfbd63022725e3b939b013407dcb746` | 2019-04-17 |
 | 2019.1 | 191.6183.95 | `mac` | `858d7f87787f53822406acba75fc655f78f2e03b7b54405e65ab2538244ddf21` | `8564abe4f4718050892d6f50eb3d01b4911bfd1c3ae48bdfcfd37e6d6b876e94` | 2019-03-28 |
-| 2018.3.6 | 183.6156.29 | `mac` | `00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c` | Unavailable (see collection notes) | 2019-04-11 |
+| 2018.3.6 | 183.6156.29 | `mac` | `00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c` | Quarantined (see collection notes) | 2019-04-11 |
 | 2018.3.5 | 183.5912.26 | `mac` | `00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c` | `805ad02d01aba6877e8d0a760e78f66248ffbc55f47d5b9f2f9ff388bd3418c0` | 2019-03-07 |
 | 2018.3.4 | 183.5429.47 | `mac` | `71626736b46a692e118919c68edc1fcf2326ee1ff5ed8772ddcbe16b36f99b36` | `ebbda7640e14b03ae03726f9d8d022ae345a2a4d35fbce06d0ca1131587fce10` | 2019-02-08 |
 | 2018.3.3 | 183.5153.36 | `mac` | `ceb7c730632eae6c76dc3fcf577c8d08dbbd790ebd334694814370ecdc32fe78` | `417e8d2d77f9a5bb028ec478322d0f5254132224641de3b6be0204fa57972174` | 2019-01-09 |
@@ -333,7 +333,7 @@
 | 6.0.4 | 129.1560 | `mac` | `ed39dc16ac8e46087c7de2aa743c91f958bf10084698a796f0689bc23579678d` | `80c9da4ca6aa84f2dafc925cc08cb277345e35e379e80f6a77205520e8ca31b2` | 2016-05-11 |
 | 5.0.4 | 121.390 | `mac` | `825c03920212408b37da5c001517ae44037036d6a69be738eacf5d14e7cea80a` | `b22a05786db0972aa9f7ce82a15f4216acbd791d4b66d99209c8fd39641e7d8a` | 2012-11-02 |
 | 4.0.3 | 117.746 | `mac` | `095e562e7cf1ae3a141d89580296c65d805368e27bcf51da86151530b1330a89` | `050c4d380b7af93aedc1d270589f6b619eff27659e57a275f5054fe1779057d7` | 2012-07-13 |
-| 3.0.3 | 111.271 | `mac` | `088da95aec3d05722da182cdf7379becfc4f01dc843e84181d4ca8d0a0e93581` | Unavailable (see collection notes) | 2012-02-28 |
+| 3.0.3 | 111.271 | `mac` | `088da95aec3d05722da182cdf7379becfc4f01dc843e84181d4ca8d0a0e93581` | Quarantined (see collection notes) | 2012-02-28 |
 | 2.1.5 | 107.658 | `mac` | `d9b64bef6c66d33ae0e7df7aa84c45cff10e207561d5ed9f14f4e48b3927916b` | `24834d19f97889ed3515da49f2af21c7b6907226e86729e925aa3639b02a6b0a` | 2011-09-16 |
 
 ## EAP, RC, preview, and other non-release builds
@@ -685,7 +685,7 @@
 
 Product: **PhpStorm** (`PS`). [Machine-readable history](../data/PS.json).
 
-Installer hashes: **675/675**; application hashes: **673/675**; not advertised: **165**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **675/675**; application hashes: **673/675**; not advertised: **165**; quarantined: **2**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -758,7 +758,11 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 | 2.1.4 | 107.592 | release | 2011-03-14 |
 | 1.0.2 | 95.503 | release | 2010-08-08 |
 
-### Collection errors
+### Quarantined after repeated failures
 
-- 2018.3.6 / 183.6156.29 / `mac` (application; 4/5 identical failures): Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced.
-- 3.0.3 / 111.271 / `mac` (application; 4/5 identical failures): Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build
+These records are excluded from automatic collection until their inputs change or an explicit retry is requested. Missing hashes are not treated as verified.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2018.3.6 | 183.6156.29 | release | `mac` | `00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c` | Quarantined | 5/5 | 2026-11-12T15:58:43.937222+00:00 | application: Installer SHA-256 mismatch: expected 00764bd3f9fcb2694c3691292f4d323c3575e9057b33cd17cd36c532dc43a27c, got b2bfc36b835840f7cfec1071ad83da31dd6a199319425eb554808d2aa4ed02cc. The historical URL may have been replaced. |
+| 3.0.3 | 111.271 | release | `mac` | `088da95aec3d05722da182cdf7379becfc4f01dc843e84181d4ca8d0a0e93581` | Quarantined | 5/5 | 2026-11-12T15:58:35.621840+00:00 | application: Bundle build mismatch: API says 111.271, bundle says PS-111.344; refusing to attribute this executable to the wrong build |

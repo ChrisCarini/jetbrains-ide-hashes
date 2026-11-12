@@ -304,7 +304,7 @@
 | 2.6.3 | 121.378 | `mac` | `795d9c382f1241b174bec2f93a1df6549a96971235b1f7bf76cfbe81e34098f3` | `e9870cdf7539152ceb0173f1cc4021b9aa18a80f48ee30b84d7b8925b5c07afd` | 2012-10-26 |
 | 2.5.2 | 117.663 | `mac` | `fe8f50b137d0c1fa53c92337873bde3c7cceec9051aa594ab6ad62d2acaa017e` | `b8a108e56457d79a51f4fc964722f3ff5dddc50a0825be778f9b3144c9d0c254` | 2012-06-29 |
 | 2.0.2 | 111.291 | `mac` | `b9d90c095dcfb15a2ada2fb9fe4825265608d0c83e38f5414f7196257dfef07a` | `24834d19f97889ed3515da49f2af21c7b6907226e86729e925aa3639b02a6b0a` | 2012-02-07 |
-| 1.5.4 | 107.756 | `mac` | `1ce83ae7168f37a3d6fd02d76ecb2fb71a03957d66bd2c00dfa37f89537f29b1` | Unavailable (see collection notes) | 2011-08-29 |
+| 1.5.4 | 107.756 | `mac` | `1ce83ae7168f37a3d6fd02d76ecb2fb71a03957d66bd2c00dfa37f89537f29b1` | Quarantined (see collection notes) | 2011-08-29 |
 | 1.2.1 | 105.58 | `mac` | `adb577f8b3a259c3b5b05d0d5fdd8b11562384a6b1c5846a4c767af6993565b4` | `24834d19f97889ed3515da49f2af21c7b6907226e86729e925aa3639b02a6b0a` | 2011-04-12 |
 | 1.1.1 | 101.15 | `mac` | `ffefab9a439497c19d9b4cc2417018ec813b51f9196ca5da1266819e162c5393` | `644bd3f973d0172c2cca7ea95788eb8f646ee85f4077350dcf8dc2133d68b1b1` | 2011-01-18 |
 
@@ -615,7 +615,7 @@
 
 Product: **PyCharm** (`PCP`). [Machine-readable history](../data/PCP.json).
 
-Installer hashes: **605/605**; application hashes: **604/605**; not advertised: **239**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **605/605**; application hashes: **604/605**; not advertised: **239**; quarantined: **1**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -736,6 +736,10 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 | 2.7.1 | 125.92 | release | 2013-02-28 |
 | 2.7 | 125.57 | release | 2013-02-07 |
 
-### Collection errors
+### Quarantined after repeated failures
 
-- 1.5.4 / 107.756 / `mac` (application; 4/5 identical failures): Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build
+These records are excluded from automatic collection until their inputs change or an explicit retry is requested. Missing hashes are not treated as verified.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1.5.4 | 107.756 | release | `mac` | `1ce83ae7168f37a3d6fd02d76ecb2fb71a03957d66bd2c00dfa37f89537f29b1` | Quarantined | 5/5 | 2026-11-12T15:58:11.752692+00:00 | application: Bundle build mismatch: API says 107.756, bundle says PY-107.576; refusing to attribute this executable to the wrong build |
