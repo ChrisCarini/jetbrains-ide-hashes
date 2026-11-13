@@ -24,8 +24,8 @@
 | 2025.3 | 253.28294.351 | `mac` | `3d4ec6116a618d0354fed1ff7ee6aba3547c5e1c9e916a60f9e9aa37ea82ea56` | `16fe0db20f0e5d1474f03ebb194a467d5e99042fc121675da414de9e0e058d0f` | 2025-12-09 |
 | 2025.2.4.1 | 252.28539.155 | `macM1` | `7e24ea16aac493513782572d1f3a1d84d61fd8dae64f56d4099fb93fb08fbfcc` | `0ddd29d6d3e53474a12bfbabbc1451cbf9aa9b19b66bd10d5e7d03381134e852` | 2026-10-30 |
 | 2025.2.4.1 | 252.28539.155 | `mac` | `c43df917d98e01a07ecd2032524788c46deffe1b025fcf60463cd79eaa84a0f9` | `b6b7ea8937201b436dc2dd9fe11fc4a48800d0f76a214880aa061187bf64c15c` | 2026-10-30 |
-| 2025.2.4 | 252.28539.109 | `macM1` | `7e24ea16aac493513782572d1f3a1d84d61fd8dae64f56d4099fb93fb08fbfcc` | Unavailable (see collection notes) | 2026-08-03 |
-| 2025.2.4 | 252.28539.109 | `mac` | `c43df917d98e01a07ecd2032524788c46deffe1b025fcf60463cd79eaa84a0f9` | Unavailable (see collection notes) | 2026-08-03 |
+| 2025.2.4 | 252.28539.109 | `macM1` | `7e24ea16aac493513782572d1f3a1d84d61fd8dae64f56d4099fb93fb08fbfcc` | Quarantined (see collection notes) | 2026-08-03 |
+| 2025.2.4 | 252.28539.109 | `mac` | `c43df917d98e01a07ecd2032524788c46deffe1b025fcf60463cd79eaa84a0f9` | Quarantined (see collection notes) | 2026-08-03 |
 | 2025.2.3.1 | 252.27397.153 | `macM1` | `b6421a52b2eea51b447b0c25596a66b2c69f70d051bc2f6e117f50ea5cce529c` | `c1edb4adef3fe98f29ef9b7e9fcdfbae0b544f1158bef7c598c85e14ca6d84f2` | 2026-04-30 |
 | 2025.2.3.1 | 252.27397.153 | `mac` | `af92ef84e5f0ac25ede20d3257dd155faad4d54db4f5d316630ff76ea99f10bb` | `6bf0d00c635a3609190a5f6bd4186af638f12ca8d221944dc1d8a77ff9c70199` | 2026-04-30 |
 | 2025.2.3 | 252.27397.129 | `macM1` | `ad8a2d8403c7d44f66d0905ab6d28a3e888e78b9cc140725e7ca744257c6ce58` | `9a6641f47b5e8324bf1a93556ddf93fdbd9a8f1dd64ed8ecaf7ffcfab1f52e42` | 2025-10-30 |
@@ -252,7 +252,7 @@
 
 Product: **DataSpell** (`DS`). [Machine-readable history](../data/DS.json).
 
-Installer hashes: **242/242**; application hashes: **240/242**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **242/242**; application hashes: **240/242**; not advertised: **0**; quarantined: **2**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -260,7 +260,11 @@ Rows are sorted by version, build version, and installer type, descending, with 
 
 `Pending` means collection has not completed. Rows without an advertised macOS installer are omitted. Missing hashes are not inferred. Application hashes cover the bundle's main `Contents/MacOS/` executable, not the bundle or signing CDHash.
 
-### Collection errors
+### Quarantined after repeated failures
 
-- 2025.2.4 / 252.28539.109 / `macM1` (application; 4/5 identical failures): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build
-- 2025.2.4 / 252.28539.109 / `mac` (application; 4/5 identical failures): Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build
+These records are excluded from automatic collection until their inputs change or an explicit retry is requested. Missing hashes are not treated as verified.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2025.2.4 | 252.28539.109 | release | `macM1` | `7e24ea16aac493513782572d1f3a1d84d61fd8dae64f56d4099fb93fb08fbfcc` | Quarantined | 5/5 | 2026-11-13T14:46:40.303461+00:00 | application: Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build |
+| 2025.2.4 | 252.28539.109 | release | `mac` | `c43df917d98e01a07ecd2032524788c46deffe1b025fcf60463cd79eaa84a0f9` | Quarantined | 5/5 | 2026-11-13T14:47:21.999102+00:00 | application: Bundle build mismatch: API says 252.28539.109, bundle says 252.28539.155; refusing to attribute this executable to the wrong build |

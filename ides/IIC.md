@@ -260,7 +260,7 @@
 | 13.0.5 | 133.1885 | `mac` | `46685c007a4ff71b61b4cce818a9d3981bd9ff830f24d71cbbe65c480fe53a37` | `97b99281f0334a26d8c16ea2d5e293019b65861813f2a69acfb7ead1469962ab` | 2016-05-14 |
 | 12.1.8 | 129.1561 | `mac` | `1e1a65150deeead25776c30425d0a21bd1b37eb577a1edd0f15a6e5eb3235bdf` | `80c9da4ca6aa84f2dafc925cc08cb277345e35e379e80f6a77205520e8ca31b2` | 2016-05-15 |
 | 11.1.5 | 117.1056 | `mac` | `a83334ff77bf3470a9f6255a4939e9b92321d54fc4faef1782ab0fa504649d93` | `d9608524138e86de018b7e94c634c44aa2607d26b3b1e8440048c0699ac24599` | 2013-04-04 |
-| 11.0.2 | 111.277 | `mac` | `a56abc799d5141b0c1d3234a97e6a42f53b97de2721aa943f7b2b8478e3c632d` | Unavailable (see collection notes) | 2012-02-02 |
+| 11.0.2 | 111.277 | `mac` | `a56abc799d5141b0c1d3234a97e6a42f53b97de2721aa943f7b2b8478e3c632d` | Quarantined (see collection notes) | 2012-02-02 |
 
 ## EAP, RC, preview, and other non-release builds
 
@@ -531,7 +531,7 @@
 
 Product: **IntelliJ IDEA Community Edition** (`IIC`). [Machine-readable history](../data/IIC.json).
 
-Installer hashes: **521/521**; application hashes: **520/521**; not advertised: **267**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **521/521**; application hashes: **520/521**; not advertised: **267**; quarantined: **1**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -672,6 +672,10 @@ These releases omitted the `downloads` field or had an empty `downloads` object 
 | 11.0.1 | 111.167 | release | 2011-12-30 |
 | 11.0 | 111.69 | release | 2011-12-06 |
 
-### Collection errors
+### Quarantined after repeated failures
 
-- 11.0.2 / 111.277 / `mac` (application; 4/5 identical failures): Invalid application metadata: unexpected key at line 10
+These records are excluded from automatic collection until their inputs change or an explicit retry is requested. Missing hashes are not treated as verified.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 11.0.2 | 111.277 | release | `mac` | `a56abc799d5141b0c1d3234a97e6a42f53b97de2721aa943f7b2b8478e3c632d` | Quarantined | 5/5 | 2026-11-13T14:47:41.445705+00:00 | application: Invalid application metadata: unexpected key at line 10 |

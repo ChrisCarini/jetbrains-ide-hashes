@@ -2,6 +2,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026.3 | 263.7307.200 | `macM1` | `6de6512375736915faec6166026a7572dd03a03fa7e8c87bb51f8fef3d5cc5aa` | `2f9ff57814cc03916bcecca2b05122534793214d4243f7e565e4735c8e1b0785` | 2026-11-05 |
 | 2026.3 | 263.7307.200 | `mac` | `41ae3398b87a09c3d2886fd0cd41ead4f0c05e868b99893218d8c4aacc408400` | `a8a9afb55bd72a148f245e9fc2604993743f0b509f61fbc462a3d59594c731dc` | 2026-11-05 |
+| 2026.2.5 | 262.12573.28 | `macM1` | `db52c74ed2a997f7790431ce9fc968581208c90ccc42ed834024f6173154c441` | `895ec01f5f8db7a897e3a3e8ffc9d0a75f74e43e3a0a856ee7a7379cf4796a3e` | 2026-11-13 |
+| 2026.2.5 | 262.12573.28 | `mac` | `1f87e682a30227fa099a99bbff5a5dfdb3dc54c5e44ffcc2f0e48765738d0fd1` | `f161631b410b8a6353cd4d68f95218e00ce6f755cb7c75995ff0ebe896cb586b` | 2026-11-13 |
 | 2026.2.4 | 262.11879.100 | `macM1` | `77e42a344df816926ecbe76e7c4e0674f63fd71e7ea0596801a53c93294589d8` | `55784569d028407c2bdeb925920dc49e8d2438f79679031bdb2c88f34c081bf8` | 2026-10-30 |
 | 2026.2.4 | 262.11879.100 | `mac` | `57872f496b1d5572eae45e5c222dbb22c558c1ab0b38dfa8f4a9af66a4bdeb68` | `8f97f637d088a4cd45b94e3c32eaaabd36e2ba5d91fbc720422dc61bdc204490` | 2026-10-30 |
 | 2026.2.3 | 262.10968.63 | `macM1` | `aac3cdc6d8441b94052473fee37a9679242a36f49f60fdce6cceaa3e7ad46e33` | `dbc3b7d4d18bd37882ad35019130266ecb7f2eacd37f1e4ba50c115902b6651b` | 2026-09-16 |
@@ -669,7 +671,7 @@
 
 Product: **IntelliJ IDEA** (`IIU`). [Machine-readable history](../data/IIU.json).
 
-Installer hashes: **659/659**; application hashes: **659/659**; not advertised: **267**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **661/661**; application hashes: **661/661**; not advertised: **267**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

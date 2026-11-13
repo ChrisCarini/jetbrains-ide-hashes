@@ -5,8 +5,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
-| 262.1102 <sub>preview</sub> | 262.1102.13 | `macos_x64` | `a85fd48e5c5bd01678e94d94ff7aab5b5bfc0051ff525414b430c91a9893311e` | Pending | 2026-11-11 |
-| 262.1102 <sub>preview</sub> | 262.1102.13 | `macos_aarch64` | `ac9e4a3d56dd1f6d58aaa7aa4348dad265e926549967e4dd48ed1eed54cc108f` | Pending | 2026-11-11 |
+| 262.1102 <sub>preview</sub> | 262.1102.13 | `macos_x64` | `a85fd48e5c5bd01678e94d94ff7aab5b5bfc0051ff525414b430c91a9893311e` | `c021e59ad5de4cc8916cdd0247503f33c4149a8897faa2fa3fe1e7a75860b6d2` | 2026-11-11 |
+| 262.1102 <sub>preview</sub> | 262.1102.13 | `macos_aarch64` | `ac9e4a3d56dd1f6d58aaa7aa4348dad265e926549967e4dd48ed1eed54cc108f` | `0cdeb81835ec56f7914738bc136c2c342755f43d887b45030f0cd869507f8755` | 2026-11-11 |
 | **262.1037** <sub>preview</sub> | **262.1037.14** | `macos_x64` | `c7a251c93c1a2b93c6cd943e3e126328d17fa542e82cea174a869bc4074b25a3` | `e9d85d89362c342927b40afb46dd7043c6008a7948734c0b0c263e6e6c71374d` | 2026-10-21 |
 | **262.1037** <sub>preview</sub> | **262.1037.14** | `macos_aarch64` | `01045ca2ee4319ebff9ffa767733ea757323727fa55c74a0af8f0fcbf9dcd560` | `30462921c78cd5ab3f70e2ecdf328b377757240e65e791fd9ddf35dc9ab48c81` | 2026-10-21 |
 | **262.1037** <sub>preview</sub> | **262.1037.6** | `macos_x64` | `cd4f5c4817488072b638dccdfb91a226e75e5b284cb13008c5cc961fdf23eea4` | `3fa8c0949ecb07f432f213688c1c62dc33c243a56dfa0e51921bff3e7fe69ec4` | 2026-10-08 |
@@ -88,7 +88,7 @@
 
 Product: **Air** (`AIR`). [Machine-readable history](../data/AIR.json).
 
-Installer hashes: **78/78**; application hashes: **76/78**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **78/78**; application hashes: **78/78**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

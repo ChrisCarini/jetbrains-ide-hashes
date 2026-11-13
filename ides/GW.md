@@ -2,6 +2,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026.3 | 263.7307.184 | `macM1` | `8613d36a4984eff32d2afb56b78e622fa7d6dcb8ed133324e3b0fe788cec416b` | `fc4acd3c453e975bce847f2ee202d49f9bcb0c94fae78fff4759a3519ae457d1` | 2026-11-05 |
 | 2026.3 | 263.7307.184 | `mac` | `831de5a1caf4bd5f797c863ac8ae996d9dc15013e1a381cb9b2fc40d1cda7f70` | `db236785c70733c11b18e5f3e5911227812cca097098d7d89cfec022115ca611` | 2026-11-05 |
+| 2026.2.5 | 262.12573.34 | `macM1` | `b8b3c5b2f725523889bf884d74bf4139f61bfc58ec01d73ef3d3aba5567c8d97` | `40e6318a49e5f69bf0788e51d4697a13c9d4b89f1d80236007b12c15923bcf2d` | 2026-11-13 |
+| 2026.2.5 | 262.12573.34 | `mac` | `da8b9edc7cb27102f2a952bfd1adf5d37788c95064c158a4fdd67448528100a3` | `e8b65015dddafe7268491faf9d0014194d1ab545ef33860ef84ead1b8a224d6f` | 2026-11-13 |
 | 2026.2.4 | 262.11879.99 | `macM1` | `b58f43ab01be93d08353c41984ab4e49f7bc6d189fc4556249eb6b3eda90d3d0` | `1951e4bf9c9cacc7e7966a6b718824f438c879f51fde08926b97688c506d3c36` | 2026-10-30 |
 | 2026.2.4 | 262.11879.99 | `mac` | `f96a9a1f8e34b0bed0759886ebee28c20bfacc2f3bf35c2f34856b16effd93c7` | `1dda15feb5aae07004f1f9c6c766110890a802b82d03525c40b675cb9ed694f6` | 2026-10-30 |
 | 2026.2.2 | 262.10315.114 | `macM1` | `f4c129c2888e1f215cea5b1f28394bb3524267ea1b976353dba0b44902d7108b` | `c55ee3c1f5c43ba26b64186a8b8faab9e3bfb6f1e5ceb5f43a80aaea2ff3838c` | 2026-09-03 |
@@ -308,7 +310,7 @@
 
 Product: **Gateway** (`GW`). [Machine-readable history](../data/GW.json).
 
-Installer hashes: **298/298**; application hashes: **298/298**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **300/300**; application hashes: **300/300**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

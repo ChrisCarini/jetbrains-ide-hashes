@@ -34,8 +34,8 @@
 | 2025.3.6.1 | 253.33813.102 | `mac` | `b5055b3ae6027cdb6868ae0e4bb120eb2dcf1c33556701bc4ea7729af3059fdc` | `83d30af3d7674dc0f23fef3ed72cf8b3f85a724bcb6f45fe0bd5e4b1f3a9abca` | 2026-10-30 |
 | 2025.3.6 | 253.33813.51 | `macM1` | `c4e25e037aa587a51fd7d25846e1ae37b283d42a563f9fa74a683781c1bd34dc` | `7185543ae53476fe90008efe269b2a0bfcd90a92fd27501218fd3525ad9f41e4` | 2026-07-28 |
 | 2025.3.6 | 253.33813.51 | `mac` | `b2674ccf82775d7e952b3fc6115a43131ab6b76b372086207c9f93c68c7b19ce` | `430be34584b555dd8dcce3681dbdbf0fc9850717d2618fab69c8a25ee8b4ec36` | 2026-07-28 |
-| 2025.3.5.1 | 253.31033.213 | `macM1` | `944d1bf2cdfb9811c9eded221df2925bff6fa44f7977ffb0a6322091c18372bf` | Unavailable (see collection notes) | 2026-04-30 |
-| 2025.3.5.1 | 253.31033.213 | `mac` | `1644cae61bb71a5a31cf3940b972542371b9c3ce18bf3218b5f6b487a843679c` | Unavailable (see collection notes) | 2026-04-30 |
+| 2025.3.5.1 | 253.31033.213 | `macM1` | `944d1bf2cdfb9811c9eded221df2925bff6fa44f7977ffb0a6322091c18372bf` | Quarantined (see collection notes) | 2026-04-30 |
+| 2025.3.5.1 | 253.31033.213 | `mac` | `1644cae61bb71a5a31cf3940b972542371b9c3ce18bf3218b5f6b487a843679c` | Quarantined (see collection notes) | 2026-04-30 |
 | 2025.3.5 | 253.31033.21 | `macM1` | `944d1bf2cdfb9811c9eded221df2925bff6fa44f7977ffb0a6322091c18372bf` | `77da397612d0bdc7ec8d8dab28e6f65906cbeb0c598df989da0d264dbd31cf17` | 2026-02-05 |
 | 2025.3.5 | 253.31033.21 | `mac` | `1644cae61bb71a5a31cf3940b972542371b9c3ce18bf3218b5f6b487a843679c` | `fd989aa33957f627a66dc8b76314f0517871059cb0fe4d03336e7eb68460bda7` | 2026-02-05 |
 | 2025.3.4 | 253.30387.92 | `macM1` | `3a67c879527af4758176c7c8f6c5e75948032166e9f446dd3ac0d774bdffb5a3` | `b330a5e28d7168ac869f9066b6c38df6f7236247693b2b6194a8358d4c8e30a5` | 2026-01-22 |
@@ -268,7 +268,7 @@
 | 2016.3.4 | 163.13906.13 | `mac` | `9a5fd58be9fb9e9144ee13df83590a869dda33f89a4b5cd7c0dc0a94b59e01ad` | `b1c549d022bcfde858296638dd9342868bc891dc5edef307d714c4790111cee0` | 2017-02-21 |
 | 2016.3.3 | 163.12455.1 | `mac` | `3d7b52ad66275fd3d61d1338521ac61981d3b01924fd784c71036769192f014b` | `fb9c3b541d7d2278d0b1f712185d09eb8cf3f81431f10fd95a64bd9b61416cb6` | 2017-01-26 |
 | 2016.3.2 | 163.11103.2 | `mac` | `1ffb0849dfc4eff4158da1cc744f09ebbf12f1087568445a3de4abc518b2733f` | `4b7af1f57a76cc4c7743146bb2eb1f0f1d6f596d06b9f942af2f9ae43605beb4` | 2016-12-30 |
-| 2016.3.1 | 163.9735.5 | `mac` | `9a1abde45c59cdde3ef884a8cb879fdaeb8899e822120a392890f0038fe94ecf` | Unavailable (see collection notes) | 2016-12-12 |
+| 2016.3.1 | 163.9735.5 | `mac` | `9a1abde45c59cdde3ef884a8cb879fdaeb8899e822120a392890f0038fe94ecf` | Quarantined (see collection notes) | 2016-12-12 |
 | 2016.3 | 163.7744.4 | `mac` | `998e037c295aa7849711163ef654d667cf1ef6e12f6530254f24d3d367df399c` | `fbe64518930ca599b3e12b34f34078200142783016024bbd15ac8d75c2168352` | 2016-11-24 |
 | 2016.2.6 | 162.2229.1 | `mac` | `a9466450233719fdbd83d6457533e72ad71e968da665066f7bb1878ff62651c1` | `19054b823c16f8a49a1dd50235ac3a95178dd00682005da551cfff06d2a2ca59` | 2016-10-11 |
 | 2016.2.5 | 162.2228.8 | `mac` | `d3faf8e1d89657534824f738c56937b2f24ac10c902607c2b439381c466cc82b` | `04d18fe21b93419f5ae6231f0d3e4a1c2ead9259a4fdbbb661e0bc23daa0b229` | 2016-10-04 |
@@ -400,7 +400,7 @@
 
 Product: **DataGrip** (`DG`). [Machine-readable history](../data/DG.json).
 
-Installer hashes: **390/390**; application hashes: **387/390**; not advertised: **86**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **390/390**; application hashes: **387/390**; not advertised: **86**; quarantined: **3**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
@@ -426,8 +426,12 @@ Bundle identifiers and versions are observed `CFBundleIdentifier` and `CFBundleS
 | 1.0.1 | 143.1411 | release | `mac` | `28b9fdf21db461325d4ecb0c14d71aef70fea258f1e16910bbc20f8697378619` | `DB-143.1411.5` | com.jetbrains.datagrip | 1.0.1 | `DataGrip.app/Contents/MacOS/datagrip` |
 | 1.0 | 143.1410 | release | `mac` | `f366c9a1eb177873cfe388796a2da471537242cff93bb731b6604319ee77f475` | `DB-143.1410.7` | com.jetbrains.datagrip | 1.0 | `DataGrip.app/Contents/MacOS/datagrip` |
 
-### Collection errors
+### Quarantined after repeated failures
 
-- 2025.3.5.1 / 253.31033.213 / `macM1` (application; 4/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
-- 2025.3.5.1 / 253.31033.213 / `mac` (application; 4/5 identical failures): Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build
-- 2016.3.1 / 163.9735.5 / `mac` (application; 4/5 identical failures): Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build
+These records are excluded from automatic collection until their inputs change or an explicit retry is requested. Missing hashes are not treated as verified.
+
+| Version | API build | Channel | Installer type | Installer SHA256 | State | Identical failures | Last result / attempt (UTC) | Stage and reason |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2025.3.5.1 | 253.31033.213 | release | `macM1` | `944d1bf2cdfb9811c9eded221df2925bff6fa44f7977ffb0a6322091c18372bf` | Quarantined | 5/5 | 2026-11-13T14:46:31.984601+00:00 | application: Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build |
+| 2025.3.5.1 | 253.31033.213 | release | `mac` | `1644cae61bb71a5a31cf3940b972542371b9c3ce18bf3218b5f6b487a843679c` | Quarantined | 5/5 | 2026-11-13T14:47:04.650975+00:00 | application: Bundle build mismatch: API says 253.31033.213, bundle says 253.31033.21; refusing to attribute this executable to the wrong build |
+| 2016.3.1 | 163.9735.5 | release | `mac` | `9a1abde45c59cdde3ef884a8cb879fdaeb8899e822120a392890f0038fe94ecf` | Quarantined | 5/5 | 2026-11-13T14:47:10.264291+00:00 | application: Bundle build mismatch: API says 163.9735.5, bundle says DB-163.9735.6; refusing to attribute this executable to the wrong build |
