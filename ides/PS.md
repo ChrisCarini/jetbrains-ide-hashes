@@ -2,6 +2,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026.3 | 263.7307.215 | `macM1` | `596814016d9f79a5fec096dcd863d699f134adba165340040505c835f8c7fed2` | `e6d5faf6f42480ac0ec24056881b447436f96c92d2cab6a44eafa5141a9e2e36` | 2026-11-05 |
 | 2026.3 | 263.7307.215 | `mac` | `4a716c086281572be52d546501cdab7c2bab6102cda30f6568d5b9c57522614e` | `7f503a7da10db04f4c5bbf9ae0e73980880dd1c8501c1c275a2a3ebcf35c0148` | 2026-11-05 |
+| 2026.2.5 | 262.12573.41 | `macM1` | `1a9027a32dfb59cef44cf5c7e95d818a9666c682d286c61b1f35f2c236261392` | `ee4eabf8355d3ede901564a9ae3b17ee3c33a2e3a2c693c2590cad5ddd0829fe` | 2026-11-13 |
+| 2026.2.5 | 262.12573.41 | `mac` | `f16cdb2e56979942812ec4a2bc3cb1ea064560f54598951b8917d6f21260c584` | `129564aa37742382bca483681780ccca5eb3d6d6602481e201abb872c962c67e` | 2026-11-13 |
 | 2026.2.4 | 262.11879.104 | `macM1` | `20b5d42d561dfe90d3190e25326f8d0ceafb683765b8ae1c7176cd8961aa77b7` | `a3e33e08252bafed187d51611ae5159bfd0fa72af2a536a7703290c2eff3f500` | 2026-10-30 |
 | 2026.2.4 | 262.11879.104 | `mac` | `eac738d901c498cfd635b7d32ae9c4185c071202a6ba21cba3c83a0c1f4c9a25` | `31f77e89231e9007fa6434d5d4fc3fbb86ece231250e2fc4da993c7c886b52ed` | 2026-10-30 |
 | 2026.2.3 | 262.10968.76 | `macM1` | `9207ad5d1fc6e2b6fa06fb6f41b824e64596e1b16475df22f0e207a654f8df73` | `052e45eb88ed5c68e782191462356551eb323511ee83a1e95f7b3c2adb05cbd4` | 2026-09-17 |
@@ -685,7 +687,7 @@
 
 Product: **PhpStorm** (`PS`). [Machine-readable history](../data/PS.json).
 
-Installer hashes: **675/675**; application hashes: **673/675**; not advertised: **165**; quarantined: **2**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **677/677**; application hashes: **675/677**; not advertised: **165**; quarantined: **2**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

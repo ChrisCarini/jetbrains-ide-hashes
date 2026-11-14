@@ -2,6 +2,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026.3 | 263.7307.211 | `macM1` | `8f83727c7dd0cbdd50bfa0e43cc81e44fe0d4de1e76f634b19a365cc7c867827` | `7c967dfeb51f7daa7d52a6a0cb51d2fcbcaefef7ce1f3d984dad6cdd81c1a4f6` | 2026-11-05 |
 | 2026.3 | 263.7307.211 | `mac` | `f812c7521e77c3d53f35e8aa151834c84142df02700d76256f3ba30f4288f0b9` | `bec356b81c807ebeee5291746d64cb4ef49c8d5d3f62d223036a921dd837f653` | 2026-11-05 |
+| 2026.2.5 | 262.12573.36 | `macM1` | `481f7e31006ddee00eecefeeb41c7021e82fa76ede02648af577e8943d127a4f` | `ab1524d0597730609b6314490a62188ca1ca38ca4a416b75eda27091ca69ea1e` | 2026-11-13 |
+| 2026.2.5 | 262.12573.36 | `mac` | `dc644e5370f0c2b211e495f8cc7a1f2593b9bb0556e1db259fc842d88bdcbf2b` | `628377346aae5445725587426378fb6d32085112a9c5956d6f614f51fa5a0d99` | 2026-11-13 |
 | 2026.2.4 | 262.11879.101 | `macM1` | `ba37c61e4637f767ad01d7f88eca9f8f878138e2015b4d2f178640651964ab33` | `0592d64039efa76d860c1e82e1b165c3a3440f3c50b9f00f4a018e258288425b` | 2026-10-30 |
 | 2026.2.4 | 262.11879.101 | `mac` | `e4a26c299fcab2843a2ccc323705ffd5c19dc71962c0e8db992c739651b8e243` | `0078089871d4fc465feed9cda555cf9d4eca98acd61e196c59a746a711e74fb4` | 2026-10-30 |
 | 2026.2.3 | 262.10968.67 | `macM1` | `91eed14a2e131f7abfe33187a3dbd996880d589271895ce2b04674befa95d276` | `6b9c3ad35b5511c10aa8221fdfe7acbea9d5c2ebf9a933219fe4701c3b786286` | 2026-09-16 |
@@ -546,7 +548,7 @@
 
 Product: **GoLand** (`GO`). [Machine-readable history](../data/GO.json).
 
-Installer hashes: **536/536**; application hashes: **536/536**; not advertised: **72**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **538/538**; application hashes: **538/538**; not advertised: **72**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

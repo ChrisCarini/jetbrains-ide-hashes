@@ -2,6 +2,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026.3 | 263.7307.214 | `macM1` | `d799d59e027a3a602120c0955e27389167cd4d68ad2ef17c8f31aee2712525ce` | `fb82779a4022fa8946489214bf672319d40d118f8365e04a9b8cd707af9aa251` | 2026-11-05 |
 | 2026.3 | 263.7307.214 | `mac` | `505688885922900b2992270dda2359006f3ea7daa8d6a03ba79a2785a10361f3` | `758a00a0012a1570a43f7c8420985c01d7c666c448294975e81fca1faa709805` | 2026-11-05 |
+| 2026.2.6 | 262.12573.30 | `macM1` | `ddb611187ca3fa7a9c92d42c36dc10612fb26a77e537fab156e58d0bf034f03a` | `baddf391b54f15be4227d1239935c60b67486f6ed3b1f445a4ee543957155ab3` | 2026-11-13 |
+| 2026.2.6 | 262.12573.30 | `mac` | `f3d9afb368ea5d3f62a46f97a030664ad076e4523fa43b6a27e6707584e5a9df` | `2780eee339ea2f971ff24ca766d5c792afdadfece7e2de81a781096fdb919920` | 2026-11-13 |
 | 2026.2.5 | 262.11879.102 | `macM1` | `b54674305a661e6f89724ac1f0324f7925235e6920e9ae6b90d60699367df27b` | `b6f7191c17e140032adf444ba54a34569cca9e6b57c835442ea8d9e70f770f54` | 2026-10-30 |
 | 2026.2.5 | 262.11879.102 | `mac` | `43cb8ec6dd89337c3bd5a23d7023253deb6b8ee3d30386c9f4d1d7f9ad7ca3ce` | `0a5369c314a9a5e0b30a43244177a599fc16bf8e39aaee6d02644022f5b2b2b0` | 2026-10-30 |
 | 2026.2.4 | 262.10968.211 | `macM1` | `cc4bcbf1488d178b3f49c17752d576348f231b28b15de03dcdde50fb75b87680` | `dfacb12b4617cc9efeb85d819f642c618c9e589908c3f68478e600c6b758968c` | 2026-10-08 |
@@ -310,7 +312,7 @@
 
 Product: **RustRover** (`RR`). [Machine-readable history](../data/RR.json).
 
-Installer hashes: **300/300**; application hashes: **300/300**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **302/302**; application hashes: **302/302**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
