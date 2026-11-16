@@ -10,7 +10,7 @@ Each product page starts with released versions, followed by every other API cha
 | [AppCode](AC.md) | `AC` | 185/185 | 185/185 | 207 | 0 |
 | [CLion](CL.md) | `CL` | 374/374 | 374/374 | 116 | 0 |
 | [CLion Nova](CLN.md) | `CLN` | 14/14 | 14/14 | 0 | 0 |
-| [DataGrip](DG.md) | `DG` | 390/390 | 387/390 | 86 | 3 |
+| [DataGrip](DG.md) | `DG` | 392/392 | 389/392 | 86 | 3 |
 | [Datalore](DL.md) | `DL` | 0/0 | 0/0 | 2 | 0 |
 | [Datalore Enterprise](DLE.md) | `DLE` | 0/0 | 0/0 | 90 | 0 |
 | [DataSpell](DS.md) | `DS` | 242/242 | 240/242 | 0 | 2 |
@@ -27,7 +27,7 @@ Each product page starts with released versions, followed by every other API cha
 | [PyCharm Community Edition](PCC.md) | `PCC` | 462/462 | 462/462 | 232 | 0 |
 | [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 58 | 0 |
 | [Rider](RD.md) | `RD` | 455/455 | 455/455 | 71 | 0 |
-| [RubyMine](RM.md) | `RM` | 678/678 | 678/678 | 176 | 0 |
+| [RubyMine](RM.md) | `RM` | 680/680 | 680/680 | 176 | 0 |
 | [RustRover](RR.md) | `RR` | 302/302 | 302/302 | 0 | 0 |
 | [WebStorm](WS.md) | `WS` | 666/666 | 666/666 | 196 | 0 |
 | [Youtrack Workflow Editor](YTWE.md) | `YTWE` | 1/1 | 0/1 | 1 | 1 |

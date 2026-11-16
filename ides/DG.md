@@ -2,6 +2,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026.3 | 263.7307.216 | `macM1` | `17201e7bf85313612ba5e7644f8b2293c0fc95137e2e442879f94899df8ec735` | `7fecab6502eadc5278943864b8f66b6c6aca36d11836a92d194229a7a0896d85` | 2026-11-05 |
 | 2026.3 | 263.7307.216 | `mac` | `24df7d8f6b35406dd2576c2e5874bf4e125da9787e2e33d2acae488eb31f2f54` | `bdfc9286aef8c8c68cd91a98728216574960f6eb7ce92d8e17bd9ae2d9b63247` | 2026-11-05 |
+| 2026.2.7 | 262.12573.38 | `macM1` | `9cca4a0caab6291f8fc482408cb3ffbbca62718c4a78f3579bf68e7585f9aa02` | `209ef38360f92e51b0f97845b3ab2a44b3d9dfcefc4c0c623fba22cd685d4dfb` | 2026-11-16 |
+| 2026.2.7 | 262.12573.38 | `mac` | `be8be53b769f4c8f0aeee809c2590e6e5bdc3e0f225159b2e1500f25fa7d2e39` | `a9cdbbe26203c9ae65382f65bf2c4bc3aa8c05a4a351d9a5ed8d94b6315f7302` | 2026-11-16 |
 | 2026.2.6.1 | 262.11879.103 | `macM1` | `ea55fd674b87c983eba45a115274a623f0fb7fe3656a1dd9fed409d5f86d1d9d` | `4743532878e7f76cf1b02e24cecbb298d1f524006e7406dfcab63b19868d7813` | 2026-10-30 |
 | 2026.2.6.1 | 262.11879.103 | `mac` | `e197923d8c2fe3aff30aa6f9ec48beda49397e0f0c1ef05cf8342210550a7477` | `b672017614d1975dc0f8a187aa9a0b6c3671fd29d301711c7ff2810e2a63c276` | 2026-10-30 |
 | 2026.2.6 | 262.10968.148 | `macM1` | `cf9f762e3b1bc802c0f096215d30cacfe3878fa48e12233cbdaf699588c7dbb2` | `fd005790e499d7f8a1ebf9cae32f2bfeb850ae4f268a2988a852b0a89ef91995` | 2026-09-29 |
@@ -400,7 +402,7 @@
 
 Product: **DataGrip** (`DG`). [Machine-readable history](../data/DG.json).
 
-Installer hashes: **390/390**; application hashes: **387/390**; not advertised: **86**; quarantined: **3**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **392/392**; application hashes: **389/392**; not advertised: **86**; quarantined: **3**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
