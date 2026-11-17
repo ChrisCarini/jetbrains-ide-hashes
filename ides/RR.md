@@ -1,5 +1,7 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.1 | 263.7307.313 | `macM1` | `05fd0fe955df291c6779a2f4a400f3e255acb70e9e3c5039ad7a02998c4500b8` | `9348ecbc155da58a1aab7d148e0a4bcd8f07e2cc60cf19025e62dfa0342f527c` | 2026-11-16 |
+| 2026.3.1 | 263.7307.313 | `mac` | `78b8cecbdb56ac6d4ace3cda661fad44e7b6bad455bd8f022c1bdb67cfb52bf5` | `7065c28130bcfaf2ea2ac97bdc69f64c3742ab5d87cf73fb366f2ff3afc96770` | 2026-11-16 |
 | 2026.3 | 263.7307.214 | `macM1` | `d799d59e027a3a602120c0955e27389167cd4d68ad2ef17c8f31aee2712525ce` | `fb82779a4022fa8946489214bf672319d40d118f8365e04a9b8cd707af9aa251` | 2026-11-05 |
 | 2026.3 | 263.7307.214 | `mac` | `505688885922900b2992270dda2359006f3ea7daa8d6a03ba79a2785a10361f3` | `758a00a0012a1570a43f7c8420985c01d7c666c448294975e81fca1faa709805` | 2026-11-05 |
 | 2026.2.6 | 262.12573.30 | `macM1` | `ddb611187ca3fa7a9c92d42c36dc10612fb26a77e537fab156e58d0bf034f03a` | `baddf391b54f15be4227d1239935c60b67486f6ed3b1f445a4ee543957155ab3` | 2026-11-13 |
@@ -312,7 +314,7 @@
 
 Product: **RustRover** (`RR`). [Machine-readable history](../data/RR.json).
 
-Installer hashes: **302/302**; application hashes: **302/302**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **304/304**; application hashes: **304/304**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
