@@ -26,7 +26,7 @@ Each product page starts with released versions, followed by every other API cha
 | [PyCharm](PCP.md) | `PCP` | 607/607 | 606/607 | 239 | 1 |
 | [PyCharm Community Edition](PCC.md) | `PCC` | 462/462 | 462/462 | 232 | 0 |
 | [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 60 | 0 |
-| [Rider](RD.md) | `RD` | 457/457 | 457/457 | 71 | 0 |
+| [Rider](RD.md) | `RD` | 459/459 | 459/459 | 71 | 0 |
 | [RubyMine](RM.md) | `RM` | 680/680 | 680/680 | 176 | 0 |
 | [RustRover](RR.md) | `RR` | 304/304 | 304/304 | 0 | 0 |
 | [WebStorm](WS.md) | `WS` | 666/666 | 666/666 | 196 | 0 |
