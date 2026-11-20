@@ -1,5 +1,7 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.0.1 | 263.7307.329 | `macM1` | `48247f627dcfb60e4ad09ca4b647b9ab49bf7cd2f6b25e3eef5b968b046ecc6c` | `4ab1f80579658b50f2d31cf0799ff49ce81613de0a0711326f3245a8f6e4e0a0` | 2026-11-19 |
+| 2026.3.0.1 | 263.7307.329 | `mac` | `b2512091fc9af33d7f73e7c2159bc3eb5a2bb789b6f865ee275fb039a4067de5` | `844145fb820827ea58d9cd8a59db587e73a440ee04ba6943116246ce874563c5` | 2026-11-19 |
 | 2026.3 | 263.7307.206 | `macM1` | `6a4ba27899d8ff6462bec0e84aa8251810d151215643ef36806cd47f9c89df32` | `b61e8b630690c49ae3bd6de43967620c05a517d6ce2543f521a03b57b157c576` | 2026-11-05 |
 | 2026.3 | 263.7307.206 | `mac` | `2b30e1cadc391c4e79620ec7d2d488ed0bd79d0045a246a9a25635a4bf4630b5` | `12f02a0af066807d993bf0212e43ab5f33c91995935a66f8c2af9820db2a9529` | 2026-11-05 |
 | 2026.2.5 | 262.12573.39 | `macM1` | `3a4b6b368ef2d84218a0ec11e5c5a979274d82cb63e047ad5a742af4266a85f4` | `e7ebacf38c5862b7f22934d8ccb7d803ddb02360280bfad6237539e36b5c2a33` | 2026-11-13 |
@@ -314,6 +316,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.1 <sub>rc</sub> | 263.8311.32 | `macM1` | `b8b61131d858184234d468fda821c2050ca40a2f0902659bbdf241170f42745a` | `889e916ed31507541ac7a8bf33914636045f3fb4309cd790760261aad60c51d0` | 2026-11-20 |
+| 2026.3.1 <sub>rc</sub> | 263.8311.32 | `mac` | `6250deb42c9723fd48300ca9ef9f7db32a287b14885acc5d2c6cf843895d6a7b` | `a5b0d4456a28631bbbe282cf6dded07dacd13092ff93f06cdfd3f85a18887a8c` | 2026-11-20 |
 | 2026.3 <sub>rc</sub> | 263.7307.101 | `macM1` | `67f0898e438498b3e0e49ea1aa4f7bcaf4601dd30fb10135f781b9171ffef5f3` | `c1444ff12dc66827c309fee16f46ea86ad0f101f14fd9330ca5a3985ec88d8bf` | 2026-10-30 |
 | 2026.3 <sub>rc</sub> | 263.7307.101 | `mac` | `9a796cc8b09bae09ddb79d267ae2d53a72e230c960415f6a6536638322eb29d6` | `49a38d88549a05b4f7b4dd4d3e364e5b72456ec5229658f41539414d84a6f1f5` | 2026-10-30 |
 | **2026.3** <sub>eap</sub> | **263.7307.50** | `macM1` | `02e834abb0dae74e87ad59004a12d1d3096214e4c9b3dd6423d74144c185b149` | `51528b966124436acf9ff1b55d0984e8120e697939d0c9302300174f74b79f34` | 2026-10-23 |
@@ -617,7 +621,7 @@
 
 Product: **PyCharm** (`PCP`). [Machine-readable history](../data/PCP.json).
 
-Installer hashes: **607/607**; application hashes: **606/607**; not advertised: **239**; quarantined: **1**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **611/611**; application hashes: **610/611**; not advertised: **239**; quarantined: **1**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

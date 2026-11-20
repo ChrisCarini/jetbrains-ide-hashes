@@ -16,18 +16,18 @@ Each product page starts with released versions, followed by every other API cha
 | [DataSpell](DS.md) | `DS` | 242/242 | 240/242 | 0 | 2 |
 | [Gateway](GW.md) | `GW` | 300/300 | 300/300 | 0 | 0 |
 | [GoLand](GO.md) | `GO` | 538/538 | 538/538 | 72 | 0 |
-| [IntelliJ IDEA](IIU.md) | `IIU` | 661/661 | 661/661 | 267 | 0 |
+| [IntelliJ IDEA](IIU.md) | `IIU` | 663/663 | 663/663 | 267 | 0 |
 | [IntelliJ IDEA Community Edition](IIC.md) | `IIC` | 521/521 | 520/521 | 267 | 1 |
 | [JetBrains AI Assistant for Visual Studio Code](VSCAI.md) | `VSCAI` | 0/0 | 0/0 | 38 | 0 |
 | [MPS](MPS.md) | `MPS` | 275/275 | 0/275 | 233 | 0 |
 | [MPS IntelliJ IDEA plugin](MPSIIP.md) | `MPSIIP` | 0/0 | 0/0 | 198 | 0 |
 | [PhpStorm](PS.md) | `PS` | 677/677 | 675/677 | 165 | 2 |
 | [PhpStorm Light](PSL.md) | `PSL` | 12/12 | 12/12 | 0 | 0 |
-| [PyCharm](PCP.md) | `PCP` | 607/607 | 606/607 | 239 | 1 |
+| [PyCharm](PCP.md) | `PCP` | 611/611 | 610/611 | 239 | 1 |
 | [PyCharm Community Edition](PCC.md) | `PCC` | 462/462 | 462/462 | 232 | 0 |
 | [ReSharper for Visual Studio Code](VSCRS.md) | `VSCRS` | 0/0 | 0/0 | 60 | 0 |
 | [Rider](RD.md) | `RD` | 459/459 | 459/459 | 71 | 0 |
 | [RubyMine](RM.md) | `RM` | 680/680 | 680/680 | 176 | 0 |
 | [RustRover](RR.md) | `RR` | 304/304 | 304/304 | 0 | 0 |
-| [WebStorm](WS.md) | `WS` | 666/666 | 666/666 | 196 | 0 |
+| [WebStorm](WS.md) | `WS` | 668/668 | 668/668 | 196 | 0 |
 | [Youtrack Workflow Editor](YTWE.md) | `YTWE` | 1/1 | 0/1 | 1 | 1 |

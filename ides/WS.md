@@ -341,6 +341,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.1 <sub>eap</sub> | 263.8311.23 | `macM1` | `438d9c8ce8911532ab391f794c57a75548d1ca1f291e5353395d822c03d63d44` | `9964b699c2ff44511b0d43914968f262e0bac00423d4b9c282cc1ddaafc83cd0` | 2026-11-20 |
+| 2026.3.1 <sub>eap</sub> | 263.8311.23 | `mac` | `fa82e3df27e440995c4d4bec694ac1bcf25f166f3c575f4f0c95c01e98eb1e5c` | `5f016caad4383634496d8833f8a21520889e74ab72f94cd0b84aefa86b45bfd8` | 2026-11-20 |
 | 2026.3 <sub>rc</sub> | 263.7307.114 | `macM1` | `8ca052ba642dcde88e163449fffa73df6cc2562c81beaa6185abfc6b331b0220` | `4a7f19b5815a07c993e00fde5f252ed103f80106bdaccdec952f6f4e1aaff219` | 2026-10-30 |
 | 2026.3 <sub>rc</sub> | 263.7307.114 | `mac` | `6eee64079b5ab56081bdce85ffa937bfe4879b90fb6f84ec7d5c52f30e21fce5` | `b7357e8334a51c6774cd420b1e19d581521db52633a1b231efef8758dbe5fc66` | 2026-10-30 |
 | **2026.3** <sub>eap</sub> | **263.7307.49** | `macM1` | `669df50ded77f5b5addddcc6ff03a659c6b7c32c2892b59e99d47aedff9c796d` | `3b4f3d2dd61f5256dfb5d633ed2a447a712e2dc7eca22707c1ed8066f29dbb5c` | 2026-10-23 |
@@ -676,7 +678,7 @@
 
 Product: **WebStorm** (`WS`). [Machine-readable history](../data/WS.json).
 
-Installer hashes: **666/666**; application hashes: **666/666**; not advertised: **196**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **668/668**; application hashes: **668/668**; not advertised: **196**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
