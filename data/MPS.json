@@ -7334,11 +7334,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:09:10.415146+00:00",
+      "last_attempt": "2026-11-21T14:49:13.706082+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:49:47.652350+00:00"
     },
     {
       "version": "2022.3.2",
@@ -7357,11 +7357,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:08:50.446291+00:00",
+      "last_attempt": "2026-11-21T14:48:38.003765+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:49:13.683869+00:00"
     },
     {
       "version": "2022.3.3",
@@ -7564,11 +7564,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:12:07.528250+00:00",
+      "last_attempt": "2026-11-21T14:53:38.650429+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:54:11.448623+00:00"
     },
     {
       "version": "2023.2.1",
@@ -7587,11 +7587,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:11:44.008591+00:00",
+      "last_attempt": "2026-11-21T14:53:06.437303+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:53:38.636102+00:00"
     },
     {
       "version": "2023.2.2",
@@ -7840,11 +7840,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:11:23.701487+00:00",
+      "last_attempt": "2026-11-21T14:52:30.916021+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:53:06.421948+00:00"
     },
     {
       "version": "2023.3.1",
@@ -7863,11 +7863,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:11:02.426770+00:00",
+      "last_attempt": "2026-11-21T14:51:59.583292+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:52:30.898033+00:00"
     },
     {
       "version": "2023.3.2",
@@ -8070,11 +8070,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:10:38.619568+00:00",
+      "last_attempt": "2026-11-21T14:51:27.544968+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:51:59.572185+00:00"
     },
     {
       "version": "2024.1-EAP2",
@@ -8093,11 +8093,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:10:16.519965+00:00",
+      "last_attempt": "2026-11-21T14:50:54.705657+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:51:27.529548+00:00"
     },
     {
       "version": "2024.1-RC1",
@@ -8116,11 +8116,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:09:54.557514+00:00",
+      "last_attempt": "2026-11-21T14:50:20.628532+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:50:54.682252+00:00"
     },
     {
       "version": "2024.1-RC1",
@@ -8139,11 +8139,11 @@
       "app_version": "",
       "first_seen": "2026-11-04T01:26:02.356379+00:00",
       "current": true,
-      "last_attempt": "2026-11-09T08:09:31.480690+00:00",
+      "last_attempt": "2026-11-21T14:49:47.666364+00:00",
       "error_stage": "application",
       "error": "Invalid application metadata: Invalid file",
-      "consecutive_failures": 0,
-      "failure_updated_at": ""
+      "consecutive_failures": 1,
+      "failure_updated_at": "2026-11-21T14:50:20.606840+00:00"
     },
     {
       "version": "2024.1.1",
@@ -11688,7 +11688,7 @@
       "failure_updated_at": ""
     }
   ],
-  "catalog_fetched_at": "2026-11-20T15:36:10.714532+00:00",
+  "catalog_fetched_at": "2026-11-21T14:46:16.544240+00:00",
   "catalog_release_count": 254,
   "ignored_download_types": [
     "linux",

@@ -342,6 +342,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.1 <sub>eap</sub> | 263.8311.42 | `macM1` | `7d85a9e1c9f7c9c60a8598254d5cafdb97186c2ec5436a1ae9e4478c4306f572` | `076290fd82d00d96de041337c2590648821da3d835ef818e4474fecc4acd85ec` | 2026-11-20 |
+| 2026.3.1 <sub>eap</sub> | 263.8311.42 | `mac` | `b82d91dcf0e62187e0b7bd5c9338afc6eae6cb8a7a09205fb1128a6719566978` | `cf1aa10d5ac09cc24acf826c8e877500e231a93eb3f2441d35ab22915dcfa8a1` | 2026-11-20 |
 | 2026.3 <sub>rc</sub> | 263.7307.117 | `macM1` | `e7e06282819733f13f839b20a280eff26d00e8bbf15a23a0ce10fddb5ab5995d` | `6e5c4c9fcdd7fd8b9fb9355ce756b4c504ff793d30f674cfceee1b4df5cfb41a` | 2026-10-30 |
 | 2026.3 <sub>rc</sub> | 263.7307.117 | `mac` | `c1900327017a2019b8301e2e16cab2133cd10819a679206e3e21f5c2e616c760` | `7f2a44e79f18dc1a33f60433fbc02b3e8bf77726f80da4d75264e77c43ee17c0` | 2026-10-30 |
 | **2026.3** <sub>eap</sub> | **263.7307.51** | `macM1` | `b6decf49c37f33e8bca25d220bbf96b1f726459b5a56a4eb3ac89dc6df13f8df` | `adb5a55774016f59032de30c44e04d70dc6de6f1e5f5b20d0e1c655f57bd772a` | 2026-10-23 |
@@ -687,7 +689,7 @@
 
 Product: **PhpStorm** (`PS`). [Machine-readable history](../data/PS.json).
 
-Installer hashes: **677/677**; application hashes: **675/677**; not advertised: **165**; quarantined: **2**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **679/679**; application hashes: **677/679**; not advertised: **165**; quarantined: **2**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
