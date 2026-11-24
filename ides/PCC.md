@@ -2,6 +2,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 2025.3 | 253.28294.336 | `macM1` | `aa6770f7b336aa9afe43f946d5f34627c1679bdc990e52c09e4d8098d54ab785` | `35d07bdd479ded1ec7b806a02590b0f501d3fc5c30f8175311661c922b6a0bb0` | 2025-12-08 |
 | 2025.3 | 253.28294.336 | `mac` | `e40a427311880bda6cf805c85426216bf45a6c1a6e7e91e3a5254c0baf4f68c7` | `0fc0fe933c3aa1b11c0e1bae5440da7c3d01d5b40024b32a842b02df12d7145d` | 2025-12-08 |
+| 2025.2.6.4 | 252.28539.168 | `macM1` | `06d09c2d0ffdd424c028d9c80428722d637adc35b507bcd2989bd3b2c7586ddf` | `166e62fe93889f51aefccbc3a7fceefddaeb84a89f158e65c8e30194ef2c37ca` | 2026-11-24 |
+| 2025.2.6.4 | 252.28539.168 | `mac` | `403d8a720fd6709f6639c25adc39b2326d61d4b6e7da35f0280fb4902dacf1a4` | `6f52cf379be9a76f5ad3b6dd7379b87b0dffafb74ed1b198c4d6eef109700c58` | 2026-11-24 |
 | 2025.2.6.3 | 252.28539.145 | `macM1` | `2bf29762dfe6e6d56aa148e81b776cfdebb2798ed644d2ce729b00d8e6354dfd` | `9da5df87ce87bba841f6c682664e6690dcaace9f9c8aa72d63694f375e6dab57` | 2026-10-30 |
 | 2025.2.6.3 | 252.28539.145 | `mac` | `e6dadc42d1d3bca8a6a2bf8cd63e34d9a91aec098fc5dca61cd8607321aadd5d` | `3cb302cde9857cff1a63e4fba01b91a50d83ea58371b4baa08e1484cad13093f` | 2026-10-30 |
 | 2025.2.6.2 | 252.28539.90 | `macM1` | `1622d565fb89be6f2dce660ecb820fecdd2d3aea9dfd1302266bab365bf61c63` | `be9625122c1be8b3b437aba0468fadedefc6d2f87ae36a1ab8e52ff4d1d1f290` | 2026-07-29 |
@@ -472,7 +474,7 @@
 
 Product: **PyCharm Community Edition** (`PCC`). [Machine-readable history](../data/PCC.json).
 
-Installer hashes: **462/462**; application hashes: **462/462**; not advertised: **232**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **464/464**; application hashes: **464/464**; not advertised: **232**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

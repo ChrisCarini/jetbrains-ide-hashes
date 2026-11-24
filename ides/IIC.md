@@ -2,6 +2,8 @@
 | --- | --- | --- | --- | --- | --- |
 | 2025.3 | 253.28294.334 | `macM1` | `2146b7f5e33d8eab68d9147a15b6df11b3c07b3e6130f351c0b16069c2e6faed` | `e98751e64f4358465388307e08054404ec3306e4a10cfd1d71835695c587faa2` | 2025-12-08 |
 | 2025.3 | 253.28294.334 | `mac` | `00750ae1c1b90f8df8116bfcfdf498aec9ed0b19036d0eda025a3a9b89cb5d79` | `1c7c75f6fd553ee0d7fbfdc572ff2b15eaeb92a5d8609b20922126686c16dd91` | 2025-12-08 |
+| 2025.2.6.5 | 252.28539.166 | `macM1` | `1d20d9aa3cf2c8a7ac5bfb3e030bc0170547abaf7a38347670f2e2c297ef588d` | `4221179f5b3c5eb324d2a4c8d05d6b5fdfd9b7c77b62b3cca96398545ec79884` | 2026-11-24 |
+| 2025.2.6.5 | 252.28539.166 | `mac` | `138ac90053374f52330b8723a11eb91c0ba2b22198ab9b48da364d879096d615` | `dfdbfc65e378e14a6fadbc4ee7615f821a9e7510d368a3a6cf31ccfafa50cbc7` | 2026-11-24 |
 | 2025.2.6.4 | 252.28539.149 | `macM1` | `2c1810113f0fcfc1347ed93d22ae6666dc1c82ec16a94b987de8795f21e9659d` | `24497b20b17553949687c73a0229203acf4de51bf2c0af2b9957c7fe76b294e6` | 2026-10-30 |
 | 2025.2.6.4 | 252.28539.149 | `mac` | `2c293430181da7b84b08f9f32d6f0bbf31fe9b6c803ed6e324dce8f7876a9bb9` | `d577798a3ac593994b919b201e975c8cedac45cd5c0783ce93286b5ac8a07b91` | 2026-10-30 |
 | 2025.2.6.3 | 252.28539.97 | `macM1` | `754d5cac6f4425e43ff56c33916862aa074a35acf664fedcb24bc37205164933` | `a50e86a01c9f5afd7681d4fd305bd055050fc3489d127aaae2c12ae018b45c43` | 2026-07-29 |
@@ -531,7 +533,7 @@
 
 Product: **IntelliJ IDEA Community Edition** (`IIC`). [Machine-readable history](../data/IIC.json).
 
-Installer hashes: **521/521**; application hashes: **520/521**; not advertised: **267**; quarantined: **1**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **523/523**; application hashes: **522/523**; not advertised: **267**; quarantined: **1**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

@@ -1,5 +1,7 @@
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.1.3.2 | 261.27258.166 | `macM1` | `f8dc96e1ad4035219fa3195f2c633ae6b2c35cca8675371f93c83655e26f159e` | Pending | 2026-11-24 |
+| 2026.1.3.2 | 261.27258.166 | `mac` | `f0f7d290ebaf2a42885ae7268fe84ce92e070d7e14b9763dc0a111b47daa1a12` | Pending | 2026-11-24 |
 | 2026.1.3.1 | 261.27258.145 | `macM1` | `a90f60a8ad88e37c44aec0cc770994dc5271b9a467696b29dfa1ec31e415fd99` | `19b38e85b8f9723e8385ac0d74b7dbde8e0d383f1c9dbdaa38c6ee16666ebb3a` | 2026-10-30 |
 | 2026.1.3.1 | 261.27258.145 | `mac` | `8d08396d6155d3073d8f945f2343294e1cb37eb75c61bf42d71fa55fa254b124` | `fc31feb8e2076a1e7e40e4d5208d6502de9a5742affb8df4cad68d95e882158b` | 2026-10-30 |
 | 2026.1.3 | 261.26222.84 | `macM1` | `105919466b6fb1d241f103f8867ea652b493c8d0482bb514927e0dde6d231ad6` | `c2e4549ba0abf1054439317e79e4c23dabea1c84b214baf71ed3fcd79b715527` | 2026-07-29 |
@@ -10,6 +12,8 @@
 | 2026.1.1 | 261.23567.176 | `mac` | `20706289e1f62f107ce510b78468aa86538aca2ad7adb6ea4a725c74fcc832f0` | `74ee70115d1644d95233cd14789d4bf61cd97ea9cf97089c34755d14387b9970` | 2026-04-29 |
 | 2026.1 | 261.22158.332 | `macM1` | `ff2669136698d3b01e76e6d51bac9aacee2e39b75a219e0a0ad2a5f436915387` | `acf671acbfb0770bbf1672668d8b6085569abd8502708fd0d9c5fdd59915653f` | 2026-03-30 |
 | 2026.1 | 261.22158.332 | `mac` | `c3f9c52dd7478bf97b56a40a9e0c61626fcb2f8f5e89ac1784afb118153a123d` | `8d27c0e0f37653f373c834dd8b956c3317f5afb0eb122ea66de94143d6e8fe1f` | 2026-03-30 |
+| 2025.3.3.2 | 253.33813.117 | `macM1` | `7e4d87e4eaaf92b3f881369afa693b86b5767918f33d8729645ddd820ac353da` | Pending | 2026-11-24 |
+| 2025.3.3.2 | 253.33813.117 | `mac` | `e95ed3ac11ae1ecff982e56f6b9d234c92f238f85a307b89e0da8109419d394d` | Pending | 2026-11-24 |
 | 2025.3.3.1 | 253.33813.109 | `macM1` | `363aa1ec402b7eb8f1af78fc5c899bc56a01f27dde9e789049ffd8b86ca1b2b3` | `5fca9eb6716281f7a7df905af893d0de87dc79e448dc1a87d6b48b6f834c372a` | 2026-10-30 |
 | 2025.3.3.1 | 253.33813.109 | `mac` | `f512f587a31b23a69a54648ef73fee3116498c749bd5cacb026c1f144c743b13` | `7be1e87e7d4fc1088c40df67c3c2d198aa3321706b14750d2fc0d89140f682e5` | 2026-10-30 |
 | 2025.3.3 | 253.33813.68 | `macM1` | `891f9d665625187c7fea161e0ad8347814c30a743680d0dcc6dd820ee33f6337` | `e05e8c90b1f1e4c68de642ff8e87f56bbc47b0d9b6d07f3067155a0cca23a498` | 2026-08-04 |
@@ -22,6 +26,8 @@
 | 2025.3.1 | 253.29346.157 | `mac` | `388d956dd6243697a162c062c76b2fee4098f4f3405badb07a69ce6df7de6017` | `62b25e26dfe4531f5da58d2793c7a4b77485bdba4a7b4ad82005e3837572eea0` | 2025-12-22 |
 | 2025.3 | 253.28294.351 | `macM1` | `3d03ff4663b0fb0655df288a6dddf2cd0df85dd27a2ad821db10754eba8b919e` | `4fb718a64bd6e9537fbeb5c14cf37933b3777cb63fb1ca1b0da5e7d9b27f037e` | 2025-12-09 |
 | 2025.3 | 253.28294.351 | `mac` | `3d4ec6116a618d0354fed1ff7ee6aba3547c5e1c9e916a60f9e9aa37ea82ea56` | `16fe0db20f0e5d1474f03ebb194a467d5e99042fc121675da414de9e0e058d0f` | 2025-12-09 |
+| 2025.2.4.2 | 252.28539.163 | `macM1` | `1b58713f92df560d98327bf7ea7bdc2728c8563db296c6e2733b06f9338aeb35` | Pending | 2026-11-24 |
+| 2025.2.4.2 | 252.28539.163 | `mac` | `501703cffa071e1c928bde16407363bb5e823d004b9079409e8f2f90f5a776cb` | Pending | 2026-11-24 |
 | 2025.2.4.1 | 252.28539.155 | `macM1` | `7e24ea16aac493513782572d1f3a1d84d61fd8dae64f56d4099fb93fb08fbfcc` | `0ddd29d6d3e53474a12bfbabbc1451cbf9aa9b19b66bd10d5e7d03381134e852` | 2026-10-30 |
 | 2025.2.4.1 | 252.28539.155 | `mac` | `c43df917d98e01a07ecd2032524788c46deffe1b025fcf60463cd79eaa84a0f9` | `b6b7ea8937201b436dc2dd9fe11fc4a48800d0f76a214880aa061187bf64c15c` | 2026-10-30 |
 | 2025.2.4 | 252.28539.109 | `macM1` | `7e24ea16aac493513782572d1f3a1d84d61fd8dae64f56d4099fb93fb08fbfcc` | Quarantined (see collection notes) | 2026-08-03 |
@@ -252,7 +258,7 @@
 
 Product: **DataSpell** (`DS`). [Machine-readable history](../data/DS.json).
 
-Installer hashes: **242/242**; application hashes: **240/242**; not advertised: **0**; quarantined: **2**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **248/248**; application hashes: **240/248**; not advertised: **0**; quarantined: **2**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
