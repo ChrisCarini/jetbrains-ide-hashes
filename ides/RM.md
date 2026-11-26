@@ -349,6 +349,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.1 <sub>rc</sub> | 263.8311.104 | `macM1` | `bc383d6d0950971a69cd94efb93f487f5144c3f71d1bf44d8aca9ce06832fbec` | `a03c5dfcf08fe6c67f03b9d0177db0dc607e35f57f7887b5ed9e0948f4883b24` | 2026-11-26 |
+| 2026.3.1 <sub>rc</sub> | 263.8311.104 | `mac` | `ad96d6cdc600b116505b4f8152c69bc437b60c92e591ddaf55ff655d1da0d08e` | `2f7c3e92abf1bc5ca0ae1aaceccb14dea1be17763a21a44a240a8d4c0d3a1efd` | 2026-11-26 |
 | 2026.3.1 <sub>eap</sub> | 263.8311.31 | `macM1` | `e8b81560959106ce0b8483904c30301e9737acb9249456f9dfc2ac1315ce150b` | `bc8f6e69c7616bf18adc90cda6f20019e55e752e976e12244d39f8f6724031be` | 2026-11-23 |
 | 2026.3.1 <sub>eap</sub> | 263.8311.31 | `mac` | `9e13a7d5fc37073314d2a466bacdf719f26ccb923564dfdb6f90f2d4eb57f806` | `7c043b7f62f6d865c278b42123ffd11f1cbe649536097264541fd73fe579e434` | 2026-11-23 |
 | 2026.3 <sub>rc</sub> | 263.7307.109 | `macM1` | `53ddaea9eda32035ede010cab9a4e54f01cf54324ba4c6c7085507f82064dc73` | `132f63f7bd8767d34e8518ff4396895e7618fecbc993af83bd91248418bde100` | 2026-10-30 |
@@ -702,7 +704,7 @@
 
 Product: **RubyMine** (`RM`). [Machine-readable history](../data/RM.json).
 
-Installer hashes: **692/692**; application hashes: **692/692**; not advertised: **176**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **694/694**; application hashes: **694/694**; not advertised: **176**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
