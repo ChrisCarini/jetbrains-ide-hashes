@@ -137,6 +137,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.1 <sub>rc</sub> | 263.8311.70 | `macM1` | `064b7d4c06e7b6f1f3c33a3d43a0d798d443dce5418b507ee099847eeadcc94c` | `009a8eb8e909c928cbd223cff54169334e04ec7e5122581d668442f033474002` | 2026-11-27 |
+| 2026.3.1 <sub>rc</sub> | 263.8311.70 | `mac` | `cdd5ad24f7ea09b64f07d9f0dee568c58914e26a3e9d393adc0b02c241628543` | `8bf4ac612eae03b50ab54a19b8e0e8aea9d6a8bc6a7cdd29cca15a38c7f06123` | 2026-11-27 |
 | 2026.3.1 <sub>eap</sub> | 263.8311.13 | `macM1` | `ae59deb1d0a2e6371e0b8e96c0db2f359f05691d7c09339b6e355a4d9380c6e5` | `12e48bf88be78b4f530ecd1208ae462e99c1373aac5b7cb75afbfd4bf392b316` | 2026-11-20 |
 | 2026.3.1 <sub>eap</sub> | 263.8311.13 | `mac` | `aa6e263f254215d9192f62cb6296f4f6aff0c9790a6d3097c57c08559de7e4db` | `4fe11fafe58ead94c72bcc689b08c1fdd559f719ca48b726d93ab73726bfe465` | 2026-11-20 |
 | 2026.3 <sub>rc</sub> | 263.7307.111 | `macM1` | `6a0a4ee7e65c88d402745f7b710c8c9f1d68a993eb7beddb719ab17ff22bb158` | `613828f851f6e26c25a34c1847b2d62084e26cd1d78a27f5c52ee62de2e17bfd` | 2026-10-30 |
@@ -322,7 +324,7 @@
 
 Product: **Gateway** (`GW`). [Machine-readable history](../data/GW.json).
 
-Installer hashes: **312/312**; application hashes: **312/312**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **314/314**; application hashes: **314/314**; not advertised: **0**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 

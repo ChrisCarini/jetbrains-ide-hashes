@@ -326,6 +326,8 @@
 
 | Version | Build version | Installer type | Installer SHA256 | Application SHA256 | Release date |
 | --- | --- | --- | --- | --- | --- |
+| 2026.3.1 <sub>rc</sub> | 263.8311.100 | `macM1` | `b86365a9ffd02ed9d1184c20c756864f7d0baec315b6a7a500338ecdbca098ef` | `ae9ec3e8084d84d7af6f83bda62b1ccdc17581173e309bfb234c34e0d396c8fc` | 2026-11-26 |
+| 2026.3.1 <sub>rc</sub> | 263.8311.100 | `mac` | `21823e3909c6641bfccefefa183401d1207689428c812fa0e00084527753d1a1` | `0676a43395441ef3609eb7e3cd8fa631b4524afa9d59feaf85b0346a5cbf8fcc` | 2026-11-26 |
 | 2026.3.1 <sub>eap</sub> | 263.8311.30 | `macM1` | `6740288e8c498170cc9c02584ea3ee5569b0d04d0e9a7fe8f59907c16595beda` | `a0c4deebad17e9c796e89e134c045c24cd9b2920803756d846a38ff54a833a14` | 2026-11-20 |
 | 2026.3.1 <sub>eap</sub> | 263.8311.30 | `mac` | `a7191a1a348e8124a39fd7216266b85eef8f8e74d96b43e1dafb191dc9c32051` | `0c72db58d8ec6a17034aa4f06e3d31fec44adcf2d6e12be524e3f8b577c35b77` | 2026-11-20 |
 | 2026.3 <sub>rc</sub> | 263.7307.112 | `macM1` | `448251e5f2a8589b80179c425ea10b01348986f1d4f2d6faf86bb26583310972` | `3e2954de1aa07f0a7e5fdb65c99c2a739a87aa2e3503fe024a22e79c795ecec8` | 2026-10-30 |
@@ -683,7 +685,7 @@
 
 Product: **IntelliJ IDEA** (`IIU`). [Machine-readable history](../data/IIU.json).
 
-Installer hashes: **673/673**; application hashes: **673/673**; not advertised: **267**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
+Installer hashes: **675/675**; application hashes: **675/675**; not advertised: **267**; quarantined: **0**. [All collection failures](COLLECTION_FAILURES.md).
 
 Bold versions/builds have multiple observed build numbers for the same version and channel. `(repacked)` means multiple installer hashes were observed for the same version, build, channel, and installer type. History is retained even after entries disappear from the API.
 
